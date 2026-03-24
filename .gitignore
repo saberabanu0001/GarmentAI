@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binary files that can be re-downloaded
+# (comment out if you want to track PDFs in git)
+# raw/*.pdf
+
+# Editor folders
+.vscode/
+.idea/
