@@ -125,7 +125,7 @@ def clean_text(text: str) -> str:
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n{3,}', '\n\n', text)
 
-    # Drop very short lines (< 3 chars) — artefacts
+    # Drop very short lines (< 3 chars) — 
     lines = [ln for ln in text.split('\n')
              if len(ln.strip()) >= 3 or ln.strip() == '']
     return '\n'.join(lines).strip()
@@ -179,6 +179,7 @@ def chunk_text(text: str, chunk_size: int, overlap: int) -> list[str]:
         pos = boundary - overlap
         if pos <= 0:
             pos = boundary
+
 
     return chunks
 
