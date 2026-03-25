@@ -1,65 +1,98 @@
 """
 clean_compliance.py
 ===================
-Preprocessing pipeline for Compliance Guidelines (amfori BSCI website)
-Workflow: Text Input → Cleaning → Chunking → Save
+Preprocessing pipeline for Compliance Practices in Garment Industries (PDF)
+Workflow: PDF → Text Extraction → Cleaning → Chunking → Save
 
-Source : https://www.amfori.org/amfori-bsci/
-Method : Paste the copied website text into the TEXT variable below
-
-Instructions:
-  1. Open https://www.amfori.org/amfori-bsci/ in your browser
-  2. Select all main content text (skip navigation/footer)
-  3. Copy it (Ctrl+C)
-  4. Paste it into TEXT = \"\"\" ... \"\"\" below
-  5. Run: python scripts/clean_compliance.py
+Source : Compliance_Practices_in_Garment_Industries_in_Dhak.pdf
+         (Journal paper on RMG compliance practices in Dhaka — fits project)
+Pages  : 17 total
+  - Skip page 1  (journal cover / abstract header)
+  - Skip pages 13-17 (statistical tables — noise for Q&A)
+Output : processed/compliance_chunks.txt
 """
 
 import re
 import os
+import fitz  # PyMuPDF
 
 # ─────────────────────────────────────────────
 # CONFIGURATION
 # ─────────────────────────────────────────────
+PDF_PATH   = "raw/Compliance_Practices_in_Garment_Industries_in_Dhak.pdf"
 OUTPUT_TXT = "processed/compliance_chunks.txt"
 SOURCE     = "Compliance"
 CHUNK_SIZE = 1000
 OVERLAP    = 100
 
-# ─────────────────────────────────────────────
-# PASTE YOUR COPIED WEBSITE TEXT HERE
-# ─────────────────────────────────────────────
-TEXT = """
-Paste the amfori BSCI compliance guidelines text here.
-Replace this entire block with the actual copied text.
-"""
+# Pages to skip (0-indexed):
+#   0     = journal header / cover
+#   12-16 = statistical survey tables (pages 13-17) — not useful for Q&A
+SKIP_PAGES = {0} | set(range(12, 17))
 
 # ─────────────────────────────────────────────
-# STEP 2: CLEAN TEXT
+# STEP 1: EXTRACT TEXT
 # ─────────────────────────────────────────────
 print("=" * 60)
 print(f"Preprocessing: {SOURCE}")
 print("=" * 60)
+print("\n[1/4] Extracting text from PDF...")
+
+doc = fitz.open(PDF_PATH)
+total_pages = len(doc)
+parts, kept_pages = [], []
+
+for i, page in enumerate(doc):
+    if i in SKIP_PAGES:
+        continue
+    text = page.get_text()
+    if text.strip():
+        parts.append(text)
+        kept_pages.append(i + 1)
+
+doc.close()
+raw_text = "\n".join(parts)
+print(f"  Pages kept : {len(kept_pages)} / {total_pages}")
+print(f"  Raw chars  : {len(raw_text):,}")
+
+# ─────────────────────────────────────────────
+# STEP 2: CLEAN TEXT
+# ─────────────────────────────────────────────
 print("\n[2/4] Cleaning text...")
 
 def clean_text(text):
-    # Remove navigation-style short lines (menu items etc.)
-    text = re.sub(r'^\s*(Home|Menu|Skip|Login|Register|Search|Cookie|Privacy|Terms)[^\n]*\n',
-                  '', text, flags=re.MULTILINE | re.IGNORECASE)
+    # Remove journal running headers (e.g. "Journal of Business and Technology (Dhaka)  72")
+    text = re.sub(r'Journal of Business and Technology[^\n]*\n?', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'Hossain\s+&\s+Rahman:[^\n]*\n?', '', text, flags=re.IGNORECASE)
+
+    # Remove standalone page numbers
+    text = re.sub(r'^\s*\d{1,3}\s*$', '', text, flags=re.MULTILINE)
+
+    # Remove "Page X of Y" patterns
+    text = re.sub(r'Page\s+\d+\s*(of\s+\d+)?', '', text, flags=re.IGNORECASE)
+
+    # Remove URLs and references
     text = re.sub(r'(https?://|www\.)\S+', '', text)
+
+    # Remove non-ASCII
     text = re.sub(r'[^\x00-\x7F]+', ' ', text)
+
+    # Remove separator lines
     text = re.sub(r'[-=_]{3,}', '', text)
     text = re.sub(r'\.{4,}', '', text)
+
+    # Collapse whitespace
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n{3,}', '\n\n', text)
+
+    # Drop very short noise lines
     lines = [ln for ln in text.split('\n') if len(ln.strip()) >= 3 or ln.strip() == '']
     return '\n'.join(lines).strip()
 
-raw_text = TEXT.strip()
+
 cleaned = clean_text(raw_text)
 removed = len(raw_text) - len(cleaned)
-print(f"  Raw chars  : {len(raw_text):,}")
-print(f"  Clean chars: {len(cleaned):,}  (removed {removed:,})")
+print(f"  Clean chars: {len(cleaned):,}  (removed {removed:,} = {removed/len(raw_text)*100:.1f}%)")
 
 # ─────────────────────────────────────────────
 # STEP 3: CHUNK TEXT
@@ -101,6 +134,7 @@ def chunk_text(text, chunk_size=1000, overlap=100):
 
     return chunks
 
+
 chunks = chunk_text(cleaned, CHUNK_SIZE, OVERLAP)
 avg = sum(len(c) for c in chunks) // max(len(chunks), 1)
 print(f"  Total chunks: {len(chunks)}")
@@ -115,7 +149,8 @@ os.makedirs("processed", exist_ok=True)
 with open(OUTPUT_TXT, "w", encoding="utf-8") as f:
     f.write("=" * 60 + "\n")
     f.write(f"SOURCE  : {SOURCE}\n")
-    f.write(f"URL     : https://www.amfori.org/amfori-bsci/\n")
+    f.write(f"FILE    : {os.path.basename(PDF_PATH)}\n")
+    f.write(f"PAGES   : {len(kept_pages)} kept of {total_pages} total\n")
     f.write(f"CHUNKS  : {len(chunks)}  | Size: {CHUNK_SIZE}  | Overlap: {OVERLAP}\n")
     f.write("=" * 60 + "\n\n")
     for i, chunk in enumerate(chunks, 1):
