@@ -1,0 +1,245 @@
+
+%pip install PyMuPDF
+
+"""
+Data Preprocessing Pipeline – v2 (Improved)
+Workflow: Document → Text Extraction → Cleaning → Chunking → Knowledge Base
+Data Source: RSC Fire Safety Manual for RMG Buildings (PDF)
+Week 1-2 Assignment – Data Preprocessing
+
+Improvements over v1:
+  - Skip cover, TOC (pages 1-3) and colophon (page 50)
+  - Skip Appendix B–F checklist forms (pages 26-42) – noise
+  - Keep main content (pages 4-25) + Appendix G & H (pages 43-49)
+  - Larger chunks (1000 chars) to avoid splitting ideas
+  - Paragraph-aware boundary detection
+"""
+
+import re
+import os
+import fitz  # PyMuPDF
+
+# ─────────────────────────────────────────────
+# CONFIGURATION
+# ─────────────────────────────────────────────
+PDF_PATH   = "/content/sample_data/RSC-Fire-Safety-Manual-for-RMG-Buildings.pdf"
+OUTPUT_TXT = "fire_safety_chunks.txt"
+CHUNK_SIZE = 1000   # target chars per chunk
+OVERLAP    = 100    # overlap chars between chunks
+
+# Pages to SKIP (0-indexed):
+#   0-2   = cover page + table of contents (PDF pages 1-3)
+#   25-41 = Appendix B–F checklist forms   (PDF pages 26-42)
+#   49    = colophon / contact page        (PDF page 50)
+SKIP_PAGES = set(range(0, 3)) | set(range(25, 42)) | {49}
+
+# ─────────────────────────────────────────────
+# STEP 1: EXTRACT TEXT FROM SELECTED PAGES
+# ─────────────────────────────────────────────
+print("=" * 60)
+print("STEP 1: Extracting text from selected pages...")
+print("=" * 60)
+
+doc = fitz.open(PDF_PATH)
+total_pages = len(doc)
+raw_parts   = []
+kept_pages  = []
+
+for i, page in enumerate(doc):
+    if i in SKIP_PAGES:
+        continue
+    text = page.get_text()
+    if text.strip():
+        raw_parts.append(text)
+        kept_pages.append(i + 1)
+
+doc.close()
+
+raw_text = "\n".join(raw_parts)
+
+print(f"  ✓ Total pages in PDF    : {total_pages}")
+print(f"  ✓ Pages kept            : {len(kept_pages)}  "
+      f"({kept_pages[0]}–{kept_pages[-1]})")
+print(f"  ✓ Pages skipped         : {total_pages - len(kept_pages)}")
+print(f"  ✓ Raw text length       : {len(raw_text):,} characters")
+
+
+# ─────────────────────────────────────────────
+# STEP 2: CLEAN TEXT
+# ─────────────────────────────────────────────
+print("\nSTEP 2: Cleaning extracted text...")
+print("=" * 60)
+
+def clean_text(text):
+    # Remove spaced-letter logo from PDF graphics layer
+    # e.g. "R S C  F I R E  S A F E T Y  M A N U A L ..."
+    text = re.sub(r'\bR\s+S\s+C\s+F\s+I\s+R\s+E\b[^\n]*\n?', '', text)
+
+    # Remove all-caps cover heading (compact form)
+    text = re.sub(
+        r'(RSC FIRE\s*\n\s*SAFETY MANUAL\s*\n\s*FOR RMG BUILDINGS\s*\n?)',
+        '', text, flags=re.IGNORECASE
+    )
+
+    # Remove running page header patterns
+    text = re.sub(r'RSC[- ]Fire[- ]Safety[- ]Manual[^\n]*\n?', '', text, flags=re.IGNORECASE)
+
+    # Remove standalone page numbers (1–3 digit number alone on a line)
+    text = re.sub(r'^\s*\d{1,3}\s*$', '', text, flags=re.MULTILINE)
+
+    # Remove "Page X of Y" markers
+    text = re.sub(r'Page\s+\d+\s*(of\s+\d+)?', '', text, flags=re.IGNORECASE)
+
+    # Remove URLs
+    text = re.sub(r'(https?://|www\\.)\S+', '', text)
+
+    # Remove non-ASCII characters (PDF artefacts, special symbols)
+    text = re.sub(r'[^\x00-\x7F]+', ' ', text)
+
+    # Remove separator lines (long dashes, equals, underscores, dot-leaders)
+    text = re.sub(r'[-=_]{3,}', '', text)
+    text = re.sub(r'\.{4,}', '', text)
+
+    # Collapse multiple spaces/tabs to single space
+    text = re.sub(r'[ \t]+', ' ', text)
+
+    # Collapse 3+ consecutive blank lines down to 2
+    text = re.sub(r'\n{3,}', '\n\n', text)
+
+    # Drop very short lines that are artefacts (< 3 printable chars)
+    lines = [ln for ln in text.split('\n')
+             if len(ln.strip()) >= 3 or ln.strip() == '']
+    text = '\n'.join(lines)
+
+    return text.strip()
+
+
+cleaned_text = clean_text(raw_text)
+removed = len(raw_text) - len(cleaned_text)
+
+print(f"  ✓ Cleaned text length   : {len(cleaned_text):,} characters")
+print(f"  ✓ Characters removed    : {removed:,}  "
+      f"({removed / len(raw_text) * 100:.1f}% of raw)")
+print("\n  --- Preview (first 600 characters) ---")
+print(cleaned_text[:600])
+
+
+# ─────────────────────────────────────────────
+# STEP 3: CHUNK TEXT
+# ─────────────────────────────────────────────
+print("\nSTEP 3: Chunking text...")
+print("=" * 60)
+
+def chunk_text(text, chunk_size=1000, overlap=100):
+    """
+    Split text into chunks of ~chunk_size characters.
+    Each iteration the pointer advances by at least (chunk_size - overlap),
+    so we never loop infinitely. Breaks prefer paragraph/sentence boundaries.
+    """
+    chunks = []
+    length = len(text)
+    pos    = 0                       # current start position
+    min_step = chunk_size - overlap  # minimum chars to advance each loop
+
+    while pos < length:
+        end = min(pos + chunk_size, length)
+
+        # Last piece – take everything remaining
+        if end >= length:
+            chunk = text[pos:].strip()
+            if chunk:
+                chunks.append(chunk)
+            break
+
+        # Search for a clean break point within the window
+        # [pos + min_step/2 ... end] so we never choose a boundary
+        # too close to pos (which would cause tiny chunks)
+        search_start = pos + max(min_step // 2, 1)
+
+        para = text.rfind('\n\n', search_start, end)
+        sent = max(
+            text.rfind('. ', search_start, end),
+            text.rfind('.\n', search_start, end),
+        )
+        nl   = text.rfind('\n', search_start, end)
+
+        if para > 0:
+            boundary = para
+        elif sent > 0:
+            boundary = sent + 1
+        elif nl > 0:
+            boundary = nl
+        else:
+            boundary = end  # hard cut if no good break found
+
+        chunk = text[pos:boundary].strip()
+        if chunk:
+            chunks.append(chunk)
+
+        # Advance: next chunk starts overlap chars before boundary
+        pos = boundary - overlap
+        if pos <= 0:          # safety guard
+            pos = boundary
+
+    return chunks
+
+
+chunks = chunk_text(cleaned_text, chunk_size=CHUNK_SIZE, overlap=OVERLAP)
+
+if chunks:
+    avg_len = sum(len(c) for c in chunks) // len(chunks)
+else:
+    avg_len = 0
+
+print(f"  ✓ Total chunks created  : {len(chunks)}")
+print(f"  ✓ Chunk size target     : {CHUNK_SIZE} characters")
+print(f"  ✓ Overlap               : {OVERLAP} characters")
+print(f"  ✓ Average chunk length  : {avg_len} characters")
+
+print("\n  --- Chunk #1 ---")
+print(chunks[0][:500] if chunks else "(none)")
+if len(chunks) > 1:
+    print("\n  --- Chunk #2 ---")
+    print(chunks[1][:400])
+
+
+# ─────────────────────────────────────────────
+# STEP 4: SAVE AS TXT FILE
+# ─────────────────────────────────────────────
+print("\nSTEP 4: Saving output file...")
+print("=" * 60)
+
+with open(OUTPUT_TXT, "w", encoding="utf-8") as f:
+    f.write("=" * 60 + "\n")
+    f.write("FIRE SAFETY MANUAL – PREPROCESSED CHUNKS (v2)\n")
+    f.write("Source : RSC-Fire-Safety-Manual-for-RMG-Buildings.pdf\n")
+    f.write(f"Pages  : kept {len(kept_pages)} of {total_pages} "
+            f"(skipped cover, TOC, checklists B–F, colophon)\n")
+    f.write(f"Chunks : {len(chunks)}  |  "
+            f"Chunk size: {CHUNK_SIZE} chars  |  Overlap: {OVERLAP} chars\n")
+    f.write("=" * 60 + "\n\n")
+
+    for i, chunk in enumerate(chunks, 1):
+        f.write(f"[CHUNK {i}]\n")
+        f.write(chunk)
+        f.write("\n\n")
+
+size_kb = os.path.getsize(OUTPUT_TXT) / 1024
+print(f"  ✓ File saved : {OUTPUT_TXT}  ({size_kb:.1f} KB)")
+
+
+# ─────────────────────────────────────────────
+# SUMMARY REPORT
+# ─────────────────────────────────────────────
+print("\n" + "=" * 60)
+print("PREPROCESSING COMPLETE – SUMMARY")
+print("=" * 60)
+print(f"  Document     : {PDF_PATH}")
+print(f"  Pages kept   : {len(kept_pages)} / {total_pages}")
+print(f"  Raw text     : {len(raw_text):,} chars")
+print(f"  Clean text   : {len(cleaned_text):,} chars")
+print(f"  Chunks       : {len(chunks)}")
+print(f"  Output file  : {OUTPUT_TXT}  ({size_kb:.1f} KB)")
+print("=" * 60)
+print("\nSubmit → fire_safety_chunks.txt | Fire Safety Manual | "
+      f"{len(chunks)} chunks\n")
