@@ -15,6 +15,30 @@ data/
 └── README.md
 ```
 
+## Standard Output Contract
+
+All generated files now use one shared format:
+
+```text
+DOCUMENT_METADATA
+source_name: ...
+document_name: ...
+...
+
+--- CHUNK START ---
+chunk_id: ...
+document_name: ...
+source_name: ...
+page_start: ...
+page_end: ...
+section: ...
+text:
+...
+--- CHUNK END ---
+```
+
+Each chunk carries its own metadata so the downstream RAG pipeline can parse every file the same way.
+
 ## How to Preprocess a New PDF
 
 Run from the `data/` folder:
@@ -40,6 +64,7 @@ python scripts/preprocess.py \
 | `--skip_ranges A-B` | Skip page ranges (e.g. appendix forms) | none |
 | `--chunk_size` | Target characters per chunk | 1000 |
 | `--overlap` | Overlap chars between chunks | 100 |
+| `--output_name` | Optional output filename override | auto |
 
 ---
 
@@ -53,6 +78,14 @@ python scripts/preprocess.py \
 | Member 5 | SOP Document | `python scripts/preprocess.py --input raw/sop.pdf --source "SOP" --skip_first 1` |
 
 ---
+
+## Notes
+
+The shared pipeline now:
+
+1. Removes repeated headers/footers and common extraction noise such as timestamps and site banners.
+2. Preserves overlap while aligning new chunks to cleaner boundaries so they do not start mid-word when possible.
+3. Records `document_name`, `chunk_id`, `page_start`, `page_end`, and a best-effort `section` for every chunk.
 
 ## What to Submit
 
