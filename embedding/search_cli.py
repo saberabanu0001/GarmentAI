@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
 """
-Load embedding/index and run a search (E5 ``query:`` prefix; multilingual).
+Thin wrapper around QueryEngine (same behavior as query_engine CLI).
 
 From repo root:
   python embedding/search_cli.py "fire exit requirements"
-  python embedding/search_cli.py "অগ্নি নির্বাপন" --top-k 3
 """
 
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 from pathlib import Path
-
-import numpy as np
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INDEX_DIR = REPO_ROOT / "embedding" / "index"
@@ -24,60 +20,31 @@ def main() -> int:
     if str(REPO_ROOT) not in sys.path:
         sys.path.insert(0, str(REPO_ROOT))
 
-    parser = argparse.ArgumentParser(description="Semantic search over embedded chunks.")
+    parser = argparse.ArgumentParser(description="Semantic search (QueryEngine).")
     parser.add_argument("query", help="Search text (Bangla or English)")
     parser.add_argument("--index-dir", type=Path, default=DEFAULT_INDEX_DIR)
     parser.add_argument("--top-k", type=int, default=5)
-    parser.add_argument(
-        "--model",
-        default=None,
-        help="Override model id (default: meta.json)",
-    )
+    parser.add_argument("--model", default=None)
     args = parser.parse_args()
 
-    idx = args.index_dir
-    emb_path = idx / "embeddings.npy"
-    meta_path = idx / "meta.json"
-    jsonl_path = idx / "chunks.jsonl"
-
-    if not emb_path.is_file() or not jsonl_path.is_file():
-        print(
-            f"Index missing. Run: python embedding/build_index.py\n"
-            f"Expected: {emb_path} and {jsonl_path}",
-            file=sys.stderr,
-        )
-        return 1
-
     try:
-        from embedding.e5_embedder import E5Embedder
+        from embedding.query_engine import QueryEngine
+
+        engine = QueryEngine(args.index_dir, model_id=args.model)
+        hits = engine.search(args.query, top_k=args.top_k)
+    except FileNotFoundError as e:
+        print(e, file=sys.stderr)
+        return 1
     except ImportError:
         print("Install: pip install -r requirements.txt", file=sys.stderr)
         return 1
 
-    meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.is_file() else {}
-    model_id = args.model or meta.get("model", "intfloat/multilingual-e5-small")
-
-    print(f"Loading model {model_id} …")
-    embedder = E5Embedder(model_id)
-
-    matrix = np.load(emb_path)
-    q = embedder.encode([args.query], is_query=True, batch_size=1)[0]
-
-    scores = matrix @ q
-    top_idx = np.argsort(-scores)[: args.top_k]
-
-    rows: list[dict] = []
-    with jsonl_path.open(encoding="utf-8") as f:
-        for line in f:
-            rows.append(json.loads(line))
-
-    for rank, i in enumerate(top_idx, start=1):
-        r = rows[int(i)]
-        print(f"\n--- #{rank}  score={scores[int(i)]:.4f}  id={r['id']} ---")
-        print(f"source: {r['source_name']} | doc: {r['document_name']}")
-        print(f"section: {r['section']}")
-        print(f"file: {r['chunks_file']} chunk_id={r['chunk_id']}")
-        preview = r["text"].replace("\n", " ")[:400]
+    for h in hits:
+        print(f"\n--- #{h.rank}  score={h.score:.4f}  id={h.id} ---")
+        print(f"source: {h.source_name} | doc: {h.document_name}")
+        print(f"section: {h.section}")
+        print(f"file: {h.chunks_file} chunk_id={h.chunk_id}")
+        preview = h.text.replace("\n", " ")[:400]
         print(f"text: {preview}…")
 
     return 0

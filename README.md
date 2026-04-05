@@ -11,7 +11,7 @@ Experiment/
 ├── md data/                ← Markdown sources (after PDF conversion)
 ├── raw-data/               ← Original PDFs and other binaries
 ├── requirements.txt        ← pip deps (e.g. langchain-text-splitters)
-├── embedding/              ← E5 index build + search CLI; outputs under embedding/index/
+├── embedding/              ← build_index, query_engine (bridge), search_cli; index under embedding/index/
 ├── knowledge_base/         ← Final merged knowledge base (Week 5+)
 └── README.md
 ```
@@ -22,13 +22,16 @@ Uses **`intfloat/multilingual-e5-small`** (384-dim): `passage:` for chunks, `que
 
 ```bash
 pip install -r requirements.txt
-python embedding/build_index.py          # reads chunked-data/*_chunks.txt
-python embedding/search_cli.py "your question" --top-k 5
+python embedding/build_index.py              # reads chunked-data/*_chunks.txt
+python embedding/query_engine.py "your question" --top-k 5   # bridge: query → vectors → top chunks
+# or: python embedding/search_cli.py "your question" --top-k 5
 ```
+
+**Query engine:** `embedding/query_engine.py` loads the index, embeds the user string with `query:`, scores against `embeddings.npy`, returns top‑k hits. Use `--json` for machine-readable output. Import `QueryEngine` in a FastAPI app later.
 
 Outputs: `embedding/index/embeddings.npy`, `chunks.jsonl`, `meta.json`. Models cache under `embedding/.hf_cache/`.
 
-Options: `--model intfloat/multilingual-e5-base`, `--batch-size`, `--chunks-dir`, `--output-dir`.
+Build options: `--model intfloat/multilingual-e5-base`, `--batch-size`, `--chunks-dir`, `--output-dir`.
 
 ## Chunking from Markdown (current)
 
