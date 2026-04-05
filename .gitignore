@@ -17,3 +17,7 @@ Thumbs.db
 # Editor folders
 .vscode/
 .idea/
+
+# Regenerate with: python embedding/build_index.py
+embedding/index/*
+!embedding/index/.gitkeep
