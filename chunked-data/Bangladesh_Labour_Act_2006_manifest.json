@@ -1,0 +1,3272 @@
+{
+  "document_info": {
+    "source_file": "/Users/saberabanu/All Drives/University/Basic Design/activities/Experiment/md data/1 labour law 2006 data.md",
+    "total_chunks": 156,
+    "avg_chunk_size": 3010
+  },
+  "chunking_config": {
+    "chunk_size": 3500,
+    "chunk_overlap": 600,
+    "min_chunk_size": 100
+  },
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "file": "chunk_0.txt",
+      "metadata": {
+        "chunk_id": 0,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 151,
+        "char_count": 1058,
+        "content_type": "title_page"
+      },
+      "summary": "title_page",
+      "preview": "Bangladesh Labour Act, 2006   ## **THE BANGLADESH LABOUR ACT, 2006 [ACT NO. XLII OF 2006]**   ## **[11 October, 2006]**   **An Act to amend and consolidate the laws relating to employment of workers,..."
+    },
+    {
+      "chunk_id": 1,
+      "file": "chunk_1.txt",
+      "metadata": {
+        "chunk_id": 1,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j"
+        ],
+        "word_count": 560,
+        "char_count": 3497,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.I | 10 subsections",
+      "preview": "## **CHAPTER I PRELIMINARY**   1. **Short title, commencement and application.-** (1) This Act may be called the Bangladesh Labour Act, 2006.      - (2) It shall come into force at once.   - (3) Save..."
+    },
+    {
+      "chunk_id": 2,
+      "file": "chunk_2.txt",
+      "metadata": {
+        "chunk_id": 2,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 531,
+        "char_count": 3403,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | 5 subsections",
+      "preview": "- (1A) **“partial disablement”** means, where the disablement is of a temporary nature, such disablement which reduces the earning capacity of a worker in any employment in which he was engaged at the..."
+    },
+    {
+      "chunk_id": 3,
+      "file": "chunk_3.txt",
+      "metadata": {
+        "chunk_id": 3,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j"
+        ],
+        "word_count": 512,
+        "char_count": 3109,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | 10 subsections",
+      "preview": "- (9) **“mine”** means any excavation where any operation is carried on for the purpose of exploration and extraction of mineral resources and includes all works, machinery, tram-ways and sidings rela..."
+    },
+    {
+      "chunk_id": 4,
+      "file": "chunk_4.txt",
+      "metadata": {
+        "chunk_id": 4,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 573,
+        "char_count": 3450,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | 2 subsections",
+      "preview": "- (18) **“go-slow”** means an organized, deliberate and intentional slowing down of normal output of work by a group of workers, and which is not due to any mechanical defect, breakdown of machinery,..."
+    },
+    {
+      "chunk_id": 5,
+      "file": "chunk_5.txt",
+      "metadata": {
+        "chunk_id": 5,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "word_count": 539,
+        "char_count": 3434,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | 9 subsections",
+      "preview": "- (31) **“establishment”** means any shop, commercial establishment, transport, industrial establishment or premises or precincts where workers are employed for the purpose of carrying on any industry..."
+    },
+    {
+      "chunk_id": 6,
+      "file": "chunk_6.txt",
+      "metadata": {
+        "chunk_id": 6,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "word_count": 534,
+        "char_count": 3418,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | 6 subsections",
+      "preview": "- (44) **“illegal lock-out”** means a lock-out declared, commenced or continued in contravention of the provisions of Chapter XIV;   - (45) **“wages”** means all remuneration, expressed in terms of mo..."
+    },
+    {
+      "chunk_id": 7,
+      "file": "chunk_7.txt",
+      "metadata": {
+        "chunk_id": 7,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j"
+        ],
+        "word_count": 540,
+        "char_count": 3489,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | 10 subsections",
+      "preview": "- (51) **“vehicle”** means any mechanically propelled vehicle, used or capable of being used for traveling by land, water and air, and includes a trolley vehicle and a trailer;   - (52) **“collective..."
+    },
+    {
+      "chunk_id": 8,
+      "file": "chunk_8.txt",
+      "metadata": {
+        "chunk_id": 8,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [
+          "i",
+          "j",
+          "k",
+          "l",
+          "m",
+          "n",
+          "o",
+          "p",
+          "q",
+          "s"
+        ],
+        "word_count": 530,
+        "char_count": 3412,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | 10 subsections",
+      "preview": "- (i) establishment of a contractor or sub-contractor established for the purpose of construction, reconstruction, repair, alteration or demolition of any building, road, tunnel, drain, canal or bridg..."
+    },
+    {
+      "chunk_id": 9,
+      "file": "chunk_9.txt",
+      "metadata": {
+        "chunk_id": 9,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 233,
+        "char_count": 1483,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I",
+      "preview": "- (69) **“newspaper”** means any printed periodical publication containing general news or comments on such news, and also includes such other printed periodical publication as the Government may, by..."
+    },
+    {
+      "chunk_id": 10,
+      "file": "chunk_10.txt",
+      "metadata": {
+        "chunk_id": 10,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 571,
+        "char_count": 3478,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.II",
+      "preview": "## **CHAPTER II CONDITIONS OF EMPLOYMENT AND SERVICE**   3. **Conditions of service.-** (1) In every establishment employment of workers and other matters incidental thereto shall be regulated in acco..."
+    },
+    {
+      "chunk_id": 11,
+      "file": "chunk_11.txt",
+      "metadata": {
+        "chunk_id": 11,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 591,
+        "char_count": 3371,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II",
+      "preview": "(4) A worker may be called a casual worker if he is employed on ad-hoc basis in an establishment for work of a casual nature.   (5) A worker may be called a temporary worker if he is employed in an es..."
+    },
+    {
+      "chunk_id": 12,
+      "file": "chunk_12.txt",
+      "metadata": {
+        "chunk_id": 12,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": "Register of workers and supply of tickets and cards",
+        "section_number": "9",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "h",
+          "f"
+        ],
+        "word_count": 602,
+        "char_count": 3442,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II | Sec.9 | 7 subsections",
+      "preview": "(4) If such worker has any service book, he shall hand over it to the new employer and the new employer shall keep the service book in his own custody giving him a receipt. (5) If such worker has no s..."
+    },
+    {
+      "chunk_id": 13,
+      "file": "chunk_13.txt",
+      "metadata": {
+        "chunk_id": 13,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": "Procedure for leave",
+        "section_number": "10",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 590,
+        "char_count": 3392,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II | Sec.10 | 5 subsections",
+      "preview": "(4) The Government may, by rules, prescribe the form of the register of workers, the manner in which it shall be maintained and the period for which it shall be preserved.   (5) The employer shall sup..."
+    },
+    {
+      "chunk_id": 14,
+      "file": "chunk_14.txt",
+      "metadata": {
+        "chunk_id": 14,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": "Procedure for leave",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 559,
+        "char_count": 3155,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II | Sec.10",
+      "preview": "(2) If such order of stoppage is given after the working hours has ended, the employer shall notify the concerned workers relating thereto, by a notice posted or hung the notice board in the section c..."
+    },
+    {
+      "chunk_id": 15,
+      "file": "chunk_15.txt",
+      "metadata": {
+        "chunk_id": 15,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": "Procedure for leave",
+        "section_number": "10",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 525,
+        "char_count": 3067,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II | Sec.10 | 4 subsections",
+      "preview": "(3) The employer shall notify the fact of such closure, as soon as practicable, by a notice posted or hung on the notice board in the section or department concerned or at a conspicuous place in the e..."
+    },
+    {
+      "chunk_id": 16,
+      "file": "chunk_16.txt",
+      "metadata": {
+        "chunk_id": 16,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": "Procedure for leave",
+        "section_number": "10",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 573,
+        "char_count": 3422,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II | Sec.10 | 2 subsections",
+      "preview": "(3) A substitute worker whose name is on the muster-rolls of an establishment shall not be treated as substitute for the purpose of this section, if he has completed one year of continuous service in..."
+    },
+    {
+      "chunk_id": 17,
+      "file": "chunk_17.txt",
+      "metadata": {
+        "chunk_id": 17,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": "Retrenchment",
+        "section_number": "20",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 565,
+        "char_count": 3305,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II | Sec.20 | 3 subsections",
+      "preview": "(3) If a laid-off worker who presents himself for work as mentioned in subsection (2), is, instead of being given employment at the commencement of any shift for any day, asked to present himself for..."
+    },
+    {
+      "chunk_id": 18,
+      "file": "chunk_18.txt",
+      "metadata": {
+        "chunk_id": 18,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": "Discharge from service",
+        "section_number": "22",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "f",
+          "g"
+        ],
+        "word_count": 559,
+        "char_count": 3426,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II | Sec.22 | 6 subsections",
+      "preview": "22. **Discharge from service.** - (1) A worker may be discharged from service for reasons of physical or mental incapacity or continued ill-health certified by a registered medical practitioner.   (2)..."
+    },
+    {
+      "chunk_id": 19,
+      "file": "chunk_19.txt",
+      "metadata": {
+        "chunk_id": 19,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
+        "section": "Procedure of punishment",
+        "section_number": "24",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 611,
+        "char_count": 3450,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.II | Sec.24 | 4 subsections",
+      "preview": "(5) If a worker dismissed under sub-section (1) (a), is acquitted on an appeal, he shall be reinstated to his original post or shall be appointed to a suitable new post; and if any of them is not poss..."
+    },
+    {
+      "chunk_id": 20,
+      "file": "chunk_20.txt",
+      "metadata": {
+        "chunk_id": 20,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Special provisions relating to fine",
+        "section_number": "25",
+        "subsections": [],
+        "word_count": 617,
+        "char_count": 3479,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.25",
+      "preview": "25. **Special provisions relating to fine.** - (1) No fine exceeding one-tenth of the wages payable to a worker in a wage-period shall be imposed on any worker.   (2) No fine shall be imposed on a wor..."
+    },
+    {
+      "chunk_id": 21,
+      "file": "chunk_21.txt",
+      "metadata": {
+        "chunk_id": 21,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Termination of employment by workers",
+        "section_number": "27",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 542,
+        "char_count": 3384,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.27 | 2 subsections",
+      "preview": "(4) Where a permanent worker resigns his service under this section, he shall be paid by the employer compensation,-   - (a) at the rate of 14 (fourteen) days’ wages for his every completed year of se..."
+    },
+    {
+      "chunk_id": 22,
+      "file": "chunk_22.txt",
+      "metadata": {
+        "chunk_id": 22,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Termination of employment by workers",
+        "section_number": "27",
+        "subsections": [],
+        "word_count": 574,
+        "char_count": 3486,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.27",
+      "preview": "32. **Eviction from residential accommodation.-** (1) A worker, whose service has been ceased by whatever means, shall vacate the residential accommodation allotted to him by the employer within the p..."
+    },
+    {
+      "chunk_id": 23,
+      "file": "chunk_23.txt",
+      "metadata": {
+        "chunk_id": 23,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Termination of employment by workers",
+        "section_number": "27",
+        "subsections": [],
+        "word_count": 128,
+        "char_count": 747,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.27",
+      "preview": "(6) Any person aggrieved by an order of the Labour Court, may, within thirty days of the order, prefer an appeal to the Tribunal, and the decision of the Tribunal on such appeal shall be final.   - (7..."
+    },
+    {
+      "chunk_id": 24,
+      "file": "chunk_24.txt",
+      "metadata": {
+        "chunk_id": 24,
+        "chapter": "EMPLOYMENT OF ADOLESCENT WORKER",
+        "chapter_number": "III",
+        "section": "Restriction on certain agreements in respect of children.-** Subject to the provisions of this Chapter, no parent or guardian of a child shall make an agreement with any one allowing the child to be appointed for any work. **Explanation",
+        "section_number": "35",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 536,
+        "char_count": 3220,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.III | Sec.35 | 2 subsections",
+      "preview": "## **CHAPTER III EMPLOYMENT OF ADOLESCENT WORKER**   34. **Restrictions on employment of children and adolescents.-** (1) No child shall be employed or permitted to work in any occupation or establish..."
+    },
+    {
+      "chunk_id": 25,
+      "file": "chunk_25.txt",
+      "metadata": {
+        "chunk_id": 25,
+        "chapter": "EMPLOYMENT OF ADOLESCENT WORKER",
+        "chapter_number": "III",
+        "section": "Declaration of list of hazardous work and restrictions on employment of adolescents in certain work",
+        "section_number": "39",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 575,
+        "char_count": 3309,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.III | Sec.39 | 2 subsections",
+      "preview": "- (a) any person working in an establishment is an adolescent, but he has no certificate of fitness; or   - (b) an adolescent working in an establishment with a certificate of fitness is no longer fit..."
+    },
+    {
+      "chunk_id": 26,
+      "file": "chunk_26.txt",
+      "metadata": {
+        "chunk_id": 26,
+        "chapter": "EMPLOYMENT OF ADOLESCENT WORKER",
+        "chapter_number": "III",
+        "section": "Employment of adolescent in the work or hazardous work of dangerous machines",
+        "section_number": "40",
+        "subsections": [],
+        "word_count": 228,
+        "char_count": 1372,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.III | Sec.40",
+      "preview": "(7) The provisions relating to weekly holidays under this Act shall apply also to the adolescent workers and the operation of this provision shall not be suspended in respect of the adolescent workers..."
+    },
+    {
+      "chunk_id": 27,
+      "file": "chunk_27.txt",
+      "metadata": {
+        "chunk_id": 27,
+        "chapter": "MATERNITY BENEFIT",
+        "chapter_number": "IV",
+        "section": "Right to maternity benefit and liability for its payment",
+        "section_number": "46",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 574,
+        "char_count": 3175,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.IV | Sec.46 | 2 subsections",
+      "preview": "## **CHAPTER IV MATERNITY BENEFIT**   45. **Prohibition of engagement of women worker in work in certain cases.-** (1) No employer shall knowingly engage a woman in his establishment during the 8 (eig..."
+    },
+    {
+      "chunk_id": 28,
+      "file": "chunk_28.txt",
+      "metadata": {
+        "chunk_id": 28,
+        "chapter": "MATERNITY BENEFIT",
+        "chapter_number": "IV",
+        "section": "Procedure regarding payment of maternity benefit",
+        "section_number": "47",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 531,
+        "char_count": 3079,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IV | Sec.47 | 4 subsections",
+      "preview": "- (a) in the case of a notice under sub-section (1), from the day following the date of notice;   - (b) in the case of a notice under sub-section (2), from the day of delivery until 8 (eight) weeks af..."
+    },
+    {
+      "chunk_id": 29,
+      "file": "chunk_29.txt",
+      "metadata": {
+        "chunk_id": 29,
+        "chapter": "MATERNITY BENEFIT",
+        "chapter_number": "IV",
+        "section": "Procedure regarding payment of maternity benefit",
+        "section_number": "47",
+        "subsections": [],
+        "word_count": 337,
+        "char_count": 1892,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IV | Sec.47",
+      "preview": "(2) For the purpose of sub-section (1), the daily, weekly or monthly average wages shall be calculated by dividing the total wages earned by the concerned woman during 3 (three) months immediately pre..."
+    },
+    {
+      "chunk_id": 30,
+      "file": "chunk_30.txt",
+      "metadata": {
+        "chunk_id": 30,
+        "chapter": "HEALTH AND HYGIENE",
+        "chapter_number": "V",
+        "section": "Cleanliness",
+        "section_number": "51",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i",
+          "e"
+        ],
+        "word_count": 565,
+        "char_count": 3340,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.V | Sec.51 | 6 subsections",
+      "preview": "## **CHAPTER V HEALTH AND HYGIENE**   51. **Cleanliness.** - Every establishment shall be kept clean and free from effluvia arising from any drain, privy or any other nuisance, and in particular-   -..."
+    },
+    {
+      "chunk_id": 31,
+      "file": "chunk_31.txt",
+      "metadata": {
+        "chunk_id": 31,
+        "chapter": "HEALTH AND HYGIENE",
+        "chapter_number": "V",
+        "section": "Artificial humidification",
+        "section_number": "55",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 557,
+        "char_count": 3426,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.V | Sec.55 | 2 subsections",
+      "preview": "(2) In any establishment no internal combustion engine shall be operated unless the exhaust is conducted into open air, and no internal combustion engine   shall be operated in any work-room unless ef..."
+    },
+    {
+      "chunk_id": 32,
+      "file": "chunk_32.txt",
+      "metadata": {
+        "chunk_id": 32,
+        "chapter": "HEALTH AND HYGIENE",
+        "chapter_number": "V",
+        "section": "Potable water",
+        "section_number": "58",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 244,
+        "char_count": 1526,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.V | Sec.58 | 4 subsections",
+      "preview": "(3) Where two hundred fifty or more workers are ordinarily employed in an establishment, provision shall be made for cooling the potable water during the summer.   (4) Where dehydration occurs in the..."
+    },
+    {
+      "chunk_id": 33,
+      "file": "chunk_33.txt",
+      "metadata": {
+        "chunk_id": 33,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Potable water",
+        "section_number": "58",
+        "subsections": [],
+        "word_count": 625,
+        "char_count": 3462,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.VI | Sec.58",
+      "preview": "## **CHAPTER VI SAFETY**   61. **Safety of building and machinery.-** (1) When it appears to a Labour Inspector that any building, or any part thereof, or any road, machinery or plant or internal elec..."
+    },
+    {
+      "chunk_id": 34,
+      "file": "chunk_34.txt",
+      "metadata": {
+        "chunk_id": 34,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Fencing of machinery",
+        "section_number": "63",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "i"
+        ],
+        "word_count": 551,
+        "char_count": 3254,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.63 | 5 subsections",
+      "preview": "(6) A free passage-way giving access to each way of exit in case of fire shall be provided for the use of the workers in every room of the establishment.   (7) In every establishment where 10 (ten) or..."
+    },
+    {
+      "chunk_id": 35,
+      "file": "chunk_35.txt",
+      "metadata": {
+        "chunk_id": 35,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Work on or near machinery in motion",
+        "section_number": "64",
+        "subsections": [
+          "a",
+          "b",
+          "i",
+          "c"
+        ],
+        "word_count": 552,
+        "char_count": 3371,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.64 | 4 subsections",
+      "preview": "(2) The Government may, by notification in the official Gazette, prohibit cleaning, lubricating, adjusting of any specified moving part of any machinery in any specified establishment.   65. **Strikin..."
+    },
+    {
+      "chunk_id": 36,
+      "file": "chunk_36.txt",
+      "metadata": {
+        "chunk_id": 36,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Work on or near machinery in motion",
+        "section_number": "64",
+        "subsections": [
+          "a",
+          "c",
+          "b"
+        ],
+        "word_count": 588,
+        "char_count": 3474,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.64 | 3 subsections",
+      "preview": "69. **Hoists and lifts.-** (1) Every hoist and lift in every establishment shall be-      - (a) of good construction with sound material and adequate strength; (b) properly maintained;      - (c) thor..."
+    },
+    {
+      "chunk_id": 37,
+      "file": "chunk_37.txt",
+      "metadata": {
+        "chunk_id": 37,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Precautionary measures against dangerous fumes",
+        "section_number": "77",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 559,
+        "char_count": 3331,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.77 | 3 subsections",
+      "preview": "(3) Effective measures shall be taken in respect of every revolving vessel, cage, basket, fly-wheel, pulley disk or similar appliances driven by power so that their prescribed speed may not be exceede..."
+    },
+    {
+      "chunk_id": 38,
+      "file": "chunk_38.txt",
+      "metadata": {
+        "chunk_id": 38,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Precautionary measures against dangerous fumes",
+        "section_number": "77",
+        "subsections": [
+          "b",
+          "a",
+          "c"
+        ],
+        "word_count": 575,
+        "char_count": 3388,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.77 | 3 subsections",
+      "preview": "- (b) to carry out necessary tests to determine the strength or quality of any specific part and to inform the Labour Inspector of the result thereof.   77. **Precautionary measures against dangerous..."
+    },
+    {
+      "chunk_id": 39,
+      "file": "chunk_39.txt",
+      "metadata": {
+        "chunk_id": 39,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Precautionary measures against dangerous fumes",
+        "section_number": "77",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 352,
+        "char_count": 2095,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.VI | Sec.77 | 3 subsections",
+      "preview": "(3) Where any part of the plant or machinery in an establishment contains any explosive or inflammable gas or vapour under pressure greater than atmospheric pressure, that part shall not be opened exc..."
+    },
+    {
+      "chunk_id": 40,
+      "file": "chunk_40.txt",
+      "metadata": {
+        "chunk_id": 40,
+        "chapter": "SPECIAL PROVISIONS RELATING TO HEALTH, HYGIENE AND SAFETY",
+        "chapter_number": "VII",
+        "section": "Dangerous operation",
+        "section_number": "79",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 562,
+        "char_count": 3475,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.VII | Sec.79 | 5 subsections",
+      "preview": "## **CHAPTER VII SPECIAL PROVISIONS RELATING TO HEALTH, HYGIENE AND SAFETY**   79. **Dangerous operation.** - Where the Government is satisfied that any operation carried on in an establishment expose..."
+    },
+    {
+      "chunk_id": 41,
+      "file": "chunk_41.txt",
+      "metadata": {
+        "chunk_id": 41,
+        "chapter": "SPECIAL PROVISIONS RELATING TO HEALTH, HYGIENE AND SAFETY",
+        "chapter_number": "VII",
+        "section": "Power to direct for enquiry into cases of accident or disease",
+        "section_number": "83",
+        "subsections": [
+          "b",
+          "c"
+        ],
+        "word_count": 574,
+        "char_count": 3340,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VII | Sec.83 | 2 subsections",
+      "preview": "(a) the name and mailing address of the patient;   - (b) the name of the disease from which the patient is suffering or is suspected to be suffering;   - (c) the name and address of the establishment..."
+    },
+    {
+      "chunk_id": 42,
+      "file": "chunk_42.txt",
+      "metadata": {
+        "chunk_id": 42,
+        "chapter": "SPECIAL PROVISIONS RELATING TO HEALTH, HYGIENE AND SAFETY",
+        "chapter_number": "VII",
+        "section": "Power to direct for enquiry into cases of accident or disease",
+        "section_number": "83",
+        "subsections": [],
+        "word_count": 568,
+        "char_count": 3356,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VII | Sec.83",
+      "preview": "(3) The employer shall, if the Labour Inspector so requires, provide the appliances for dividing and sealing and marking the sample.   (4) The Labour Inspector shall give one portion of the sample to..."
+    },
+    {
+      "chunk_id": 43,
+      "file": "chunk_43.txt",
+      "metadata": {
+        "chunk_id": 43,
+        "chapter": "SPECIAL PROVISIONS RELATING TO HEALTH, HYGIENE AND SAFETY",
+        "chapter_number": "VII",
+        "section": "Power to direct for enquiry into cases of accident or disease",
+        "section_number": "83",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 328,
+        "char_count": 1957,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VII | Sec.83 | 2 subsections",
+      "preview": "(7) Any employer who has any objection against any order made under subsection (1), (3) or (4) shall within 20 (twenty) days of receipt of such order, inform the Government in writing, stating the obj..."
+    },
+    {
+      "chunk_id": 44,
+      "file": "chunk_44.txt",
+      "metadata": {
+        "chunk_id": 44,
+        "chapter": "WELFARE MEASURES",
+        "chapter_number": "VIII",
+        "section": "Washing facilities",
+        "section_number": "91",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 489,
+        "char_count": 3078,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.VIII | Sec.91 | 3 subsections",
+      "preview": "## **CHAPTER VIII WELFARE MEASURES**   89. **First-aid appliances.-** (1) In every establishment the first-aid box or cupboard equipped with the contents prescribed by rules shall be provided to be re..."
+    },
+    {
+      "chunk_id": 45,
+      "file": "chunk_45.txt",
+      "metadata": {
+        "chunk_id": 45,
+        "chapter": "WELFARE MEASURES",
+        "chapter_number": "VIII",
+        "section": "Dining Room, etc",
+        "section_number": "93",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 550,
+        "char_count": 3391,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VIII | Sec.93 | 2 subsections",
+      "preview": "## (2) The Government may, by rules,-   - (a) prescribe the standard of construction, accommodation, furniture and other equipment of the canteen;   - (b) provide for constitution of a managing commit..."
+    },
+    {
+      "chunk_id": 46,
+      "file": "chunk_46.txt",
+      "metadata": {
+        "chunk_id": 46,
+        "chapter": "WELFARE MEASURES",
+        "chapter_number": "VIII",
+        "section": "Recreational and educational facilities in tea plantations",
+        "section_number": "95",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 535,
+        "char_count": 3463,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VIII | Sec.95 | 3 subsections",
+      "preview": "Provided that the Inspector General may, by order in writing, exempt any establishment from the provisions of this sub-section, if he is satisfied that the establishment has no sufficient space for su..."
+    },
+    {
+      "chunk_id": 47,
+      "file": "chunk_47.txt",
+      "metadata": {
+        "chunk_id": 47,
+        "chapter": "WELFARE MEASURES",
+        "chapter_number": "VIII",
+        "section": "Introduction of compulsory group insurance",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 102,
+        "char_count": 636,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.VIII | Sec.99",
+      "preview": "(3) Notwithstanding anything contained in sub-sections (1) and (2), if a central fund is established by the Government in hundred percent export-oriented industrial sector under sub-section (3) of sec..."
+    },
+    {
+      "chunk_id": 48,
+      "file": "chunk_48.txt",
+      "metadata": {
+        "chunk_id": 48,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Daily working hour",
+        "section_number": "100",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 570,
+        "char_count": 3205,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.IX | Sec.100 | 4 subsections",
+      "preview": "## **CHAPTER IX WORKING HOUR AND LEAVE**   100. **Daily working hour.** - No adult worker shall ordinarily work or be required to work in an establishment for more than 8 (eight) hours in a day:   Pro..."
+    },
+    {
+      "chunk_id": 49,
+      "file": "chunk_49.txt",
+      "metadata": {
+        "chunk_id": 49,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Compensatory weekly holiday",
+        "section_number": "104",
+        "subsections": [
+          "c",
+          "a",
+          "b"
+        ],
+        "word_count": 582,
+        "char_count": 3369,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IX | Sec.104 | 3 subsections",
+      "preview": "- (c) no deduction shall be made from the wages of a worker for any holiday under the aforesaid clauses (a) and (b).   104. **Compensatory weekly holiday.** - Where, as a result of the passing of an o..."
+    },
+    {
+      "chunk_id": 50,
+      "file": "chunk_50.txt",
+      "metadata": {
+        "chunk_id": 50,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Restrictions on double employment",
+        "section_number": "110",
+        "subsections": [],
+        "word_count": 594,
+        "char_count": 3370,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IX | Sec.110",
+      "preview": "110. **Restrictions on double employment.** - No adult worker shall be allowed to work in more than 1 (one) establishment on the same day, without permission of the Inspector General and on such condi..."
+    },
+    {
+      "chunk_id": 51,
+      "file": "chunk_51.txt",
+      "metadata": {
+        "chunk_id": 51,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Special age limit for road transport worker",
+        "section_number": "112",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j"
+        ],
+        "word_count": 567,
+        "char_count": 3433,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IX | Sec.112 | 10 subsections",
+      "preview": "112. **Special age limit for road transport worker.** - (1) No person shall be employed as a driver in a road transport establishment unless he has attained the age of 21 (twenty one) years. (2) No pe..."
+    },
+    {
+      "chunk_id": 52,
+      "file": "chunk_52.txt",
+      "metadata": {
+        "chunk_id": 52,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Casual leave",
+        "section_number": "115",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 609,
+        "char_count": 3470,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IX | Sec.115 | 3 subsections",
+      "preview": "(6) If any shop or commercial establishment mentioned in sub-section (5) exists in a market or shopping mall, the provisions of sub-section (1) shall apply to such shop or establishment.   115. **Casu..."
+    },
+    {
+      "chunk_id": 53,
+      "file": "chunk_53.txt",
+      "metadata": {
+        "chunk_id": 53,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Annual leave with wages",
+        "section_number": "117",
+        "subsections": [
+          "b",
+          "a",
+          "c",
+          "e"
+        ],
+        "word_count": 468,
+        "char_count": 2636,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IX | Sec.117 | 4 subsections",
+      "preview": "(5) Notwithstanding anything contained in sub-section (4), an adult worker shall cease to earn any leave under this section, when the earned leave due to him amounts to-   (a) 40 (forty) days in the c..."
+    },
+    {
+      "chunk_id": 54,
+      "file": "chunk_54.txt",
+      "metadata": {
+        "chunk_id": 54,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Responsibility for payment of wages",
+        "section_number": "121",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 561,
+        "char_count": 3328,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.X | Sec.121 | 5 subsections",
+      "preview": "## **CHAPTER X WAGES AND PAYMENT THEREOF**   120. **Special definition of wages.-** Unless there is anything repugnant in the subject or context, in this Chapter, \"wages\" means the wages as defined in..."
+    },
+    {
+      "chunk_id": 55,
+      "file": "chunk_55.txt",
+      "metadata": {
+        "chunk_id": 55,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Deductions which may be made from wages",
+        "section_number": "125",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j",
+          "k"
+        ],
+        "word_count": 535,
+        "char_count": 3223,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.X | Sec.125 | 10 subsections",
+      "preview": "(2) On receipt of such an application, the Inspector General or the officer authorized by him in this behalf shall take measures, within a period of not exceeding   20 (twenty) days, to settle the cla..."
+    },
+    {
+      "chunk_id": 56,
+      "file": "chunk_56.txt",
+      "metadata": {
+        "chunk_id": 56,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Deductions from wages for absence from duty",
+        "section_number": "126",
+        "subsections": [
+          "j",
+          "k",
+          "l",
+          "a",
+          "b"
+        ],
+        "word_count": 595,
+        "char_count": 3467,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.X | Sec.126 | 5 subsections",
+      "preview": "- (j) deductions for payment to any co-operative society approved by the Government or to an insurance scheme maintained by the Bangladesh Postal Department or any Government Insurance Company;   - (k..."
+    },
+    {
+      "chunk_id": 57,
+      "file": "chunk_57.txt",
+      "metadata": {
+        "chunk_id": 57,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Other deductions from wages",
+        "section_number": "130",
+        "subsections": [
+          "b",
+          "a"
+        ],
+        "word_count": 611,
+        "char_count": 3412,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.X | Sec.130 | 2 subsections",
+      "preview": "- (b) in what amount any loan or advance for the wages yet not earned may be given and in how many installments it may be recovered shall be determined subject to such rules as may be made by the Gove..."
+    },
+    {
+      "chunk_id": 58,
+      "file": "chunk_58.txt",
+      "metadata": {
+        "chunk_id": 58,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Court fees for application under section 132",
+        "section_number": "133",
+        "subsections": [
+          "a"
+        ],
+        "word_count": 601,
+        "char_count": 3411,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.X | Sec.133 | 1 subsections",
+      "preview": "(5) The Labour Court passing an order under sub-section (3) may also direct the employer or the person responsible for payment of wages to pay 25% (twenty five per cent) of the wages as compensation t..."
+    },
+    {
+      "chunk_id": 59,
+      "file": "chunk_59.txt",
+      "metadata": {
+        "chunk_id": 59,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Appeal",
+        "section_number": "135",
+        "subsections": [],
+        "word_count": 190,
+        "char_count": 1063,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.X | Sec.135",
+      "preview": "(2) Notwithstanding anything contained in sub-section (1), no appeal by the employer or the person responsible for the payment of wages shall be preferred, if the total sum directed to be paid by way..."
+    },
+    {
+      "chunk_id": 60,
+      "file": "chunk_60.txt",
+      "metadata": {
+        "chunk_id": 60,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Recovery of money from the employer in certain cases",
+        "section_number": "137",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 265,
+        "char_count": 1535,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.X | Sec.137 | 2 subsections",
+      "preview": "## 136. **Conditional attachment of property of the employer or any other person responsible for payment of wages.-** (1) Where at any time-   - (a) after submission of an application under section 13..."
+    },
+    {
+      "chunk_id": 61,
+      "file": "chunk_61.txt",
+      "metadata": {
+        "chunk_id": 61,
+        "chapter": "THE WAGES BOARD",
+        "chapter_number": "XI",
+        "section": "Establishment of the Minimum Wages Board",
+        "section_number": "138",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 553,
+        "char_count": 3403,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XI | Sec.138 | 2 subsections",
+      "preview": "## **CHAPTER XI THE WAGES BOARD**   138. **Establishment of the Minimum Wages Board.** - (1) The Government shall establish a Board to be called the Minimum Wages Board.   (2) The Minimum Wages Board,..."
+    },
+    {
+      "chunk_id": 62,
+      "file": "chunk_62.txt",
+      "metadata": {
+        "chunk_id": 62,
+        "chapter": "THE WAGES BOARD",
+        "chapter_number": "XI",
+        "section": "Establishment of the Minimum Wages Board",
+        "section_number": "138",
+        "subsections": [
+          "b"
+        ],
+        "word_count": 568,
+        "char_count": 3493,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XI | Sec.138 | 1 subsections",
+      "preview": "- (b) the minimum time-rates for the workers employed on piecework.   (4) The time-rates recommended by the Wage Board may be on hourly, daily, weekly or monthly basis.   (5) In its recommendation the..."
+    },
+    {
+      "chunk_id": 63,
+      "file": "chunk_63.txt",
+      "metadata": {
+        "chunk_id": 63,
+        "chapter": "THE WAGES BOARD",
+        "chapter_number": "XI",
+        "section": "Periodical review of minimum rates of wages",
+        "section_number": "142",
+        "subsections": [],
+        "word_count": 530,
+        "char_count": 3374,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XI | Sec.142",
+      "preview": "140A. **Special power of the Government.-** Notwithstanding anything contained in sections 139, 140 and 142, the Government may, at any stage of implementation of minimum wages declared for any indust..."
+    },
+    {
+      "chunk_id": 64,
+      "file": "chunk_64.txt",
+      "metadata": {
+        "chunk_id": 64,
+        "chapter": "THE WAGES BOARD",
+        "chapter_number": "XI",
+        "section": "Periodical review of minimum rates of wages",
+        "section_number": "142",
+        "subsections": [],
+        "word_count": 464,
+        "char_count": 2714,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XI | Sec.142",
+      "preview": "(2) The Newspaper Wages Board may fix rates of wage for time-work and for piece-work.   (3) After fixing the rates of wages, the Newspaper Wages Board shall send its decision, as soon a practicable, t..."
+    },
+    {
+      "chunk_id": 65,
+      "file": "chunk_65.txt",
+      "metadata": {
+        "chunk_id": 65,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Liability of the employer to pay compensation",
+        "section_number": "150",
+        "subsections": [
+          "a",
+          "b",
+          "i"
+        ],
+        "word_count": 583,
+        "char_count": 3396,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XII | Sec.150 | 3 subsections",
+      "preview": "## **CHAPTER XII COMPENSATION FOR INJURY CAUSED BY ACCIDENT**   150. **Liability of the employer to pay compensation.** - (1) If a worker is bodily injured by an accident arising out of the course of..."
+    },
+    {
+      "chunk_id": 66,
+      "file": "chunk_66.txt",
+      "metadata": {
+        "chunk_id": 66,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Amount of compensation",
+        "section_number": "151",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "i",
+          "d"
+        ],
+        "word_count": 569,
+        "char_count": 3372,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.151 | 5 subsections",
+      "preview": "- (a) he submits an application claiming compensation in respect of such injury before a Labour Court; or      - (b) there is an agreement between him and his employer providing for the payment of com..."
+    },
+    {
+      "chunk_id": 67,
+      "file": "chunk_67.txt",
+      "metadata": {
+        "chunk_id": 67,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Method of calculating wages",
+        "section_number": "152",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 597,
+        "char_count": 3491,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.152 | 3 subsections",
+      "preview": "(2) Where more than 1 (one) injury is caused by the same accident, the amount of compensation payable under sub-section (1)(c) shall be aggregated, but not in such a way as to exceed the amount which..."
+    },
+    {
+      "chunk_id": 68,
+      "file": "chunk_68.txt",
+      "metadata": {
+        "chunk_id": 68,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Payment of monthly compensation by lump-sum",
+        "section_number": "154",
+        "subsections": [],
+        "word_count": 588,
+        "char_count": 3460,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.154",
+      "preview": "154. **Payment of monthly compensation by lump-sum.** - (1) The employer may pay monthly compensation payable to a worker by paying a lump-sum amount on the basis of the agreement between the parties...."
+    },
+    {
+      "chunk_id": 69,
+      "file": "chunk_69.txt",
+      "metadata": {
+        "chunk_id": 69,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Prohibition to assign, attach or charge compensation",
+        "section_number": "156",
+        "subsections": [
+          "a",
+          "i"
+        ],
+        "word_count": 592,
+        "char_count": 3317,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.156 | 2 subsections",
+      "preview": "(10) Where any compensation deposited with the Labour Court is payable to any person, the Labour Court shall, if the person to whom the compensation is payable is not under any legal disability, pay t..."
+    },
+    {
+      "chunk_id": 70,
+      "file": "chunk_70.txt",
+      "metadata": {
+        "chunk_id": 70,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Power to require from employer statement regarding fatal accident",
+        "section_number": "158",
+        "subsections": [
+          "a",
+          "i",
+          "b"
+        ],
+        "word_count": 594,
+        "char_count": 3290,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.158 | 3 subsections",
+      "preview": "(2) Where the accident is the contracting of a disease in respect of which the provisions of section 150 (3) is applicable, the accident shall be deemed to have occurred on the first day of the contin..."
+    },
+    {
+      "chunk_id": 71,
+      "file": "chunk_71.txt",
+      "metadata": {
+        "chunk_id": 71,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Report of fatal accident",
+        "section_number": "159",
+        "subsections": [],
+        "word_count": 574,
+        "char_count": 3398,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.159",
+      "preview": "(3) If the employer is of the opinion that he is not liable to deposit compensation, he shall, in his statement, state the grounds of it.   (4) Where the employer disclaims his liability as mentioned..."
+    },
+    {
+      "chunk_id": 72,
+      "file": "chunk_72.txt",
+      "metadata": {
+        "chunk_id": 72,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Compensation in the case of a contract",
+        "section_number": "161",
+        "subsections": [],
+        "word_count": 463,
+        "char_count": 2811,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.161",
+      "preview": "(8) Where under sub-section (5) or (6) the right to any compensation is suspended, no compensation shall be payable in respect of the period of suspension and if the period of suspension commences bef..."
+    },
+    {
+      "chunk_id": 73,
+      "file": "chunk_73.txt",
+      "metadata": {
+        "chunk_id": 73,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Insolvency of the employer",
+        "section_number": "162",
+        "subsections": [],
+        "word_count": 606,
+        "char_count": 3418,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.162",
+      "preview": "(2) Where sub-section (1) applies, all compensation shall be paid by the principal or original employer.   (3) Where the principal or original employer is of the opinion that the occurrence of death o..."
+    },
+    {
+      "chunk_id": 74,
+      "file": "chunk_74.txt",
+      "metadata": {
+        "chunk_id": 74,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Special provision for the master and seamen",
+        "section_number": "163",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 561,
+        "char_count": 3166,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.163 | 3 subsections",
+      "preview": "(5) Where the compensation is a monthly payment, the amount due in respect thereof shall, for the purposes of this section, be taken to be the amount of the lump sum for which the monthly payment coul..."
+    },
+    {
+      "chunk_id": 75,
+      "file": "chunk_75.txt",
+      "metadata": {
+        "chunk_id": 75,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Return as to compensation",
+        "section_number": "164",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 558,
+        "char_count": 3294,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.164 | 3 subsections",
+      "preview": "(5) No monthly payment as compensation shall be payable in respect of the period during which the owner of the ship is, under any law for the time being in force in Bangladesh relating to merchant shi..."
+    },
+    {
+      "chunk_id": 76,
+      "file": "chunk_76.txt",
+      "metadata": {
+        "chunk_id": 76,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Venue of proceedings",
+        "section_number": "167",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 561,
+        "char_count": 3169,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.167 | 3 subsections",
+      "preview": "(2) No civil Court shall have jurisdiction to settle any question which is by or under this Chapter required to be settled by the Labour Court or to enforce any liability incurred under this Chapter...."
+    },
+    {
+      "chunk_id": 77,
+      "file": "chunk_77.txt",
+      "metadata": {
+        "chunk_id": 77,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Effects of failure to register agreement",
+        "section_number": "171",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 568,
+        "char_count": 3282,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.171 | 5 subsections",
+      "preview": "(2) Notwithstanding anything contained in any other law, an agreement for the payment of compensation registered under sub-section (1) shall be enforceable under this Act.   171. **Effects of failure..."
+    },
+    {
+      "chunk_id": 78,
+      "file": "chunk_78.txt",
+      "metadata": {
+        "chunk_id": 78,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Rules to give effect to arrangement with other countries for the transfer of money paid as compensation",
+        "section_number": "174",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 210,
+        "char_count": 1262,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.174 | 2 subsections",
+      "preview": "174. **Rules to give effect to arrangement with other countries for the transfer of money paid as compensation.** - (1) The Government may, by notification in the official Gazette, make rules-   - (a)..."
+    },
+    {
+      "chunk_id": 79,
+      "file": "chunk_79.txt",
+      "metadata": {
+        "chunk_id": 79,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Special definition of worker",
+        "section_number": "175",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "i"
+        ],
+        "word_count": 551,
+        "char_count": 3489,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XIII | Sec.175 | 6 subsections",
+      "preview": "## **CHAPTER XIII TRADE UNIONS AND INDUSTRIAL RELATIONS**   175. **Special definition of worker.** - In this Chapter, unless there is anything repugnant in the subject or context, ‘worker’ means a wor..."
+    },
+    {
+      "chunk_id": 80,
+      "file": "chunk_80.txt",
+      "metadata": {
+        "chunk_id": 80,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Requirements for registration",
+        "section_number": "179",
+        "subsections": [
+          "i",
+          "v",
+          "b",
+          "c",
+          "d",
+          "a",
+          "e"
+        ],
+        "word_count": 566,
+        "char_count": 3255,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.179 | 7 subsections",
+      "preview": "- (i) the name of the trade union and the address of its head office,      - (ii) the date of formation of the trade union,      - (iii) the names, father’s and mother’s names, ages, addresses, occupa..."
+    },
+    {
+      "chunk_id": 81,
+      "file": "chunk_81.txt",
+      "metadata": {
+        "chunk_id": 81,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Requirements for registration",
+        "section_number": "179",
+        "subsections": [
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "word_count": 497,
+        "char_count": 2831,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIII | Sec.179 | 6 subsections",
+      "preview": "- (h) the safe maintenance of the funds of trade union, its annual audit, the manner of audit, and adequate facilities for inspection of the books of account by the officers and members of the trade u..."
+    },
+    {
+      "chunk_id": 82,
+      "file": "chunk_82.txt",
+      "metadata": {
+        "chunk_id": 82,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Registered trade unions to maintain register, etc",
+        "section_number": "181",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 580,
+        "char_count": 3413,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.181 | 3 subsections",
+      "preview": "## 180. **Disqualification for being an officer or a member of a trade union.** -   (1) Notwithstanding anything contained in the constitution of a trade union, a person shall be disqualified for elec..."
+    },
+    {
+      "chunk_id": 83,
+      "file": "chunk_83.txt",
+      "metadata": {
+        "chunk_id": 83,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Registration of trade unions in a group of establishments",
+        "section_number": "183",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j"
+        ],
+        "word_count": 529,
+        "char_count": 3280,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.183 | 10 subsections",
+      "preview": "(5) Where, after hearing the appeal, the Labour Court thinks proper, it may, for reasons to be stated in its judgment, pass an order directing the Director General to register the trade union and to i..."
+    },
+    {
+      "chunk_id": 84,
+      "file": "chunk_84.txt",
+      "metadata": {
+        "chunk_id": 84,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Registration of trade union of seamen",
+        "section_number": "185",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 565,
+        "char_count": 3497,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.185 | 2 subsections",
+      "preview": "(5) The specified industries as mentioned in sub-section (2), shall mean such industries as the Government may, by notification in the official Gazette, specify for the purpose.   (6) A trade union fo..."
+    },
+    {
+      "chunk_id": 85,
+      "file": "chunk_85.txt",
+      "metadata": {
+        "chunk_id": 85,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Conditions of service shall remain unchanged while application for registration is pending",
+        "section_number": "186",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 530,
+        "char_count": 3172,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.186 | 2 subsections",
+      "preview": "- (a) he has been employed for a continuous period of more than 1 (one) year in any port user, berth operator, ship handling operator and other establishments related to the port; and   - (b) he has a..."
+    },
+    {
+      "chunk_id": 86,
+      "file": "chunk_86.txt",
+      "metadata": {
+        "chunk_id": 86,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Certificate of registration",
+        "section_number": "189",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "g"
+        ],
+        "word_count": 585,
+        "char_count": 3492,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.189 | 6 subsections",
+      "preview": "(3) Every inclusion or exclusion of any constituent unit of a federation of trade unions shall be communicated to the Director General by a notice sent to him by registered post, within 60 (sixty) day..."
+    },
+    {
+      "chunk_id": 87,
+      "file": "chunk_87.txt",
+      "metadata": {
+        "chunk_id": 87,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "No trade union to function without registration",
+        "section_number": "192",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "word_count": 536,
+        "char_count": 3069,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.192 | 7 subsections",
+      "preview": "(2) Where an appeal is preferred under sub-section (1), the trade union concerned shall be permitted to function till the disposal of appeal.   192. **No trade union to function without registration.*..."
+    },
+    {
+      "chunk_id": 88,
+      "file": "chunk_88.txt",
+      "metadata": {
+        "chunk_id": 88,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Unfair Labour practices on the part of workers",
+        "section_number": "196",
+        "subsections": [
+          "f",
+          "g",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 562,
+        "char_count": 3393,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.196 | 10 subsections",
+      "preview": "- (f) compel or attempt to compel any officer of the collective bargaining agent to arrive at a settlement or to sign a memorandum of settlement by intimidation, coercion, pressure, threat, confinemen..."
+    },
+    {
+      "chunk_id": 89,
+      "file": "chunk_89.txt",
+      "metadata": {
+        "chunk_id": 89,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Limited application of law of conspiracy",
+        "section_number": "197",
+        "subsections": [
+          "e",
+          "f",
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 589,
+        "char_count": 3464,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.197 | 5 subsections",
+      "preview": "- (e) commence or continue an illegal participation in strike or a goslow; or instigate others to take part in it; or   - (f) resort to _gherao_ , obstruction to transport or communication system or d..."
+    },
+    {
+      "chunk_id": 90,
+      "file": "chunk_90.txt",
+      "metadata": {
+        "chunk_id": 90,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Registration of federation of trade unions",
+        "section_number": "200",
+        "subsections": [],
+        "word_count": 572,
+        "char_count": 3447,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.200",
+      "preview": "Provided that nothing in this section shall enable any civil Court to entertain any legal proceedings instituted for the purpose of enforcing, or recovering damages for the breach of, any agreement co..."
+    },
+    {
+      "chunk_id": 91,
+      "file": "chunk_91.txt",
+      "metadata": {
+        "chunk_id": 91,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Collective bargaining agent",
+        "section_number": "202",
+        "subsections": [],
+        "word_count": 578,
+        "char_count": 3376,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.202",
+      "preview": "it thereof, and if the trade union fails to submit the general statement within 30 (thirty) days of the receipt of such notice, its registration may be cancelled. (4) If any trade union is a member of..."
+    },
+    {
+      "chunk_id": 92,
+      "file": "chunk_92.txt",
+      "metadata": {
+        "chunk_id": 92,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Collective bargaining agent",
+        "section_number": "202",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 531,
+        "char_count": 3137,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.202 | 5 subsections",
+      "preview": "(8) On receipt of the list of workers from the employer, the Director General shall send a copy of the list to each contesting trade union and shall affix a copy thereof in a conspicuous place of his..."
+    },
+    {
+      "chunk_id": 93,
+      "file": "chunk_93.txt",
+      "metadata": {
+        "chunk_id": 93,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Collective bargaining agent",
+        "section_number": "202",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 544,
+        "char_count": 3372,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.202 | 3 subsections",
+      "preview": "(16) Where a trade union is declared to be the collective bargaining agent for an establishment under sub-section (15)(e), it shall be the collective bargaining agent for that establishment for 2 (two..."
+    },
+    {
+      "chunk_id": 94,
+      "file": "chunk_94.txt",
+      "metadata": {
+        "chunk_id": 94,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Federation of trade unions to act as collective bargaining agent in certain cases",
+        "section_number": "203",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 521,
+        "char_count": 3254,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.203 | 5 subsections",
+      "preview": "- (a) bargain with the employer in matters of the state of jobless, conditions of work or environment of work of the workers;   - (b) represent all or any of the workers in any proceedings;   - (c) gi..."
+    },
+    {
+      "chunk_id": 95,
+      "file": "chunk_95.txt",
+      "metadata": {
+        "chunk_id": 95,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Participation committee",
+        "section_number": "205",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 526,
+        "char_count": 3414,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.205 | 4 subsections",
+      "preview": "Provided that union members beyond CBA shall give subscription through receipt.   (2) An employer making any deduction from the wages under sub-section (1) shall deposit, within next 15 (fifteen) days..."
+    },
+    {
+      "chunk_id": 96,
+      "file": "chunk_96.txt",
+      "metadata": {
+        "chunk_id": 96,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Meetings of the participation committee",
+        "section_number": "207",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 265,
+        "char_count": 1749,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.207 | 5 subsections",
+      "preview": "- (a) to endeavour to promote mutual trust and faith, understanding and co-operation between the employers and the workers;   - (b) to ensure the application of labour laws;   - (c) to foster a sense..."
+    },
+    {
+      "chunk_id": 97,
+      "file": "chunk_97.txt",
+      "metadata": {
+        "chunk_id": 97,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Raising of industrial dispute",
+        "section_number": "209",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 552,
+        "char_count": 3384,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XIV | Sec.209 | 2 subsections",
+      "preview": "## **CHAPTER XIV SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.**   209. **Raising of industrial dispute.** - No industrial dispute shall be deemed to exist, u..."
+    },
+    {
+      "chunk_id": 98,
+      "file": "chunk_98.txt",
+      "metadata": {
+        "chunk_id": 98,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Strike and lock-out",
+        "section_number": "211",
+        "subsections": [],
+        "word_count": 582,
+        "char_count": 3435,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.211",
+      "preview": "(8) If any settlement of the dispute is arrived through conciliation, the Conciliator shall submit a report thereon to the Government together with a memorandum of settlement signed by both the partie..."
+    },
+    {
+      "chunk_id": 99,
+      "file": "chunk_99.txt",
+      "metadata": {
+        "chunk_id": 99,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Cessation of industrial dispute",
+        "section_number": "212",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 579,
+        "char_count": 3330,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.212 | 3 subsections",
+      "preview": "Provided that no collective bargaining agent shall serve any notice of strike, unless 51 (fifty one) percent of its members give their consent to it through a secret ballot, specially held for that pu..."
+    },
+    {
+      "chunk_id": 100,
+      "file": "chunk_100.txt",
+      "metadata": {
+        "chunk_id": 100,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Application to the Labour Court",
+        "section_number": "213",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 569,
+        "char_count": 3359,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.213 | 3 subsections",
+      "preview": "(2) When an industrial dispute ceases to exist under sub-section (1), no fresh dispute on the same subject shall be raised within a period of one year from the date of cessation of such dispute.   213..."
+    },
+    {
+      "chunk_id": 101,
+      "file": "chunk_101.txt",
+      "metadata": {
+        "chunk_id": 101,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Powers and Procedure of Labour Courts in trial of offences",
+        "section_number": "215",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "word_count": 602,
+        "char_count": 3403,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.215 | 6 subsections",
+      "preview": "(10) A Labour Court shall have exclusive jurisdiction in the following matters, namely:-   - (a) to adjudicate and determine any industrial dispute or any other dispute or any question referred to or..."
+    },
+    {
+      "chunk_id": 102,
+      "file": "chunk_102.txt",
+      "metadata": {
+        "chunk_id": 102,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Powers and procedure of Labour Court in any matter other than trial of offences",
+        "section_number": "216",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "word_count": 581,
+        "char_count": 3182,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIV | Sec.216 | 7 subsections",
+      "preview": "- (a) to enforce the attendance of any person, examine him on oath and take evidence;   - (b) to compel the production of any document or material;   - (c) to send commissions for the examination of w..."
+    },
+    {
+      "chunk_id": 103,
+      "file": "chunk_103.txt",
+      "metadata": {
+        "chunk_id": 103,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Appeal against judgments, etc. of Labour Courts",
+        "section_number": "217",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 625,
+        "char_count": 3479,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.217 | 2 subsections",
+      "preview": "(11) The judgment, decision or an award of a Labour Court shall be given in writing and delivered in open Court, and a copy thereof shall be given to each party.   (12) The judgment, decision or an aw..."
+    },
+    {
+      "chunk_id": 104,
+      "file": "chunk_104.txt",
+      "metadata": {
+        "chunk_id": 104,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Form of application or appeal",
+        "section_number": "219",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "word_count": 553,
+        "char_count": 3180,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.219 | 9 subsections",
+      "preview": "according to the opinion of the Chairman or member or majority of the members of such newly constituted bench.   (9) Where a bench consists of the Chairman and any member and there is a difference of..."
+    },
+    {
+      "chunk_id": 105,
+      "file": "chunk_105.txt",
+      "metadata": {
+        "chunk_id": 105,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Appearance of parties to a case",
+        "section_number": "220",
+        "subsections": [
+          "g",
+          "h",
+          "i",
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 605,
+        "char_count": 3374,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.220 | 7 subsections",
+      "preview": "- (g) in any case other than application by dependents for payment of compensation under Chapter XII, a concise statement of the matters on which agreement has been and of those on which agreement has..."
+    },
+    {
+      "chunk_id": 106,
+      "file": "chunk_106.txt",
+      "metadata": {
+        "chunk_id": 106,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Commencement and conclusion of proceedings",
+        "section_number": "224",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 564,
+        "char_count": 3218,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.224 | 2 subsections",
+      "preview": "(4) An award of a Labour Court shall, unless an appeal is preferred against it to the Tribunal, become effective from the date specified by such Court and shall remain effective for such period, not e..."
+    },
+    {
+      "chunk_id": 107,
+      "file": "chunk_107.txt",
+      "metadata": {
+        "chunk_id": 107,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Prohibition on service of notice of strike or lock-out while proceeding remains pending",
+        "section_number": "225",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 545,
+        "char_count": 3279,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.225 | 4 subsections",
+      "preview": "(5) The proceedings before a Labour Court shall be deemed to have concluded on the date on which the judgment, decision or award relating thereto is delivered.   225. **Prohibition on service of notic..."
+    },
+    {
+      "chunk_id": 108,
+      "file": "chunk_108.txt",
+      "metadata": {
+        "chunk_id": 108,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Protection of rights, etc. of certain persons",
+        "section_number": "229",
+        "subsections": [],
+        "word_count": 391,
+        "char_count": 2302,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.229",
+      "preview": "(2) Notwithstanding anything contained in sub-section (1), an officer of a trade union shall not, during the pendency of any proceedings referred to in the said subsection, be discharged, dismissed or..."
+    },
+    {
+      "chunk_id": 109,
+      "file": "chunk_109.txt",
+      "metadata": {
+        "chunk_id": 109,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES",
+        "chapter_number": "XV",
+        "section": "Application of the Chapter",
+        "section_number": "232",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "i",
+          "d",
+          "f",
+          "g"
+        ],
+        "word_count": 543,
+        "char_count": 3478,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XV | Sec.232 | 7 subsections",
+      "preview": "## **CHAPTER XV PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES**   232. **Application of the Chapter.** - (1) This Chapter shall apply to a company or establishment which fulfils any one of t..."
+    },
+    {
+      "chunk_id": 110,
+      "file": "chunk_110.txt",
+      "metadata": {
+        "chunk_id": 110,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES",
+        "chapter_number": "XV",
+        "section": "Special definitions",
+        "section_number": "233",
+        "subsections": [
+          "i",
+          "v",
+          "h",
+          "a",
+          "b"
+        ],
+        "word_count": 540,
+        "char_count": 3307,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.233 | 5 subsections",
+      "preview": "- (i) making changes in the original condition or making addition to value, of any goods, material or thing by manufacturing, assembling or polishing it or by bringing it in any other normal or artifi..."
+    },
+    {
+      "chunk_id": 111,
+      "file": "chunk_111.txt",
+      "metadata": {
+        "chunk_id": 111,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES",
+        "chapter_number": "XV",
+        "section": "Special definitions",
+        "section_number": "233",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 610,
+        "char_count": 3464,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.233 | 2 subsections",
+      "preview": "235. **Management of the Funds.-** (1) As soon as may be, after the establishment of the Participation Fund and the Welfare Fund, there shall be constituted a Board of Trustees consisting of the follo..."
+    },
+    {
+      "chunk_id": 112,
+      "file": "chunk_112.txt",
+      "metadata": {
+        "chunk_id": 112,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES",
+        "chapter_number": "XV",
+        "section": "Special definitions",
+        "section_number": "233",
+        "subsections": [],
+        "word_count": 597,
+        "char_count": 3495,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.233",
+      "preview": "(2) If any company or Board of Trustee fails to do any act within the time specified in the order issued under sub-section (1), the Government may, by order, impose on every director, manager or offic..."
+    },
+    {
+      "chunk_id": 113,
+      "file": "chunk_113.txt",
+      "metadata": {
+        "chunk_id": 113,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES",
+        "chapter_number": "XV",
+        "section": "Eligibility to benefits",
+        "section_number": "241",
+        "subsections": [],
+        "word_count": 536,
+        "char_count": 3166,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.241",
+      "preview": "(2) The company may request the Board of Trustees to utilize the amount of the Participation Fund for investment under sub-section (11), and the Board may decide for such investment.   (3) The company..."
+    },
+    {
+      "chunk_id": 114,
+      "file": "chunk_114.txt",
+      "metadata": {
+        "chunk_id": 114,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES",
+        "chapter_number": "XV",
+        "section": "Eligibility to benefits",
+        "section_number": "241",
+        "subsections": [],
+        "word_count": 579,
+        "char_count": 3355,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.241",
+      "preview": "241. **Eligibility to benefits.** - (1) All beneficiaries shall be eligible to get all benefits in equal proportions under this Chapter and to participate in the Funds.   (2) No beneficiary without co..."
+    },
+    {
+      "chunk_id": 115,
+      "file": "chunk_115.txt",
+      "metadata": {
+        "chunk_id": 115,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES",
+        "chapter_number": "XV",
+        "section": "Audit of accounts of the Funds",
+        "section_number": "248",
+        "subsections": [],
+        "word_count": 340,
+        "char_count": 2056,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.248",
+      "preview": "248. **Audit of accounts of the Funds.** - The accounts of income and expenditure of the Funds shall be audited every year at the company’s expense in the same manner as the accounts of income and exp..."
+    },
+    {
+      "chunk_id": 116,
+      "file": "chunk_116.txt",
+      "metadata": {
+        "chunk_id": 116,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF THE COMPANIES",
+        "chapter_number": "XV",
+        "section": "Companies engaged in activities relating to more than one industry",
+        "section_number": "251",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "word_count": 443,
+        "char_count": 2841,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XV | Sec.251 | 6 subsections",
+      "preview": "## **CHAPTER XVIA PROVISIONS AS TO THE DISSOLVED DOCK WORKERS MANAGEMENT BOARD**   263A. **Special provisions as to the dissolution, etc. of the Dockworkers Management Board.** - (1) The Dock-workers..."
+    },
+    {
+      "chunk_id": 117,
+      "file": "chunk_117.txt",
+      "metadata": {
+        "chunk_id": 117,
+        "chapter": "PROVIDENT FUND",
+        "chapter_number": "XVII",
+        "section": "Provident funds for workers in private sector establishments",
+        "section_number": "264",
+        "subsections": [
+          "a"
+        ],
+        "word_count": 497,
+        "char_count": 3134,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XVII | Sec.264 | 1 subsections",
+      "preview": "## **CHAPTER XVII PROVIDENT FUND**   264. **Provident funds for workers in private sector establishments.** - (1) Any establishment in the private sector may constitute a provident fund for the benefi..."
+    },
+    {
+      "chunk_id": 118,
+      "file": "chunk_118.txt",
+      "metadata": {
+        "chunk_id": 118,
+        "chapter": "PROVIDENT FUND",
+        "chapter_number": "XVII",
+        "section": "Tea Plantation Workers’ Provident Fund",
+        "section_number": "265",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 543,
+        "char_count": 3358,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVII | Sec.265 | 3 subsections",
+      "preview": "(12) At least half of the total accumulations in such provident fund shall be invested for any of the following purposes, namely:-   - (a) I.C.B, Mutual Fund Certificate;   (b) I.C.B, Unit Certificate..."
+    },
+    {
+      "chunk_id": 119,
+      "file": "chunk_119.txt",
+      "metadata": {
+        "chunk_id": 119,
+        "chapter": "PROVIDENT FUND",
+        "chapter_number": "XVII",
+        "section": "Cost of administration",
+        "section_number": "267",
+        "subsections": [
+          "b",
+          "c"
+        ],
+        "word_count": 558,
+        "char_count": 3223,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVII | Sec.267 | 2 subsections",
+      "preview": "(4) The Chairman and other members shall hold office for a term of 3 (three) years from the date of their appointment:   Provided that notwithstanding the expiry of such term, they shall continue to h..."
+    },
+    {
+      "chunk_id": 120,
+      "file": "chunk_120.txt",
+      "metadata": {
+        "chunk_id": 120,
+        "chapter": "PROVIDENT FUND",
+        "chapter_number": "XVII",
+        "section": "Recovery of damages",
+        "section_number": "269",
+        "subsections": [],
+        "word_count": 597,
+        "char_count": 3387,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVII | Sec.269",
+      "preview": "(5) The total accumulations in the provident fund shall, in such manner as may be prescribed by rules, be held in deposit and be invested.   269. **Recovery of damages.** - Where an employer makes def..."
+    },
+    {
+      "chunk_id": 121,
+      "file": "chunk_121.txt",
+      "metadata": {
+        "chunk_id": 121,
+        "chapter": "APPRENTICESHIP",
+        "chapter_number": "XVIII",
+        "section": "Application of the Chapter",
+        "section_number": "274",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "word_count": 520,
+        "char_count": 3343,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XVIII | Sec.274 | 6 subsections",
+      "preview": "## **CHAPTER XVIII APPRENTICESHIP**   274. **Application of the Chapter.** - This Chapter shall apply to such an establishment, which is in operation for more than 2 (two) years, and in which not less..."
+    },
+    {
+      "chunk_id": 122,
+      "file": "chunk_122.txt",
+      "metadata": {
+        "chunk_id": 122,
+        "chapter": "APPRENTICESHIP",
+        "chapter_number": "XVIII",
+        "section": "Exemption from income-tax, etc",
+        "section_number": "278",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "word_count": 547,
+        "char_count": 3463,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVIII | Sec.278 | 7 subsections",
+      "preview": "278. **Exemption from income-tax, etc.** - (1) Notwithstanding anything contained otherwise in the Income-tax Ordinance, 1984 (Ordinance No. XXXVI of 1984), no income-tax shall be payable by an employ..."
+    },
+    {
+      "chunk_id": 123,
+      "file": "chunk_123.txt",
+      "metadata": {
+        "chunk_id": 123,
+        "chapter": "APPRENTICESHIP",
+        "chapter_number": "XVIII",
+        "section": "Delegation of powers",
+        "section_number": "282",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 140,
+        "char_count": 862,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVIII | Sec.282 | 4 subsections",
+      "preview": "- (a) with necessary assistants, enter into, inspect and examine any establishment or part thereof at any reasonable time;   - (b) examine any apprentice worker employed in that establishment, or requ..."
+    },
+    {
+      "chunk_id": 124,
+      "file": "chunk_124.txt",
+      "metadata": {
+        "chunk_id": 124,
+        "chapter": "OFFENCE, PENALTY AND PROCEDURE",
+        "chapter_number": "XIX",
+        "section": "Penalty for employment of a child and adolescent",
+        "section_number": "284",
+        "subsections": [],
+        "word_count": 568,
+        "char_count": 3195,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XIX | Sec.284",
+      "preview": "## **CHAPTER XIX OFFENCE, PENALTY AND PROCEDURE**   283. **Penalty for non-compliance of order of the Labour Court under section 33.-** If any person refuses or fails to comply with an order passed by..."
+    },
+    {
+      "chunk_id": 125,
+      "file": "chunk_125.txt",
+      "metadata": {
+        "chunk_id": 125,
+        "chapter": "OFFENCE, PENALTY AND PROCEDURE",
+        "chapter_number": "XIX",
+        "section": "Penalty for unfair labour practice or anti-trade union discrimination",
+        "section_number": "291",
+        "subsections": [],
+        "word_count": 574,
+        "char_count": 3282,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.291",
+      "preview": "(2) Where the Court imposes penalty under sub-section (1), it may, at the time of passing the judgment, order that the employer shall pay to the worker concerned such sum to represent the differences..."
+    },
+    {
+      "chunk_id": 126,
+      "file": "chunk_126.txt",
+      "metadata": {
+        "chunk_id": 126,
+        "chapter": "OFFENCE, PENALTY AND PROCEDURE",
+        "chapter_number": "XIX",
+        "section": "Penalty for instigating illegal strike or lock-out",
+        "section_number": "295",
+        "subsections": [],
+        "word_count": 569,
+        "char_count": 3258,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.295",
+      "preview": "295. **Penalty for instigating illegal strike or lock-out.** - If any person instigates or encourages any other person to take part in, or to spend or supply money for, or otherwise acts in furtheranc..."
+    },
+    {
+      "chunk_id": 127,
+      "file": "chunk_127.txt",
+      "metadata": {
+        "chunk_id": 127,
+        "chapter": "OFFENCE, PENALTY AND PROCEDURE",
+        "chapter_number": "XIX",
+        "section": "Penalty for using false certificate of fitness",
+        "section_number": "302",
+        "subsections": [],
+        "word_count": 201,
+        "char_count": 1150,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.302",
+      "preview": "300. **Penalty for dual membership of trade unions.-** If any person becomes, or continues to be a member of more than one trade union at the same time, he shall be punished with imprisonment for a te..."
+    },
+    {
+      "chunk_id": 128,
+      "file": "chunk_128.txt",
+      "metadata": {
+        "chunk_id": 128,
+        "chapter": "OFFENCE, PENALTY AND PROCEDURE",
+        "chapter_number": "XIX",
+        "section": "Penalty for using false certificate of fitness",
+        "section_number": "302",
+        "subsections": [
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 544,
+        "char_count": 3254,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.302 | 4 subsections",
+      "preview": "## 303. **Penalty for false statements, etc.-** If any person-   (a) with intent to deceive, makes an entry in any register, notice, record or other document required to be maintained under this Act o..."
+    },
+    {
+      "chunk_id": 129,
+      "file": "chunk_129.txt",
+      "metadata": {
+        "chunk_id": 129,
+        "chapter": "OFFENCE, PENALTY AND PROCEDURE",
+        "chapter_number": "XIX",
+        "section": "Power of the Court to make certain orders",
+        "section_number": "310",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 590,
+        "char_count": 3479,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.310 | 3 subsections",
+      "preview": "(2) If any person willfully refuses or fails to produce of the demand of any officer any register, record or other documents maintained in pursuance of this Act or any rules, regulations or schemes be..."
+    },
+    {
+      "chunk_id": 130,
+      "file": "chunk_130.txt",
+      "metadata": {
+        "chunk_id": 130,
+        "chapter": "OFFENCE, PENALTY AND PROCEDURE",
+        "chapter_number": "XIX",
+        "section": "Offences by companies, etc",
+        "section_number": "312",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 583,
+        "char_count": 3397,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.312 | 5 subsections",
+      "preview": "(2) Where an order is made under sub-section (1), the employer of the establishment shall not, during the period specified therein or extended period, be liable for continuation of any offence mention..."
+    },
+    {
+      "chunk_id": 131,
+      "file": "chunk_131.txt",
+      "metadata": {
+        "chunk_id": 131,
+        "chapter": "OFFENCE, PENALTY AND PROCEDURE",
+        "chapter_number": "XIX",
+        "section": "Cognizance of offences",
+        "section_number": "313",
+        "subsections": [],
+        "word_count": 124,
+        "char_count": 752,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.313",
+      "preview": "315. **Report of offences.-** Any contravention of, or refusal to comply with this Act or any rules, regulations or schemes by any person may be reported to the Director General, the Inspector General..."
+    },
+    {
+      "chunk_id": 132,
+      "file": "chunk_132.txt",
+      "metadata": {
+        "chunk_id": 132,
+        "chapter": "ADMINISTRATION, INSPECTION, ETC.",
+        "chapter_number": "XX",
+        "section": "Director General, etc",
+        "section_number": "317",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "word_count": 519,
+        "char_count": 3489,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XX | Sec.317 | 7 subsections",
+      "preview": "## **CHAPTER XX ADMINISTRATION, INSPECTION, ETC.**   317. **Director General, etc.** - (1) For the purposes of this Act, the Government shall, by notification in the official Gazette, appoint a Direct..."
+    },
+    {
+      "chunk_id": 133,
+      "file": "chunk_133.txt",
+      "metadata": {
+        "chunk_id": 133,
+        "chapter": "ADMINISTRATION, INSPECTION, ETC.",
+        "chapter_number": "XX",
+        "section": "Powers and functions of Inspector General, etc",
+        "section_number": "319",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "word_count": 526,
+        "char_count": 3222,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XX | Sec.319 | 7 subsections",
+      "preview": "(6) All principal officers of the Mercantile Marine Department shall be the Establishment Inspectors, ex-officio, for the purposes of regulations made under Chapter VI within the local limits of their..."
+    },
+    {
+      "chunk_id": 134,
+      "file": "chunk_134.txt",
+      "metadata": {
+        "chunk_id": 134,
+        "chapter": "ADMINISTRATION, INSPECTION, ETC.",
+        "chapter_number": "XX",
+        "section": "Controller of Tea Plantation Workers’ Provident Fund",
+        "section_number": "320",
+        "subsections": [],
+        "word_count": 558,
+        "char_count": 3316,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XX | Sec.320",
+      "preview": "(4) A Labour Inspector shall have power to call for and to seize any record, register or any other document from any employer in respect of enforcement of this Act or any rules, regulations or schemes..."
+    },
+    {
+      "chunk_id": 135,
+      "file": "chunk_135.txt",
+      "metadata": {
+        "chunk_id": 135,
+        "chapter": "ADMINISTRATION, INSPECTION, ETC.",
+        "chapter_number": "XX",
+        "section": "Reports, etc",
+        "section_number": "322",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "word_count": 555,
+        "char_count": 3482,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XX | Sec.322 | 7 subsections",
+      "preview": "(2) The accounts of income and expenditure of a Board shall be audited every year by the Comptroller and Auditor General of Bangladesh, hereinafter referred to as the Auditor General, in such manner a..."
+    },
+    {
+      "chunk_id": 136,
+      "file": "chunk_136.txt",
+      "metadata": {
+        "chunk_id": 136,
+        "chapter": "ADMINISTRATION, INSPECTION, ETC.",
+        "chapter_number": "XX",
+        "section": "National Council for Industrial health and safety",
+        "section_number": "323",
+        "subsections": [
+          "i",
+          "j",
+          "b"
+        ],
+        "word_count": 150,
+        "char_count": 978,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XX | Sec.323 | 3 subsections",
+      "preview": "- (i) 7 (seven) members representing workers, to be appointed by the Government in consultation with trade unions widely representing the workers:      - Provided that at least one female representati..."
+    },
+    {
+      "chunk_id": 137,
+      "file": "chunk_137.txt",
+      "metadata": {
+        "chunk_id": 137,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Power to exempt",
+        "section_number": "324",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h"
+        ],
+        "word_count": 573,
+        "char_count": 3394,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XXI | Sec.324 | 8 subsections",
+      "preview": "## **CHAPTER XXI MISCELLANEOUS**   324. **Power to exempt.** - (1) The Government may, by notification in the official Gazette, exempt, subject to such conditions and restrictions as it may specify th..."
+    },
+    {
+      "chunk_id": 138,
+      "file": "chunk_138.txt",
+      "metadata": {
+        "chunk_id": 138,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Notice to Inspector General before commencement of work",
+        "section_number": "325",
+        "subsections": [
+          "a"
+        ],
+        "word_count": 579,
+        "char_count": 3421,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XXI | Sec.325 | 1 subsections",
+      "preview": "- (a) require that previous permission in writing be obtained in the manner prescribed by rules from the Inspector General for the construction, establishment or extension of any factory or class of f..."
+    },
+    {
+      "chunk_id": 139,
+      "file": "chunk_139.txt",
+      "metadata": {
+        "chunk_id": 139,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "No recovery of money for proving facilities",
+        "section_number": "330",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 605,
+        "char_count": 3490,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XXI | Sec.330 | 4 subsections",
+      "preview": "- (a) as a public demand;   - (b) by attachment and sale of the movable properties belonging to the person who is liable to pay such money in the manner prescribed by rules;   - (c) if the entire mone..."
+    },
+    {
+      "chunk_id": 140,
+      "file": "chunk_140.txt",
+      "metadata": {
+        "chunk_id": 140,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Protection of act done in good faith",
+        "section_number": "335",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "word_count": 562,
+        "char_count": 3378,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XXI | Sec.335 | 6 subsections",
+      "preview": "335. **Protection of act done in good faith.** - No civil or criminal case or other legal proceeding shall lie against any person or authority for anything done or intended to be done in good faith un..."
+    },
+    {
+      "chunk_id": 141,
+      "file": "chunk_141.txt",
+      "metadata": {
+        "chunk_id": 141,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Powers to collect information",
+        "section_number": "339",
+        "subsections": [],
+        "word_count": 571,
+        "char_count": 3424,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XXI | Sec.339",
+      "preview": "(3) Where in any premises the independent rooms with common toilets, washrooms and washing facilities are leased to different employers for use as separate establishments the provisions of sub-section..."
+    },
+    {
+      "chunk_id": 142,
+      "file": "chunk_142.txt",
+      "metadata": {
+        "chunk_id": 142,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Protection of proceedings of Boards",
+        "section_number": "343",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "i"
+        ],
+        "word_count": 572,
+        "char_count": 3430,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XXI | Sec.343 | 6 subsections",
+      "preview": "Provided that nothing contained in this section shall apply to disclosure of any such information for the purpose of a prosecution under section 193 of the Penal Code.   343. **Protection of proceedin..."
+    },
+    {
+      "chunk_id": 143,
+      "file": "chunk_143.txt",
+      "metadata": {
+        "chunk_id": 143,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Power to make rules",
+        "section_number": "351",
+        "subsections": [],
+        "word_count": 538,
+        "char_count": 3420,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XXI | Sec.351",
+      "preview": "(3) The employer of an establishment in which at least 50 (fifty) workers are ordinarily employed or an officer of an establishment specified by the employer shall undertake such training course when..."
+    },
+    {
+      "chunk_id": 144,
+      "file": "chunk_144.txt",
+      "metadata": {
+        "chunk_id": 144,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Power to make rules",
+        "section_number": "351",
+        "subsections": [
+          "i",
+          "v"
+        ],
+        "word_count": 383,
+        "char_count": 2415,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XXI | Sec.351 | 2 subsections",
+      "preview": "## **(b) under Chapter VI-**   - (i) provision for additional precautionary measures in respect of any particular machinery or part thereof in an establishment;   - (ii) prescribing safety measures fo..."
+    },
+    {
+      "chunk_id": 145,
+      "file": "chunk_145.txt",
+      "metadata": {
+        "chunk_id": 145,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Power to make rules",
+        "section_number": "351",
+        "subsections": [
+          "i",
+          "v"
+        ],
+        "word_count": 193,
+        "char_count": 1129,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XXI | Sec.351 | 2 subsections",
+      "preview": "## **(f) under Chapter XVII-**   - (i) the time and manner at or in which subscription of an employer and workers shall be paid to a provident fund by the employer, and the manner in which such subscr..."
+    },
+    {
+      "chunk_id": 146,
+      "file": "chunk_146.txt",
+      "metadata": {
+        "chunk_id": 146,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
+        "section": "Provision for penalty in rules, regulations and schemes",
+        "section_number": "352",
+        "subsections": [
+          "i",
+          "v",
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h"
+        ],
+        "word_count": 556,
+        "char_count": 3488,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XXI | Sec.352 | 10 subsections",
+      "preview": "## **(g) under Chapter XVIII-**   - (i) the selection of apprentices and the conditions of contract of apprenticeship;   - (ii) the manner relating to discipline, welfare, supervision and control of a..."
+    },
+    {
+      "chunk_id": 147,
+      "file": "chunk_147.txt",
+      "metadata": {
+        "chunk_id": 147,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [
+          "b"
+        ],
+        "word_count": 90,
+        "char_count": 490,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.354 | 1 subsections",
+      "preview": "- (b) any case or proceedings pending in any Court or Tribunal at the time of commencement of this Act shall be continued in and heard and disposed of by such Court or Tribunal, as if such laws were n..."
+    },
+    {
+      "chunk_id": 148,
+      "file": "chunk_148.txt",
+      "metadata": {
+        "chunk_id": 148,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [],
+        "word_count": 342,
+        "char_count": 2346,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.354",
+      "preview": "## **THE FIRST SCHEDULE** [see sections 2(1), (67) and section 151] **LIST OF INJURIES DEEMED TO RESULT IN PERMANENT PARTIAL DISABLEMENT**   **==> picture [432 x 596] intentionally omitted <==**  **--..."
+    },
+    {
+      "chunk_id": 149,
+      "file": "chunk_149.txt",
+      "metadata": {
+        "chunk_id": 149,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [],
+        "word_count": 278,
+        "char_count": 2025,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.354",
+      "preview": "**==> picture [432 x 618] intentionally omitted <==**  **----- Start of picture text -----**<br> 25.  Amputation from middle thigh to 9 centimetres below  60<br>knee<br>26.  Amputation below knee with..."
+    },
+    {
+      "chunk_id": 150,
+      "file": "chunk_150.txt",
+      "metadata": {
+        "chunk_id": 150,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [],
+        "word_count": 155,
+        "char_count": 1153,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.354",
+      "preview": "## **THE SECOND SCHEDULE** [see sections 82 and 83] **List of Notifiable Diseases**   1. Lead poisoning;   2. Lead tetra-ethyl poisoning;   3. Phosphorus poisoning;   4. Mercury poisoning;   5. Mangan..."
+    },
+    {
+      "chunk_id": 151,
+      "file": "chunk_151.txt",
+      "metadata": {
+        "chunk_id": 151,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [],
+        "word_count": 295,
+        "char_count": 2375,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.354",
+      "preview": "## **THE THIRD SCHEDULE [see section 150] List of Occupational Disease**   **==> picture [432 x 633] intentionally omitted <==**  **----- Start of picture text -----**<br> Serial  Occupational disease..."
+    },
+    {
+      "chunk_id": 152,
+      "file": "chunk_152.txt",
+      "metadata": {
+        "chunk_id": 152,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [],
+        "word_count": 421,
+        "char_count": 3391,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.354",
+      "preview": "**==> picture [432 x 684] intentionally omitted <==**  **----- Start of picture text -----**<br> fumes, dust or vapour of beryllium or a<br>compound of beryllium or any substance<br>containing berylli..."
+    },
+    {
+      "chunk_id": 153,
+      "file": "chunk_153.txt",
+      "metadata": {
+        "chunk_id": 153,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 579,
+        "char_count": 3371,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.354 | 4 subsections",
+      "preview": "## **THE FOURTH SCHEDULE**   [see section 150 (8)]   **LIST OF PERSONS WHO, SUBJECT TO THE PROVISION OF SECTION 150 (8), ARE INCLUDED IN THE DEFINITION OF WORKER**   Any person who is—   - (1) employe..."
+    },
+    {
+      "chunk_id": 154,
+      "file": "chunk_154.txt",
+      "metadata": {
+        "chunk_id": 154,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [
+          "d"
+        ],
+        "word_count": 490,
+        "char_count": 3015,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.354 | 1 subsections",
+      "preview": "- (d) any wharf, quay, sea-wall or other marine work including any moorings of ships;   - (10)  employed in setting up, maintaining, repairing or taking down any telegraph or telephone line or post or..."
+    },
+    {
+      "chunk_id": 155,
+      "file": "chunk_155.txt",
+      "metadata": {
+        "chunk_id": 155,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Original text and English text",
+        "section_number": "354",
+        "subsections": [],
+        "word_count": 140,
+        "char_count": 1445,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.354",
+      "preview": "## **THE FIFTH SCHEDULE**   [see section 151]   ## **Amount of compensation payable in certain cases**   |**Monthly wages**<br>**of the injured**<br>**worker**|**Amount of**|**compensation**|**Monthly..."
+    }
+  ]
+}

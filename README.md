@@ -5,15 +5,32 @@ Project: AI-Based Knowledge Management System for Garment Factories
 ## Folder Structure
 
 ```
-data/
-├── raw/                  ← Original source files (PDFs, docx, HTML)
-├── processed/            ← Output chunk .txt files (submit these)
-├── scripts/              ← Preprocessing scripts
-│   ├── preprocess.py     ← General-purpose script (use this for new sources)
-│   └── clean_fire_safety.py  ← Fire Safety specific script (v2)
-├── knowledge_base/       ← Final merged knowledge base (Week 5+)
+Experiment/
+├── chunked-data/           ← Generated *_chunks.txt and *_manifest.json (submit the .txt)
+├── chunked-data-code/      ← chunk_markdown_langchain.py (markdown → chunks)
+├── md data/                ← Markdown sources (after PDF conversion)
+├── raw-data/               ← Original PDFs and other binaries
+├── requirements.txt        ← pip deps (e.g. langchain-text-splitters)
+├── knowledge_base/         ← Final merged knowledge base (Week 5+)
 └── README.md
 ```
+
+## Chunking from Markdown (current)
+
+Install and run from the **repository root**:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+python chunked-data-code/chunk_markdown_langchain.py \
+  --input "md data/your_file.md" \
+  --source-name "Your source label" \
+  --document-name "Human-readable document title"
+```
+
+Optional flags: `--chunk-size`, `--chunk-overlap`, `--min-chunk-chars`, `--write-raw-chunks`, `--output-dir` (defaults to `chunked-data/` at repo root). By default the script strips repeated PDF-style lines (running title + standalone page numbers); use `--keep-running-title` or `--keep-page-numbers` to disable that for other corpora.
 
 ## Standard Output Contract
 
@@ -39,9 +56,10 @@ text:
 
 Each chunk carries its own metadata so the downstream RAG pipeline can parse every file the same way.
 
-## How to Preprocess a New PDF
+## Legacy: PDF preprocessing (not in this repo layout)
 
-Run from the `data/` folder:
+If you still use a PDF-based script, run it from the folder that contains `scripts/`:
+
 
 ```bash
 python scripts/preprocess.py \
@@ -90,7 +108,7 @@ The shared pipeline now:
 ## What to Submit
 
 Each member sends:
-1. The `.txt` file from `processed/` folder
+1. The combined `.txt` file from `chunked-data/` (e.g. `*_chunks.txt`), or from `processed/` if using a legacy pipeline
 2. Source name
 3. Number of chunks (shown at end of script output)
 
