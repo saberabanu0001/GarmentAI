@@ -32,6 +32,10 @@ pip install -r requirements.txt
 | `md data/1 labour law 2006 data.md` | `python chunked-data-code/labour_law_2006_data_chunk.py` |
 | `md data/1.1 labour law 2015.md` | `python chunked-data-code/labour_law_2015_data_chunk.py` |
 | `md data/2 fire safety data.md` | `python chunked-data-code/fire_safety_data_chunk.py` |
+| `md data/3 compliance garment dhaka data.md` | `python chunked-data-code/compliance_garment_dhaka_data_chunk.py` |
+| `md data/4 CBLM social compliance data.md` | `python chunked-data-code/cblm_social_compliance_data_chunk.py` |
+| `md data/5 JUKI machine manual data.md` | `python chunked-data-code/juki_machine_manual_data_chunk.py` |
+| `md data/6 term project description data.md` | `python chunked-data-code/term_project_description_data_chunk.py` |
 
 Optional extra flags (appended): `--chunk-size`, `--chunk-overlap`, `--min-chunk-chars`, `--write-raw-chunks`, `--output-dir`. Defaults strip PDF-style noise (running title + page numbers); use `--keep-running-title` or `--keep-page-numbers` when needed.
 
@@ -42,8 +46,14 @@ Optional extra flags (appended): `--chunk-size`, `--chunk-overlap`, `--min-chunk
 | `md data/1 labour law 2006 data.md` | `python chunked-data-code/labour_law_2006_data_pdf_to_markdown.py` |
 | `md data/1.1 labour law 2015.md` | `python chunked-data-code/labour_law_2015_data_pdf_to_markdown.py` |
 | `md data/2 fire safety data.md` | `python chunked-data-code/fire_safety_data_pdf_to_markdown.py` |
+| `md data/3 compliance garment dhaka data.md` | `python chunked-data-code/compliance_garment_dhaka_data_pdf_to_markdown.py` |
+| `md data/4 CBLM social compliance data.md` | `python chunked-data-code/cblm_social_compliance_data_pdf_to_markdown.py` |
+| `md data/5 JUKI machine manual data.md` | `python chunked-data-code/juki_machine_manual_data_pdf_to_markdown.py` |
+| `md data/6 term project description data.md` | `python chunked-data-code/term_project_description_data_pdf_to_markdown.py` |
 
 Each accepts `--input` and `--output` to override the default PDF and `.md` paths.
+
+`Instructions for Data Pre-processing.docx` is not handled here (Word); convert to `.md` yourself if you need it in the pipeline.
 
 ### Generic chunker (any other `.md`)
 

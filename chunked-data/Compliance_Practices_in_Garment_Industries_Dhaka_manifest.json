@@ -1,0 +1,286 @@
+{
+  "document_info": {
+    "source_file": "/Users/saberabanu/All Drives/University/Basic Design/activities/Experiment/md data/3 compliance garment dhaka data.md",
+    "total_chunks": 16,
+    "avg_chunk_size": 2295
+  },
+  "chunking_config": {
+    "chunk_size": 3500,
+    "chunk_overlap": 600,
+    "min_chunk_size": 100
+  },
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "file": "chunk_0.txt",
+      "metadata": {
+        "chunk_id": 0,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 123,
+        "char_count": 867,
+        "content_type": "title_page"
+      },
+      "summary": "title_page",
+      "preview": "_Volume– V, Issue– 02, July-December, 2010_   # **Compliance Practices in Garment Industries in Dhaka City**   MD. ARIFUR RAHMAN[1] MIR SOHRAB HOSSAIN[2]   ## **Abstract**   _The readymade garment RMG..."
+    },
+    {
+      "chunk_id": 1,
+      "file": "chunk_1.txt",
+      "metadata": {
+        "chunk_id": 1,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 479,
+        "char_count": 3257,
+        "content_type": "section_content"
+      },
+      "summary": "section_content",
+      "preview": "## **1. INTRODUCTION**   The readymade garment (RMG) industry of Bangladesh commenced its journey in the late 1970s and within a short period of time emerged as an important player in the economy in t..."
+    },
+    {
+      "chunk_id": 2,
+      "file": "chunk_2.txt",
+      "metadata": {
+        "chunk_id": 2,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 408,
+        "char_count": 2655,
+        "content_type": "section_content"
+      },
+      "summary": "section_content",
+      "preview": "## **2. LITERATURE REVIEW**   The Bangladesh Garment Manufacturers and Exporters Association (BGMEA) has formulated its own code of conduct for the industry, in collaboration with the major trade unio..."
+    },
+    {
+      "chunk_id": 3,
+      "file": "chunk_3.txt",
+      "metadata": {
+        "chunk_id": 3,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 413,
+        "char_count": 2740,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "In order to export readymade garments, it is not only the quality parameters that are important towards acceptance of the product as per the intended end use, but also the working environment, in whic..."
+    },
+    {
+      "chunk_id": 4,
+      "file": "chunk_4.txt",
+      "metadata": {
+        "chunk_id": 4,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 192,
+        "char_count": 1364,
+        "content_type": "section_content"
+      },
+      "summary": "section_content",
+      "preview": "## **3. METHODOLOGY**   Both descriptive and inferential research were conducted to identify different dimensions of compliance of garment industry, such as housekeeping storage, working environment,..."
+    },
+    {
+      "chunk_id": 5,
+      "file": "chunk_5.txt",
+      "metadata": {
+        "chunk_id": 5,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 357,
+        "char_count": 2299,
+        "content_type": "section_content"
+      },
+      "summary": "section_content",
+      "preview": "## **4. EMPIRICAL FINDINGS**   This study has tried to measure the extent to which the garment industries are following their compliance obligations or not. Collected data were analyzed and interprete..."
+    },
+    {
+      "chunk_id": 6,
+      "file": "chunk_6.txt",
+      "metadata": {
+        "chunk_id": 6,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 484,
+        "char_count": 3286,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "It is observed from the analysis that out of 150 respondents 60 have given their strong positive answer regarding the _improvement of the controlling and monitoring system_ which has led the organizat..."
+    },
+    {
+      "chunk_id": 7,
+      "file": "chunk_7.txt",
+      "metadata": {
+        "chunk_id": 7,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 473,
+        "char_count": 3256,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "_Hossain & Rahman: Compliance Practices in Garments Industries of Bangladesh_   It is the policy of most of the RMG industries _to keep workplace free of harassment_ . Harassment by co-workers, custom..."
+    },
+    {
+      "chunk_id": 8,
+      "file": "chunk_8.txt",
+      "metadata": {
+        "chunk_id": 8,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 84,
+        "char_count": 603,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "_Journal of Business and Technology (Dhaka)_   violence, and organization has acceptable use of information technologies denote A, B, C, D,E, F,G, H, I, J, K,L,M,N and O respectively.   **Figure 01:**..."
+    },
+    {
+      "chunk_id": 9,
+      "file": "chunk_9.txt",
+      "metadata": {
+        "chunk_id": 9,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 381,
+        "char_count": 2617,
+        "content_type": "section_content"
+      },
+      "summary": "section_content",
+      "preview": "## **Testing of Hypotheses**   The 99% acceptance zone (confidence level) confirms two equal areas of 0.495 each. From the Normal Distribution table it can be found that the appropriate Z value for 1%..."
+    },
+    {
+      "chunk_id": 10,
+      "file": "chunk_10.txt",
+      "metadata": {
+        "chunk_id": 10,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 306,
+        "char_count": 2033,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## **Recommendations**   1. RMG factories should ensure proper production and official layout with perfect place materials, tools. Organization should tape up unused machine and keep it away from the..."
+    },
+    {
+      "chunk_id": 11,
+      "file": "chunk_11.txt",
+      "metadata": {
+        "chunk_id": 11,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 283,
+        "char_count": 2370,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## **REFERENCES**   Bangladesh Garment Manufacturers and Exporters Association (BGMEA). 2010. Main Functions of BGMEA (2010). Available from: http: //www. bgmea.com.bd/home/pages/aboutus.  Accessed Ju..."
+    },
+    {
+      "chunk_id": 12,
+      "file": "chunk_12.txt",
+      "metadata": {
+        "chunk_id": 12,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 138,
+        "char_count": 2185,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## TABLE 2 **AGE OF RESPONDENTS**   |Age|Frequency|Percent|Cumulative Percent| |---|---|---|---| |21-25<br>15<br>10.0<br>10.0|||| |26-30<br>40<br>26.7<br>36.7|||| |31-35<br>35<br>23.3<br>60.0|||| |36-..."
+    },
+    {
+      "chunk_id": 13,
+      "file": "chunk_13.txt",
+      "metadata": {
+        "chunk_id": 13,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 89,
+        "char_count": 1848,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "**Source:** Field Survey - 2009   _Journal of Business and Technology (Dhaka)_   TABLE – 5 **CALCULATION OF MEAN AND STANDARD DEVIATION OF EACH FACTOR**   |Title of the Statement|N=150|Percentage|Mean..."
+    },
+    {
+      "chunk_id": 14,
+      "file": "chunk_14.txt",
+      "metadata": {
+        "chunk_id": 14,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 121,
+        "char_count": 3481,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "_Hossain & Rahman: Compliance Practices in Garments Industries of Bangladesh_   |StronglyDisagree<br>10<br>6.67<br>--<br>--|StronglyDisagree<br>10<br>6.67<br>--<br>--|StronglyDisagree<br>10<br>6.67<br..."
+    },
+    {
+      "chunk_id": 15,
+      "file": "chunk_15.txt",
+      "metadata": {
+        "chunk_id": 15,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 88,
+        "char_count": 1871,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "_Hossain & Rahman: Compliance Practices in Garments Industries of Bangladesh_ 87   TABLE 6 **CALCULATION OF STANDARD DEVIATIONS**   |Sl.<br>No.|Statements|Mean of<br>each<br>statement<br><br>_X_|Mea..."
+    }
+  ]
+}

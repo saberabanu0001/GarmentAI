@@ -1,0 +1,337 @@
+{
+  "document_info": {
+    "source_file": "/Users/saberabanu/All Drives/University/Basic Design/activities/Experiment/md data/5 JUKI machine manual data.md",
+    "total_chunks": 19,
+    "avg_chunk_size": 2859
+  },
+  "chunking_config": {
+    "chunk_size": 3500,
+    "chunk_overlap": 600,
+    "min_chunk_size": 100
+  },
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "file": "chunk_0.txt",
+      "metadata": {
+        "chunk_id": 0,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 501,
+        "char_count": 3396,
+        "content_type": "title_page"
+      },
+      "summary": "title_page",
+      "preview": "3/25/26, 9:25 AM   JUKI DU-1181N Manual | ManualsLib   Manuals / Brands / JUKI Manuals / Sewing Machine / DU-1181N / User manual   **DE FR ES MX NL**   https://www.manualslib.com/guide/3963317/juki-du..."
+    },
+    {
+      "chunk_id": 1,
+      "file": "chunk_1.txt",
+      "metadata": {
+        "chunk_id": 1,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 425,
+        "char_count": 2471,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## **INSTALLATION**   ## **Installing the under cover**   1. The under cover should rest on the four corners of the machine table groove.   2. Two rubber seats 0 for supporting the head portion on the..."
+    },
+    {
+      "chunk_id": 2,
+      "file": "chunk_2.txt",
+      "metadata": {
+        "chunk_id": 2,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When the sewing machine is used at low speed (1,000 sti/min or less), operate the sewing machine at 1,500 sti/min or more for approximately 10 minutes once a day in order to circulate the oil",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 446,
+        "char_count": 2583,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **LUBRICATION**   **To avoid possible personal injury due to abrupt start of the machine, turn off the power to the machine and check to be sure that the motor has totally stopped rotating in prior..."
+    },
+    {
+      "chunk_id": 3,
+      "file": "chunk_3.txt",
+      "metadata": {
+        "chunk_id": 3,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Remove rubber plug Insert the magnet (Part number: to lubricate the upper feedcam, and fill the felt portion in the figure B8228125000) into the oil pan , and with oil",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 599,
+        "char_count": 3389,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Use JUKI Defrix Oil No. 1 (part number:**   **MDFRX1600C0) or JUKI CORPORATION GENUINE OIL 7 (part number: 40102087) as the oil for the main shaft thread take-up lever potion.**   **Be sure to ap..."
+    },
+    {
+      "chunk_id": 4,
+      "file": "chunk_4.txt",
+      "metadata": {
+        "chunk_id": 4,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Remove rubber plug Insert the magnet (Part number: to lubricate the upper feedcam, and fill the felt portion in the figure B8228125000) into the oil pan , and with oil",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 560,
+        "char_count": 3304,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **ATTACHING THE NEEDLE**   **To avoid possible personal injury due to abrupt start of the machine, turn off the power to the machine and check to be sure that the motor has totally stopped rotating..."
+    },
+    {
+      "chunk_id": 5,
+      "file": "chunk_5.txt",
+      "metadata": {
+        "chunk_id": 5,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Remove rubber plug Insert the magnet (Part number: to lubricate the upper feedcam, and fill the felt portion in the figure B8228125000) into the oil pan , and with oil",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 419,
+        "char_count": 2673,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Thread the machine head in the order as illustrated in the figure.**   https://www.manualslib.com/guide/3963317/juki-du-1181n-manual.html   8/24   3/25/26, 9:25 AM   JUKI DU-1181N Manual | Manual..."
+    },
+    {
+      "chunk_id": 6,
+      "file": "chunk_6.txt",
+      "metadata": {
+        "chunk_id": 6,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Remove rubber plug Insert the magnet (Part number: to lubricate the upper feedcam, and fill the felt portion in the figure B8228125000) into the oil pan , and with oil",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 581,
+        "char_count": 3343,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## Vi ADJUSTING THE THREAD TAKE-UP STROKE   1. When sewing heavy-weight materials, move thread guide in direction to increase the length of thread pulled out by the thread take-up.   2. When sewing li..."
+    },
+    {
+      "chunk_id": 7,
+      "file": "chunk_7.txt",
+      "metadata": {
+        "chunk_id": 7,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "If the multi-layered part of the material cannot be fed smoothly, the longitudinal position of the presser foot should be adjusted with the stitch pitch remained as it is. In the case you want to change stitch pitch after having adjusted the longitudinal position of the presser foot with the stitch pitch which is not the maximum one, check to be sure that the presser foot does not come in contact with the walking foot",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 454,
+        "char_count": 2715,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **ADJUSTING THE WALKING FOOT AND THE PRESSER FOOT**   **To avoid possible personal injury due to abrupt start of the machine, turn off the power to the machine and check to be sure that the motor h..."
+    },
+    {
+      "chunk_id": 8,
+      "file": "chunk_8.txt",
+      "metadata": {
+        "chunk_id": 8,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When sewing is performed near the maximum alternate vertical amount, the sewing pitch may be uneven. In this case, lower the sewing speed for use",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 544,
+        "char_count": 3235,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **Alternate vertical motions of the walking foot and the presser foot**   The standard amount of the alternating vertical motions is 2.5 mm. To improve sewing performance of the sewing machine for..."
+    },
+    {
+      "chunk_id": 9,
+      "file": "chunk_9.txt",
+      "metadata": {
+        "chunk_id": 9,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The effective diameter of the motor pulley is obtained by subtracting 5 mm from the outer diameter",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 387,
+        "char_count": 2289,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **RELATIONSHIP BETWEEN THE PRESSER FOOT AND THE NEEDLE**   **To avoid possible personal injury due to abrupt start of the machine, turn off the power to the machine and check to be sure that the mo..."
+    },
+    {
+      "chunk_id": 10,
+      "file": "chunk_10.txt",
+      "metadata": {
+        "chunk_id": 10,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 357,
+        "char_count": 3191,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **TROUBLES IN SEWING AND CORRECTIVE MEASURES**   |**Trouble**|**Cause**|**Corrective measure**| |---|---|---| |1.**Stitch skipping**|1. The machine head has not<br>been properly threaded.<br>2. The..."
+    },
+    {
+      "chunk_id": 11,
+      "file": "chunk_11.txt",
+      "metadata": {
+        "chunk_id": 11,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 444,
+        "char_count": 2933,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **TO ENSURE SAFE USE OF YOUR SEWING MACHINE**   For the sewing machine, automatic machine and ancillary devices (hereinafter collectively referred to as \"machine\"), it is inevitable to conduct sewi..."
+    },
+    {
+      "chunk_id": 12,
+      "file": "chunk_12.txt",
+      "metadata": {
+        "chunk_id": 12,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 398,
+        "char_count": 2476,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Basic precaution**   1. Be sure fo read the instruction manual and other explanatory documents supplied with accessories of the machine before using the machine. Carefully keep the instruction ma..."
+    },
+    {
+      "chunk_id": 13,
+      "file": "chunk_13.txt",
+      "metadata": {
+        "chunk_id": 13,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 551,
+        "char_count": 3304,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Items for which the power to the machine has to be turned of**   Turning the power off: Turning the power switch off, then removing the power plug from the outlet. This applies to the following...."
+    },
+    {
+      "chunk_id": 14,
+      "file": "chunk_14.txt",
+      "metadata": {
+        "chunk_id": 14,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 225,
+        "char_count": 1352,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## II. **Cable and wiring**   1. Be sure to prevent an extra force from being applied to the cable during the use in order to prevent electrical-shock, earth-leakage or fire accident. In addition, if..."
+    },
+    {
+      "chunk_id": 15,
+      "file": "chunk_15.txt",
+      "metadata": {
+        "chunk_id": 15,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 569,
+        "char_count": 3269,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## IV. **Motor**   1. Be sure to use the specified rated motor (JUKI genuine product) in order to prevent accident caused by burnout.   2. If a commercially available clutch motor is used with the mac..."
+    },
+    {
+      "chunk_id": 16,
+      "file": "chunk_16.txt",
+      "metadata": {
+        "chunk_id": 16,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 476,
+        "char_count": 2824,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Lubrication**   1. Be sure to use JUKI genuine oil and JUKI genuine grease to the parts to be lubricated.   2. If the oil adheres on your eye or body, be sure to immediately wash it off in order..."
+    },
+    {
+      "chunk_id": 17,
+      "file": "chunk_17.txt",
+      "metadata": {
+        "chunk_id": 17,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 363,
+        "char_count": 2207,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Operating environment**   1. Be sure to use the machine under the environment which is not affected by strong noise source (electromagnetic waves) such as a high frequency welder in order to prev..."
+    },
+    {
+      "chunk_id": 18,
+      "file": "chunk_18.txt",
+      "metadata": {
+        "chunk_id": 18,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "When using a motor of 2P, use the motor pulley, the outer diameter of which is 50mm or less",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 549,
+        "char_count": 3372,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **FOR SAFE OPERATION**   > Vi sh ock haza rd   ## **To avoid electrical shock hazards, neither open the cover of the electrical box for the motor nor touch the components mounted inside the electri..."
+    }
+  ]
+}

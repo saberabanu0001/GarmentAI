@@ -1,0 +1,82 @@
+{
+  "document_info": {
+    "source_file": "/Users/saberabanu/All Drives/University/Basic Design/activities/Experiment/md data/6 term project description data.md",
+    "total_chunks": 4,
+    "avg_chunk_size": 2354
+  },
+  "chunking_config": {
+    "chunk_size": 3500,
+    "chunk_overlap": 600,
+    "min_chunk_size": 100
+  },
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "file": "chunk_0.txt",
+      "metadata": {
+        "chunk_id": 0,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 360,
+        "char_count": 2745,
+        "content_type": "title_page"
+      },
+      "summary": "title_page",
+      "preview": "## **Course Title:**   **Basic Design (Introduction to Industrial Project) Professor: Abolghasem Sadeghi-Niaraki**   ## **Hands-on Exercises Plan (Integrated Project) for the Course \"Design for Electr..."
+    },
+    {
+      "chunk_id": 1,
+      "file": "chunk_1.txt",
+      "metadata": {
+        "chunk_id": 1,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 280,
+        "char_count": 1995,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## 4. Weekly Project Milestones   Week 1 – Project Kickoff   Students are introduced to the engineering design problem and dataset. Tasks:   • Form project teams • Load the C-MAPSS dataset in Google C..."
+    },
+    {
+      "chunk_id": 2,
+      "file": "chunk_2.txt",
+      "metadata": {
+        "chunk_id": 2,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 373,
+        "char_count": 2769,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## **Group Assignment #1 – AHP/ANP**   Week 8 – Midterm Design Review Teams present their progress and receive feedback. Presentation must include:   • problem definition   • stakeholder needs   • sys..."
+    },
+    {
+      "chunk_id": 3,
+      "file": "chunk_3.txt",
+      "metadata": {
+        "chunk_id": 3,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 188,
+        "char_count": 1910,
+        "content_type": "section_content"
+      },
+      "summary": "section_content",
+      "preview": "## 5. Final Project Deliverables   Each team must submit:   ## **Group Deliverables**   - Final project report   - Google Colab notebook   - project code and visualizations   - presentation slides   -..."
+    }
+  ]
+}

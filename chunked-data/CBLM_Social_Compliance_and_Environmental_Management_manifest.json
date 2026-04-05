@@ -1,0 +1,4547 @@
+{
+  "document_info": {
+    "source_file": "/Users/saberabanu/All Drives/University/Basic Design/activities/Experiment/md data/4 CBLM social compliance data.md",
+    "total_chunks": 265,
+    "avg_chunk_size": 3097
+  },
+  "chunking_config": {
+    "chunk_size": 3500,
+    "chunk_overlap": 600,
+    "min_chunk_size": 100
+  },
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "file": "chunk_0.txt",
+      "metadata": {
+        "chunk_id": 0,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 239,
+        "char_count": 2354,
+        "content_type": "title_page"
+      },
+      "summary": "title_page",
+      "preview": "## **Competency Based Learning Materials (CBLM)**   ## **on**   **Social Compliance and Environmental Management (RMG Sector)**   **Skills for Industry Competitiveness and Innovation Program (SICIP) F..."
+    },
+    {
+      "chunk_id": 1,
+      "file": "chunk_1.txt",
+      "metadata": {
+        "chunk_id": 1,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 471,
+        "char_count": 3458,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## **Assessment Criteria:**   1. Relevant sections of Bangladesh Labor Law 2006 (with all amendments) and Bangladesh Labor Rules 2015 (with all amendments) are interpreted   2. Organizational policies..."
+    },
+    {
+      "chunk_id": 2,
+      "file": "chunk_2.txt",
+      "metadata": {
+        "chunk_id": 2,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 423,
+        "char_count": 2690,
+        "content_type": "section_content"
+      },
+      "summary": "section_content",
+      "preview": "## **Key Chapters Relevant to RMG Sector**   ## **Conditions of employment and services (chapter 2)**   Chapter 2 of the Bangladesh Labor Act-2006 Sets the rules for employment relationship. It ensure..."
+    },
+    {
+      "chunk_id": 3,
+      "file": "chunk_3.txt",
+      "metadata": {
+        "chunk_id": 3,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Child",
+        "section_number": "1",
+        "subsections": [
+          "c",
+          "g",
+          "h",
+          "i",
+          "d"
+        ],
+        "word_count": 511,
+        "char_count": 3217,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1 | 5 subsections",
+      "preview": "## **Probation and Confirmation Rules**   ## **Duration:**   Clerical workers: 6 months.   Other workers: 3 months.   Provided that in the case of a skilled worker, the period of production may be ext..."
+    },
+    {
+      "chunk_id": 4,
+      "file": "chunk_4.txt",
+      "metadata": {
+        "chunk_id": 4,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Child",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 505,
+        "char_count": 3241,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **Child and adolescents (chapter-3)**   **1. Child:** As per BLL-2006 any person under the age of **14 years** .   **2. Adolescent:** As per BLL-2006 any person between 14 and 18 years of age.   ##..."
+    },
+    {
+      "chunk_id": 5,
+      "file": "chunk_5.txt",
+      "metadata": {
+        "chunk_id": 5,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Employment Restrictions",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 511,
+        "char_count": 3058,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Maternity Leave**   Female workers are entitled to 16 weeks of maternity leave:   - 8 weeks before expected delivery (prenatal leave)   - 8 weeks after delivery (postnatal leave)   ## **Procedure..."
+    },
+    {
+      "chunk_id": 6,
+      "file": "chunk_6.txt",
+      "metadata": {
+        "chunk_id": 6,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Employment Restrictions",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 459,
+        "char_count": 3016,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Restrictions on Termination of Employment for Women**   - An employer cannot unfairly terminate a woman worker within 6 months before or 8   Social Compliance & Environmental Management   weeks a..."
+    },
+    {
+      "chunk_id": 7,
+      "file": "chunk_7.txt",
+      "metadata": {
+        "chunk_id": 7,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Employment Restrictions",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 517,
+        "char_count": 3240,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Lighting (Section 57)**   - **Sufficient and suitable lighting** (natural or artificial) must be provided and maintained. The lighting arrangement in any workplace where workers are employed must..."
+    },
+    {
+      "chunk_id": 8,
+      "file": "chunk_8.txt",
+      "metadata": {
+        "chunk_id": 8,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Inspection and Corrective Measures",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 528,
+        "char_count": 3335,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **Dustbins and Spittoons (Section 60)**   ## 1.4.10(1) In every establishment:   - a. At least one separate dustbin and spittoon shall be provided for every 100 workers.   - b. Spittoons shall be f..."
+    },
+    {
+      "chunk_id": 9,
+      "file": "chunk_9.txt",
+      "metadata": {
+        "chunk_id": 9,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fire Fighting Equipment",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 488,
+        "char_count": 3229,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **3.Fire Fighting Equipment:**   Basic Requirements Every floor must have:   - One container with 200 liters of water   - Four red metallic buckets (10 liters each) for every 1000 sq. meters   - Bu..."
+    },
+    {
+      "chunk_id": 10,
+      "file": "chunk_10.txt",
+      "metadata": {
+        "chunk_id": 10,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Training and Drills",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 505,
+        "char_count": 3368,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.10",
+      "preview": "## **10. Training and Drills:**   - Establishments with ≥10 workers above ground floor, or with flammable/explosive materials, must train workers in fire escape procedures.   - Establishments with ≥50..."
+    },
+    {
+      "chunk_id": 11,
+      "file": "chunk_11.txt",
+      "metadata": {
+        "chunk_id": 11,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 485,
+        "char_count": 3243,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Pressure Plants; Floors, Stairs and means of access; Pits, sumps, opening in floors etc; Excessive Weights; Protection of eye; Power to require specifications of defective parts or test of abilit..."
+    },
+    {
+      "chunk_id": 12,
+      "file": "chunk_12.txt",
+      "metadata": {
+        "chunk_id": 12,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 434,
+        "char_count": 3045,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12 | 2 subsections",
+      "preview": "## **Situations requiring eye protection:**   ## **(a) Grinding & Polishing**   - Revolving wheels powered mechanically.   - Dry grinding/finishing of iron, steel, or similar metals.   - Internal or e..."
+    },
+    {
+      "chunk_id": 13,
+      "file": "chunk_13.txt",
+      "metadata": {
+        "chunk_id": 13,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l"
+        ],
+        "word_count": 534,
+        "char_count": 3397,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12 | 10 subsections",
+      "preview": "## **Explosive or Inflammable Materials (Section 78)**   Measures to prevent explosion/ignition:   Enclose machinery, remove/avoid dust, gas, fumes accumulation.   Chokes, baffles, vents to limit expl..."
+    },
+    {
+      "chunk_id": 14,
+      "file": "chunk_14.txt",
+      "metadata": {
+        "chunk_id": 14,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 494,
+        "char_count": 3459,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Inspector General Authority:** Can declare **any additional process** hazardous if necessary.   ## **Prohibition for Children, Adolescents, and Women (Sub-Rule 3)**   - Children and adolescents c..."
+    },
+    {
+      "chunk_id": 15,
+      "file": "chunk_15.txt",
+      "metadata": {
+        "chunk_id": 15,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 438,
+        "char_count": 2908,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Register of Accidents or Dangerous Occurrences & Half-Yearly Reporting (Rule 73)**   ## **Recording Accidents**   - Every establishment must **maintain a register (Form-28)** to record:      1. A..."
+    },
+    {
+      "chunk_id": 16,
+      "file": "chunk_16.txt",
+      "metadata": {
+        "chunk_id": 16,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 546,
+        "char_count": 3467,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Restroom or Shelters (section-93)**   - Establishments with more than 25 workers must provide enough dining rooms where workers can eat their own meals and rest. Drinking water must also be avail..."
+    },
+    {
+      "chunk_id": 17,
+      "file": "chunk_17.txt",
+      "metadata": {
+        "chunk_id": 17,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 420,
+        "char_count": 2906,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Location & Design:**   - The medical room must be separate from noisy areas.   - Design must be approved by the Inspector General or authorized inspector.   - Floor: smooth, strong, and impermeab..."
+    },
+    {
+      "chunk_id": 18,
+      "file": "chunk_18.txt",
+      "metadata": {
+        "chunk_id": 18,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 475,
+        "char_count": 3402,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Supervision & Reporting:**   - Inspector General, in consultation with the Director of Public Health, determines necessary equipment, drugs, and appliances.   - Medical officers must maintain pat..."
+    },
+    {
+      "chunk_id": 19,
+      "file": "chunk_19.txt",
+      "metadata": {
+        "chunk_id": 19,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 576,
+        "char_count": 3385,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Rest Intervals:**   - Workers must have at least 1-hour break for meals if they work more than 5 hours.   ## **Weekly Holidays:**   - At least 1 day off per week.   ## **Shift Work:**   - Workers..."
+    },
+    {
+      "chunk_id": 20,
+      "file": "chunk_20.txt",
+      "metadata": {
+        "chunk_id": 20,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 353,
+        "char_count": 2115,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12 | 5 subsections",
+      "preview": "## **Festival Leave:**   - Every worker is entitled to 11 days of festival holidays with full pay in a calendar year.   - The employer will fix the dates of these holidays as per the rules with PC or..."
+    },
+    {
+      "chunk_id": 21,
+      "file": "chunk_21.txt",
+      "metadata": {
+        "chunk_id": 21,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [
+          "b"
+        ],
+        "word_count": 555,
+        "char_count": 3287,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12 | 1 subsections",
+      "preview": "## **Wage Periods and Payment**   ## **Wage Periods:**   - Employers must fix wage periods for payment.   - No wage period can exceed 1 month.   ## **Time of Payment:**   - Wages must be paid within 7..."
+    },
+    {
+      "chunk_id": 22,
+      "file": "chunk_22.txt",
+      "metadata": {
+        "chunk_id": 22,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 402,
+        "char_count": 3267,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Calculate wages for deduction (when a worker is absent):**   - \"Wage\" for deduction includes: Basic wage Dearness allowance (if applicable) Ad hoc / Interim allowance (if any)   Social Compliance..."
+    },
+    {
+      "chunk_id": 23,
+      "file": "chunk_23.txt",
+      "metadata": {
+        "chunk_id": 23,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 448,
+        "char_count": 3255,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **1.2 Identification and Description of Organizational Policies**   Organizational policies serve as a blueprint for responsible business practices **,** guiding both employers and employees to mai..."
+    },
+    {
+      "chunk_id": 24,
+      "file": "chunk_24.txt",
+      "metadata": {
+        "chunk_id": 24,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 464,
+        "char_count": 3439,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Example in Garment Industry:**   A factory posts vacancies on notice boards and recruits sewing operators based on a practical test and interview. The HR department verifies age through NID or bi..."
+    },
+    {
+      "chunk_id": 25,
+      "file": "chunk_25.txt",
+      "metadata": {
+        "chunk_id": 25,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 413,
+        "char_count": 2955,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Non-Discrimination**   Non-discrimination means treating all workers equally without bias based on gender, religion, race, ethnicity, age, disability, or marital status.   **Objective:** To creat..."
+    },
+    {
+      "chunk_id": 26,
+      "file": "chunk_26.txt",
+      "metadata": {
+        "chunk_id": 26,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 468,
+        "char_count": 3467,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Tripartite Structure of the ILO**   One of the most unique features of the ILO is its tripartite structure, which means it brings together three parties:   - **Governments**   - **Employers**   -..."
+    },
+    {
+      "chunk_id": 27,
+      "file": "chunk_27.txt",
+      "metadata": {
+        "chunk_id": 27,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 465,
+        "char_count": 3185,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Right to Organise and Collective Bargaining Convention, 1949 (No. 98)**   This ensures that workers can organize freely and that employers must not discriminate against workers for union activiti..."
+    },
+    {
+      "chunk_id": 28,
+      "file": "chunk_28.txt",
+      "metadata": {
+        "chunk_id": 28,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 424,
+        "char_count": 3425,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Violence and Harassment Convention, 2019 (No. 190)**   This ensures every worker’s right to a workplace free from violence and harassment, including gender-based violence. Employers must take pre..."
+    },
+    {
+      "chunk_id": 29,
+      "file": "chunk_29.txt",
+      "metadata": {
+        "chunk_id": 29,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 413,
+        "char_count": 3080,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## 2. **Forced or Compulsory Labour**   **Description:** Forced labor occurs when workers are compelled to work under threat or coercion without their free consent.   ## **Compliance Challenges:**   -..."
+    },
+    {
+      "chunk_id": 30,
+      "file": "chunk_30.txt",
+      "metadata": {
+        "chunk_id": 30,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 500,
+        "char_count": 3347,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Preventive Measures:**   - Implement Occupational Safety and Health (OSH) policies.   - Conduct regular fire and evacuation drills.   - Provide PPE, first aid, and safety committee training.   So..."
+    },
+    {
+      "chunk_id": 31,
+      "file": "chunk_31.txt",
+      "metadata": {
+        "chunk_id": 31,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 324,
+        "char_count": 2114,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Answer Key – 1.1**   ## **Short Questions Answers:**   1. What are the main conditions of employment as stated in Chapter 2 of the Labour Act? **Answer:**      - a. Appointment letter and identit..."
+    },
+    {
+      "chunk_id": 32,
+      "file": "chunk_32.txt",
+      "metadata": {
+        "chunk_id": 32,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 430,
+        "char_count": 3481,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Task Sheet- 1.1**   **Task Name:** Identify Key Amendments of Bangladesh Labour Law and Describe Their Implications.   .   ## **Instructions:**   - **Read and understand the directions carefully:..."
+    },
+    {
+      "chunk_id": 33,
+      "file": "chunk_33.txt",
+      "metadata": {
+        "chunk_id": 33,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 370,
+        "char_count": 2665,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Information Sheet- 1.2**   **Learning Outcome-2:** Identify anti-discrimination and equal opportunity practice   **Learning Objective:** After completion of this information sheet, the learners w..."
+    },
+    {
+      "chunk_id": 34,
+      "file": "chunk_34.txt",
+      "metadata": {
+        "chunk_id": 34,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 445,
+        "char_count": 3381,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Effects of Discrimination:**   - Low employee morale and motivation.   - Decreased productivity and teamwork.   - Damage to factory reputation and loss of buyer confidence.   - • Non-compliance w..."
+    },
+    {
+      "chunk_id": 35,
+      "file": "chunk_35.txt",
+      "metadata": {
+        "chunk_id": 35,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 390,
+        "char_count": 2752,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## 6. **Monitoring and Evaluation:**   Social Compliance & Environmental Management   - Regularly review HR data to ensure non-discriminatory practices.   - Report findings to top management and compl..."
+    },
+    {
+      "chunk_id": 36,
+      "file": "chunk_36.txt",
+      "metadata": {
+        "chunk_id": 36,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 469,
+        "char_count": 3428,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## 4. **Gender Equality and Women Empowerment:**   The RMG sector employs a large number of women workers. Equal opportunity must include providing women with fair access to training, supervisory role..."
+    },
+    {
+      "chunk_id": 37,
+      "file": "chunk_37.txt",
+      "metadata": {
+        "chunk_id": 37,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 456,
+        "char_count": 3395,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **C. Wage and Benefit Equality**   ## 1. **Equal Pay for Equal Work:**      - Ensure wage structures are fair and transparent.      - Regularly review payroll data to identify any gender or role-ba..."
+    },
+    {
+      "chunk_id": 38,
+      "file": "chunk_38.txt",
+      "metadata": {
+        "chunk_id": 38,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 394,
+        "char_count": 2950,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Reporting Mechanism**   - Workers can file complaints through a suggestion/complaint box, hotline, or directly to the HR/Compliance department.   - Workers’ representatives or union leaders can a..."
+    },
+    {
+      "chunk_id": 39,
+      "file": "chunk_39.txt",
+      "metadata": {
+        "chunk_id": 39,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 413,
+        "char_count": 3107,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Investigating Discrimination Cases**   Investigation is a systematic process of gathering facts and evidence to determine whether discrimination has occurred and what corrective actions are neede..."
+    },
+    {
+      "chunk_id": 40,
+      "file": "chunk_40.txt",
+      "metadata": {
+        "chunk_id": 40,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 440,
+        "char_count": 3395,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Purpose of Anti-Discrimination Awareness Programs**   - To educate workers and supervisors about the rights and responsibilities related to nondiscrimination.   - To prevent discriminatory behavi..."
+    },
+    {
+      "chunk_id": 41,
+      "file": "chunk_41.txt",
+      "metadata": {
+        "chunk_id": 41,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 316,
+        "char_count": 2372,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Role of Communication in Promoting Anti-Discrimination**   1. **Educate and Inform:** Communication ensures that every worker knows their rights, factory policies, and complaint channels.   2. **..."
+    },
+    {
+      "chunk_id": 42,
+      "file": "chunk_42.txt",
+      "metadata": {
+        "chunk_id": 42,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 489,
+        "char_count": 3377,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Self-Check – 1.2**   ## **Short Questions:**   1. Define anti-discrimination practices in your own words.   2. Give two examples of equal opportunity practices in the garments industry.   3. What..."
+    },
+    {
+      "chunk_id": 43,
+      "file": "chunk_43.txt",
+      "metadata": {
+        "chunk_id": 43,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 451,
+        "char_count": 3312,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Multiple Choice Questions (MCQ) Answers:**   1. Which of the following is an example of discrimination in the garments industry? **Answer:** b) Paying men and women differently for the same job..."
+    },
+    {
+      "chunk_id": 44,
+      "file": "chunk_44.txt",
+      "metadata": {
+        "chunk_id": 44,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 474,
+        "char_count": 3489,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Goals of Ethical Sourcing:**   - Promote **human rights and fair working conditions** .   - Ensure **transparency and traceability** in production and supply chains.   - Minimize environmental ha..."
+    },
+    {
+      "chunk_id": 45,
+      "file": "chunk_45.txt",
+      "metadata": {
+        "chunk_id": 45,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 420,
+        "char_count": 3223,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## 3. **Long-Term Business Relationships:**   - Encourages stable contracts between suppliers and buyers.   - Reduces pressure for short lead times, which often leads to excessive overtime or labor ex..."
+    },
+    {
+      "chunk_id": 46,
+      "file": "chunk_46.txt",
+      "metadata": {
+        "chunk_id": 46,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 411,
+        "char_count": 3326,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Key Fair-Trade Certification Systems**   Fair-Trade certification systems provide frameworks for verifying that production and trade practices meet globally recognized ethical and environmental s..."
+    },
+    {
+      "chunk_id": 47,
+      "file": "chunk_47.txt",
+      "metadata": {
+        "chunk_id": 47,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Compliance and Penalty",
+        "section_number": "12",
+        "subsections": [],
+        "word_count": 439,
+        "char_count": 3452,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.12",
+      "preview": "## **Benefits of Recognizing and Implementing Fair-Trade Standards**   1. **Improved Brand Image:** Demonstrates commitment to ethical sourcing and sustainability.   2. **Market Access:** Increases op..."
+    },
+    {
+      "chunk_id": 48,
+      "file": "chunk_48.txt",
+      "metadata": {
+        "chunk_id": 48,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Ethical sourcing mainly ensures that",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 467,
+        "char_count": 3410,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **Step 3: On-Site Audit and Evaluation**   - Conduct factory visits to verify working conditions, health and safety measures, waste disposal, and energy management.   - Interview workers and superv..."
+    },
+    {
+      "chunk_id": 49,
+      "file": "chunk_49.txt",
+      "metadata": {
+        "chunk_id": 49,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Evaluating supplier practices means",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 485,
+        "char_count": 3301,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **2. Which of the following is a core principle of fair trade?**   - A. Longer working hours   - B. Fair wages and safe working conditions   - C. Child labour for faster production   - D. Ignoring..."
+    },
+    {
+      "chunk_id": 50,
+      "file": "chunk_50.txt",
+      "metadata": {
+        "chunk_id": 50,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "One of the negative impacts of unethical sourcing is",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 457,
+        "char_count": 3390,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Key Elements of Social Compliance:**   - Respect for human rights and labor laws   - Prevention of child labor and forced labor   - Fair wages and reasonable working hours   - Freedom of associat..."
+    },
+    {
+      "chunk_id": 51,
+      "file": "chunk_51.txt",
+      "metadata": {
+        "chunk_id": 51,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "One of the negative impacts of unethical sourcing is",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 440,
+        "char_count": 3242,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Government and Industry Support:**   - The **Bangladesh Labour Act (2006, amended in 2018)** defines the rights and responsibilities of both employers and workers.   - The Department of Inspectio..."
+    },
+    {
+      "chunk_id": 52,
+      "file": "chunk_52.txt",
+      "metadata": {
+        "chunk_id": 52,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "One of the negative impacts of unethical sourcing is",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 408,
+        "char_count": 3224,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Discrimination**   Unfair treatment based on gender, religion, age, ethnicity, disability, or marital status is considered discrimination, undermines equality in the workplace, and violates both..."
+    },
+    {
+      "chunk_id": 53,
+      "file": "chunk_53.txt",
+      "metadata": {
+        "chunk_id": 53,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "One of the negative impacts of unethical sourcing is",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 412,
+        "char_count": 3156,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Buyer Code of Conduct**   Standards set by buyers to ensure ethical, legal, and safe manufacturing practices.   **Explanation:** Factories must comply with buyer codes on wages, working hours, he..."
+    },
+    {
+      "chunk_id": 54,
+      "file": "chunk_54.txt",
+      "metadata": {
+        "chunk_id": 54,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "One of the negative impacts of unethical sourcing is",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 448,
+        "char_count": 3483,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Training and Development**   Training and development refer to continuous learning programs that improve workers’ skills, efficiency, and career growth.   **Explanation:** Training helps reduce w..."
+    },
+    {
+      "chunk_id": 55,
+      "file": "chunk_55.txt",
+      "metadata": {
+        "chunk_id": 55,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The compliance department is mainly responsible for",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 479,
+        "char_count": 3239,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Self-Check – 1.4**   ## **Short Questions:**   ## **1. What does social compliance mean in the RMG industry?**   ## **2. Mention three key functions of the compliance department.**   ## **3. What..."
+    },
+    {
+      "chunk_id": 56,
+      "file": "chunk_56.txt",
+      "metadata": {
+        "chunk_id": 56,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The compliance department is mainly responsible for",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 477,
+        "char_count": 3455,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **5. What is an example of a social compliance practice?**   **Answer:** B   Social Compliance & Environmental Management   ## **Module-2**   # **Module Title: Managing Health and Safety Issues Uni..."
+    },
+    {
+      "chunk_id": 57,
+      "file": "chunk_57.txt",
+      "metadata": {
+        "chunk_id": 57,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The compliance department is mainly responsible for",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 490,
+        "char_count": 3315,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Information Sheet 2.1**   **Learning Outcome-1:** Identify potential health and safety hazards in the workplace.   **Learning Objective:** After completion of this information sheet, the learners..."
+    },
+    {
+      "chunk_id": 58,
+      "file": "chunk_58.txt",
+      "metadata": {
+        "chunk_id": 58,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The compliance department is mainly responsible for",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 461,
+        "char_count": 3210,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## 3. **Preventive Measures** :   - a. Implement hearing protection (earplugs or earmuffs) in noisy areas.   - b. Maintain temperature control and provide cooling or heating systems where necessary...."
+    },
+    {
+      "chunk_id": 59,
+      "file": "chunk_59.txt",
+      "metadata": {
+        "chunk_id": 59,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The compliance department is mainly responsible for",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 466,
+        "char_count": 3434,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **b) Safety Provisions**   1. **Fencing of Machinery (Section 61):** All moving parts of machinery must be securely fenced to prevent accidents.   2. **Work on or near Machinery in Motion (Section..."
+    },
+    {
+      "chunk_id": 60,
+      "file": "chunk_60.txt",
+      "metadata": {
+        "chunk_id": 60,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Back Injury",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 469,
+        "char_count": 3204,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **1.3 Evaluation and Control of Manual Handling Risks**   Manual handling refers to the process of lifting, carrying, pushing, pulling, or moving materials or objects by hand or bodily force. In th..."
+    },
+    {
+      "chunk_id": 61,
+      "file": "chunk_61.txt",
+      "metadata": {
+        "chunk_id": 61,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Muscle Strain",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 474,
+        "char_count": 3464,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **2. Muscle Strain:**   - **Cause:** Overstretching or overusing muscles during lifting, pulling, or repetitive motion.   - • **Symptoms:** Pain, swelling, and reduced flexibility in affected muscl..."
+    },
+    {
+      "chunk_id": 62,
+      "file": "chunk_62.txt",
+      "metadata": {
+        "chunk_id": 62,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Safety Benefits of Proper Layout Design",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 258,
+        "char_count": 1907,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **Importance of Proper Layout Design**   A proper workplace layout ensures that the factory environment is organized, safe, and suitable for the type of production activities being carried out. The..."
+    },
+    {
+      "chunk_id": 63,
+      "file": "chunk_63.txt",
+      "metadata": {
+        "chunk_id": 63,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Key Principles for Good Layout Design",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 488,
+        "char_count": 3434,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **3. Key Principles for Good Layout Design:**   - **Simplicity:** Keep the arrangement logical and easy to follow.   - **Flow Orientation:** Align processes in sequence to support a smooth workflow..."
+    },
+    {
+      "chunk_id": 64,
+      "file": "chunk_64.txt",
+      "metadata": {
+        "chunk_id": 64,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Storage and Handling Areas",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 494,
+        "char_count": 3378,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## 1. **Common Workplace Layout Hazards** :      - a. Cluttered workstations leading to trips and falls.      - b. Narrow aisles or blocked emergency exits.      - c. Inadequate lighting in work areas..."
+    },
+    {
+      "chunk_id": 65,
+      "file": "chunk_65.txt",
+      "metadata": {
+        "chunk_id": 65,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Storage and Handling Areas",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 264,
+        "char_count": 1983,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **6. Promote a Culture of Safety and Responsibility**      - Regular emergency drills and awareness training encourage workers to take responsibility for their safety and that of others.      - It..."
+    },
+    {
+      "chunk_id": 66,
+      "file": "chunk_66.txt",
+      "metadata": {
+        "chunk_id": 66,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Storage and Handling Areas",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 367,
+        "char_count": 2352,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Common Emergencies in the RMG Sector:**   - ➢ Fire outbreaks due to flammable chemicals or electrical faults.   - ➢ Chemical spills or exposure from unsafe handling or storage.   - ➢ Machinery ac..."
+    },
+    {
+      "chunk_id": 67,
+      "file": "chunk_67.txt",
+      "metadata": {
+        "chunk_id": 67,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Storage and Handling Areas",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 342,
+        "char_count": 3443,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Safety Signs**   Safety signs are an essential part of hazard communication and serve as visual reminders of potential risks and safety protocols. These signs must be clear, visible, and easily u..."
+    },
+    {
+      "chunk_id": 68,
+      "file": "chunk_68.txt",
+      "metadata": {
+        "chunk_id": 68,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Storage and Handling Areas",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 459,
+        "char_count": 3149,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Safety Data Sheets (SDS)**   Safety Data Sheets (SDS) provide detailed information about hazardous chemicals and materials, including their safe use, handling, storage, and emergency response mea..."
+    },
+    {
+      "chunk_id": 69,
+      "file": "chunk_69.txt",
+      "metadata": {
+        "chunk_id": 69,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Manual handling hazards in the RMG sector mainly involve",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 542,
+        "char_count": 3386,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## C) **Post-Incident Reviews** :   - i. After any workplace accident or near miss, conduct investigations to determine the root cause and adjust safety protocols accordingly. This helps in improving..."
+    },
+    {
+      "chunk_id": 70,
+      "file": "chunk_70.txt",
+      "metadata": {
+        "chunk_id": 70,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Manual handling hazards in the RMG sector mainly involve",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 406,
+        "char_count": 2657,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Multiple Choice Questions Answers:**   1. Which of the following is an example of a chemical hazard in the RMG sector? **Answer Key: b) Exposure to toxic dyes**   2. What is the main health risk..."
+    },
+    {
+      "chunk_id": 71,
+      "file": "chunk_71.txt",
+      "metadata": {
+        "chunk_id": 71,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Manual handling hazards in the RMG sector mainly involve",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 392,
+        "char_count": 3089,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Drawing/ Diagram/ Worksheet:**   **Worksheet:** (Please use extra sheet as required) **Sl.No. Description/Items Activities (List the potential (Write down the Health Risk) hazard)**   Social Comp..."
+    },
+    {
+      "chunk_id": 72,
+      "file": "chunk_72.txt",
+      "metadata": {
+        "chunk_id": 72,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Manual handling hazards in the RMG sector mainly involve",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 477,
+        "char_count": 3413,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Purpose and Importance of Assessing Health and Safety Issues**   Assessing health and safety issues serves multiple purposes that directly support worker welfare **,** business performance **,**..."
+    },
+    {
+      "chunk_id": 73,
+      "file": "chunk_73.txt",
+      "metadata": {
+        "chunk_id": 73,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Manual handling hazards in the RMG sector mainly involve",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 428,
+        "char_count": 3327,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Step 2: Evaluate Likelihood of Occurrence:**   Assess how likely it is that a hazard will lead to an incident or injury:   - **Highly Likely** : The incident is expected to occur frequently in th..."
+    },
+    {
+      "chunk_id": 74,
+      "file": "chunk_74.txt",
+      "metadata": {
+        "chunk_id": 74,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "2 Financial, Legal, and Reputational Consequences of Health and Safety Issues",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 458,
+        "char_count": 3391,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Step 7: Prioritize Hazards**   - Rank hazards based on the combined assessment of likelihood, severity, and economic impact.   - High-risk hazards should be addressed immediately, while medium an..."
+    },
+    {
+      "chunk_id": 75,
+      "file": "chunk_75.txt",
+      "metadata": {
+        "chunk_id": 75,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "2 Financial, Legal, and Reputational Consequences of Health and Safety Issues",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 450,
+        "char_count": 3290,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Example in RMG Context:**   A chemical spill in a dyeing unit not only requires immediate medical attention for exposed workers (direct cost) but also may halt production for hours or days, causi..."
+    },
+    {
+      "chunk_id": 76,
+      "file": "chunk_76.txt",
+      "metadata": {
+        "chunk_id": 76,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "2 Financial, Legal, and Reputational Consequences of Health and Safety Issues",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 452,
+        "char_count": 3252,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **c) Employee Perception:**   - i) Unsafe workplaces lead to lower morale and higher turnover, creating a reputation of being an unfavourable employer in the local labor market.   ## **Example in R..."
+    },
+    {
+      "chunk_id": 77,
+      "file": "chunk_77.txt",
+      "metadata": {
+        "chunk_id": 77,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "2 Financial, Legal, and Reputational Consequences of Health and Safety Issues",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 388,
+        "char_count": 3336,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Types of Control Measures:**   - **Engineering Controls:** Modify or replace equipment to remove hazards (e.g., machine guard installation).   - **Administrative Controls:** Change work procedure..."
+    },
+    {
+      "chunk_id": 78,
+      "file": "chunk_78.txt",
+      "metadata": {
+        "chunk_id": 78,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Identify one direct financial consequence and one indirect financial consequence of health and safety incidents",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 503,
+        "char_count": 3424,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Multiple Choice Questions (MCQs)**   ## 1. **In the risk matrix, a hazard that is “Possible” and “Major” would generally be**   - **classified as:**   - a) Low Risk   - b) Medium Risk   - c) High..."
+    },
+    {
+      "chunk_id": 79,
+      "file": "chunk_79.txt",
+      "metadata": {
+        "chunk_id": 79,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 445,
+        "char_count": 2940,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## 1. **In the risk matrix, a hazard that is “Possible” and “Major” would generally be classified**   - **as:**   **Answer:** c) High Risk   2. **Which of the following is an example of a psychosocial..."
+    },
+    {
+      "chunk_id": 80,
+      "file": "chunk_80.txt",
+      "metadata": {
+        "chunk_id": 80,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 373,
+        "char_count": 3320,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Drawing/ Diagram/ Worksheet:**   Social Compliance & Environmental Management   ||**CAPA Worksheet:**(Please use extra sheet as required)|**CAPA Worksheet:**(Please use extra sheet as required)|*..."
+    },
+    {
+      "chunk_id": 81,
+      "file": "chunk_81.txt",
+      "metadata": {
+        "chunk_id": 81,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 533,
+        "char_count": 3403,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## b) **Targeted Inspections** :   Targeted inspections are focused on high-risk areas of the workplace. These include areas like chemical storage rooms, machinery, and ventilation systems that could..."
+    },
+    {
+      "chunk_id": 82,
+      "file": "chunk_82.txt",
+      "metadata": {
+        "chunk_id": 82,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 374,
+        "char_count": 2689,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Inspection Tools:**   **Checklists:** Safety checklists are one of the most effective tools for ensuring that all aspects of health and safety are covered during an inspection. These checklists p..."
+    },
+    {
+      "chunk_id": 83,
+      "file": "chunk_83.txt",
+      "metadata": {
+        "chunk_id": 83,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 433,
+        "char_count": 3052,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## • **International Standards** :   - **ISO 45001:2018** : This international standard specifies requirements for an Occupational Health and Safety (OHS) management system to ensure safe and healthy..."
+    },
+    {
+      "chunk_id": 84,
+      "file": "chunk_84.txt",
+      "metadata": {
+        "chunk_id": 84,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 288,
+        "char_count": 1938,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## B. **Audit Benefits** :   - a. Audits benchmark safety performance and highlight areas that require improvement.   - b. They provide an objective evaluation of compliance and help prevent future sa..."
+    },
+    {
+      "chunk_id": 85,
+      "file": "chunk_85.txt",
+      "metadata": {
+        "chunk_id": 85,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 454,
+        "char_count": 3263,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Technological Tools:**   Technology plays an increasingly important role in modern safety inspections. Using advanced safety management software, mobile applications, and wearable devices enhance..."
+    },
+    {
+      "chunk_id": 86,
+      "file": "chunk_86.txt",
+      "metadata": {
+        "chunk_id": 86,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 457,
+        "char_count": 3235,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **B. Reviewing Compliance** :   - **Compare current records to industry standards** : Regularly compare internal safety performance to legal requirements and ILO standards to ensure compliance.   -..."
+    },
+    {
+      "chunk_id": 87,
+      "file": "chunk_87.txt",
+      "metadata": {
+        "chunk_id": 87,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 434,
+        "char_count": 3175,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **b) Identifying Areas of Improvement**   Periodic record reviews highlight **weak points** in safety systems and processes that require improvement.   ## **Common Areas for Improvement in RMG Fact..."
+    },
+    {
+      "chunk_id": 88,
+      "file": "chunk_88.txt",
+      "metadata": {
+        "chunk_id": 88,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 464,
+        "char_count": 3266,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **A. Types of Violations to Report** :   - **Non-compliance with PPE usage** : Workers not using appropriate PPE as required for specific tasks.   - **Unsafe work practices** : Workers engaging in..."
+    },
+    {
+      "chunk_id": 89,
+      "file": "chunk_89.txt",
+      "metadata": {
+        "chunk_id": 89,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 436,
+        "char_count": 3324,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **c) Unsafe Chemical Storage**   - **Description:** Storing chemicals (e.g., dyes, cleaning agents, solvents) in open or unlabelled containers near work areas.   - **Risk:** Fire, chemical burns, p..."
+    },
+    {
+      "chunk_id": 90,
+      "file": "chunk_90.txt",
+      "metadata": {
+        "chunk_id": 90,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 436,
+        "char_count": 3152,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Information to Include in the Report:**   1. Description of the violation (what, where, and when).   2. Persons or areas affected.   3. Possible risks involved.   4. Actions already taken (if any..."
+    },
+    {
+      "chunk_id": 91,
+      "file": "chunk_91.txt",
+      "metadata": {
+        "chunk_id": 91,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 469,
+        "char_count": 3452,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Environmental Monitoring**   Environmental monitoring refers to the systematic observation, measurement, and evaluation of workplace conditions that affect workers’ health, safety, and comfort...."
+    },
+    {
+      "chunk_id": 92,
+      "file": "chunk_92.txt",
+      "metadata": {
+        "chunk_id": 92,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 513,
+        "char_count": 3469,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Monitoring Methods:**   - Use a **lux meter** to measure light intensity.   - Replace damaged bulbs promptly.   - Ensure uniform lighting across workstations and emergency exits.   ## **c) Cleanl..."
+    },
+    {
+      "chunk_id": 93,
+      "file": "chunk_93.txt",
+      "metadata": {
+        "chunk_id": 93,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 511,
+        "char_count": 3397,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## 5. **What type of audit focuses on reviewing internal processes such as employee**   - **training and machine maintenance?**   - a) External audits.   - b) Random inspections.   - c) Internal audit..."
+    },
+    {
+      "chunk_id": 94,
+      "file": "chunk_94.txt",
+      "metadata": {
+        "chunk_id": 94,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 394,
+        "char_count": 3015,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Cautions:**   - Never touch or operate any machine during inspection without authorization.   - Do not enter restricted areas (e.g., boiler room, electrical room) without permission and proper PP..."
+    },
+    {
+      "chunk_id": 95,
+      "file": "chunk_95.txt",
+      "metadata": {
+        "chunk_id": 95,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 468,
+        "char_count": 3343,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Information Sheet 2.4**   **Learning Outcome-4:** Report health and safety issues and suggest corrective actions.   **Learning Objective:** After completion of this information sheet, the learner..."
+    },
+    {
+      "chunk_id": 96,
+      "file": "chunk_96.txt",
+      "metadata": {
+        "chunk_id": 96,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 478,
+        "char_count": 3374,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Common Machine-Related Concerns in RMG Factories:**   - Missing machine guards or needle guards.   - Loose or broken drive belts on sewing machines.   - Overcrowded workstations increasing collis..."
+    },
+    {
+      "chunk_id": 97,
+      "file": "chunk_97.txt",
+      "metadata": {
+        "chunk_id": 97,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 441,
+        "char_count": 3067,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **4.2 Notifying Appropriate Personnel of Identified Concerns**   When a health or safety concern is identified in the workplace, it is crucial to notify the appropriate personnel promptly. This ens..."
+    },
+    {
+      "chunk_id": 98,
+      "file": "chunk_98.txt",
+      "metadata": {
+        "chunk_id": 98,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 491,
+        "char_count": 3314,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## ii)   ## **Best Practices** :   - a. Establish a no-retaliation policy to encourage workers to report concerns without fear of repercussions.   - b. Create an open-door policy where safety officers..."
+    },
+    {
+      "chunk_id": 99,
+      "file": "chunk_99.txt",
+      "metadata": {
+        "chunk_id": 99,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 527,
+        "char_count": 3473,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## i) **Benefits** :      - a. Allows for a collaborative approach to identifying and resolving safety issues.      - b. Provides a formal record of safety discussions and actions taken.      - c. Ens..."
+    },
+    {
+      "chunk_id": 100,
+      "file": "chunk_100.txt",
+      "metadata": {
+        "chunk_id": 100,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 505,
+        "char_count": 3440,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## iii) **Communication of Severity** :   - a. **Incident Report Forms** : Use a standardized form to communicate the concern, its severity, and any immediate risks to affected personnel.   - b. **Esc..."
+    },
+    {
+      "chunk_id": 101,
+      "file": "chunk_101.txt",
+      "metadata": {
+        "chunk_id": 101,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 430,
+        "char_count": 2977,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **a. Date, Time, and Location of Incident**   - Every incident report should begin by clearly noting when and where the event occurred.   - Include the exact date, specific time, and location (e.g...."
+    },
+    {
+      "chunk_id": 102,
+      "file": "chunk_102.txt",
+      "metadata": {
+        "chunk_id": 102,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 481,
+        "char_count": 3335,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Key Purpose:**   - Resolve the reported issue.   - Prevent similar incidents in the future.   - Verify that safety improvements are sustained.   After identifying, reporting, and addressing healt..."
+    },
+    {
+      "chunk_id": 103,
+      "file": "chunk_103.txt",
+      "metadata": {
+        "chunk_id": 103,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 505,
+        "char_count": 3467,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **b. Suggest Corrective Action (Immediate Fix)**   **Corrective actions** are short-term steps taken to address the current issue immediately.   These actions aim to **remove the hazard or repair t..."
+    },
+    {
+      "chunk_id": 104,
+      "file": "chunk_104.txt",
+      "metadata": {
+        "chunk_id": 104,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 516,
+        "char_count": 3327,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Multiple-Choice Questions (MCQ)**   ## **1. Which of the following is a key personnel to notify when a health and safety concern is identified?**   ## a) Workers on break   - b) Only the manager..."
+    },
+    {
+      "chunk_id": 105,
+      "file": "chunk_105.txt",
+      "metadata": {
+        "chunk_id": 105,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 460,
+        "char_count": 3267,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **True/False Questions Answer:**   1. A report on a chemical spill should be submitted immediately, even if the situation is not fully assessed.   **Answer Key** : True   2. The severity of a healt..."
+    },
+    {
+      "chunk_id": 106,
+      "file": "chunk_106.txt",
+      "metadata": {
+        "chunk_id": 106,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 456,
+        "char_count": 3333,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Employer and Worker Responsibilities in Maintaining Safety**   A safe workplace is a shared responsibility between employers and workers. Each has a critical role in creating and sustaining a saf..."
+    },
+    {
+      "chunk_id": 107,
+      "file": "chunk_107.txt",
+      "metadata": {
+        "chunk_id": 107,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 368,
+        "char_count": 2483,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Types of Training**   Effective safety training is crucial for ensuring that workers understand the potential risks they face and are equipped with the knowledge to mitigate these risks. Accordin..."
+    },
+    {
+      "chunk_id": 108,
+      "file": "chunk_108.txt",
+      "metadata": {
+        "chunk_id": 108,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 458,
+        "char_count": 3214,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **2. Refresher Courses**   Even after induction, continuous learning is necessary to keep employees updated on safety practices and procedures, especially as workplace environments and regulations..."
+    },
+    {
+      "chunk_id": 109,
+      "file": "chunk_109.txt",
+      "metadata": {
+        "chunk_id": 109,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 412,
+        "char_count": 2935,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## b) **Key Techniques for Identifying Risks** :   - i) **Visual Aids** : Use of posters, warning signs, digital tools, and checklists to help workers identify hazards easily.   - ii) **Engagement wit..."
+    },
+    {
+      "chunk_id": 110,
+      "file": "chunk_110.txt",
+      "metadata": {
+        "chunk_id": 110,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 493,
+        "char_count": 3359,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## b) **Simulated Drills** :   - i) Simulated emergency drills (e.g., fire drills, chemical spill response) allow employees to practice what they have learned in a real-world scenario without the actu..."
+    },
+    {
+      "chunk_id": 111,
+      "file": "chunk_111.txt",
+      "metadata": {
+        "chunk_id": 111,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 396,
+        "char_count": 2711,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## b) **Peer Reviews** :   - i) Allow workers to participate in peer reviews where they assess the safety practices of their colleagues. This can help identify potential safety risks that may go unnot..."
+    },
+    {
+      "chunk_id": 112,
+      "file": "chunk_112.txt",
+      "metadata": {
+        "chunk_id": 112,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 383,
+        "char_count": 2635,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **5.3 Displaying and Communicating Safety Information**   Displaying safety information clearly and prominently in the workplace is a vital aspect of promoting a safety culture. It helps workers st..."
+    },
+    {
+      "chunk_id": 113,
+      "file": "chunk_113.txt",
+      "metadata": {
+        "chunk_id": 113,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 460,
+        "char_count": 3230,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **5.4 Conducting Regular Safety Meetings**   Safety meetings are essential for maintaining a constant focus on workplace safety and for creating an atmosphere where workers are encouraged to speak..."
+    },
+    {
+      "chunk_id": 114,
+      "file": "chunk_114.txt",
+      "metadata": {
+        "chunk_id": 114,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 475,
+        "char_count": 3452,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **5.6 Encouraging and Responding to Worker Feedback**   A critical aspect of fostering a culture of safety is actively seeking and responding to worker feedback on safety issues. This includes:   -..."
+    },
+    {
+      "chunk_id": 115,
+      "file": "chunk_115.txt",
+      "metadata": {
+        "chunk_id": 115,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 478,
+        "char_count": 3432,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **B. Safety Meetings and Toolbox Talks**   - Regular short meetings conducted by supervisors or safety officers to discuss safety issues, review incidents, and invite feedback from workers.   - Wor..."
+    },
+    {
+      "chunk_id": 116,
+      "file": "chunk_116.txt",
+      "metadata": {
+        "chunk_id": 116,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 419,
+        "char_count": 2873,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## 4. **Where should safety information like hazard signs be prominently displayed in the**   - **workplace?**   - a) Only in the training room   - b) At workstations and high-risk areas   - c) In the..."
+    },
+    {
+      "chunk_id": 117,
+      "file": "chunk_117.txt",
+      "metadata": {
+        "chunk_id": 117,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 456,
+        "char_count": 3398,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **True/False Questions Answers:**   1. **Regular safety meetings** help ensure that safety is continuously discussed and reinforced among workers.   **Answer** : True   2. **Safety procedures** sho..."
+    },
+    {
+      "chunk_id": 118,
+      "file": "chunk_118.txt",
+      "metadata": {
+        "chunk_id": 118,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 471,
+        "char_count": 3455,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Information Sheet 3.1**   **Learning Outcome-1:** Explain service and employment conditions   **Learning Objective:** After completion of this information sheet, the learners will be able to expl..."
+    },
+    {
+      "chunk_id": 119,
+      "file": "chunk_119.txt",
+      "metadata": {
+        "chunk_id": 119,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Mention one legal and one reputational consequence of failing to manage workplace hazards",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 519,
+        "char_count": 3359,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Employment Classification**   ## **A. Permanent Worker**   A permanent worker is employed on a full-time basis and has completed the probationary period successfully.   ## **Key Points:**   - Ent..."
+    },
+    {
+      "chunk_id": 120,
+      "file": "chunk_120.txt",
+      "metadata": {
+        "chunk_id": 120,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Paid Leave",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 481,
+        "char_count": 3264,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **C. Overtime Regulations**   - The standard working hour is 8 hours per day and 48 hours per week.   - Workers may work up to 2 hours of overtime per day, making a maximum of 10 hours.   - Overtim..."
+    },
+    {
+      "chunk_id": 121,
+      "file": "chunk_121.txt",
+      "metadata": {
+        "chunk_id": 121,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Service Benefits",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 492,
+        "char_count": 3294,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **5. Service Benefits:**   - As per BLL employees will get service benefit after completion of 5 years employment.   **Example:** Employees receive 70 days basic payment after lawful resign.   ## *..."
+    },
+    {
+      "chunk_id": 122,
+      "file": "chunk_122.txt",
+      "metadata": {
+        "chunk_id": 122,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 510,
+        "char_count": 3476,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.10",
+      "preview": "## **E. Right to Freedom of Association and Collective Bargaining**   - Workers have the right to form or join trade unions to represent their interests collectively.   - They can negotiate with emplo..."
+    },
+    {
+      "chunk_id": 123,
+      "file": "chunk_123.txt",
+      "metadata": {
+        "chunk_id": 123,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 467,
+        "char_count": 3347,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.10",
+      "preview": "## **1.3 Employment Contracts and Work Responsibilities**   A written or verbal agreement between the employer and the employee outlining job role, responsibilities, working conditions, wages, and ben..."
+    },
+    {
+      "chunk_id": 124,
+      "file": "chunk_124.txt",
+      "metadata": {
+        "chunk_id": 124,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 494,
+        "char_count": 3351,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.10",
+      "preview": "## **2. Job Description**   A job description outlines the worker’s roles, duties, and responsibilities within the organization. It helps workers understand what is expected of them and allows supervi..."
+    },
+    {
+      "chunk_id": 125,
+      "file": "chunk_125.txt",
+      "metadata": {
+        "chunk_id": 125,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 417,
+        "char_count": 2883,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.10",
+      "preview": "## **Eligibility and Calculation:**   - A worker who has completed at least five years of continuous service is eligible for gratuity.   - The amount is usually equivalent to 30 days of wages for each..."
+    },
+    {
+      "chunk_id": 126,
+      "file": "chunk_126.txt",
+      "metadata": {
+        "chunk_id": 126,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 487,
+        "char_count": 3325,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.10",
+      "preview": "## **B. Maintaining Workplace Hygiene and Sanitation**   The law mandates that employers ensure cleanliness and hygiene in the workplace to prevent illness and promote health. Legal provisions include..."
+    },
+    {
+      "chunk_id": 127,
+      "file": "chunk_127.txt",
+      "metadata": {
+        "chunk_id": 127,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 432,
+        "char_count": 3175,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.10",
+      "preview": "## **C. Report Unsafe Conditions or Incidents**   Workers should promptly report any unsafe condition, accident, or near-miss to their supervisor or safety officer. Reporting helps prevent future acci..."
+    },
+    {
+      "chunk_id": 128,
+      "file": "chunk_128.txt",
+      "metadata": {
+        "chunk_id": 128,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 472,
+        "char_count": 3334,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.10",
+      "preview": "## **A. Wage-Related Disputes**   These are the most common disputes in garment factories and often involve:   - Delayed or non-payment of wages within the legally required 7 working days after the wa..."
+    },
+    {
+      "chunk_id": 129,
+      "file": "chunk_129.txt",
+      "metadata": {
+        "chunk_id": 129,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 487,
+        "char_count": 3466,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.10",
+      "preview": "## **Step 2: Acknowledgment and Registration**   - The HR or compliance officer records the grievance in a Grievance Register and provides an acknowledgment receipt to the worker.   - This ensures the..."
+    },
+    {
+      "chunk_id": 130,
+      "file": "chunk_130.txt",
+      "metadata": {
+        "chunk_id": 130,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 447,
+        "char_count": 3175,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.10",
+      "preview": "## **Provisions Ensuring Job Security and Protection from Unfair Termination**   The **Bangladesh Labor Act, 2006 (Sections 20–34)** outlines the legal procedures for employment continuity and termina..."
+    },
+    {
+      "chunk_id": 131,
+      "file": "chunk_131.txt",
+      "metadata": {
+        "chunk_id": 131,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Grievance Redress",
+        "section_number": "10",
+        "subsections": [],
+        "word_count": 432,
+        "char_count": 2969,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.10",
+      "preview": "## **B. Protection from Discrimination**   - The law prohibits discrimination in recruitment, promotion, wages, or work assignment on the basis of gender, religion, ethnicity, or social background...."
+    },
+    {
+      "chunk_id": 132,
+      "file": "chunk_132.txt",
+      "metadata": {
+        "chunk_id": 132,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What are the key legal rights of workers in Bangladesh regarding pay, leave, and safety? Answer",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 480,
+        "char_count": 3206,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **D. Welfare and Recreational Facilities**   To enhance worker welfare, factories are also required to provide:   - **Canteens** (for factories with 250+ workers).   - **Rest rooms and lunch spaces..."
+    },
+    {
+      "chunk_id": 133,
+      "file": "chunk_133.txt",
+      "metadata": {
+        "chunk_id": 133,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 335,
+        "char_count": 2213,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Multiple Choice Questions (MCQs) Answer:**   **1. Which of the following best defines Service and Employment Conditions under Bangladesh Labor Law?** Answer: B   **2. Under Bangladesh Labor Law,..."
+    },
+    {
+      "chunk_id": 134,
+      "file": "chunk_134.txt",
+      "metadata": {
+        "chunk_id": 134,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 395,
+        "char_count": 3395,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Drawing/ Diagram/ Worksheet:**   ||**Worksheet:**(Please use extra sheet as required)|**Worksheet:**(Please use extra sheet as required)|**Worksheet:**(Please use extra sheet as required)|**Works..."
+    },
+    {
+      "chunk_id": 135,
+      "file": "chunk_135.txt",
+      "metadata": {
+        "chunk_id": 135,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 334,
+        "char_count": 2509,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Definition and Purpose of Employment Benefits**   Employment benefits refer to the additional advantages or services provided to workers in addition to their regular wages or salaries. These bene..."
+    },
+    {
+      "chunk_id": 136,
+      "file": "chunk_136.txt",
+      "metadata": {
+        "chunk_id": 136,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 397,
+        "char_count": 3464,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.2",
+      "preview": "## **C. Compliance and Reputation:**   - Adhering to labor law benefit provisions ensures **buyer compliance** and a positive reputation in international markets.   - Factories that provide benefits e..."
+    },
+    {
+      "chunk_id": 137,
+      "file": "chunk_137.txt",
+      "metadata": {
+        "chunk_id": 137,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 478,
+        "char_count": 3267,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **2.2 Workers’ Entitlement to Benefits**   Workers’ entitlements refer to the legally guaranteed benefits that employees must receive from their employer, such as paid leave, holidays, bonuses, ret..."
+    },
+    {
+      "chunk_id": 138,
+      "file": "chunk_138.txt",
+      "metadata": {
+        "chunk_id": 138,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 509,
+        "char_count": 3464,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **C. Leave Entitlements**   1. **Casual Leave:** 10 days per year for all workers after completing 1 year of service.   2. **Sick Leave:** 14 days per year with full pay, supported by a medical cer..."
+    },
+    {
+      "chunk_id": 139,
+      "file": "chunk_139.txt",
+      "metadata": {
+        "chunk_id": 139,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 480,
+        "char_count": 3273,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **C. Maternity Benefit Claim Procedure**   - Female workers must submit a medical certificate confirming the expected date of delivery.   - Application should be made at least 8 weeks before the ex..."
+    },
+    {
+      "chunk_id": 140,
+      "file": "chunk_140.txt",
+      "metadata": {
+        "chunk_id": 140,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 486,
+        "char_count": 3271,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Examples**   - a. **Medical Facilities:** Availability of first aid boxes, factory medical room, and a registered doctor or nurse.   - b. **Personal Protective Equipment (PPE):** Gloves, masks, e..."
+    },
+    {
+      "chunk_id": 141,
+      "file": "chunk_141.txt",
+      "metadata": {
+        "chunk_id": 141,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Why must employment contracts be written in a language understandable to workers? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 509,
+        "char_count": 3475,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **A. Provision of Medical Facilities**   ## 1. **Medical Room / Dispensary (Section 91):**   - Factories with more than 500 workers must establish a medical room or dispensary on the premises.   -..."
+    },
+    {
+      "chunk_id": 142,
+      "file": "chunk_142.txt",
+      "metadata": {
+        "chunk_id": 142,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Define employment benefits according to Bangladesh Labor Law and company policy. Answer",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 516,
+        "char_count": 3399,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **Multiple Choice Questions (MCQs):**   ## **1. Which of the following is considered a non-financial employment benefit?**      - a) Festival bonus      - b) Paid leave      - c) Medical support..."
+    },
+    {
+      "chunk_id": 143,
+      "file": "chunk_143.txt",
+      "metadata": {
+        "chunk_id": 143,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Explain why health and safety benefits are important for both workers and employers. Answer",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 320,
+        "char_count": 2463,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Procedure:**   - Observe and wear personal protective equipment (PPE) as required for the task to be performed.   - Read the specification information provided.   - Collect all materials needed t..."
+    },
+    {
+      "chunk_id": 144,
+      "file": "chunk_144.txt",
+      "metadata": {
+        "chunk_id": 144,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Explain why health and safety benefits are important for both workers and employers. Answer",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 441,
+        "char_count": 3414,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Information Sheet 3.3**   **Learning Outcome-3:** Implement the provisions on employee welfare facilities.   **Learning Objective:** After completion of this information sheet, the learners will..."
+    },
+    {
+      "chunk_id": 145,
+      "file": "chunk_145.txt",
+      "metadata": {
+        "chunk_id": 145,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Explain why health and safety benefits are important for both workers and employers. Answer",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 475,
+        "char_count": 3378,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Health and Medical Welfare**   Health and medical welfare facilities are services provided by employers to ensure workers’ physical and mental well-being and to prevent occupational diseases or i..."
+    },
+    {
+      "chunk_id": 146,
+      "file": "chunk_146.txt",
+      "metadata": {
+        "chunk_id": 146,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Explain why health and safety benefits are important for both workers and employers. Answer",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 386,
+        "char_count": 2793,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## 4. **Welfare Officer’s Role:**   - Factories with more than **500 workers** must appoint a **Welfare Officer** responsible for organizing welfare and recreational programs and maintaining welfare f..."
+    },
+    {
+      "chunk_id": 147,
+      "file": "chunk_147.txt",
+      "metadata": {
+        "chunk_id": 147,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Explain why health and safety benefits are important for both workers and employers. Answer",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 413,
+        "char_count": 3200,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **B. Core Employer Responsibilities**   ## 1. **Provision of Basic Facilities**      - Employers must install and maintain essential welfare amenities (water, toilets, medical room, rest area, etc...."
+    },
+    {
+      "chunk_id": 148,
+      "file": "chunk_148.txt",
+      "metadata": {
+        "chunk_id": 148,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Explain why health and safety benefits are important for both workers and employers. Answer",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 368,
+        "char_count": 2967,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Inclusivity and Equality at the Workplace**   **Definition of Inclusivity:** Inclusivity means creating a workplace environment where everyone— regardless of their abilities, gender, age, or back..."
+    },
+    {
+      "chunk_id": 149,
+      "file": "chunk_149.txt",
+      "metadata": {
+        "chunk_id": 149,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Providing ramps and accessible toilets in a factory is an example of",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 430,
+        "char_count": 3065,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Job Placement, Training, and Welfare Support for Employees with Special Needs Job Placement and Recruitment**   - Identify suitable job roles matching individual abilities (e.g., quality checking..."
+    },
+    {
+      "chunk_id": 150,
+      "file": "chunk_150.txt",
+      "metadata": {
+        "chunk_id": 150,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What is the main purpose of providing daycare facilities at the workplace? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 439,
+        "char_count": 3125,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **5. Which of the following statements is TRUE regarding employee welfare facilities?**   - a) Only financial benefits count as welfare facilities.   - b) Welfare facilities should ensure comfort,..."
+    },
+    {
+      "chunk_id": 151,
+      "file": "chunk_151.txt",
+      "metadata": {
+        "chunk_id": 151,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Which of the following statements is TRUE regarding employee welfare facilities? Answer",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 306,
+        "char_count": 2237,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Objective**   - To help learners identify maternity leave provisions under the law and company policy.   - To ensure employees understand their rights and entitlements.   ## **Explanation**   - F..."
+    },
+    {
+      "chunk_id": 152,
+      "file": "chunk_152.txt",
+      "metadata": {
+        "chunk_id": 152,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Which of the following statements is TRUE regarding employee welfare facilities? Answer",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 474,
+        "char_count": 3351,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Employer’s Role and Responsibilities**   Employers play a key role in implementing maternity leave and benefit provisions. Their responsibility goes beyond providing paid leave—it includes creati..."
+    },
+    {
+      "chunk_id": 153,
+      "file": "chunk_153.txt",
+      "metadata": {
+        "chunk_id": 153,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Which of the following statements is TRUE regarding employee welfare facilities? Answer",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 453,
+        "char_count": 3221,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## 6. **Health and Safety Provisions:**   - Pregnant workers should not be assigned tasks involving excessive physical strain or hazardous conditions.   - The employer must provide a safe and hygienic..."
+    },
+    {
+      "chunk_id": 154,
+      "file": "chunk_154.txt",
+      "metadata": {
+        "chunk_id": 154,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Which of the following statements is TRUE regarding employee welfare facilities? Answer",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 434,
+        "char_count": 3114,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Types of Maternity Benefits**   Maternity benefits include both health-related and financial supports designed to protect women workers during pregnancy and after childbirth. These benefits ensur..."
+    },
+    {
+      "chunk_id": 155,
+      "file": "chunk_155.txt",
+      "metadata": {
+        "chunk_id": 155,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Which of the following statements is TRUE regarding employee welfare facilities? Answer",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 449,
+        "char_count": 3180,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Ethical Responsibilities**   Beyond legal compliance, ethical responsibility involves creating an inclusive and supportive work culture.   Employers should:   - Show empathy and provide emotional..."
+    },
+    {
+      "chunk_id": 156,
+      "file": "chunk_156.txt",
+      "metadata": {
+        "chunk_id": 156,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Which of the following statements is TRUE regarding employee welfare facilities? Answer",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 438,
+        "char_count": 3206,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **4.3 Calculation of Maternity Benefits**   **Definition:** Maternity benefit calculation refers to the method of determining the correct wage or allowance to be paid to eligible female employees d..."
+    },
+    {
+      "chunk_id": 157,
+      "file": "chunk_157.txt",
+      "metadata": {
+        "chunk_id": 157,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Which of the following statements is TRUE regarding employee welfare facilities? Answer",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 447,
+        "char_count": 3401,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## 3. **Maternity Benefit Register / Payment Register:**      - Records all details of benefit calculations, payment dates, amounts, and receipts.      - Should be updated and signed by the HR officer..."
+    },
+    {
+      "chunk_id": 158,
+      "file": "chunk_158.txt",
+      "metadata": {
+        "chunk_id": 158,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 430,
+        "char_count": 2800,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## 2. **Supervisor to HR Department:**   - The supervisor forwards the completed leave application and medical certificate to HR.   - HR verifies eligibility and initiates benefit calculations.   ## 3..."
+    },
+    {
+      "chunk_id": 159,
+      "file": "chunk_159.txt",
+      "metadata": {
+        "chunk_id": 159,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "List three types of benefits provided to eligible employees during maternity leave. Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 509,
+        "char_count": 3386,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **5. Which of the following statements is TRUE about maternity benefits?**   - a) Only employees with more than 5 years of service are eligible.   - b) Employers are legally required to provide pai..."
+    },
+    {
+      "chunk_id": 160,
+      "file": "chunk_160.txt",
+      "metadata": {
+        "chunk_id": 160,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 401,
+        "char_count": 3071,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Caution:**   1. Maintain confidentiality of the employee’s personal and medical information.   2. Ensure accurate data entry to avoid underpayment or overpayment.   3. Handle financial documents..."
+    },
+    {
+      "chunk_id": 161,
+      "file": "chunk_161.txt",
+      "metadata": {
+        "chunk_id": 161,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 327,
+        "char_count": 2632,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Assessment Criteria:**   1. Environmental issues to the RMG sector are understood.   2. Bangladesh Environmental Conservation Act 1995 is described.   3. Environmental compliance requirements and..."
+    },
+    {
+      "chunk_id": 162,
+      "file": "chunk_162.txt",
+      "metadata": {
+        "chunk_id": 162,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 383,
+        "char_count": 2905,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Contents:**   - 1.1 Environmental Issues   - 1.2 Bangladesh Environmental Conservation Act, 1995   - 1.3 Environmental Compliance and Legislative Requirements   - 1.4 Environmental Risks Associat..."
+    },
+    {
+      "chunk_id": 163,
+      "file": "chunk_163.txt",
+      "metadata": {
+        "chunk_id": 163,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 405,
+        "char_count": 2954,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Water Management**   Water is a vital resource in the RMG industry, mainly used for dyeing, washing, and finishing garments. Excessive water consumption puts pressure on local water resources and..."
+    },
+    {
+      "chunk_id": 164,
+      "file": "chunk_164.txt",
+      "metadata": {
+        "chunk_id": 164,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 384,
+        "char_count": 2912,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **1.2 Bangladesh Environmental Conservation Act (BECA), 1995**   The Bangladesh Environmental Conservation Act (BECA), 1995 is the key law for protecting the environment in Bangladesh. It establish..."
+    },
+    {
+      "chunk_id": 165,
+      "file": "chunk_165.txt",
+      "metadata": {
+        "chunk_id": 165,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 269,
+        "char_count": 1978,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Key Provisions Related to Industrial Pollution Control**   The ECA 1995 sets out several regulatory provisions for industries, especially those involved in manufacturing and production. These pro..."
+    },
+    {
+      "chunk_id": 166,
+      "file": "chunk_166.txt",
+      "metadata": {
+        "chunk_id": 166,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 380,
+        "char_count": 3366,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Establishment of Environmental Standards**   - The Act empowers the DoE to set environmental quality standards, including:      - Ambient air quality standards.      - Water quality standards...."
+    },
+    {
+      "chunk_id": 167,
+      "file": "chunk_167.txt",
+      "metadata": {
+        "chunk_id": 167,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 389,
+        "char_count": 3317,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Key Compliance Requirements:**   - **Waste Disposal:** Proper disposal of hazardous and non-hazardous waste, including chemicals, fabric scraps, and packaging materials, is required by law.   - *..."
+    },
+    {
+      "chunk_id": 168,
+      "file": "chunk_168.txt",
+      "metadata": {
+        "chunk_id": 168,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Maternity benefits are calculated based on",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 288,
+        "char_count": 2882,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Reporting Procedures**   Factories must regularly submit environmental reports to the Department of Environment **(DoE)** and, in some cases, to buyers or certification bodies.   ## **Typical Rep..."
+    },
+    {
+      "chunk_id": 169,
+      "file": "chunk_169.txt",
+      "metadata": {
+        "chunk_id": 169,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Water Management",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 421,
+        "char_count": 3100,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **1.4 Environmental Risks Associated with Manufacturing Processes**   The manufacturing processes in the RMG sector carry several environmental risks, and it is essential for workers to recognize t..."
+    },
+    {
+      "chunk_id": 170,
+      "file": "chunk_170.txt",
+      "metadata": {
+        "chunk_id": 170,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Waste Management",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 316,
+        "char_count": 2517,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **4. Waste Management:**   - Sort waste into hazardous and non-hazardous categories.   - Recycle fabric scraps, plastic, and paper products to reduce landfill waste.   - Ensure waste is disposed of..."
+    },
+    {
+      "chunk_id": 171,
+      "file": "chunk_171.txt",
+      "metadata": {
+        "chunk_id": 171,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Pollution Control",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 416,
+        "char_count": 3143,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **1.5 Strategies for Reducing the Environmental Footprint**   **Waste Reduction:** Waste reduction involves minimizing waste production by improving material usage, reusing scrap fabrics, and recyc..."
+    },
+    {
+      "chunk_id": 172,
+      "file": "chunk_172.txt",
+      "metadata": {
+        "chunk_id": 172,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Pollution Control",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 459,
+        "char_count": 3231,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## 3. **Implement Best Practices and Technology:**      - **Water Management:** Install water-saving devices, recycle water, and treat wastewater before discharge.      - **Waste Reduction:** Adopt wa..."
+    },
+    {
+      "chunk_id": 173,
+      "file": "chunk_173.txt",
+      "metadata": {
+        "chunk_id": 173,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Pollution Control",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 357,
+        "char_count": 2654,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## 6. **What is one of the environmental impacts of improper chemical management in RMG**      - **factories?**      - a) Contamination of water and soil      - b) Increase in fabric production      -..."
+    },
+    {
+      "chunk_id": 174,
+      "file": "chunk_174.txt",
+      "metadata": {
+        "chunk_id": 174,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What is the main purpose of using dust control systems in RMG factories? Answer",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 173,
+        "char_count": 1151,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Multiple Choice Questions (MCQs)**   ## **1.Which of the following is a proper practice for managing hazardous waste in RMG factories?**   **Answer:** a) Segregate hazardous and non-hazardous was..."
+    },
+    {
+      "chunk_id": 175,
+      "file": "chunk_175.txt",
+      "metadata": {
+        "chunk_id": 175,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 353,
+        "char_count": 3405,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Task Sheet- 4.1**   **Task Name:** List and describe key provision related to industrial pollution control under ECA1995.   ||**Instructions:**|**Instructions:**|**Instructions:**| |---|---|---|-..."
+    },
+    {
+      "chunk_id": 176,
+      "file": "chunk_176.txt",
+      "metadata": {
+        "chunk_id": 176,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 464,
+        "char_count": 3312,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Information Sheet 4.2**   **Learning Outcome-2:** Explain water, energy and chemical management practices.   **Learning Objective:** After completion of this information sheet, the learners will..."
+    },
+    {
+      "chunk_id": 177,
+      "file": "chunk_177.txt",
+      "metadata": {
+        "chunk_id": 177,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 479,
+        "char_count": 3494,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Key Practices for Water Treatment:**   - Ensure that wastewater is treated properly in effluent treatment plants (ETPs) to remove pollutants before discharge.   - Implement filtration and chemica..."
+    },
+    {
+      "chunk_id": 178,
+      "file": "chunk_178.txt",
+      "metadata": {
+        "chunk_id": 178,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 371,
+        "char_count": 2790,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Benefits of Using Renewable Energy:**   - **Reduction in greenhouse gas emissions** by decreasing dependence on fossil fuels.   - **Lower energy costs** over time as renewable energy sources have..."
+    },
+    {
+      "chunk_id": 179,
+      "file": "chunk_179.txt",
+      "metadata": {
+        "chunk_id": 179,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 434,
+        "char_count": 3239,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **2.3 Strategies for minimizing energy consumption**   ## **Use of energy-saving equipment**   Energy-saving equipment refers to machines, appliances, and tools designed to use less electricity whi..."
+    },
+    {
+      "chunk_id": 180,
+      "file": "chunk_180.txt",
+      "metadata": {
+        "chunk_id": 180,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 450,
+        "char_count": 3290,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Use of Renewable Energy (Solar)**   The use of renewable energy, particularly solar power, can significantly reduce a factory’s dependency on fossil fuels, lower energy costs, and contribute to s..."
+    },
+    {
+      "chunk_id": 181,
+      "file": "chunk_181.txt",
+      "metadata": {
+        "chunk_id": 181,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 470,
+        "char_count": 3391,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Handling Procedures**   Handling procedures ensure that chemicals are used in a manner that is safe for workers and minimizes the risk of spills, accidents, or exposure. Proper handling practices..."
+    },
+    {
+      "chunk_id": 182,
+      "file": "chunk_182.txt",
+      "metadata": {
+        "chunk_id": 182,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 438,
+        "char_count": 3386,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Zero Discharge of Hazardous Chemicals (ZDHC)**   The Zero Discharge of Hazardous Chemicals (ZDHC) initiative is a global effort to eliminate the discharge of harmful chemicals into the environmen..."
+    },
+    {
+      "chunk_id": 183,
+      "file": "chunk_183.txt",
+      "metadata": {
+        "chunk_id": 183,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 431,
+        "char_count": 3086,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **2.5 Wastewater Treatment System**   In the Ready-Made Garment (RMG) industry, wastewater treatment plays a crucial role in reducing the environmental impact of the manufacturing process. Given th..."
+    },
+    {
+      "chunk_id": 184,
+      "file": "chunk_184.txt",
+      "metadata": {
+        "chunk_id": 184,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 453,
+        "char_count": 3385,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **3. Secondary Treatment (Biological Processes)**   - The secondary treatment process uses biological methods to degrade organic pollutants in the wastewater.      - **Aeration** : Microorganisms b..."
+    },
+    {
+      "chunk_id": 185,
+      "file": "chunk_185.txt",
+      "metadata": {
+        "chunk_id": 185,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 527,
+        "char_count": 3497,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Self-Check -4.2**   ## **Short Questions:**   1. What is the primary benefit of water conservation in RMG factories?   2. What is the role of effluent treatment plants (ETPs) in water recycling?..."
+    },
+    {
+      "chunk_id": 186,
+      "file": "chunk_186.txt",
+      "metadata": {
+        "chunk_id": 186,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 469,
+        "char_count": 3278,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **2.What is the role of effluent treatment plants (ETPs) in water recycling?**   **Answer:** ETPs treat wastewater by removing harmful chemicals and contaminants, making the water safe for reuse in..."
+    },
+    {
+      "chunk_id": 187,
+      "file": "chunk_187.txt",
+      "metadata": {
+        "chunk_id": 187,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 273,
+        "char_count": 1816,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Instructions:**   ## **Read and understand the directions carefully:**   - this practical demonstration is based on the performance criteria from all or some of the units of competency in Social..."
+    },
+    {
+      "chunk_id": 188,
+      "file": "chunk_188.txt",
+      "metadata": {
+        "chunk_id": 188,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 299,
+        "char_count": 3288,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Drawing/ Diagram/ Worksheet:**   Social Compliance & Environmental Management   ||Worksheet on Key Chemical Disposal Practices and Their Importance in RMG Industries<br>**:**(Please use extra she..."
+    },
+    {
+      "chunk_id": 189,
+      "file": "chunk_189.txt",
+      "metadata": {
+        "chunk_id": 189,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 469,
+        "char_count": 3495,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Contents:**   - 3.1 Greening practices in the RMG   - 3.2 Waste management practices   - 3.3 Use of sustainable materials   - 3.4 Green certifications   ## **3.1 Greening Practices in the RMG Sec..."
+    },
+    {
+      "chunk_id": 190,
+      "file": "chunk_190.txt",
+      "metadata": {
+        "chunk_id": 190,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 438,
+        "char_count": 3330,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Reducing Waste Materials**   Waste reduction focuses on minimizing the generation of waste during production by improving processes and maximizing the use of raw materials.   ## **Key Practices:*..."
+    },
+    {
+      "chunk_id": 191,
+      "file": "chunk_191.txt",
+      "metadata": {
+        "chunk_id": 191,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 503,
+        "char_count": 3468,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **ISO 14001 (Environmental Management System)**   ISO 14001 is an international standard that sets out the criteria for an environmental management system (EMS). It provides a framework for improvi..."
+    },
+    {
+      "chunk_id": 192,
+      "file": "chunk_192.txt",
+      "metadata": {
+        "chunk_id": 192,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 432,
+        "char_count": 3048,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Answer Key- 4.3**   ## **Short Questions Answers:**   ## **1. What are greening practices in the RMG sector?**   **Answer** : Greening practices involve adopting sustainable technologies and proc..."
+    },
+    {
+      "chunk_id": 193,
+      "file": "chunk_193.txt",
+      "metadata": {
+        "chunk_id": 193,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 394,
+        "char_count": 2815,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **4.1 Pollution Control Measures**   Pollution control measures in the Ready-Made Garment (RMG) sector are essential for minimizing the environmental impact of production processes. These measures..."
+    },
+    {
+      "chunk_id": 194,
+      "file": "chunk_194.txt",
+      "metadata": {
+        "chunk_id": 194,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 473,
+        "char_count": 3393,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Techniques for Managing Soil Pollution**   Soil pollution is a significant concern in the RMG sector, primarily due to the improper disposal of   Social Compliance & Environmental Management   ha..."
+    },
+    {
+      "chunk_id": 195,
+      "file": "chunk_195.txt",
+      "metadata": {
+        "chunk_id": 195,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 325,
+        "char_count": 2437,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **4.3 Use of eco-friendly materials**   ## **Use of Eco-Friendly Materials and Processes to Minimize Pollution**   The use of eco-friendly materials and sustainable production processes helps reduc..."
+    },
+    {
+      "chunk_id": 196,
+      "file": "chunk_196.txt",
+      "metadata": {
+        "chunk_id": 196,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What must RMG factories do before discharging wastewater into local water bodies? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 395,
+        "char_count": 2646,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Self-Check - 4.4**   ## **Short Questions:**   1. What role do effluent treatment plants (ETPs) play in managing water pollution?   2. What are some methods for managing soil pollution in RMG fac..."
+    },
+    {
+      "chunk_id": 197,
+      "file": "chunk_197.txt",
+      "metadata": {
+        "chunk_id": 197,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What is the role of certified waste disposal services in RMG factories? Answer",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 453,
+        "char_count": 3218,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Answer Key- 4.4**   ## **Short Questions Answers:**   1. **What role do effluent treatment plants (ETPs) play in managing water pollution?**   **Answer** : ETPs treat wastewater by removing harmf..."
+    },
+    {
+      "chunk_id": 198,
+      "file": "chunk_198.txt",
+      "metadata": {
+        "chunk_id": 198,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What are the benefits of recycling packaging materials in the RMG sector? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 444,
+        "char_count": 3426,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Information Sheet - 4.5**   **Learning Outcome-5:** Promote sustainable practices within the workplace.   **Learning Objective:** After completion of this information sheet, the learners will be..."
+    },
+    {
+      "chunk_id": 199,
+      "file": "chunk_199.txt",
+      "metadata": {
+        "chunk_id": 199,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What are the benefits of recycling packaging materials in the RMG sector? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 447,
+        "char_count": 3377,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Minimizing Water Usage**   Water is a vital resource in RMG production, especially in processes like dyeing, washing, and finishing. Efficient water use can significantly reduce operational costs..."
+    },
+    {
+      "chunk_id": 200,
+      "file": "chunk_200.txt",
+      "metadata": {
+        "chunk_id": 200,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What are the benefits of recycling packaging materials in the RMG sector? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 412,
+        "char_count": 3158,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Environmental and Operational Impact:**   - Waste Reduction: Biodegradable materials decompose naturally, reducing the accumulation of waste in landfills and decreasing pollution.   - Sustainable..."
+    },
+    {
+      "chunk_id": 201,
+      "file": "chunk_201.txt",
+      "metadata": {
+        "chunk_id": 201,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What are the benefits of recycling packaging materials in the RMG sector? Answer",
+        "section_number": "4",
+        "subsections": [],
+        "word_count": 469,
+        "char_count": 3124,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.4",
+      "preview": "## **Environmental and Operational Impact:**   - Increased Recycling Rates: By promoting waste segregation, factories improve their ability to recycle materials, reducing their overall waste.   - Redu..."
+    },
+    {
+      "chunk_id": 202,
+      "file": "chunk_202.txt",
+      "metadata": {
+        "chunk_id": 202,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "What is the water-saving technologies that RMG factories can implement? Answer",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 470,
+        "char_count": 3400,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **7. How does employee involvement benefit sustainability programs in RMG factories?**   - a) Encourages active participation in programs like energy saving and recycling   - b) Increases waste pro..."
+    },
+    {
+      "chunk_id": 203,
+      "file": "chunk_203.txt",
+      "metadata": {
+        "chunk_id": 203,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 454,
+        "char_count": 3471,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Module-5**   **Module Title: Understanding International Standards and Audit Requirements**   **Unit Code: SICIP-RMG-SCEM-05-O**   ## **Skills for Industry Competitiveness and Innovation Program..."
+    },
+    {
+      "chunk_id": 204,
+      "file": "chunk_204.txt",
+      "metadata": {
+        "chunk_id": 204,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 181,
+        "char_count": 1341,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## **ISO 14001 (Environmental Management)**   **ISO 14001** sets a framework for systematically managing environmental responsibilities. For the RMG sector, compliance with this standard ensures that..."
+    },
+    {
+      "chunk_id": 205,
+      "file": "chunk_205.txt",
+      "metadata": {
+        "chunk_id": 205,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 437,
+        "char_count": 3251,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## 2. **Planning** :   **Definition** : Planning involves identifying and evaluating the environmental aspects of the organization’s activities, products, and services. The goal is to assess the envir..."
+    },
+    {
+      "chunk_id": 206,
+      "file": "chunk_206.txt",
+      "metadata": {
+        "chunk_id": 206,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 443,
+        "char_count": 3226,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## 4. **Monitoring and Review** :   **Definition** : Monitoring and review are critical to assessing the effectiveness of the EMS and identifying opportunities for improvement. This phase ensures that..."
+    },
+    {
+      "chunk_id": 207,
+      "file": "chunk_207.txt",
+      "metadata": {
+        "chunk_id": 207,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 402,
+        "char_count": 2844,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Key Elements of ISO 9001:2015 Quality Management System** 1. **Customer Focus** :   **Definition** : Customer focus is at the core of ISO 9001. The organization must understand the needs and expe..."
+    },
+    {
+      "chunk_id": 208,
+      "file": "chunk_208.txt",
+      "metadata": {
+        "chunk_id": 208,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 372,
+        "char_count": 2621,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## 4. **Process Approach** :   **Definition** : ISO 9001 emphasizes managing activities and resources as processes, with a focus on efficiency and effectiveness.   **Details** :   - In the **RMG secto..."
+    },
+    {
+      "chunk_id": 209,
+      "file": "chunk_209.txt",
+      "metadata": {
+        "chunk_id": 209,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 405,
+        "char_count": 2983,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## 7. **Relationship Management** :   **Definition** : ISO 9001 also stresses the importance of managing relationships with suppliers, customers, and other stakeholders to ensure mutually beneficial o..."
+    },
+    {
+      "chunk_id": 210,
+      "file": "chunk_210.txt",
+      "metadata": {
+        "chunk_id": 210,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 373,
+        "char_count": 2615,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Key Elements of ISO 45001:2018**   ## **1. Risk Identification** :   **Definition** : The proactive identification of health and safety hazards within the workplace. This step involves evaluating..."
+    },
+    {
+      "chunk_id": 211,
+      "file": "chunk_211.txt",
+      "metadata": {
+        "chunk_id": 211,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 494,
+        "char_count": 3476,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **3. Compliance** :   **Definition** : Adhering to national and international safety regulations, laws, and standards to ensure that the organization meets the legal requirements for health and saf..."
+    },
+    {
+      "chunk_id": 212,
+      "file": "chunk_212.txt",
+      "metadata": {
+        "chunk_id": 212,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 159,
+        "char_count": 1069,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "3. **Enhanced Productivity** :      - A safe and healthy workplace is essential for ensuring that workers can perform their tasks efficiently without the fear of injury. By preventing accidents and en..."
+    },
+    {
+      "chunk_id": 213,
+      "file": "chunk_213.txt",
+      "metadata": {
+        "chunk_id": 213,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 340,
+        "char_count": 2528,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## 5. **Attraction of Global Clients** :   - Many international buyers and brands require their suppliers to have certifications such as **ISO 45001** to ensure that they maintain high health and safe..."
+    },
+    {
+      "chunk_id": 214,
+      "file": "chunk_214.txt",
+      "metadata": {
+        "chunk_id": 214,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 332,
+        "char_count": 2557,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Key Elements of GRI Reporting: 1. Sustainability Reporting** :   **Definition** : Sustainability reporting is the process of disclosing an organization’s environmental, social, and governance per..."
+    },
+    {
+      "chunk_id": 215,
+      "file": "chunk_215.txt",
+      "metadata": {
+        "chunk_id": 215,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 427,
+        "char_count": 3124,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **3. Materiality Assessment** :   **Definition** : Materiality refers to identifying and prioritizing the most important environmental, social, and governance topics for an organization. In GRI rep..."
+    },
+    {
+      "chunk_id": 216,
+      "file": "chunk_216.txt",
+      "metadata": {
+        "chunk_id": 216,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 464,
+        "char_count": 3477,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **3. Align with International Frameworks (GRI and Beyond)** :   **Best Practice** : In addition to following GRI standards, factories can integrate other sustainability frameworks into their operat..."
+    },
+    {
+      "chunk_id": 217,
+      "file": "chunk_217.txt",
+      "metadata": {
+        "chunk_id": 217,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 417,
+        "char_count": 2935,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## 3. **Sustainability Targets and Performance** :   - Companies must report on specific sustainability targets (e.g., carbon reduction, energy efficiency, waste reduction) and their performance again..."
+    },
+    {
+      "chunk_id": 218,
+      "file": "chunk_218.txt",
+      "metadata": {
+        "chunk_id": 218,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 350,
+        "char_count": 2453,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## 3. **Engage Stakeholders and Communicate Progress** :   **Best Practice** : Engage stakeholders, including customers, workers, and local communities, in sustainability initiatives and report on pro..."
+    },
+    {
+      "chunk_id": 219,
+      "file": "chunk_219.txt",
+      "metadata": {
+        "chunk_id": 219,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 455,
+        "char_count": 3114,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Key Elements of the European Green Deal (EUGD):**   ## 1. **Climate Neutrality by 2050** :      - The EU's goal to achieve climate neutrality by 2050 means that all sectors must reduce their carb..."
+    },
+    {
+      "chunk_id": 220,
+      "file": "chunk_220.txt",
+      "metadata": {
+        "chunk_id": 220,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 406,
+        "char_count": 2751,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## 2. **Waste Reduction (Circular Economy Practices)** :   **Best Practice** : Implementing circular economy practices to recycle materials and reduce waste is crucial for factories to meet the sustai..."
+    },
+    {
+      "chunk_id": 221,
+      "file": "chunk_221.txt",
+      "metadata": {
+        "chunk_id": 221,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 486,
+        "char_count": 3482,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **How to Implement** :   - **Water Recycling** : Install water recycling systems in dyeing units to treat and reuse water in the production process.   - **Efficient Dyeing Technologies** : Implemen..."
+    },
+    {
+      "chunk_id": 222,
+      "file": "chunk_222.txt",
+      "metadata": {
+        "chunk_id": 222,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 490,
+        "char_count": 3273,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## 1. **Expanded Reporting Requirements** :   **Impact** : RMG factories will need to provide detailed disclosures on various environmental and social issues, including their carbon footprint, water u..."
+    },
+    {
+      "chunk_id": 223,
+      "file": "chunk_223.txt",
+      "metadata": {
+        "chunk_id": 223,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 403,
+        "char_count": 2771,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Best Practices in the RMG Sector for CSRD Compliance:**   ## 1. **Disclose ESG Data** :   **Best Practice** : RMG factories should establish robust data collection systems to track their ESG perf..."
+    },
+    {
+      "chunk_id": 224,
+      "file": "chunk_224.txt",
+      "metadata": {
+        "chunk_id": 224,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 332,
+        "char_count": 2289,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **1.3 Code of conduct of major retailers and brands**   Major retailers and brands set their own Code of Conduct, which outlines the ethical and social standards that suppliers must follow. These c..."
+    },
+    {
+      "chunk_id": 225,
+      "file": "chunk_225.txt",
+      "metadata": {
+        "chunk_id": 225,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 522,
+        "char_count": 3491,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Key Principles of BSCI:**   BSCI provides a Code of Conduct that outlines the core principles for ethical labor practices within factories. These principles focus on ensuring that factories in th..."
+    },
+    {
+      "chunk_id": 226,
+      "file": "chunk_226.txt",
+      "metadata": {
+        "chunk_id": 226,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 345,
+        "char_count": 2409,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## 2. **Worker Training and Education** :   **Best Practice** : Regular training programs should be implemented to educate workers on their rights, health and safety standards, and compliance with BSC..."
+    },
+    {
+      "chunk_id": 227,
+      "file": "chunk_227.txt",
+      "metadata": {
+        "chunk_id": 227,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 495,
+        "char_count": 3396,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Ethical Trading Initiative (ETI)-SEDEX**   The **Ethical Trading Initiative (ETI)** is a global alliance of companies, trade unions, and nongovernmental organizations (NGOs) that works to promote..."
+    },
+    {
+      "chunk_id": 228,
+      "file": "chunk_228.txt",
+      "metadata": {
+        "chunk_id": 228,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 498,
+        "char_count": 3404,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## 2. **SEDEX (Supplier Ethical Data Exchange)** :   **SEDEX Platform** : SEDEX is an online platform where suppliers can upload and share data about their ethical sourcing and sustainability practice..."
+    },
+    {
+      "chunk_id": 229,
+      "file": "chunk_229.txt",
+      "metadata": {
+        "chunk_id": 229,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 405,
+        "char_count": 2812,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## 3. **Worker Training and Awareness** :   **Best Practice** : Ensure that all employees are trained on their rights, the factory’s policies on health and safety, and the importance of fair wages...."
+    },
+    {
+      "chunk_id": 230,
+      "file": "chunk_230.txt",
+      "metadata": {
+        "chunk_id": 230,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 487,
+        "char_count": 3252,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Impact on the RMG Sector:**   For **RMG factories** working with brands that follow ICS principles, compliance with the ICS framework is critical. These factories need to demonstrate social respo..."
+    },
+    {
+      "chunk_id": 231,
+      "file": "chunk_231.txt",
+      "metadata": {
+        "chunk_id": 231,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "How does employee involvement benefit sustainability programs in RMG factories? Answer",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 425,
+        "char_count": 2989,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **How to Implement** :   - Establish a workers’ council or similar representative body to ensure that workers have a channel to voice concerns and participate in decision-making processes.   - Ensu..."
+    },
+    {
+      "chunk_id": 232,
+      "file": "chunk_232.txt",
+      "metadata": {
+        "chunk_id": 232,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Explain the significance of the European Union Green Deal (EUGD) for RMG factories",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 502,
+        "char_count": 3251,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **2. Health and Safety Standards** :   **Best Practice** : Promote a culture of health and safety within the factory by ensuring that workplace conditions meet or exceed WRAP’s health and safety st..."
+    },
+    {
+      "chunk_id": 233,
+      "file": "chunk_233.txt",
+      "metadata": {
+        "chunk_id": 233,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "ISO 9001 is a standard focused on environmental management",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 502,
+        "char_count": 3436,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **True/False Questions:**   1. **ISO 9001 is a standard focused on environmental management.**   2. **The European Union Green Deal aims to make Europe climate-neutral by 2050.**   3. **BSCI ensure..."
+    },
+    {
+      "chunk_id": 234,
+      "file": "chunk_234.txt",
+      "metadata": {
+        "chunk_id": 234,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "ISO 14001 helps RMG factories improve their product quality through effective supply chain management",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 258,
+        "char_count": 1670,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Task Sheet- 5.1**   **Task Name:** Identify and Explain the Key Elements of ISO 9001:2015 and Their Impact on the RMG Sector.   ## **Instructions:**   ## **Read and understand the directions care..."
+    },
+    {
+      "chunk_id": 235,
+      "file": "chunk_235.txt",
+      "metadata": {
+        "chunk_id": 235,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "ISO 14001 helps RMG factories improve their product quality through effective supply chain management",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 362,
+        "char_count": 3437,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Drawing/ Diagram/ Worksheet:**   Social Compliance & Environmental Management   ||**Worksheet:**(Please use extra sheet as required)<br>**Sl.No.**<br>**Description/Items**<br>**(List the Key Elem..."
+    },
+    {
+      "chunk_id": 236,
+      "file": "chunk_236.txt",
+      "metadata": {
+        "chunk_id": 236,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "ISO 14001 helps RMG factories improve their product quality through effective supply chain management",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 408,
+        "char_count": 2976,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Focus Areas** :   - Labor rights and conditions   - Health and safety standards   - Freedom of association and collective bargaining   ## 2. **WRAP (Worldwide Responsible Accredited Production)**..."
+    },
+    {
+      "chunk_id": 237,
+      "file": "chunk_237.txt",
+      "metadata": {
+        "chunk_id": 237,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "ISO 14001 helps RMG factories improve their product quality through effective supply chain management",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 476,
+        "char_count": 3438,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Methodology for Internal Audits:**   ## 1. **Preparation** :   **Scope** : The first step in an internal audit is defining the scope of the audit. This includes identifying the areas, processes,..."
+    },
+    {
+      "chunk_id": 238,
+      "file": "chunk_238.txt",
+      "metadata": {
+        "chunk_id": 238,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "ISO 14001 helps RMG factories improve their product quality through effective supply chain management",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 364,
+        "char_count": 2700,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Methodology for External Audits**   ## 1. **Audit Preparation** :   **Audit Planning** : The third-party auditor develops a detailed audit plan, including determining the audit objectives, scope,..."
+    },
+    {
+      "chunk_id": 239,
+      "file": "chunk_239.txt",
+      "metadata": {
+        "chunk_id": 239,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "ISO 14001 helps RMG factories improve their product quality through effective supply chain management",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 351,
+        "char_count": 3029,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Key Differences Between Internal and External Audits**   |**Criteria**|**Internal Audit**|**External Audit**| |---|---|---| |**Who Conducts**<br>**the Audit**|Conducted by the factory’s own<br>st..."
+    },
+    {
+      "chunk_id": 240,
+      "file": "chunk_240.txt",
+      "metadata": {
+        "chunk_id": 240,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Define an external audit and its main objective",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 452,
+        "char_count": 3232,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **Examples of Third-Party Certification Programs**   ## 1. **WRAP Certification** :   - WRAP is a global certification program that encourages factories to implement ethical manufacturing practices..."
+    },
+    {
+      "chunk_id": 241,
+      "file": "chunk_241.txt",
+      "metadata": {
+        "chunk_id": 241,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Internal audits are conducted by third-party auditors",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 467,
+        "char_count": 3415,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **True/False Questions:**   1. **Internal audits are conducted by third-party auditors.**   2. **External audits provide an independent verification of a factory’s compliance with**      - **intern..."
+    },
+    {
+      "chunk_id": 242,
+      "file": "chunk_242.txt",
+      "metadata": {
+        "chunk_id": 242,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Corrective actions are an essential part of both internal and external audits",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 370,
+        "char_count": 3434,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Task Sheet- 5.2**   **Task Name:** Identify and Describe the Key Differences Between Internal and External Audits in RMG Industry.   ## **Instructions:**   ## **Read and understand the directions..."
+    },
+    {
+      "chunk_id": 243,
+      "file": "chunk_243.txt",
+      "metadata": {
+        "chunk_id": 243,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The State Duty to Protect Human Rights",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 494,
+        "char_count": 3486,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **Information Sheet – 5.3**   **Learning Outcome-3:** Ensure compliance with social and ethical standards.   **Learning Objective:** After completing this section, the learners will be able to expl..."
+    },
+    {
+      "chunk_id": 244,
+      "file": "chunk_244.txt",
+      "metadata": {
+        "chunk_id": 244,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Access to Remedy",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 505,
+        "char_count": 3418,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.3",
+      "preview": "## **Impact on the RMG Sector:**   For RMG factories, the corporate responsibility to respect human rights translates into the need to:   - Ensure fair wages and provide safe working conditions.   - R..."
+    },
+    {
+      "chunk_id": 245,
+      "file": "chunk_245.txt",
+      "metadata": {
+        "chunk_id": 245,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Alignment with International Human Rights Standards",
+        "section_number": "2",
+        "subsections": [],
+        "word_count": 439,
+        "char_count": 3288,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.2",
+      "preview": "## **2. Alignment with International Human Rights Standards:**   Factories must ensure that their practices are in line with international human rights standards, such as those outlined in the ILO (In..."
+    },
+    {
+      "chunk_id": 246,
+      "file": "chunk_246.txt",
+      "metadata": {
+        "chunk_id": 246,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Accountability and Transparency",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 385,
+        "char_count": 2801,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **Understanding Fair-Trade Practices:**   Fair Trade is a global movement focused on ensuring that producers in developing countries receive fair compensation for their goods and services. In the R..."
+    },
+    {
+      "chunk_id": 247,
+      "file": "chunk_247.txt",
+      "metadata": {
+        "chunk_id": 247,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Accountability and Transparency",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 438,
+        "char_count": 2997,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.5",
+      "preview": "## **3.4 SA8000 (Social Accountability Standard)**   **SA8000** is an internationally recognized social accountability standard that focuses on ensuring that factories and organizations uphold workers..."
+    },
+    {
+      "chunk_id": 248,
+      "file": "chunk_248.txt",
+      "metadata": {
+        "chunk_id": 248,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The UN Guiding Principles on Business and Human Rights (UNGPs) focus on protecting human rights in business operations",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 312,
+        "char_count": 2144,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## 4. **Which of the following is a focus area of the UN Guiding Principles?**      - A) Corporate profit maximization      - B) Labor rights and worker welfare      - C) Marketing and advertisement s..."
+    },
+    {
+      "chunk_id": 249,
+      "file": "chunk_249.txt",
+      "metadata": {
+        "chunk_id": 249,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 400,
+        "char_count": 2706,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Answer Key – 5.3**   ## **Short Question Answers:**   1. **What is ethical sourcing, and why is it important for the RMG sector? Answer:** Ethical sourcing refers to the procurement of goods and..."
+    },
+    {
+      "chunk_id": 250,
+      "file": "chunk_250.txt",
+      "metadata": {
+        "chunk_id": 250,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 364,
+        "char_count": 2744,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **True/False Answers:**   1. **The UN Guiding Principles on Business and Human Rights (UNGPs) focus on protecting human rights in business operations. Answer** : True   2. **Fair Trade Certificatio..."
+    },
+    {
+      "chunk_id": 251,
+      "file": "chunk_251.txt",
+      "metadata": {
+        "chunk_id": 251,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 325,
+        "char_count": 2554,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Types of Reports**   ## **1. Compliance Reports**   Compliance reports track adherence to local labor laws, international regulations, and industryspecific standards, such as ISO (International O..."
+    },
+    {
+      "chunk_id": 252,
+      "file": "chunk_252.txt",
+      "metadata": {
+        "chunk_id": 252,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 362,
+        "char_count": 2660,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Significance** :   **Verification of Compliance** : Audit reports provide independent verification of factory practices, ensuring that they meet international ethical standards.   **Buyer Confide..."
+    },
+    {
+      "chunk_id": 253,
+      "file": "chunk_253.txt",
+      "metadata": {
+        "chunk_id": 253,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 440,
+        "char_count": 3259,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **5. Lab Test Reports**   Lab test reports provide detailed results of tests conducted on raw materials, finished goods, or environmental factors (e.g., air quality, water quality). These reports a..."
+    },
+    {
+      "chunk_id": 254,
+      "file": "chunk_254.txt",
+      "metadata": {
+        "chunk_id": 254,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 381,
+        "char_count": 2597,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **How to Identify Non-Conformance**   **Audits and Inspections** : Regular internal audits and third-party inspections identify discrepancies in operations, processes, or conditions.   **Employee F..."
+    },
+    {
+      "chunk_id": 255,
+      "file": "chunk_255.txt",
+      "metadata": {
+        "chunk_id": 255,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 473,
+        "char_count": 3356,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Impact of Root Cause Analysis:**   By identifying the true cause of a problem, businesses avoid simply addressing the symptoms (e.g., paying overtime without resolving the root cause) and instead..."
+    },
+    {
+      "chunk_id": 256,
+      "file": "chunk_256.txt",
+      "metadata": {
+        "chunk_id": 256,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 387,
+        "char_count": 2728,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **5. Set Timeline**   Establishing a timeline for the implementation of corrective actions ensures that the actions are completed promptly and that the factory maintains continuous compliance.   ##..."
+    },
+    {
+      "chunk_id": 257,
+      "file": "chunk_257.txt",
+      "metadata": {
+        "chunk_id": 257,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 489,
+        "char_count": 3352,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **8. Submission to Relevant Stakeholders and Review/Approval**   ## **Submission to Relevant Stakeholders:**   Once the final report and Corrective Action Plan (CAP) have been prepared, it is essen..."
+    },
+    {
+      "chunk_id": 258,
+      "file": "chunk_258.txt",
+      "metadata": {
+        "chunk_id": 258,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 486,
+        "char_count": 3385,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **4.3 Type of Documentation and Report**   In addition to the Corrective Action Plan (CAP), various other templates of reporting are necessary for documenting and tracking progress, compliance, and..."
+    },
+    {
+      "chunk_id": 259,
+      "file": "chunk_259.txt",
+      "metadata": {
+        "chunk_id": 259,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 447,
+        "char_count": 3336,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Lab test report**   Lab test reports provide scientific data on materials, products, or environmental factors, verifying that they meet required quality and environmental standards.   ## **Key Co..."
+    },
+    {
+      "chunk_id": 260,
+      "file": "chunk_260.txt",
+      "metadata": {
+        "chunk_id": 260,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 379,
+        "char_count": 3012,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## 2. **Corrective Action 2** :   (e.g., “Update payroll system to ensure correct calculation of overtime pay.”)   **Timeline** : _____________________   **Responsible Person** : _____________________..."
+    },
+    {
+      "chunk_id": 261,
+      "file": "chunk_261.txt",
+      "metadata": {
+        "chunk_id": 261,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Fair Trade certification is concerned only with product quality and does not cover labor rights",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 417,
+        "char_count": 2666,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Self-Check – 5.4**   ## **Short Questions:**   1. **What is the purpose of a Corrective Action Plan (CAP)?**   2. **What key elements should be included in a CAP report?**   3. **Why is it import..."
+    },
+    {
+      "chunk_id": 262,
+      "file": "chunk_262.txt",
+      "metadata": {
+        "chunk_id": 262,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The Corrective Action Plan (CAP) should only address the symptoms of the problem, not the root cause",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 500,
+        "char_count": 3435,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## 8. **Who needs to review and approve the final CAP report?**   - A) Only the HR manager   Social Compliance & Environmental Management   - B) Relevant stakeholders, including management and auditor..."
+    },
+    {
+      "chunk_id": 263,
+      "file": "chunk_263.txt",
+      "metadata": {
+        "chunk_id": 263,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "The Corrective Action Plan (CAP) should only address the symptoms of the problem, not the root cause",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 497,
+        "char_count": 3279,
+        "content_type": "section_content"
+      },
+      "summary": "Sec.1",
+      "preview": "## **Multiple Choice Questions (MCQs)**   ## 1. **Which of the following is the first step in preparing a Corrective Action Plan (CAP)?**      - **Answer** : B) Identifying non-conformance   2. **What..."
+    },
+    {
+      "chunk_id": 264,
+      "file": "chunk_264.txt",
+      "metadata": {
+        "chunk_id": 264,
+        "chapter": null,
+        "chapter_number": null,
+        "section": "Corrective actions should be reviewed regularly to ensure that they have effectively resolved the issue",
+        "section_number": "7",
+        "subsections": [],
+        "word_count": 325,
+        "char_count": 2680,
+        "content_type": "continuation"
+      },
+      "summary": "Sec.7",
+      "preview": "## **Instructions:**   ## **Read and understand the directions carefully:**   - this practical demonstration is based on the performance criteria from all or some of the units of competency in Social..."
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 """
 Re-generate all markdown-based chunk files from chunked-data-code/.
 Run from the Experiment/ directory with the venv active if needed.
+
+Requires each `md data/*.md` to exist (run the matching `*_pdf_to_markdown.py` first).
 """
 
 from __future__ import annotations
@@ -14,6 +16,10 @@ CHUNK_SCRIPTS = [
     "chunked-data-code/labour_law_2006_data_chunk.py",
     "chunked-data-code/labour_law_2015_data_chunk.py",
     "chunked-data-code/fire_safety_data_chunk.py",
+    "chunked-data-code/compliance_garment_dhaka_data_chunk.py",
+    "chunked-data-code/cblm_social_compliance_data_chunk.py",
+    "chunked-data-code/juki_machine_manual_data_chunk.py",
+    "chunked-data-code/term_project_description_data_chunk.py",
 ]
 
 

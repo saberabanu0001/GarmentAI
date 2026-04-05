@@ -1,0 +1,321 @@
+DOCUMENT_METADATA
+source_name: Course Information
+document_name: Term Project Description
+
+--- CHUNK START ---
+chunk_id: 0
+document_name: Term Project Description
+source_name: Course Information
+page_start: n/a
+page_end: n/a
+section: title_page
+text:
+## **Course Title:** 
+
+**Basic Design (Introduction to Industrial Project) Professor: Abolghasem Sadeghi-Niaraki** 
+
+## **Hands-on Exercises Plan (Integrated Project) for the Course "Design for Electrical and Computer Engineers"** 
+
+## 1. Project Overview 
+
+In this course, students will work on a **semester-long integrated engineering design project** . The project simulates a **real industrial engineering scenario** and connects theoretical design concepts with practical implementation. 
+
+The project scenario is: 
+
+## **Design of a Jet Engine Health Monitoring System for Predictive Maintenance** 
+
+In this scenario, an airline company experiences unexpected jet engine failures and needs an intelligent monitoring system to detect degradation and predict failures before they occur. Students will design a **decision-support system for maintenance engineers** that: 
+
+- analyzes jet engine sensor data 
+
+- detects degradation patterns 
+
+- predicts remaining useful life (RUL) 
+
+- recommends maintenance actions 
+
+The project combines: 
+
+- Engineering Design Methodology 
+
+- Data Analysis and Visualization 
+
+- Machine Learning Prototyping 
+
+- System Modeling and Testing 
+
+- Reliability Analysis 
+
+- Engineering Documentation 
+
+The project uses the **NASA C-MAPSS Turbofan Engine Degradation Dataset** , which contains simulated multivariate sensor measurements collected from jet engines operating under different conditions until failure. 
+
+All practical work will be performed using: 
+
+- **Google Colab** 
+
+- **Python** 
+
+- **NumPy** 
+
+- **Pandas** 
+
+- **Matplotlib** 
+
+- **Seaborn** 
+
+The final outcome will be a **reproducible notebook-based prototype** of a predictive maintenance system. 
+
+## 2. Team Organization 
+
+Students will work in **teams of 7 members** . 
+
+Each team must: 
+
+- create a shared project notebook 
+
+- maintain a versioned project repository 
+
+- submit weekly progress reports 
+
+- prepare group and individual deliverables Individual accountability will be enforced through: 
+
+- individual contribution reports 
+
+- peer evaluation checkpoints 
+
+- traceable evidence of work (plots, notebooks, code sections) 
+
+## 3. Project Learning Workflow 
+
+The project follows the **engineering design lifecycle** , synchronized with the weekly lectures. The workflow progresses through the following stages: 
+
+1. Problem exploration 
+
+2. Requirements engineering 
+
+3. Concept generation 
+
+4. Design evaluation 
+
+5. System modeling 
+
+6. Prototype development 
+
+7. Testing and verification 
+
+8. Design iteration and optimization 
+
+9. Documentation and communication 
+
+10. Ethics and professional responsibility 
+
+This structure ensures that students **apply the concepts immediately after they are introduced in lectures** .
+--- CHUNK END ---
+
+--- CHUNK START ---
+chunk_id: 1
+document_name: Term Project Description
+source_name: Course Information
+page_start: n/a
+page_end: n/a
+section: continuation
+text:
+## 4. Weekly Project Milestones 
+
+Week 1 – Project Kickoff 
+
+Students are introduced to the engineering design problem and dataset. Tasks: 
+
+• Form project teams • Load the C-MAPSS dataset in Google Colab • Explore dataset structure • Plot sensor trends for a sample engine Deliverables: • Team formation • Project notebook initialized Week 2 – Exploratory Data Analysis Students analyze the dataset to understand engine degradation behavior. Tasks: 
+
+• Perform exploratory data analysis (EDA) • Analyze sensor distributions • Visualize engine trajectories • Identify missing values and anomalies Deliverable: **EDA Checkpoint 1** (plots and short insights) 
+
+Week 3 – Problem Definition Students define the engineering problem and stakeholder needs. Tasks: • Draft a problem statement • Identify stakeholders • Define system needs based on dataset characteristics Deliverable: **Problem Statement + Needs List (Version 1)** Week 4 – Team Planning Teams establish project organization. Tasks: • Create a team charter • Define team roles • Develop a Work Breakdown Structure (WBS) • Create a preliminary Gantt chart Deliverable: **Team Charter + Baseline WBS** 
+
+Week 5 – Requirements Engineering Students convert needs into engineering requirements. Tasks: 
+
+• Define system requirements 
+
+• Specify measurable acceptance criteria • Map requirements to system functions Deliverable: **Group Assignment #2 – Requirements Specification (Draft)** 
+
+Week 6 – Concept Generation Teams develop alternative system designs. Example concepts: • threshold-based monitoring • machine learning prediction • hybrid approach Tasks: • evaluate feasibility of each concept • perform quick experiments using sensor data Deliverable: **Requirements Specification (Final Version)** 
+
+Week 7 – Design Evaluation Students apply decision-making methods to select the best design. Tasks: 
+
+• apply AHP or ANP 
+
+• evaluate concept alternatives • analyze trade-offs (accuracy, interpretability, reliability) Deliverable:
+--- CHUNK END ---
+
+--- CHUNK START ---
+chunk_id: 2
+document_name: Term Project Description
+source_name: Course Information
+page_start: n/a
+page_end: n/a
+section: continuation
+text:
+## **Group Assignment #1 – AHP/ANP** 
+
+Week 8 – Midterm Design Review Teams present their progress and receive feedback. Presentation must include: 
+
+• problem definition 
+
+• stakeholder needs 
+
+• system requirements • concept selection • EDA results • project timeline Deliverable: **Midterm Project Progress Presentation** 
+
+Week 9 – System Modeling 
+
+Students develop system architecture and behavioral models. Tasks: 
+
+• design system decomposition • create dataflow diagrams • model system behavior Deliverable: **Architecture and Behavioral Models (Version 1)** 
+
+Week 10 – Prototype Development Teams build the first working prototype. Tasks: • implement baseline predictive model • create monitoring visualizations • build preprocessing pipeline Deliverable: Start **Group Assignment #4 – Testing Plan** 
+
+Week 11 – Design Iteration Students improve system performance. Tasks: • optimize model parameters • engineer new features • analyze reliability trade-offs Deliverable: **Group Assignment #3 – Functional Decomposition and Behavioral Models** 
+
+Week 12 – Documentation Teams prepare the structure of the final report. Tasks: • organize experiment results • draft report structure • design presentation slides Deliverable: **Report Draft 1 + Slide Draft 1** 
+
+Week 13 – Ethics and Risk Analysis Students analyze ethical and societal implications. Topics include: • algorithmic bias • reliability risks • safety implications of maintenance decisions Deliverable: **Ethics and Risk Analysis Section** 
+
+Week 14 – Integration and Final Testing 
+
+Teams finalize system implementation. Tasks: 
+
+• integrate all modules 
+
+• finalize testing procedures 
+
+• rehearse final presentation Deliverable: 
+
+**Group Assignment #4 – Testing Report** 
+
+Week 15 – Final Project Presentation 
+
+Each team presents its final system prototype. Presentation must include: 
+
+• system architecture 
+
+• analysis results 
+
+• model performance 
+
+• design trade-offs 
+
+• testing results • ethical considerations Deliverables: 
+
+- Final group presentation 
+
+- Final group report 
+
+- Project notebook/code 
+
+Week 16 – Final Written Exam Students complete the final written examination. Students must also submit: 
+
+- **Individual contribution report** 
+
+## 5. Final Project Deliverables 
+
+Each team must submit: 
+
+## **Group Deliverables** 
+
+- Final project report 
+
+- Google Colab notebook 
+
+- project code and visualizations 
+
+- presentation slides 
+
+- testing documentation 
+
+## **Individual Deliverables** 
+
+Each student must submit an **individual contribution report** explaining: 
+
+- personal responsibilities 
+
+- implemented components 
+
+- produced figures or code 
+
+- testing contributions 
+
+- meeting participation 
+
+Evidence must be included (notebook sections, figures, logs).
+--- CHUNK END ---
+
+--- CHUNK START ---
+chunk_id: 3
+document_name: Term Project Description
+source_name: Course Information
+page_start: n/a
+page_end: n/a
+section: section_content
+text:
+## 5. Final Project Deliverables 
+
+Each team must submit: 
+
+## **Group Deliverables** 
+
+- Final project report 
+
+- Google Colab notebook 
+
+- project code and visualizations 
+
+- presentation slides 
+
+- testing documentation 
+
+## **Individual Deliverables** 
+
+Each student must submit an **individual contribution report** explaining: 
+
+- personal responsibilities 
+
+- implemented components 
+
+- produced figures or code 
+
+- testing contributions 
+
+- meeting participation 
+
+Evidence must be included (notebook sections, figures, logs). 
+
+## 6. References 
+
+1. **NASA C-MAPSS Turbofan Engine Degradation Dataset** Dataset of simulated turbofan engine sensor measurements recorded until failure. https://www.kaggle.com/datasets/behrad3d/nasa-cmaps 
+
+2. **NASA C-MAPSS Dataset Description (NASA Dashlink)** Official dataset description and documentation. https://c3.ndc.nasa.gov/dashlink/resources/14/ 
+
+3. **Design for Electrical and Computer Engineers: Theory, Concepts, and Practice** Ralph M. Ford & Chris S. Coulston https://www.amazon.com/Design-Electrical-Computer-Engineers-Ralph/dp/0073380350 
+
+4. **Google Colab Documentation** Cloud-based Python notebook environment. https://developers.google.com/colab 
+
+5. **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)** Framework for managing risks in AI systems. https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-airmf-10 
+
+6. **ACM Code of Ethics and Professional Conduct** 
+
+https://www.acm.org/about-acm/code-of-ethics 
+
+7. **IEEE Code of Ethics** https://ieee-cas.org/about/ieee-code-ethics 
+
+8. **Quality Function Deployment (QFD / House of Quality)** https://www.ifm.eng.cam.ac.uk/research/dmg/tools-and-techniques/quality-function- 
+
+deployment qfd/ 
+
+9. **SuperDecisions Software for AHP/ANP** https://www.superdecisions.com 
+
+10. **AHPy Python Library** 
+
+https://pypi.org/project/AHPy/ 
+
+Thank you
+--- CHUNK END ---

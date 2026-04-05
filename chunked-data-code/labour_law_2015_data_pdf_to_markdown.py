@@ -3,7 +3,7 @@
 PDF → Markdown for the Labour Rules 2015 source (matches 1.1 labour law 2015 data).
 
 Default paths (repo-relative):
-  raw-data/1.1Labour-Rules-2015-English_Unofficial.pdf
+  raw-data/1.1Labour-Rules-2015-English.pdf
   md data/1.1 labour law 2015.md
 
 From repo root:
@@ -24,7 +24,7 @@ import pymupdf4llm
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-DEFAULT_PDF = REPO_ROOT / "raw-data/1.1Labour-Rules-2015-English_Unofficial.pdf"
+DEFAULT_PDF = REPO_ROOT / "raw-data/1.1Labour-Rules-2015-English.pdf"
 DEFAULT_MD = REPO_ROOT / "md data/1.1 labour law 2015.md"
 
 
