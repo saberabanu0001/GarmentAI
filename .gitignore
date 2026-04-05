@@ -21,3 +21,4 @@ Thumbs.db
 # Regenerate with: python embedding/build_index.py
 embedding/index/*
 !embedding/index/.gitkeep
+embedding/.hf_cache/

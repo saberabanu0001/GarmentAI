@@ -11,9 +11,24 @@ Experiment/
 ├── md data/                ← Markdown sources (after PDF conversion)
 ├── raw-data/               ← Original PDFs and other binaries
 ├── requirements.txt        ← pip deps (e.g. langchain-text-splitters)
+├── embedding/              ← E5 index build + search CLI; outputs under embedding/index/
 ├── knowledge_base/         ← Final merged knowledge base (Week 5+)
 └── README.md
 ```
+
+## Embeddings (multilingual E5)
+
+Uses **`intfloat/multilingual-e5-small`** (384-dim): `passage:` for chunks, `query:` at search time (works for Bangla or English queries).
+
+```bash
+pip install -r requirements.txt
+python embedding/build_index.py          # reads chunked-data/*_chunks.txt
+python embedding/search_cli.py "your question" --top-k 5
+```
+
+Outputs: `embedding/index/embeddings.npy`, `chunks.jsonl`, `meta.json`. Models cache under `embedding/.hf_cache/`.
+
+Options: `--model intfloat/multilingual-e5-base`, `--batch-size`, `--chunks-dir`, `--output-dir`.
 
 ## Chunking from Markdown (current)
 
@@ -115,17 +130,6 @@ python scripts/preprocess.py \
 | `--chunk_size` | Target characters per chunk | 1000 |
 | `--overlap` | Overlap chars between chunks | 100 |
 | `--output_name` | Optional output filename override | auto |
-
----
-
-## Team Commands
-
-| Member | Data Source | Command |
-|---|---|---|
-| Member 2 | Fire Safety PDF | `python scripts/preprocess.py --input raw/RSC-Fire-Safety-Manual-for-RMG-Buildings.pdf --source "Fire Safety" --skip_first 3 --skip_last 1 --skip_ranges 26-42` |
-| Member 3 | Labour Law PDF | `python scripts/preprocess.py --input raw/labour_law.pdf --source "Labour Law" --skip_first 2 --skip_last 1` |
-| Member 4 | Sewing Machine Manual | `python scripts/preprocess.py --input raw/machine_manual.pdf --source "Machine Manual" --skip_first 1` |
-| Member 5 | SOP Document | `python scripts/preprocess.py --input raw/sop.pdf --source "SOP" --skip_first 1` |
 
 ---
 

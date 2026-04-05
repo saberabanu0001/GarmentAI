@@ -61,6 +61,6 @@ def load_all_chunks(chunks_dir: Path) -> list[ChunkRecord]:
 
 
 def passage_for_embedding(rec: ChunkRecord) -> str:
-    """E5-style input for indexing (multilingual; works for Bangla queries at search time)."""
+    """Body only; E5Embedder adds the ``passage: `` prefix."""
     header = f"{rec.source_name} | {rec.document_name} | {rec.section}"
-    return f"passage: {header}\n\n{rec.text}"
+    return f"{header}\n\n{rec.text}"

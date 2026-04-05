@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Load embedding/index and run a single search (E5 query: prefix for multilingual).
+Load embedding/index and run a search (E5 ``query:`` prefix; multilingual).
 
 From repo root:
   python embedding/search_cli.py "fire exit requirements"
@@ -25,13 +25,13 @@ def main() -> int:
         sys.path.insert(0, str(REPO_ROOT))
 
     parser = argparse.ArgumentParser(description="Semantic search over embedded chunks.")
-    parser.add_argument("query", help="Search text (e.g. Bangla or English)")
+    parser.add_argument("query", help="Search text (Bangla or English)")
     parser.add_argument("--index-dir", type=Path, default=DEFAULT_INDEX_DIR)
     parser.add_argument("--top-k", type=int, default=5)
     parser.add_argument(
         "--model",
         default=None,
-        help="Override model id (default: read from meta.json)",
+        help="Override model id (default: meta.json)",
     )
     args = parser.parse_args()
 
@@ -42,31 +42,26 @@ def main() -> int:
 
     if not emb_path.is_file() or not jsonl_path.is_file():
         print(
-            f"Index missing. Run first: python embedding/build_index.py\n"
+            f"Index missing. Run: python embedding/build_index.py\n"
             f"Expected: {emb_path} and {jsonl_path}",
             file=sys.stderr,
         )
         return 1
 
     try:
-        from sentence_transformers import SentenceTransformer
+        from embedding.e5_embedder import E5Embedder
     except ImportError:
-        print("Install: pip install sentence-transformers", file=sys.stderr)
+        print("Install: pip install -r requirements.txt", file=sys.stderr)
         return 1
 
     meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.is_file() else {}
     model_id = args.model or meta.get("model", "intfloat/multilingual-e5-small")
-    q_prefix = meta.get("query_prefix", "query: ")
 
     print(f"Loading model {model_id} …")
-    model = SentenceTransformer(model_id)
+    embedder = E5Embedder(model_id)
 
     matrix = np.load(emb_path)
-    q = model.encode(
-        [q_prefix + args.query],
-        normalize_embeddings=True,
-        convert_to_numpy=True,
-    )[0].astype(np.float32)
+    q = embedder.encode([args.query], is_query=True, batch_size=1)[0]
 
     scores = matrix @ q
     top_idx = np.argsort(-scores)[: args.top_k]

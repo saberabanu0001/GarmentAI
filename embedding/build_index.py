@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """
-Build embedding index from chunked-data/*_chunks.txt using multilingual E5 (CPU-friendly).
+Build embedding index from chunked-data/*_chunks.txt using multilingual E5.
 
-Default model: intfloat/multilingual-e5-small (384-dim, good for Bangla queries later).
+Default model: intfloat/multilingual-e5-small (384-dim; good for Bangla + English).
 
 From repo root:
   pip install -r requirements.txt
   python embedding/build_index.py
 
 Outputs (under embedding/index/):
-  embeddings.npy   — float32 [N, dim], L2-normalized (cosine = dot product)
-  chunks.jsonl     — one JSON object per line (metadata + full text)
-  meta.json        — model id, dim, counts, paths
+  embeddings.npy   — float32 [N, dim], L2-normalized
+  chunks.jsonl     — metadata + full text per line
+  meta.json        — model id, dim, counts
 
-Search demo:
-  python embedding/search_cli.py "your question in any language"
+Search:
+  python embedding/search_cli.py "your question"
 """
 
 from __future__ import annotations
@@ -53,25 +53,23 @@ def main() -> int:
     parser.add_argument(
         "--model",
         default=DEFAULT_MODEL,
-        help="sentence-transformers model id",
+        help="Hugging Face model id (E5 multilingual family)",
     )
     parser.add_argument("--batch-size", type=int, default=16)
     args = parser.parse_args()
+
+    try:
+        from embedding.e5_embedder import E5Embedder
+        from embedding.parse_chunks import load_all_chunks, passage_for_embedding
+    except ImportError as e:
+        print("Install: pip install -r requirements.txt", file=sys.stderr)
+        print(e, file=sys.stderr)
+        return 1
 
     chunks_dir = args.chunks_dir
     if not chunks_dir.is_dir():
         print(f"Error: chunks dir not found: {chunks_dir}", file=sys.stderr)
         return 1
-
-    # Import after argparse so --help works without torch installed
-    try:
-        from sentence_transformers import SentenceTransformer
-    except ImportError as e:
-        print("Install: pip install sentence-transformers", file=sys.stderr)
-        print(e, file=sys.stderr)
-        return 1
-
-    from embedding.parse_chunks import load_all_chunks, passage_for_embedding
 
     records = load_all_chunks(chunks_dir)
     if not records:
@@ -79,18 +77,11 @@ def main() -> int:
         return 1
 
     print(f"Loading model {args.model} …")
-    model = SentenceTransformer(args.model)
+    embedder = E5Embedder(args.model)
     passages = [passage_for_embedding(r) for r in records]
 
     print(f"Encoding {len(passages)} chunks (batch_size={args.batch_size}) …")
-    emb = model.encode(
-        passages,
-        batch_size=args.batch_size,
-        show_progress_bar=True,
-        normalize_embeddings=True,
-        convert_to_numpy=True,
-    )
-    emb = np.asarray(emb, dtype=np.float32)
+    emb = embedder.encode(passages, is_query=False, batch_size=args.batch_size)
 
     out_dir = args.output_dir
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -129,7 +120,7 @@ def main() -> int:
 
     print(f"Wrote {emb.shape[0]} x {emb.shape[1]} → {out_dir / 'embeddings.npy'}")
     print(f"Wrote {jsonl_path.name}")
-    print(f"Wrote meta.json")
+    print("Wrote meta.json")
     return 0
 
 
