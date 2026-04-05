@@ -1,0 +1,626 @@
+{
+  "document_info": {
+    "source_file": "/Users/saberabanu/All Drives/University/Basic Design/activities/Experiment/md data/2 fire safety data.md",
+    "total_chunks": 36,
+    "avg_chunk_size": 2807
+  },
+  "chunking_config": {
+    "chunk_size": 3500,
+    "chunk_overlap": 600,
+    "min_chunk_size": 100
+  },
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "file": "chunk_0.txt",
+      "metadata": {
+        "chunk_id": 0,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 155,
+        "char_count": 3209,
+        "content_type": "title_page"
+      },
+      "summary": "title_page",
+      "preview": "**RSC FIRE SAFETY MANUAL FOR RMG BUILDINGS** ez   = www.rsc-bd.org   RSC Fire Safety Manual for RMG Buildings_Version 1.0_November 2021   ## INDEX   INTRODUCTION ........................................."
+    },
+    {
+      "chunk_id": 1,
+      "file": "chunk_1.txt",
+      "metadata": {
+        "chunk_id": 1,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 292,
+        "char_count": 1875,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## INTRODUCTION   This manual is developed by the RSC to support factories in  the implementation of fire protection & safety measures.   Fire protection is a fundamental goal of the RSC. The RSC is p..."
+    },
+    {
+      "chunk_id": 2,
+      "file": "chunk_2.txt",
+      "metadata": {
+        "chunk_id": 2,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 333,
+        "char_count": 2159,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## FIRE SEPARATIONS – FIRE COMPARTMENTS   Fire separations are provided within buildings to limit the spread of fire. Certain rooms, areas, and occupancies in buildings are generally fire separated in..."
+    },
+    {
+      "chunk_id": 3,
+      "file": "chunk_3.txt",
+      "metadata": {
+        "chunk_id": 3,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 366,
+        "char_count": 2726,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Fire Resistance Rating of Common Construction Elements for Existing & Interim buildings in accordance with BNBC 2006 Part 4 Table 4.1.1:   **==> picture [379 x 243] intentionally omitted <==**  **-..."
+    },
+    {
+      "chunk_id": 4,
+      "file": "chunk_4.txt",
+      "metadata": {
+        "chunk_id": 4,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 386,
+        "char_count": 3127,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "|Concrete<br>Aggregate|Minimum Column Dimension for Fire Resistance Rating|Minimum Column Dimension for Fire Resistance Rating|Minimum Column Dimension for Fire Resistance Rating|Minimum Column Dimens..."
+    },
+    {
+      "chunk_id": 5,
+      "file": "chunk_5.txt",
+      "metadata": {
+        "chunk_id": 5,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 491,
+        "char_count": 3174,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "It is important to note that the fire-resistance rating of an assembly is based upon all the components of the assembly. The individual elements in themselves do not have a fireresistance rating.   Fi..."
+    },
+    {
+      "chunk_id": 6,
+      "file": "chunk_6.txt",
+      "metadata": {
+        "chunk_id": 6,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 167,
+        "char_count": 1021,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## OPENINGS IN FIRE SEPARATIONS   Openings in fire separations are required to be protected with closures to limit the spread of smoke and fire through the opening from one fire compartment to another..."
+    },
+    {
+      "chunk_id": 7,
+      "file": "chunk_7.txt",
+      "metadata": {
+        "chunk_id": 7,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 495,
+        "char_count": 3090,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## REQUIRED RATINGS OF CLOSURES IN FIRE SEPARATIONS:   - 1.5-hour fire rated closure in a 2-hour fire separation,   - 1-hour fire rated closure in a 1-hour fire rated exit enclosure,   - 0.75-hour fir..."
+    },
+    {
+      "chunk_id": 8,
+      "file": "chunk_8.txt",
+      "metadata": {
+        "chunk_id": 8,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 563,
+        "char_count": 3490,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## BASIC REQUIREMENTS FOR MEANS OF EGRESS   For any story with only two exits, the maximum occupant load should not exceed 500 people.   For any story with only three exits, the maximum occupant load..."
+    },
+    {
+      "chunk_id": 9,
+      "file": "chunk_9.txt",
+      "metadata": {
+        "chunk_id": 9,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 493,
+        "char_count": 3124,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Minimum widths:   |Minimum widths:|| |---|---| ||| |Exit doors(existing)|0.8m(32 in.)| |Exit doors(new & interim)|1 m(40 in.)| |Aisles|0.9m(36 in.)| |Corridors|1.1m(44 in.)| |Stairs(existing)|0.9m(..."
+    },
+    {
+      "chunk_id": 10,
+      "file": "chunk_10.txt",
+      "metadata": {
+        "chunk_id": 10,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 516,
+        "char_count": 3368,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## TRAVEL DISTANCE   The maximum travel distance to reach an exit from any point in the building shall not exceed 45 meters unless the following requirements can be met:   Picture shows travel distanc..."
+    },
+    {
+      "chunk_id": 11,
+      "file": "chunk_11.txt",
+      "metadata": {
+        "chunk_id": 11,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 370,
+        "char_count": 2568,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Oo Fire Alarm Control Units   Conventional fire alarm systems Addressable fire alarm systems Annunciator panel   ## Batteries   Standby Power   ## Cables   - Minimum 2-core- 1.5 mm[2] Power Limited..."
+    },
+    {
+      "chunk_id": 12,
+      "file": "chunk_12.txt",
+      "metadata": {
+        "chunk_id": 12,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 466,
+        "char_count": 3029,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## STANDPIPE SYSTEM   A standpipe consists of rigid water piping which is built into buildings in a vertical position to which fire hoses can be connected, allowing manual application of water to the..."
+    },
+    {
+      "chunk_id": 13,
+      "file": "chunk_13.txt",
+      "metadata": {
+        "chunk_id": 13,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 437,
+        "char_count": 2922,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## SPRINKLER SYSTEM   A fire sprinkler system is an active fire protection measure, consisting of a water supply system, providing adequate pressure and flow rate to a water distribution piping system..."
+    },
+    {
+      "chunk_id": 14,
+      "file": "chunk_14.txt",
+      "metadata": {
+        "chunk_id": 14,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 437,
+        "char_count": 2851,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Installation requirements:   All installation and design requirements outlined in BNBC 2006 and BNBC 2020  shall be replaced by the requirements of NFPA 13. Pipe schedules shall not be used to size..."
+    },
+    {
+      "chunk_id": 15,
+      "file": "chunk_15.txt",
+      "metadata": {
+        "chunk_id": 15,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 540,
+        "char_count": 3281,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## PORTABLE FIRE EXTINGUISHERS   Portable fire extinguishers shall be installed throughout all new, interim and existing facilities in accordance with BNBC 2020 and NFPA 10.   Spacing: Extinguishers s..."
+    },
+    {
+      "chunk_id": 16,
+      "file": "chunk_16.txt",
+      "metadata": {
+        "chunk_id": 16,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 514,
+        "char_count": 3166,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## 3. Are basket type ladders required to be installed?   ## Answer:   No. Sufficient protected exit stairways are required in all factory buildings.   ## 4. Is there any specific reference on the fir..."
+    },
+    {
+      "chunk_id": 17,
+      "file": "chunk_17.txt",
+      "metadata": {
+        "chunk_id": 17,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 534,
+        "char_count": 3331,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Answer:   The RSC requires independent inspections carried out under the direction of the RSC Chief Safety Officer. However, the RSC has developed a policy allowing the Chief Safety  Officer to acc..."
+    },
+    {
+      "chunk_id": 18,
+      "file": "chunk_18.txt",
+      "metadata": {
+        "chunk_id": 18,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 545,
+        "char_count": 3338,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## 18. If the generator and substation are in the same room, must they be in separate fire compartments?   ## Answer:   The standard requires a fire separation, but in existing factories we are using..."
+    },
+    {
+      "chunk_id": 19,
+      "file": "chunk_19.txt",
+      "metadata": {
+        "chunk_id": 19,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 441,
+        "char_count": 3480,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## 25. If a staircase is directly connected to the outside with open ventilation, can we do without the fire doors?   ## Answer:   No, fire doors are required to protect the staircase from a potential..."
+    },
+    {
+      "chunk_id": 20,
+      "file": "chunk_20.txt",
+      "metadata": {
+        "chunk_id": 20,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 382,
+        "char_count": 3088,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## APPENDIX C (STANDPIPE SYSTEM INSPECTION CHECK LIST)   To be completed by the Inspector at the time of InspectionAttach additional sheets, data, or calculation as necessary to provide a complete rec..."
+    },
+    {
+      "chunk_id": 21,
+      "file": "chunk_21.txt",
+      "metadata": {
+        "chunk_id": 21,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 341,
+        "char_count": 3316,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## WITNESS BY   Company Name:   Address:   Representative Name:   Designation:   Phone: Fax:   E-mail:   > ae 30   RSC Fire Safety Manual for RMG Buildings_Version 1.0_November 2021   |Inspection, Tes..."
+    },
+    {
+      "chunk_id": 22,
+      "file": "chunk_22.txt",
+      "metadata": {
+        "chunk_id": 22,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 187,
+        "char_count": 1771,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "> i 32 uN   RSC Fire Safety Manual for RMG Buildings_Version 1.0_November 2021   |Inspection, Testing & Maintenance: Annually|Inspection, Testing & Maintenance: Annually|Scope|Action Taken| |---|---|-..."
+    },
+    {
+      "chunk_id": 23,
+      "file": "chunk_23.txt",
+      "metadata": {
+        "chunk_id": 23,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 217,
+        "char_count": 1636,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## APPENDIX E (FIRE ALARM AND DETECTION SYSTEM INSTALLATION INSPECTION CHECK LIST)   To be completed by the Inspector at the time of Inspection Attach additional sheets, data or calculation as necessa..."
+    },
+    {
+      "chunk_id": 24,
+      "file": "chunk_24.txt",
+      "metadata": {
+        "chunk_id": 24,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 345,
+        "char_count": 2384,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## INSPECTION CHECKLIST   **==> picture [371 x 649] intentionally omitted <==**  **----- Start of picture text -----**<br> |||||| |---|---|---|---|---| |General Information|Comments| |Sl. No|Descripti..."
+    },
+    {
+      "chunk_id": 25,
+      "file": "chunk_25.txt",
+      "metadata": {
+        "chunk_id": 25,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 231,
+        "char_count": 2083,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "**----- End of picture text -----**<br>  RSC Fire Safety Manual for RMG Buildings_Version 1.0_November 2021   |Emergency Voice/Alarm Communication|Emergency Voice/Alarm Communication|Comments|Comments..."
+    },
+    {
+      "chunk_id": 26,
+      "file": "chunk_26.txt",
+      "metadata": {
+        "chunk_id": 26,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 417,
+        "char_count": 3392,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## INSPECTION CHECKLIST   |Sprinkler System|Sprinkler System|Comments|Comments|Comments| |---|---|---|---|---| |Sl. No|Description|Yes||No| |29|Sprinkler flow switch initiates alarm through the<br>fir..."
+    },
+    {
+      "chunk_id": 27,
+      "file": "chunk_27.txt",
+      "metadata": {
+        "chunk_id": 27,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 421,
+        "char_count": 3174,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## APPENDIX F (EMERGENCY & EXIT LIGHTING MAINTENANCE INSPECTION CHECKLIST)   To be completed by the Inspector at the time of Inspection Attach additional sheets, data, or calculation as necessary to p..."
+    },
+    {
+      "chunk_id": 28,
+      "file": "chunk_28.txt",
+      "metadata": {
+        "chunk_id": 28,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 526,
+        "char_count": 3356,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## APPENDIX G (GUIDELINE FOR FIRE DOOR SELECTION)   ## WHAT FIRE DOORS DO?   - Fire doors save lives and property   - They are part of a building’s passive fire protection system and are fundamental t..."
+    },
+    {
+      "chunk_id": 29,
+      "file": "chunk_29.txt",
+      "metadata": {
+        "chunk_id": 29,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 508,
+        "char_count": 3441,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## FIRE ALARM SYSTEM   As per RSC Technical Guidelines (Standard) Part 5, section 5.7 Fire Alarm System Design to be verified by RSC Chief Safety Officer. Testing of the installation shall be conducte..."
+    },
+    {
+      "chunk_id": 30,
+      "file": "chunk_30.txt",
+      "metadata": {
+        "chunk_id": 30,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 409,
+        "char_count": 2578,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "ae a |i 44   RSC Fire Safety Manual for RMG Buildings_Version 1.0_November 2021   11. Signaling line circuits, initiating device circuit and notification appliances circuit shall have to be separate...."
+    },
+    {
+      "chunk_id": 31,
+      "file": "chunk_31.txt",
+      "metadata": {
+        "chunk_id": 31,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 320,
+        "char_count": 2043,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Recommendations:   1. If the factory wants to keep the fire door open “Door Hold Open device” to be used which shall be interfaced with fire alarm system in such a way that in case of fire the door..."
+    },
+    {
+      "chunk_id": 32,
+      "file": "chunk_32.txt",
+      "metadata": {
+        "chunk_id": 32,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 469,
+        "char_count": 3121,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Record Drawings   One month prior to the issue of the “hand-over certificate” the Contractor shall provide the fully detailed “As Built” drawings of the whole of the works together with all working..."
+    },
+    {
+      "chunk_id": 33,
+      "file": "chunk_33.txt",
+      "metadata": {
+        "chunk_id": 33,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 393,
+        "char_count": 2708,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Training:   Verify qualified personnel are available and engaged to inspect, test, and maintain the completed installation, including regular periodic tests of all devices and controls.   ## Operat..."
+    },
+    {
+      "chunk_id": 34,
+      "file": "chunk_34.txt",
+      "metadata": {
+        "chunk_id": 34,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 554,
+        "char_count": 3467,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Sprinkler System   - Make, type, Model, and nominal K –factor of sprinklers including sprinkler identification number.   - Temperature rating and location of high-temperature sprinklers.   - Total..."
+    },
+    {
+      "chunk_id": 35,
+      "file": "chunk_35.txt",
+      "metadata": {
+        "chunk_id": 35,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 175,
+        "char_count": 1194,
+        "content_type": "continuation"
+      },
+      "summary": "continuation",
+      "preview": "## Testing:   - Perform all required acceptance tests upon completion of the installation. Submit all test reports and completion certificates required by NFPA 13 to the RSC for review. Ensure tests i..."
+    }
+  ]
+}

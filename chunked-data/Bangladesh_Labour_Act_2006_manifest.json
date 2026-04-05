@@ -463,8 +463,8 @@
       "file": "chunk_20.txt",
       "metadata": {
         "chunk_id": 20,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
         "section": "Special provisions relating to fine",
         "section_number": "25",
         "subsections": [],
@@ -472,7 +472,7 @@
         "char_count": 3479,
         "content_type": "section_content"
       },
-      "summary": "Sec.25",
+      "summary": "Ch.II | Sec.25",
       "preview": "25. **Special provisions relating to fine.** - (1) No fine exceeding one-tenth of the wages payable to a worker in a wage-period shall be imposed on any worker.   (2) No fine shall be imposed on a wor..."
     },
     {
@@ -480,8 +480,8 @@
       "file": "chunk_21.txt",
       "metadata": {
         "chunk_id": 21,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
         "section": "Termination of employment by workers",
         "section_number": "27",
         "subsections": [
@@ -492,7 +492,7 @@
         "char_count": 3384,
         "content_type": "section_content"
       },
-      "summary": "Sec.27 | 2 subsections",
+      "summary": "Ch.II | Sec.27 | 2 subsections",
       "preview": "(4) Where a permanent worker resigns his service under this section, he shall be paid by the employer compensation,-   - (a) at the rate of 14 (fourteen) days’ wages for his every completed year of se..."
     },
     {
@@ -500,8 +500,8 @@
       "file": "chunk_22.txt",
       "metadata": {
         "chunk_id": 22,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
         "section": "Termination of employment by workers",
         "section_number": "27",
         "subsections": [],
@@ -509,7 +509,7 @@
         "char_count": 3486,
         "content_type": "section_content"
       },
-      "summary": "Sec.27",
+      "summary": "Ch.II | Sec.27",
       "preview": "32. **Eviction from residential accommodation.-** (1) A worker, whose service has been ceased by whatever means, shall vacate the residential accommodation allotted to him by the employer within the p..."
     },
     {
@@ -517,8 +517,8 @@
       "file": "chunk_23.txt",
       "metadata": {
         "chunk_id": 23,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "CONDITIONS OF EMPLOYMENT AND SERVICE",
+        "chapter_number": "II",
         "section": "Termination of employment by workers",
         "section_number": "27",
         "subsections": [],
@@ -526,7 +526,7 @@
         "char_count": 747,
         "content_type": "continuation"
       },
-      "summary": "Sec.27",
+      "summary": "Ch.II | Sec.27",
       "preview": "(6) Any person aggrieved by an order of the Labour Court, may, within thirty days of the order, prefer an appeal to the Tribunal, and the decision of the Tribunal on such appeal shall be final.   - (7..."
     },
     {
@@ -1570,8 +1570,8 @@
       "file": "chunk_75.txt",
       "metadata": {
         "chunk_id": 75,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
         "section": "Return as to compensation",
         "section_number": "164",
         "subsections": [
@@ -1583,7 +1583,7 @@
         "char_count": 3294,
         "content_type": "section_content"
       },
-      "summary": "Sec.164 | 3 subsections",
+      "summary": "Ch.XII | Sec.164 | 3 subsections",
       "preview": "(5) No monthly payment as compensation shall be payable in respect of the period during which the owner of the ship is, under any law for the time being in force in Bangladesh relating to merchant shi..."
     },
     {
@@ -1591,8 +1591,8 @@
       "file": "chunk_76.txt",
       "metadata": {
         "chunk_id": 76,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
         "section": "Venue of proceedings",
         "section_number": "167",
         "subsections": [
@@ -1604,7 +1604,7 @@
         "char_count": 3169,
         "content_type": "section_content"
       },
-      "summary": "Sec.167 | 3 subsections",
+      "summary": "Ch.XII | Sec.167 | 3 subsections",
       "preview": "(2) No civil Court shall have jurisdiction to settle any question which is by or under this Chapter required to be settled by the Labour Court or to enforce any liability incurred under this Chapter...."
     },
     {
@@ -1612,8 +1612,8 @@
       "file": "chunk_77.txt",
       "metadata": {
         "chunk_id": 77,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
         "section": "Effects of failure to register agreement",
         "section_number": "171",
         "subsections": [
@@ -1627,7 +1627,7 @@
         "char_count": 3282,
         "content_type": "section_content"
       },
-      "summary": "Sec.171 | 5 subsections",
+      "summary": "Ch.XII | Sec.171 | 5 subsections",
       "preview": "(2) Notwithstanding anything contained in any other law, an agreement for the payment of compensation registered under sub-section (1) shall be enforceable under this Act.   171. **Effects of failure..."
     },
     {
@@ -1635,8 +1635,8 @@
       "file": "chunk_78.txt",
       "metadata": {
         "chunk_id": 78,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
         "section": "Rules to give effect to arrangement with other countries for the transfer of money paid as compensation",
         "section_number": "174",
         "subsections": [
@@ -1647,7 +1647,7 @@
         "char_count": 1262,
         "content_type": "section_content"
       },
-      "summary": "Sec.174 | 2 subsections",
+      "summary": "Ch.XII | Sec.174 | 2 subsections",
       "preview": "174. **Rules to give effect to arrangement with other countries for the transfer of money paid as compensation.** - (1) The Government may, by notification in the official Gazette, make rules-   - (a)..."
     },
     {
@@ -1894,8 +1894,8 @@
       "file": "chunk_89.txt",
       "metadata": {
         "chunk_id": 89,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
         "section": "Limited application of law of conspiracy",
         "section_number": "197",
         "subsections": [
@@ -1909,7 +1909,7 @@
         "char_count": 3464,
         "content_type": "section_content"
       },
-      "summary": "Sec.197 | 5 subsections",
+      "summary": "Ch.XIII | Sec.197 | 5 subsections",
       "preview": "- (e) commence or continue an illegal participation in strike or a goslow; or instigate others to take part in it; or   - (f) resort to _gherao_ , obstruction to transport or communication system or d..."
     },
     {
@@ -1917,8 +1917,8 @@
       "file": "chunk_90.txt",
       "metadata": {
         "chunk_id": 90,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
         "section": "Registration of federation of trade unions",
         "section_number": "200",
         "subsections": [],
@@ -1926,7 +1926,7 @@
         "char_count": 3447,
         "content_type": "section_content"
       },
-      "summary": "Sec.200",
+      "summary": "Ch.XIII | Sec.200",
       "preview": "Provided that nothing in this section shall enable any civil Court to entertain any legal proceedings instituted for the purpose of enforcing, or recovering damages for the breach of, any agreement co..."
     },
     {
@@ -1934,8 +1934,8 @@
       "file": "chunk_91.txt",
       "metadata": {
         "chunk_id": 91,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
         "section": "Collective bargaining agent",
         "section_number": "202",
         "subsections": [],
@@ -1943,7 +1943,7 @@
         "char_count": 3376,
         "content_type": "section_content"
       },
-      "summary": "Sec.202",
+      "summary": "Ch.XIII | Sec.202",
       "preview": "it thereof, and if the trade union fails to submit the general statement within 30 (thirty) days of the receipt of such notice, its registration may be cancelled. (4) If any trade union is a member of..."
     },
     {
@@ -1951,8 +1951,8 @@
       "file": "chunk_92.txt",
       "metadata": {
         "chunk_id": 92,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
         "section": "Collective bargaining agent",
         "section_number": "202",
         "subsections": [
@@ -1966,7 +1966,7 @@
         "char_count": 3137,
         "content_type": "continuation"
       },
-      "summary": "Sec.202 | 5 subsections",
+      "summary": "Ch.XIII | Sec.202 | 5 subsections",
       "preview": "(8) On receipt of the list of workers from the employer, the Director General shall send a copy of the list to each contesting trade union and shall affix a copy thereof in a conspicuous place of his..."
     },
     {
@@ -1974,8 +1974,8 @@
       "file": "chunk_93.txt",
       "metadata": {
         "chunk_id": 93,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
         "section": "Collective bargaining agent",
         "section_number": "202",
         "subsections": [
@@ -1987,7 +1987,7 @@
         "char_count": 3372,
         "content_type": "continuation"
       },
-      "summary": "Sec.202 | 3 subsections",
+      "summary": "Ch.XIII | Sec.202 | 3 subsections",
       "preview": "(16) Where a trade union is declared to be the collective bargaining agent for an establishment under sub-section (15)(e), it shall be the collective bargaining agent for that establishment for 2 (two..."
     },
     {
@@ -1995,8 +1995,8 @@
       "file": "chunk_94.txt",
       "metadata": {
         "chunk_id": 94,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
         "section": "Federation of trade unions to act as collective bargaining agent in certain cases",
         "section_number": "203",
         "subsections": [
@@ -2010,7 +2010,7 @@
         "char_count": 3254,
         "content_type": "section_content"
       },
-      "summary": "Sec.203 | 5 subsections",
+      "summary": "Ch.XIII | Sec.203 | 5 subsections",
       "preview": "- (a) bargain with the employer in matters of the state of jobless, conditions of work or environment of work of the workers;   - (b) represent all or any of the workers in any proceedings;   - (c) gi..."
     },
     {
@@ -2018,8 +2018,8 @@
       "file": "chunk_95.txt",
       "metadata": {
         "chunk_id": 95,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
         "section": "Participation committee",
         "section_number": "205",
         "subsections": [
@@ -2032,7 +2032,7 @@
         "char_count": 3414,
         "content_type": "section_content"
       },
-      "summary": "Sec.205 | 4 subsections",
+      "summary": "Ch.XIII | Sec.205 | 4 subsections",
       "preview": "Provided that union members beyond CBA shall give subscription through receipt.   (2) An employer making any deduction from the wages under sub-section (1) shall deposit, within next 15 (fifteen) days..."
     },
     {
@@ -2040,8 +2040,8 @@
       "file": "chunk_96.txt",
       "metadata": {
         "chunk_id": 96,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
         "section": "Meetings of the participation committee",
         "section_number": "207",
         "subsections": [
@@ -2055,7 +2055,7 @@
         "char_count": 1749,
         "content_type": "section_content"
       },
-      "summary": "Sec.207 | 5 subsections",
+      "summary": "Ch.XIII | Sec.207 | 5 subsections",
       "preview": "- (a) to endeavour to promote mutual trust and faith, understanding and co-operation between the employers and the workers;   - (b) to ensure the application of labour laws;   - (c) to foster a sense..."
     },
     {
@@ -2283,8 +2283,8 @@
       "file": "chunk_107.txt",
       "metadata": {
         "chunk_id": 107,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
         "section": "Prohibition on service of notice of strike or lock-out while proceeding remains pending",
         "section_number": "225",
         "subsections": [
@@ -2297,7 +2297,7 @@
         "char_count": 3279,
         "content_type": "section_content"
       },
-      "summary": "Sec.225 | 4 subsections",
+      "summary": "Ch.XIV | Sec.225 | 4 subsections",
       "preview": "(5) The proceedings before a Labour Court shall be deemed to have concluded on the date on which the judgment, decision or award relating thereto is delivered.   225. **Prohibition on service of notic..."
     },
     {
@@ -2305,8 +2305,8 @@
       "file": "chunk_108.txt",
       "metadata": {
         "chunk_id": 108,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "SETTLEMENT OF DISPUTE, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
         "section": "Protection of rights, etc. of certain persons",
         "section_number": "229",
         "subsections": [],
@@ -2314,7 +2314,7 @@
         "char_count": 2302,
         "content_type": "section_content"
       },
-      "summary": "Sec.229",
+      "summary": "Ch.XIV | Sec.229",
       "preview": "(2) Notwithstanding anything contained in sub-section (1), an officer of a trade union shall not, during the pendency of any proceedings referred to in the said subsection, be discharged, dismissed or..."
     },
     {
@@ -3111,8 +3111,8 @@
       "file": "chunk_147.txt",
       "metadata": {
         "chunk_id": 147,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [
@@ -3122,7 +3122,7 @@
         "char_count": 490,
         "content_type": "section_content"
       },
-      "summary": "Sec.354 | 1 subsections",
+      "summary": "Ch.XXI | Sec.354 | 1 subsections",
       "preview": "- (b) any case or proceedings pending in any Court or Tribunal at the time of commencement of this Act shall be continued in and heard and disposed of by such Court or Tribunal, as if such laws were n..."
     },
     {
@@ -3130,8 +3130,8 @@
       "file": "chunk_148.txt",
       "metadata": {
         "chunk_id": 148,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [],
@@ -3139,7 +3139,7 @@
         "char_count": 2346,
         "content_type": "continuation"
       },
-      "summary": "Sec.354",
+      "summary": "Ch.XXI | Sec.354",
       "preview": "## **THE FIRST SCHEDULE** [see sections 2(1), (67) and section 151] **LIST OF INJURIES DEEMED TO RESULT IN PERMANENT PARTIAL DISABLEMENT**   **==> picture [432 x 596] intentionally omitted <==**  **--..."
     },
     {
@@ -3147,8 +3147,8 @@
       "file": "chunk_149.txt",
       "metadata": {
         "chunk_id": 149,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [],
@@ -3156,7 +3156,7 @@
         "char_count": 2025,
         "content_type": "continuation"
       },
-      "summary": "Sec.354",
+      "summary": "Ch.XXI | Sec.354",
       "preview": "**==> picture [432 x 618] intentionally omitted <==**  **----- Start of picture text -----**<br> 25.  Amputation from middle thigh to 9 centimetres below  60<br>knee<br>26.  Amputation below knee with..."
     },
     {
@@ -3164,8 +3164,8 @@
       "file": "chunk_150.txt",
       "metadata": {
         "chunk_id": 150,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [],
@@ -3173,7 +3173,7 @@
         "char_count": 1153,
         "content_type": "continuation"
       },
-      "summary": "Sec.354",
+      "summary": "Ch.XXI | Sec.354",
       "preview": "## **THE SECOND SCHEDULE** [see sections 82 and 83] **List of Notifiable Diseases**   1. Lead poisoning;   2. Lead tetra-ethyl poisoning;   3. Phosphorus poisoning;   4. Mercury poisoning;   5. Mangan..."
     },
     {
@@ -3181,8 +3181,8 @@
       "file": "chunk_151.txt",
       "metadata": {
         "chunk_id": 151,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [],
@@ -3190,7 +3190,7 @@
         "char_count": 2375,
         "content_type": "continuation"
       },
-      "summary": "Sec.354",
+      "summary": "Ch.XXI | Sec.354",
       "preview": "## **THE THIRD SCHEDULE [see section 150] List of Occupational Disease**   **==> picture [432 x 633] intentionally omitted <==**  **----- Start of picture text -----**<br> Serial  Occupational disease..."
     },
     {
@@ -3198,8 +3198,8 @@
       "file": "chunk_152.txt",
       "metadata": {
         "chunk_id": 152,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [],
@@ -3207,7 +3207,7 @@
         "char_count": 3391,
         "content_type": "continuation"
       },
-      "summary": "Sec.354",
+      "summary": "Ch.XXI | Sec.354",
       "preview": "**==> picture [432 x 684] intentionally omitted <==**  **----- Start of picture text -----**<br> fumes, dust or vapour of beryllium or a<br>compound of beryllium or any substance<br>containing berylli..."
     },
     {
@@ -3215,8 +3215,8 @@
       "file": "chunk_153.txt",
       "metadata": {
         "chunk_id": 153,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [
@@ -3229,7 +3229,7 @@
         "char_count": 3371,
         "content_type": "continuation"
       },
-      "summary": "Sec.354 | 4 subsections",
+      "summary": "Ch.XXI | Sec.354 | 4 subsections",
       "preview": "## **THE FOURTH SCHEDULE**   [see section 150 (8)]   **LIST OF PERSONS WHO, SUBJECT TO THE PROVISION OF SECTION 150 (8), ARE INCLUDED IN THE DEFINITION OF WORKER**   Any person who is—   - (1) employe..."
     },
     {
@@ -3237,8 +3237,8 @@
       "file": "chunk_154.txt",
       "metadata": {
         "chunk_id": 154,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [
@@ -3248,7 +3248,7 @@
         "char_count": 3015,
         "content_type": "continuation"
       },
-      "summary": "Sec.354 | 1 subsections",
+      "summary": "Ch.XXI | Sec.354 | 1 subsections",
       "preview": "- (d) any wharf, quay, sea-wall or other marine work including any moorings of ships;   - (10)  employed in setting up, maintaining, repairing or taking down any telegraph or telephone line or post or..."
     },
     {
@@ -3256,8 +3256,8 @@
       "file": "chunk_155.txt",
       "metadata": {
         "chunk_id": 155,
-        "chapter": null,
-        "chapter_number": null,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XXI",
         "section": "Original text and English text",
         "section_number": "354",
         "subsections": [],
@@ -3265,7 +3265,7 @@
         "char_count": 1445,
         "content_type": "continuation"
       },
-      "summary": "Sec.354",
+      "summary": "Ch.XXI | Sec.354",
       "preview": "## **THE FIFTH SCHEDULE**   [see section 151]   ## **Amount of compensation payable in certain cases**   |**Monthly wages**<br>**of the injured**<br>**worker**|**Amount of**|**compensation**|**Monthly..."
     }
   ]

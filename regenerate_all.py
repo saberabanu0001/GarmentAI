@@ -1,52 +1,50 @@
 """
-Script to re-generate all preprocessed chunks using the latest pipeline logic.
-This ensures consistency across all document sources.
+Re-generate all markdown-based chunk files from chunked-data-code/.
+Run from the Experiment/ directory with the venv active if needed.
 """
 
-import subprocess
-import os
+from __future__ import annotations
 
-SCRIPTS_DIR = "scripts"
-SOURCE_SCRIPTS = [
-    "clean_fire_safety.py",
-    "clean_labour_act.py",
-    "clean_machine_manual.py",
-    "clean_compliance.py",
-    "clean_compliance2.py",
-    "clean_sop.py"
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+CHUNK_SCRIPTS = [
+    "chunked-data-code/labour_law_2006_data_chunk.py",
+    "chunked-data-code/labour_law_2015_data_chunk.py",
+    "chunked-data-code/fire_safety_data_chunk.py",
 ]
 
-def main():
-    print("Starting regeneration of all chunk files...\n")
-    
-    # Ensure we are in the Experiment/ directory
-    cwd = os.getcwd()
-    if not os.path.isdir("scripts") or not os.path.isdir("raw"):
-        print("Error: Please run this script from the Experiment/ directory.")
-        return
 
-    for script in SOURCE_SCRIPTS:
-        script_path = os.path.join(SCRIPTS_DIR, script)
-        if not os.path.exists(script_path):
-            print(f"Skipping {script}: file not found.")
+def main() -> None:
+    print("Regenerating chunk outputs...\n")
+    if not (ROOT / "chunked-data-code" / "markdown_langchain_chunker.py").is_file():
+        print("Error: run from the Experiment/ directory (chunked-data-code missing).")
+        sys.exit(1)
+
+    for rel in CHUNK_SCRIPTS:
+        script = ROOT / rel
+        if not script.is_file():
+            print(f"Skipping (missing): {rel}")
             continue
-            
-        print(f"Running {script}...")
-        try:
-            # We run the script using python3
-            result = subprocess.run(["python3", script_path], capture_output=True, text=True)
-            if result.returncode == 0:
-                print(f"  Successfully regenerated chunks for {script}")
-            else:
-                # Some scripts might complain if the raw PDF is missing (like clean_sop.py)
-                print(f"  Error running {script}:")
-                print(result.stdout)
-                print(result.stderr)
-        except Exception as e:
-            print(f"  Exception while running {script}: {e}")
+        print(f"Running {rel}...")
+        r = subprocess.run(
+            [sys.executable, str(script)],
+            cwd=str(ROOT),
+            capture_output=True,
+            text=True,
+        )
+        if r.returncode == 0:
+            print(f"  OK: {rel}")
+        else:
+            print(f"  Error: {rel}")
+            print(r.stdout)
+            print(r.stderr, file=sys.stderr)
         print("-" * 40)
 
     print("\nAll done!")
+
 
 if __name__ == "__main__":
     main()

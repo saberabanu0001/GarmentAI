@@ -1,22 +1,15 @@
 #!/usr/bin/env python3
 """
-Chunk markdown using LangChain RecursiveCharacterTextSplitter + custom
-preprocessing and metadata (chapter/section propagation).
+Shared chunker: LangChain RecursiveCharacterTextSplitter + preprocessing
+and metadata (chapter/section propagation).
 
-Outputs go to ../chunked-data/ by default (repo root).
+Data-specific entry points (from repo root):
+  python chunked-data-code/labour_law_2006_data_chunk.py
+  python chunked-data-code/labour_law_2015_data_chunk.py
 
-Install (from repo root): pip install -r requirements.txt
+Or call this module with --input / --source-name / --document-name.
 
-Example (from repo root):
-  python chunked-data-code/chunk_markdown_langchain.py \\
-    --input "md data/labour_rules_full.md" \\
-    --source-name "Labour Rules" \\
-    --document-name "Labour Rules 2015"
-
-Example (from this directory):
-  python chunk_markdown_langchain.py \\
-    --input "../md data/labour_rules_full.md" \\
-    --source-name "Labour Rules"
+Install: pip install -r requirements.txt
 """
 
 from __future__ import annotations
@@ -32,6 +25,9 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 # Parent of chunked-data-code/ = repository root
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+# How far to scan previous chunks for chapter/section propagation (long chapters).
+_META_LOOKBACK_CHUNKS = 120
+
 
 def resolve_existing_file(path: Path) -> Path | None:
     """Return absolute path if file exists (cwd, then repo root)."""
@@ -44,11 +40,104 @@ def resolve_existing_file(path: Path) -> Path | None:
     return None
 
 
-def preprocess_markdown(text: str) -> str:
+# PDF/Markdown export noise: repeated cover title on its own line.
+_RUNNING_TITLE_LINE = re.compile(
+    r"^Bangladesh\s+Labour\s+Act,\s*2006\s*$", re.IGNORECASE
+)
+# Standalone page numbers (1–3 digits) on their own line.
+_PAGE_ONLY_LINE = re.compile(r"^\d{1,3}\s*$")
+
+
+def strip_conversion_artifacts(
+    text: str,
+    *,
+    strip_running_title: bool = True,
+    strip_page_numbers: bool = True,
+) -> str:
+    """Remove common PDF-to-markdown junk without touching real legal text."""
+    lines: list[str] = []
+    running_title_kept = False
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            lines.append(line)
+            continue
+        if strip_running_title and _RUNNING_TITLE_LINE.match(stripped):
+            if not running_title_kept:
+                lines.append(line)
+                running_title_kept = True
+            continue
+        if strip_page_numbers and _PAGE_ONLY_LINE.match(stripped):
+            continue
+        lines.append(line)
+    return "\n".join(lines)
+
+
+def preprocess_markdown(
+    text: str,
+    *,
+    strip_running_title: bool = True,
+    strip_page_numbers: bool = True,
+) -> str:
+    text = strip_conversion_artifacts(
+        text,
+        strip_running_title=strip_running_title,
+        strip_page_numbers=strip_page_numbers,
+    )
     text = re.sub(r"\n## \*\*CHAPTER", "\n\n## **CHAPTER", text)
     text = re.sub(r"\n(\d+)\.\s+\*\*", r"\n\n\1. **", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text
+
+
+def extract_chapter_from_text(text: str) -> tuple[str | None, str | None]:
+    """Labour Act: **CHAPTER I PRELIMINARY**; Labour Rules: **CHAPTER I** then ## **PRELIMINARY**."""
+    m = re.search(r"\*\*CHAPTER\s+([IVXLCDM]+)\s+(.+?)\*\*", text)
+    if m:
+        return m.group(1), m.group(2).strip().rstrip("*").strip()
+    m = re.search(r"\*\*CHAPTER\s+([IVXLCDM]+)\s*\*\*", text)
+    if m:
+        roman = m.group(1)
+        after = text[m.end() :]
+        m2 = re.search(r"## \*\*([^*]+?)\*\*", after)
+        if m2:
+            title = m2.group(1).strip()
+            if not re.fullmatch(r"CHAPTER\s+[IVXLCDM]+", title, flags=re.I):
+                return roman, title
+        return roman, None
+    m_legacy = re.search(r"CHAPTER\s+([IVXLCDM]+)\s+(.+?)(?:\*\*|\n)", text)
+    if m_legacy:
+        return m_legacy.group(1), m_legacy.group(2).strip().rstrip("*").strip()
+    return None, None
+
+
+# Act sections: 1. **Short title.-**  |  Rules: ## **2. Definition:**  |  **3. Foo.-**
+_SECTION_PATTERNS: list[re.Pattern[str]] = [
+    re.compile(r"^\s*(\d+)\.\s+\*\*(.+?)\.\*\*", re.MULTILINE),
+    re.compile(r"^## \*\*(\d+)\.\s*([^*]+?):\s*\*\*", re.MULTILINE),
+    re.compile(r"(?m)^\*\*(\d+)\.\s*([^*]+?)\s*:\s*\*\*"),
+    re.compile(r"\*\*(\d+)\.\s*(.+?)\.-\*\*", re.MULTILINE),
+]
+
+
+def _first_section_match(text: str) -> re.Match[str] | None:
+    best: re.Match[str] | None = None
+    best_start = len(text) + 1
+    for pat in _SECTION_PATTERNS:
+        m = pat.search(text)
+        if m and m.start() < best_start:
+            best, best_start = m, m.start()
+    return best
+
+
+def _last_section_match(text: str) -> re.Match[str] | None:
+    best: re.Match[str] | None = None
+    best_end = -1
+    for pat in _SECTION_PATTERNS:
+        for m in pat.finditer(text):
+            if m.end() > best_end:
+                best, best_end = m, m.end()
+    return best
 
 
 def extract_metadata_with_context(
@@ -70,41 +159,53 @@ def extract_metadata_with_context(
         metadata["content_type"] = "title_page"
     elif "CHAPTER" in chunk_text:
         metadata["content_type"] = "chapter_content"
-    elif re.search(r"^\s*\d+\.\s+\*\*", chunk_text, re.MULTILINE):
+    elif (
+        re.search(r"^\s*\d+\.\s+\*\*", chunk_text, re.MULTILINE)
+        or re.search(r"^## \*\*\d+\.", chunk_text, re.MULTILINE)
+        or re.search(r"(?m)^\*\*\d+\.\s", chunk_text)
+    ):
         metadata["content_type"] = "section_content"
     else:
         metadata["content_type"] = "continuation"
 
-    chapter_match = re.search(
-        r"CHAPTER\s+([IVXLCDM]+)\s+(.+?)(?:\*\*|\n)", chunk_text
-    )
-    if chapter_match:
-        metadata["chapter_number"] = chapter_match.group(1)
-        metadata["chapter"] = (
-            chapter_match.group(2).strip().rstrip("*").strip()
-        )
+    ch_r, ch_t = extract_chapter_from_text(chunk_text)
+    if ch_r:
+        metadata["chapter_number"] = ch_r
+        metadata["chapter"] = ch_t
     else:
-        for i in range(chunk_index - 1, max(-1, chunk_index - 10), -1):
+        for i in range(
+            chunk_index - 1,
+            max(-1, chunk_index - _META_LOOKBACK_CHUNKS - 1),
+            -1,
+        ):
             if i >= 0:
-                prev_match = re.search(
-                    r"CHAPTER\s+([IVXLCDM]+)\s+(.+?)(?:\*\*|\n)",
-                    all_chunks[i],
-                )
-                if prev_match:
-                    metadata["chapter_number"] = prev_match.group(1)
-                    metadata["chapter"] = (
-                        prev_match.group(2).strip().rstrip("*").strip()
-                    )
+                pr, pt = extract_chapter_from_text(all_chunks[i])
+                if pr:
+                    metadata["chapter_number"] = pr
+                    metadata["chapter"] = pt
                     break
 
-    section_match = re.search(
-        r"^\s*(\d+)\.\s+\*\*(.+?)\.\*\*", chunk_text, re.MULTILINE
-    )
+    section_match = _first_section_match(chunk_text)
     if section_match:
         metadata["section_number"] = section_match.group(1)
         metadata["section"] = section_match.group(2).strip()
+    else:
+        for i in range(
+            chunk_index - 1,
+            max(-1, chunk_index - _META_LOOKBACK_CHUNKS - 1),
+            -1,
+        ):
+            if i >= 0:
+                m = _last_section_match(all_chunks[i])
+                if m:
+                    metadata["section_number"] = m.group(1)
+                    metadata["section"] = m.group(2).strip()
+                    break
 
-    subsection_matches = re.findall(r"\(([a-z])\)", chunk_text)
+    # Only markdown list markers like "- (a)" — not every "(a)" in prose.
+    subsection_matches = re.findall(
+        r"^\s*-\s*\(([a-z])\)", chunk_text, re.MULTILINE
+    )
     if subsection_matches:
         metadata["subsections"] = list(dict.fromkeys(subsection_matches[:10]))
 
@@ -119,8 +220,6 @@ def build_section_line(meta: dict) -> str:
         )
     if meta.get("section_number") and meta.get("section"):
         parts.append(f"Section {meta['section_number']}: {meta['section']}")
-    if meta.get("subsections"):
-        parts.append(f"subsections ({', '.join(meta['subsections'])})")
     if parts:
         return " | ".join(parts)
     return meta.get("content_type") or "unknown"
@@ -191,6 +290,16 @@ def main() -> int:
         action="store_true",
         help="Also write chunk_0.txt, chunk_1.txt, ... into output-dir",
     )
+    parser.add_argument(
+        "--keep-running-title",
+        action="store_true",
+        help="Keep repeated full-line 'Bangladesh Labour Act, 2006' lines.",
+    )
+    parser.add_argument(
+        "--keep-page-numbers",
+        action="store_true",
+        help="Keep standalone 1–3 digit lines (PDF page numbers).",
+    )
     args = parser.parse_args()
 
     in_path = resolve_existing_file(args.input)
@@ -200,7 +309,11 @@ def main() -> int:
 
     document_name = args.document_name or in_path.stem
     text = in_path.read_text(encoding="utf-8")
-    text = preprocess_markdown(text)
+    text = preprocess_markdown(
+        text,
+        strip_running_title=not args.keep_running_title,
+        strip_page_numbers=not args.keep_page_numbers,
+    )
     print(f"Original (after preprocess): {len(text)} chars\n")
 
     text_splitter = RecursiveCharacterTextSplitter(

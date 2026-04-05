@@ -7,7 +7,7 @@ Project: AI-Based Knowledge Management System for Garment Factories
 ```
 Experiment/
 ├── chunked-data/           ← Generated *_chunks.txt and *_manifest.json (submit the .txt)
-├── chunked-data-code/      ← chunk_markdown_langchain.py (markdown → chunks)
+├── chunked-data-code/      ← data-named scripts + markdown_langchain_chunker.py (engine)
 ├── md data/                ← Markdown sources (after PDF conversion)
 ├── raw-data/               ← Original PDFs and other binaries
 ├── requirements.txt        ← pip deps (e.g. langchain-text-splitters)
@@ -23,14 +23,36 @@ Install and run from the **repository root**:
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-python chunked-data-code/chunk_markdown_langchain.py \
+### By data file name (recommended)
+
+| Markdown source | Chunk script |
+|-----------------|--------------|
+| `md data/1 labour law 2006 data.md` | `python chunked-data-code/labour_law_2006_data_chunk.py` |
+| `md data/1.1 labour law 2015.md` | `python chunked-data-code/labour_law_2015_data_chunk.py` |
+| `md data/2 fire safety data.md` | `python chunked-data-code/fire_safety_data_chunk.py` |
+
+Optional extra flags (appended): `--chunk-size`, `--chunk-overlap`, `--min-chunk-chars`, `--write-raw-chunks`, `--output-dir`. Defaults strip PDF-style noise (running title + page numbers); use `--keep-running-title` or `--keep-page-numbers` when needed.
+
+### PDF → Markdown (pymupdf4llm), by data name
+
+| Output markdown | Script (defaults match paths below) |
+|-----------------|-------------------------------------|
+| `md data/1 labour law 2006 data.md` | `python chunked-data-code/labour_law_2006_data_pdf_to_markdown.py` |
+| `md data/1.1 labour law 2015.md` | `python chunked-data-code/labour_law_2015_data_pdf_to_markdown.py` |
+| `md data/2 fire safety data.md` | `python chunked-data-code/fire_safety_data_pdf_to_markdown.py` |
+
+Each accepts `--input` and `--output` to override the default PDF and `.md` paths.
+
+### Generic chunker (any other `.md`)
+
+```bash
+python chunked-data-code/markdown_langchain_chunker.py \
   --input "md data/your_file.md" \
   --source-name "Your source label" \
   --document-name "Human-readable document title"
 ```
-
-Optional flags: `--chunk-size`, `--chunk-overlap`, `--min-chunk-chars`, `--write-raw-chunks`, `--output-dir` (defaults to `chunked-data/` at repo root). By default the script strips repeated PDF-style lines (running title + standalone page numbers); use `--keep-running-title` or `--keep-page-numbers` to disable that for other corpora.
 
 ## Standard Output Contract
 

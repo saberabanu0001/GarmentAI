@@ -1,0 +1,4193 @@
+{
+  "document_info": {
+    "source_file": "/Users/saberabanu/All Drives/University/Basic Design/activities/Experiment/md data/1.1 labour law 2015.md",
+    "total_chunks": 231,
+    "avg_chunk_size": 2855
+  },
+  "chunking_config": {
+    "chunk_size": 3500,
+    "chunk_overlap": 600,
+    "min_chunk_size": 100
+  },
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "file": "chunk_0.txt",
+      "metadata": {
+        "chunk_id": 0,
+        "chapter": null,
+        "chapter_number": null,
+        "section": null,
+        "section_number": null,
+        "subsections": [],
+        "word_count": 79,
+        "char_count": 540,
+        "content_type": "title_page"
+      },
+      "summary": "title_page",
+      "preview": "## **Translated from Bengali**   ## **Registered No. DA- 1**   ## **The Bangladesh Gazette**   ## **Additional Issue Published by the Authority Tuesday, September 15, 2015**   **The People’s Republic..."
+    },
+    {
+      "chunk_id": 1,
+      "file": "chunk_1.txt",
+      "metadata": {
+        "chunk_id": 1,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Title and Introduction",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 28,
+        "char_count": 183,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.I | Sec.1",
+      "preview": "## **CHAPTER I**   ## **PRELIMINARY**   **1. Title and Introduction:** (1) These Rules shall be called the Bangladesh Labour Rules, 2015.   - (2) It shall come into force immediately...."
+    },
+    {
+      "chunk_id": 2,
+      "file": "chunk_2.txt",
+      "metadata": {
+        "chunk_id": 2,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Definition",
+        "section_number": "2",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j"
+        ],
+        "word_count": 559,
+        "char_count": 3488,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.2 | 10 subsections",
+      "preview": "## **2. Definition:**   (1) In these Rules, unless there is anything repugnant to the subject or the context,-   - (a) ‘Act’ means the Bangladesh Labour Act, 2006 (Act Number 42 of 2006);   - (b) ‘Com..."
+    },
+    {
+      "chunk_id": 3,
+      "file": "chunk_3.txt",
+      "metadata": {
+        "chunk_id": 3,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Definition",
+        "section_number": "2",
+        "subsections": [
+          "p",
+          "q",
+          "r",
+          "s"
+        ],
+        "word_count": 124,
+        "char_count": 696,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | Sec.2 | 4 subsections",
+      "preview": "- (p) “Newspaper worker” means any journalist, administrative worker or newspaper printing press worker working in the print or electronic media;   - (q) “Hatch” means the gab of any deck which is use..."
+    },
+    {
+      "chunk_id": 4,
+      "file": "chunk_4.txt",
+      "metadata": {
+        "chunk_id": 4,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Submission of Service Rules",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 513,
+        "char_count": 3158,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.3",
+      "preview": "## **CONDITIONS OF EMPLOYMENT AND SERVICE**   **3. Submission of Service Rules.-** (1) If the employer of any establishment intends to enact his own service rules to regulate the service of workers or..."
+    },
+    {
+      "chunk_id": 5,
+      "file": "chunk_5.txt",
+      "metadata": {
+        "chunk_id": 5,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Submission of Service Rules",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 572,
+        "char_count": 3415,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.I | Sec.3",
+      "preview": "- (2) Within  7 (seven) days of receipt of such notice, the employer concerned shall display the notice along with the draft service rule on the notice board of his establishment and shall certify to..."
+    },
+    {
+      "chunk_id": 6,
+      "file": "chunk_6.txt",
+      "metadata": {
+        "chunk_id": 6,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Existing service rules",
+        "section_number": "5",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "word_count": 553,
+        "char_count": 3439,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.5 | 9 subsections",
+      "preview": "- (13 ) The service rule shall not be effective unless 30 (thirty) days have been passed from the date of stamped after singing by the Inspector general in accordance with Sub-Rule (12) or unless fina..."
+    },
+    {
+      "chunk_id": 7,
+      "file": "chunk_7.txt",
+      "metadata": {
+        "chunk_id": 7,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Existing service rules",
+        "section_number": "5",
+        "subsections": [
+          "f",
+          "g",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "word_count": 517,
+        "char_count": 3342,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.5 | 8 subsections",
+      "preview": "- (f) Attested copy of the VAT Registration Certificate;   - (g) Certificate from the bank to prove financial solvency;   - (h) If the applicant is a company, establishment, organization of person, pa..."
+    },
+    {
+      "chunk_id": 8,
+      "file": "chunk_8.txt",
+      "metadata": {
+        "chunk_id": 8,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Existing service rules",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 363,
+        "char_count": 2255,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.5",
+      "preview": "**8. Restrictions on the licensee and receiver of services. -** (1) The licensee, without prior permission from the Inspector General, shall not receive any service charge from any worker.   (2) Both..."
+    },
+    {
+      "chunk_id": 9,
+      "file": "chunk_9.txt",
+      "metadata": {
+        "chunk_id": 9,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Deposit, Management Board for Deposit Fund, Investment, Payment of Lawful dues to workers",
+        "section_number": "11",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "word_count": 323,
+        "char_count": 2030,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.11 | 7 subsections",
+      "preview": "## **11. Deposit, Management Board for Deposit Fund, Investment, Payment of Lawful dues to workers:**   **-** (1) For obtaining license every contracting agency shall have to submit a fixed amount of..."
+    },
+    {
+      "chunk_id": 10,
+      "file": "chunk_10.txt",
+      "metadata": {
+        "chunk_id": 10,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Duration of the members of the deposit fund for contracting agencies and their resignation",
+        "section_number": "12",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 575,
+        "char_count": 3443,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.12 | 4 subsections",
+      "preview": "## **12. Duration of the members of the deposit fund for contracting agencies and their resignation.-**   - (1) Tenure of members of the contracting agency security fund management board shall be 2 (t..."
+    },
+    {
+      "chunk_id": 11,
+      "file": "chunk_11.txt",
+      "metadata": {
+        "chunk_id": 11,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Approval of rules regarding appointment of workers",
+        "section_number": "15",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h"
+        ],
+        "word_count": 544,
+        "char_count": 3325,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.15 | 8 subsections",
+      "preview": "(4) In case of failure to get surety mentioned in Sub-Rule (3), the employer and contracting agency shall be equally liable for violating any provision of the Act regarding occupational health and saf..."
+    },
+    {
+      "chunk_id": 12,
+      "file": "chunk_12.txt",
+      "metadata": {
+        "chunk_id": 12,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Approval of rules regarding appointment of workers",
+        "section_number": "15",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 553,
+        "char_count": 3350,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.15 | 5 subsections",
+      "preview": "(j) It shall be mentioned that all conditions of appointment shall be made in accordance with the existing service rules, (if any) and existing Labour Act.   (5) Every employer shall issue an identity..."
+    },
+    {
+      "chunk_id": 13,
+      "file": "chunk_13.txt",
+      "metadata": {
+        "chunk_id": 13,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Approval of rules regarding appointment of workers",
+        "section_number": "15",
+        "subsections": [],
+        "word_count": 582,
+        "char_count": 3436,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.15",
+      "preview": "(2) The worker at the time of his joining shall submit his previous service book, if any, to the employer and the employer shall issue a receipt in accordance with Form No. 7(a).   (3) Any worker may..."
+    },
+    {
+      "chunk_id": 14,
+      "file": "chunk_14.txt",
+      "metadata": {
+        "chunk_id": 14,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Approval of rules regarding appointment of workers",
+        "section_number": "15",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "i",
+          "g"
+        ],
+        "word_count": 554,
+        "char_count": 3367,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.15 | 8 subsections",
+      "preview": "(2) If the lay-off or closure of the laid-off establishment or factory is for more than 45 days, the workers can be retrenched upon payment of all dues in accordance with Section 20.   Provided that i..."
+    },
+    {
+      "chunk_id": 15,
+      "file": "chunk_15.txt",
+      "metadata": {
+        "chunk_id": 15,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Approval of rules regarding appointment of workers",
+        "section_number": "15",
+        "subsections": [
+          "a"
+        ],
+        "word_count": 545,
+        "char_count": 3455,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.15 | 1 subsections",
+      "preview": "- (2)  That committee shall be formed with maximum 6 members.   - (3)  The investigation committee may form sub-committee.   - (4) With an aim to finalize the report the sub-committee the same shall b..."
+    },
+    {
+      "chunk_id": 16,
+      "file": "chunk_16.txt",
+      "metadata": {
+        "chunk_id": 16,
+        "chapter": "PRELIMINARY",
+        "chapter_number": "I",
+        "section": "Approval of rules regarding appointment of workers",
+        "section_number": "15",
+        "subsections": [
+          "b",
+          "i"
+        ],
+        "word_count": 468,
+        "char_count": 2894,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.I | Sec.15 | 2 subsections",
+      "preview": "(iii) At the time of closing down the factory or establishment the workers shall be considered to be working with full wages;   (iv) If the employer intends to engage the workers of the establishment..."
+    },
+    {
+      "chunk_id": 17,
+      "file": "chunk_17.txt",
+      "metadata": {
+        "chunk_id": 17,
+        "chapter": "EMPLOYMENT OF ADOLESCENT WORKER",
+        "chapter_number": "III",
+        "section": "Approval of rules regarding appointment of workers",
+        "section_number": "15",
+        "subsections": [],
+        "word_count": 298,
+        "char_count": 1819,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.III | Sec.15",
+      "preview": "## **CHAPTER III**   ## **EMPLOYMENT OF ADOLESCENT WORKER**   **34. Certificate of age and fitness** . - (1) If there is no birth registration certificate or school certificate of a person to prove hi..."
+    },
+    {
+      "chunk_id": 18,
+      "file": "chunk_18.txt",
+      "metadata": {
+        "chunk_id": 18,
+        "chapter": "MATERNITY BENEFIT",
+        "chapter_number": "IV",
+        "section": "Approval of rules regarding appointment of workers",
+        "section_number": "15",
+        "subsections": [
+          "a",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 381,
+        "char_count": 2353,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.IV | Sec.15 | 4 subsections",
+      "preview": "## **CHAPTER IV**   ## **MATERNITY BENEFIT**   ## **37. Responsibilities of the employers and other workers to the pregnant female workers** .-   Responsibilities of employers and other workers to a p..."
+    },
+    {
+      "chunk_id": 19,
+      "file": "chunk_19.txt",
+      "metadata": {
+        "chunk_id": 19,
+        "chapter": "MATERNITY BENEFIT",
+        "chapter_number": "IV",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 552,
+        "char_count": 3336,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IV | Sec.44 | 3 subsections",
+      "preview": "## **ARRANGEMENTS FOR THE PROTECTION OF HEALTH**   **40. Removal of garbage** . - (1) With an aim to implement the objective of Section 51(a) dirt and garbage have to be removed in covered boxes as an..."
+    },
+    {
+      "chunk_id": 20,
+      "file": "chunk_20.txt",
+      "metadata": {
+        "chunk_id": 20,
+        "chapter": "MATERNITY BENEFIT",
+        "chapter_number": "IV",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 568,
+        "char_count": 3449,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IV | Sec.44 | 3 subsections",
+      "preview": "(2) Every person working at a place with dust and smoke in such establishment shall have to wear masks.   (3) The Inspector General may determine the highest level of exhaustion of dust and smoke in t..."
+    },
+    {
+      "chunk_id": 21,
+      "file": "chunk_21.txt",
+      "metadata": {
+        "chunk_id": 21,
+        "chapter": "MATERNITY BENEFIT",
+        "chapter_number": "IV",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 428,
+        "char_count": 2453,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IV | Sec.44 | 5 subsections",
+      "preview": "(4) The surroundings of the place where potable water for the workers is supplied shall be kept neat and clean and it shall be connected with a drain.   (5) The owner, at least once in a year, or upon..."
+    },
+    {
+      "chunk_id": 22,
+      "file": "chunk_22.txt",
+      "metadata": {
+        "chunk_id": 22,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 557,
+        "char_count": 3401,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "## **CHAPTER VI SAFETY**   **53. Safety of building, machinery and other infrastructure** . – (1) While implementing Section 61(1), the Inspector shall consider whether any wall, chimney, bridge, cana..."
+    },
+    {
+      "chunk_id": 23,
+      "file": "chunk_23.txt",
+      "metadata": {
+        "chunk_id": 23,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 601,
+        "char_count": 3483,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(4) Strong handrails shall be attached with every staircase used for exit in case of fire and such staircase and rails thereof shall be made of thermal insulator, fire resistant and nonmetallic materi..."
+    },
+    {
+      "chunk_id": 24,
+      "file": "chunk_24.txt",
+      "metadata": {
+        "chunk_id": 24,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 571,
+        "char_count": 3492,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.VI | Sec.44 | 3 subsections",
+      "preview": "(a) Of appropriate standard in accordance with the Bangladesh Standard Specifications;   (b) Kept in a place approved by the Inspector and shall not be used for any other work except fire extinguishin..."
+    },
+    {
+      "chunk_id": 25,
+      "file": "chunk_25.txt",
+      "metadata": {
+        "chunk_id": 25,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "word_count": 571,
+        "char_count": 3450,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.VI | Sec.44 | 6 subsections",
+      "preview": "- (7) Every fire extinguishing equipment prescribed in Sub-Rule (2) shall be-      - (a) The fire extinguisher shall be placed in such a place so that it is visible by all;      - (b) The fire extingu..."
+    },
+    {
+      "chunk_id": 26,
+      "file": "chunk_26.txt",
+      "metadata": {
+        "chunk_id": 26,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 546,
+        "char_count": 3420,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(15) In every establishment there shall be an arrangement for a water reservoir with a capacity of 5,000 liters for the purpose of fire extinguishing and it shall always be filled with water and conne..."
+    },
+    {
+      "chunk_id": 27,
+      "file": "chunk_27.txt",
+      "metadata": {
+        "chunk_id": 27,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 560,
+        "char_count": 3468,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(2) The certificate of adequacy of electric wiring shall be received from a person or institution approved by the government before starting the production of a factory or establishment.   3) In every..."
+    },
+    {
+      "chunk_id": 28,
+      "file": "chunk_28.txt",
+      "metadata": {
+        "chunk_id": 28,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 575,
+        "char_count": 3456,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(b) All jib cranes shall be constructed in such a way so that the safe carrying capacity can be regulated or altered by the regulator part. An automatic indicator shall be attached with the jib in ord..."
+    },
+    {
+      "chunk_id": 29,
+      "file": "chunk_29.txt",
+      "metadata": {
+        "chunk_id": 29,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 564,
+        "char_count": 3419,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(f) The provisions of Clause (e) shall not be applicable for the following kinds of lifting ropes, cords or pulleys, namely:-   (i) Chains made by flexible welding of iron;   (ii) Plate connected with..."
+    },
+    {
+      "chunk_id": 30,
+      "file": "chunk_30.txt",
+      "metadata": {
+        "chunk_id": 30,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "b",
+          "c",
+          "i",
+          "d"
+        ],
+        "word_count": 512,
+        "char_count": 3099,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44 | 4 subsections",
+      "preview": "(2) The Inspector General may, subject to his written conditions, provide an exemption regarding the application of any provision of this Rule in regard to the upper side of a particular moving crane..."
+    },
+    {
+      "chunk_id": 31,
+      "file": "chunk_31.txt",
+      "metadata": {
+        "chunk_id": 31,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 551,
+        "char_count": 3327,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(3) If no information is found regarding the date of construction, density of wall and safe working pressure, any competent person may, in consultation with the Inspector General, determine the age of..."
+    },
+    {
+      "chunk_id": 32,
+      "file": "chunk_32.txt",
+      "metadata": {
+        "chunk_id": 32,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 580,
+        "char_count": 3475,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(14) If the provisions prescribed in this Rule do not contradict with any law, rule or regulation in force, it shall be considered as additional to such provision.   (15) Nothing of this Rule shall be..."
+    },
+    {
+      "chunk_id": 33,
+      "file": "chunk_33.txt",
+      "metadata": {
+        "chunk_id": 33,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 560,
+        "char_count": 3385,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(a) Using revolving wheel operated with mechanical power or using metal or metal substance for dry grinding work by hand; the work of a revolving (external and internal) of iron or non-iron metal or s..."
+    },
+    {
+      "chunk_id": 34,
+      "file": "chunk_34.txt",
+      "metadata": {
+        "chunk_id": 34,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "e"
+        ],
+        "word_count": 535,
+        "char_count": 3370,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44 | 1 subsections",
+      "preview": "## **SPECIAL PROVISIONS RELATING TO HEALTH, HYGIENE AND SAFETY**   **68. Dangerous operation** . - (1) For the purposes of Section 79 of the Act, the following operations shall be considered as danger..."
+    },
+    {
+      "chunk_id": 35,
+      "file": "chunk_35.txt",
+      "metadata": {
+        "chunk_id": 35,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 518,
+        "char_count": 3193,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "> 3 It is in Bengali Alphabets, which are 40 in number.   (4) The employer of any establishment, while appointing any person in the work described in Sub-Rules (1) and (2) shall at his own cost, have..."
+    },
+    {
+      "chunk_id": 36,
+      "file": "chunk_36.txt",
+      "metadata": {
+        "chunk_id": 36,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 563,
+        "char_count": 3452,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(a) Inspector General;   (b) Concerned Deputy Commissioner;   (c) Concerned Inspector;   (d) Nearest Fire Service Station;   (e) Nearest hospital or health centre;   (f) In case of death or fatal acci..."
+    },
+    {
+      "chunk_id": 37,
+      "file": "chunk_37.txt",
+      "metadata": {
+        "chunk_id": 37,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 187,
+        "char_count": 1176,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "**74. Notice on occupational diseases and diseases related to poisoning.** – (1) In accordance with Section 82, where it appears to the employer or he learns that any worker of the establishment is su..."
+    },
+    {
+      "chunk_id": 38,
+      "file": "chunk_38.txt",
+      "metadata": {
+        "chunk_id": 38,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "i",
+          "k"
+        ],
+        "word_count": 548,
+        "char_count": 3317,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44 | 2 subsections",
+      "preview": "## **WELFARE MEASURES**   **76. First aid appliances** . – (1) There shall be a first aid box or cupboard in every department, branch and floor of every establishment in accordance with the provision..."
+    },
+    {
+      "chunk_id": 39,
+      "file": "chunk_39.txt",
+      "metadata": {
+        "chunk_id": 39,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "i",
+          "k"
+        ],
+        "word_count": 588,
+        "char_count": 3423,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44 | 2 subsections",
+      "preview": "- (i) Tourniquet (appliance used to stop bleeding);   (j) 1 (one) bottle (4 ounce) of alcoholic solution of 2% iodine;   - (k) 1 (one) pair of scissors;   (l) 1 (one) bottle (4 ounce) of rectified spi..."
+    },
+    {
+      "chunk_id": 40,
+      "file": "chunk_40.txt",
+      "metadata": {
+        "chunk_id": 40,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "a",
+          "i"
+        ],
+        "word_count": 563,
+        "char_count": 3477,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44 | 2 subsections",
+      "preview": "(i) 6 (six) ordinary wooden boards (25.4 cm x 5.08 cm x 0.63 cm);   (j) 6 (six) fur blankets;   (k) 1 (one) pair of artery forceps;   (l) 2 (two) sponges of medium-size;   (m) 6 (six) hand towels;   (..."
+    },
+    {
+      "chunk_id": 41,
+      "file": "chunk_41.txt",
+      "metadata": {
+        "chunk_id": 41,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 508,
+        "char_count": 3262,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(iii) Separate area for patients of the outdoor department. It shall preferably be separated from the general ward;   (iv) Separate room for examination of patients in privacy;   (v) A room for minor..."
+    },
+    {
+      "chunk_id": 42,
+      "file": "chunk_42.txt",
+      "metadata": {
+        "chunk_id": 42,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j"
+        ],
+        "word_count": 513,
+        "char_count": 3449,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44 | 10 subsections",
+      "preview": "(5) The Inspector General or any Inspector authorized thereby, in consultation with the Director of Public Health of the Government shall determine the necessary arrangements for appliances, injection..."
+    },
+    {
+      "chunk_id": 43,
+      "file": "chunk_43.txt",
+      "metadata": {
+        "chunk_id": 43,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "m",
+          "n",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "word_count": 539,
+        "char_count": 3423,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44 | 6 subsections",
+      "preview": "- (m) If any individual or collective complaint is received from the workers, immediately informing the authority for its settlement;   - (n) Establishing communication and organizing discussion meeti..."
+    },
+    {
+      "chunk_id": 44,
+      "file": "chunk_44.txt",
+      "metadata": {
+        "chunk_id": 44,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 513,
+        "char_count": 3408,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(2) The total number of members to the Safety Committee shall not be less than 6 (six) and not more than 12 (twelve). There shall be equal representatives of employers and workers in the Committee...."
+    },
+    {
+      "chunk_id": 45,
+      "file": "chunk_45.txt",
+      "metadata": {
+        "chunk_id": 45,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 540,
+        "char_count": 3480,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "Provided that in such case after formation of the Collective Bargaining Agent (CBA) or Participation Committee in that factory or establishment they shall nominate workers representatives to the Safet..."
+    },
+    {
+      "chunk_id": 46,
+      "file": "chunk_46.txt",
+      "metadata": {
+        "chunk_id": 46,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 591,
+        "char_count": 3490,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(a)In a work process where it is necessary for the workers to wash their whole body immediately and there is a risk of harm to their health and the health of others, in such workplaces, there shall be..."
+    },
+    {
+      "chunk_id": 47,
+      "file": "chunk_47.txt",
+      "metadata": {
+        "chunk_id": 47,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "word_count": 590,
+        "char_count": 3479,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44 | 5 subsections",
+      "preview": "(3) No canteen building shall be established within a distance of 06 (six) meters from wash room or bathroom and within a distance of 15 (fifteen) meters from any boiler house, coal store, ash or dust..."
+    },
+    {
+      "chunk_id": 48,
+      "file": "chunk_48.txt",
+      "metadata": {
+        "chunk_id": 48,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 325,
+        "char_count": 2091,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "(6) There shall be arrangement for appropriate facilities including supply of hot water for washing the utensils and other appliances.   **89.  Price of food** . – (1) The supplied food, beverage and..."
+    },
+    {
+      "chunk_id": 49,
+      "file": "chunk_49.txt",
+      "metadata": {
+        "chunk_id": 49,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 145,
+        "char_count": 866,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "## **92. Dining room** . – According to Section 93 –   (a) The canteen shall have capacity of at least 15 (fifteen) percent of the total number of workers working in the factory at a time;   (b) There..."
+    },
+    {
+      "chunk_id": 50,
+      "file": "chunk_50.txt",
+      "metadata": {
+        "chunk_id": 50,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 534,
+        "char_count": 3220,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "## **94.  Children’s room** . –   (1) The design, standard and location of the children room or separate building or extension to be constructed for children shall be approved by the Inspector General..."
+    },
+    {
+      "chunk_id": 51,
+      "file": "chunk_51.txt",
+      "metadata": {
+        "chunk_id": 51,
+        "chapter": "SAFETY",
+        "chapter_number": "VI",
+        "section": "Maintenance of the register of cleanliness",
+        "section_number": "44",
+        "subsections": [],
+        "word_count": 181,
+        "char_count": 1092,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.VI | Sec.44",
+      "preview": "## **98. Introduction of mandatory group insurance** :   (1) The employer of every establishment, to which Section 99 is applicable, shall introduce group insurance for every worker in his establishme..."
+    },
+    {
+      "chunk_id": 52,
+      "file": "chunk_52.txt",
+      "metadata": {
+        "chunk_id": 52,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 564,
+        "char_count": 3426,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.IX | Sec.99",
+      "preview": "## **CHAPTER IX WORKING HOUR AND LEAVE**   **99. Daily working hour.-** (1) Not withstanding anything contained anywhere, the daily working hours for an adult worker shall be eight hours, excluding br..."
+    },
+    {
+      "chunk_id": 53,
+      "file": "chunk_53.txt",
+      "metadata": {
+        "chunk_id": 53,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 512,
+        "char_count": 2968,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IX | Sec.99 | 3 subsections",
+      "preview": "## **102. The process of calculating the general rate of overtime allowance** . –   (1) In absence of any different kind of contract between the employer and the worker, the general rate of hour based..."
+    },
+    {
+      "chunk_id": 54,
+      "file": "chunk_54.txt",
+      "metadata": {
+        "chunk_id": 54,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 468,
+        "char_count": 2595,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IX | Sec.99",
+      "preview": "## **105. Notice for working hours of adult worker**   (1) The notice for working hours of adult worker shall have to be approved by the inspector in accordance with  Form- 37, 37 (A) or sector wise,..."
+    },
+    {
+      "chunk_id": 55,
+      "file": "chunk_55.txt",
+      "metadata": {
+        "chunk_id": 55,
+        "chapter": "WORKING HOUR AND LEAVE",
+        "chapter_number": "IX",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 226,
+        "char_count": 1358,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.IX | Sec.99",
+      "preview": "## **109. Granting leave to workers who belong to the same family** . –   (1) Considering the situation, as far as possible, workers who belong to the same family, for instance, husband, wife and chil..."
+    },
+    {
+      "chunk_id": 56,
+      "file": "chunk_56.txt",
+      "metadata": {
+        "chunk_id": 56,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 538,
+        "char_count": 3092,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.X | Sec.99",
+      "preview": "## **CHAPTER X**   ## **WAGES AND PAYMENT THEREOF**   ## **111. Maintenance of wages and its record** . –   (1) A record of payment of wages of all workers employed in every factory or establishment s..."
+    },
+    {
+      "chunk_id": 57,
+      "file": "chunk_57.txt",
+      "metadata": {
+        "chunk_id": 57,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 540,
+        "char_count": 3241,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.X | Sec.99",
+      "preview": "## **112. Time of payment of wages and notice of payment** . –   (1) The manner in which the wages of the worker have been determined, irrespective of its kinds such as monthly or weekly or daily or c..."
+    },
+    {
+      "chunk_id": 58,
+      "file": "chunk_58.txt",
+      "metadata": {
+        "chunk_id": 58,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 220,
+        "char_count": 1345,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.X | Sec.99",
+      "preview": "(6) The unanimous decision given by the Conciliator or mediator, shall be binding on all the parties concerned and those decisions of the conciliator or mediator which were not unanimously agreed by a..."
+    },
+    {
+      "chunk_id": 59,
+      "file": "chunk_59.txt",
+      "metadata": {
+        "chunk_id": 59,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 543,
+        "char_count": 3070,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.X | Sec.99",
+      "preview": "## **114. The procedure of calculating wages in case of incomplete months** . –   (1) If the employment of any worker comes to an end before the completion of the term of wage or if any worker join in..."
+    },
+    {
+      "chunk_id": 60,
+      "file": "chunk_60.txt",
+      "metadata": {
+        "chunk_id": 60,
+        "chapter": "WAGES AND PAYMENT THEREOF",
+        "chapter_number": "X",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 147,
+        "char_count": 811,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.X | Sec.99",
+      "preview": "## **119. Submission of unpaid wages of a deceased worker in the court** . –   (1) If the deceased worker does not have any nominee or no successor has been found, the employer shall be required to su..."
+    },
+    {
+      "chunk_id": 61,
+      "file": "chunk_61.txt",
+      "metadata": {
+        "chunk_id": 61,
+        "chapter": "WAGE BOARD",
+        "chapter_number": "XI",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 269,
+        "char_count": 1736,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XI | Sec.99",
+      "preview": "## **CHAPTER XI**   ## **WAGE BOARD**   ## **121. Nomination of representative of the employer and workers in the wage board** . –   (1) For the purpose of implementation of the objectives of  Section..."
+    },
+    {
+      "chunk_id": 62,
+      "file": "chunk_62.txt",
+      "metadata": {
+        "chunk_id": 62,
+        "chapter": "WAGE BOARD",
+        "chapter_number": "XI",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 593,
+        "char_count": 3466,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XI | Sec.99",
+      "preview": "## **122. Board meetings** . –   (1) The Secretary of the Board shall, in consultation with the Chairman call the board meeting by sending a written notice to every member and the venue and time of th..."
+    },
+    {
+      "chunk_id": 63,
+      "file": "chunk_63.txt",
+      "metadata": {
+        "chunk_id": 63,
+        "chapter": "WAGE BOARD",
+        "chapter_number": "XI",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 576,
+        "char_count": 3449,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XI | Sec.99",
+      "preview": "## **125. Allowance of the members of the board** . –   All members of the board except the Chairman shall be able to get allowance for their attendance in the meeting at the rate determined by the Go..."
+    },
+    {
+      "chunk_id": 64,
+      "file": "chunk_64.txt",
+      "metadata": {
+        "chunk_id": 64,
+        "chapter": "WAGE BOARD",
+        "chapter_number": "XI",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 535,
+        "char_count": 3207,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XI | Sec.99",
+      "preview": "## **130. Formation of the committee** . –   (1) The board may form various committees in order to submit recommendations to the board after conducting investigation on a particular matter and the boa..."
+    },
+    {
+      "chunk_id": 65,
+      "file": "chunk_65.txt",
+      "metadata": {
+        "chunk_id": 65,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 158,
+        "char_count": 1006,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XII | Sec.99",
+      "preview": "## **CHAPTER XII COMPENSATION FOR INJURY CAUSED BY ACCIDENT**   ## **134. Review of monthly wages payable as compensation for temporary disability** . –   Application for monthly compensation payable..."
+    },
+    {
+      "chunk_id": 66,
+      "file": "chunk_66.txt",
+      "metadata": {
+        "chunk_id": 66,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 577,
+        "char_count": 3465,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.99",
+      "preview": "## **135. The Manner of application to review compensation** . –   (1) If, after examining the application of deduction or suspension of payment of compensation by the employer, it seems to the Labour..."
+    },
+    {
+      "chunk_id": 67,
+      "file": "chunk_67.txt",
+      "metadata": {
+        "chunk_id": 67,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 572,
+        "char_count": 3402,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.99",
+      "preview": "(2) After receiving such application the Labour Court shall-   (a) If, after completing investigation upon giving an opportunity of hearing to the employer the Labour Court is satisfied that the compe..."
+    },
+    {
+      "chunk_id": 68,
+      "file": "chunk_68.txt",
+      "metadata": {
+        "chunk_id": 68,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 584,
+        "char_count": 3474,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.99",
+      "preview": "(2) The worker, who is receiving monthly allowance as compensation, shall not be compelled to go outside of his residence for medical checkup for more than twice after the following month and once in..."
+    },
+    {
+      "chunk_id": 69,
+      "file": "chunk_69.txt",
+      "metadata": {
+        "chunk_id": 69,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 524,
+        "char_count": 3074,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.99",
+      "preview": "(4) After receiving a memorandum of contract, if the Labour Court thinks that there is reasonable ground for not recording such memorandum, the Court shall fix a date for hearing the parties concerned..."
+    },
+    {
+      "chunk_id": 70,
+      "file": "chunk_70.txt",
+      "metadata": {
+        "chunk_id": 70,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 549,
+        "char_count": 3292,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.99",
+      "preview": "**153. Memorandum for sending money** . – If the Labour Court issues any order to send any money in accordance with Rule 151 and 152, the Labour Court shall, on its own responsibility, record the brie..."
+    },
+    {
+      "chunk_id": 71,
+      "file": "chunk_71.txt",
+      "metadata": {
+        "chunk_id": 71,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 497,
+        "char_count": 3035,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.99",
+      "preview": "**159. Distribution of money** . – The money received from the handing-over authority shall be distributed as far as possible in accordance with the provision of this Act and Rules:   Provided that if..."
+    },
+    {
+      "chunk_id": 72,
+      "file": "chunk_72.txt",
+      "metadata": {
+        "chunk_id": 72,
+        "chapter": "COMPENSATION FOR INJURY CAUSED BY ACCIDENT",
+        "chapter_number": "XII",
+        "section": "Daily working hour",
+        "section_number": "99",
+        "subsections": [],
+        "word_count": 267,
+        "char_count": 1515,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XII | Sec.99",
+      "preview": "## **165. Maintenance of record and register of case** . –   (1) The register mentioned in Rule 164 shall be recorded in Bengali and it shall be preserved for 20 (twenty) years.   (2) Records of compe..."
+    },
+    {
+      "chunk_id": 73,
+      "file": "chunk_73.txt",
+      "metadata": {
+        "chunk_id": 73,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Application for being a member of a trade union",
+        "section_number": "167",
+        "subsections": [],
+        "word_count": 426,
+        "char_count": 2539,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XIII | Sec.167",
+      "preview": "## **CHAPTER XIII**   ## **TRADE UNIONS AND INDUSTRIAL RELATIONS**   **167. Application for being a member of a trade union.-** (1) Any worker or employee or employer or union or federation intending..."
+    },
+    {
+      "chunk_id": 74,
+      "file": "chunk_74.txt",
+      "metadata": {
+        "chunk_id": 74,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Number of executive committee members",
+        "section_number": "169",
+        "subsections": [],
+        "word_count": 512,
+        "char_count": 3437,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.169",
+      "preview": "## **169. Number of executive committee members.-**   (1) According to Section 179 (1) (k) the number of executive committee members of any trade union shall be determined in proportion with the numbe..."
+    },
+    {
+      "chunk_id": 75,
+      "file": "chunk_75.txt",
+      "metadata": {
+        "chunk_id": 75,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Registration fees",
+        "section_number": "173",
+        "subsections": [],
+        "word_count": 495,
+        "char_count": 3230,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.173",
+      "preview": "**172. Certificate of registration. -** (1) After receiving an application for registration of any trade union or federation or confederation, if the Director of Labour or the authorized officer is sa..."
+    },
+    {
+      "chunk_id": 76,
+      "file": "chunk_76.txt",
+      "metadata": {
+        "chunk_id": 76,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Selection of Collective Bargaining Agent",
+        "section_number": "177",
+        "subsections": [],
+        "word_count": 572,
+        "char_count": 3488,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.177",
+      "preview": "Provided that, if the number of members of any trade union does not exceed 500 at any time of the year, the audit may be conducted by any person or persons who is not a member or related with such uni..."
+    },
+    {
+      "chunk_id": 77,
+      "file": "chunk_77.txt",
+      "metadata": {
+        "chunk_id": 77,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Nomination of representatives",
+        "section_number": "180",
+        "subsections": [],
+        "word_count": 468,
+        "char_count": 3215,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.180",
+      "preview": "(2) Every employer, upon being requested by the Director of Labour in accordance with Section 202 (13), shall arrange all facilities including financial facilities to conduct the election, however, th..."
+    },
+    {
+      "chunk_id": 78,
+      "file": "chunk_78.txt",
+      "metadata": {
+        "chunk_id": 78,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Nomination of employer’s representative to the Participation Committee",
+        "section_number": "185",
+        "subsections": [],
+        "word_count": 538,
+        "char_count": 3483,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.185",
+      "preview": "## **184. Nomination of representatives to the Participation Committee by Collective Bargaining Agent**   **and trade union. -** (1) In order to send workers’ representatives to the Participation Comm..."
+    },
+    {
+      "chunk_id": 79,
+      "file": "chunk_79.txt",
+      "metadata": {
+        "chunk_id": 79,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "The election committee",
+        "section_number": "188",
+        "subsections": [],
+        "word_count": 548,
+        "char_count": 3415,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.188",
+      "preview": "(2) The Director of Labour, if so requested, may monitor such elections and in conducting activities for such elections, the employer of the factory or establishment shall not make any direct or indir..."
+    },
+    {
+      "chunk_id": 80,
+      "file": "chunk_80.txt",
+      "metadata": {
+        "chunk_id": 80,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "The election committee",
+        "section_number": "188",
+        "subsections": [],
+        "word_count": 555,
+        "char_count": 3424,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIII | Sec.188",
+      "preview": "(2) According to Section 205 (6) the nomination paper provided by the election committee shall be in accordance with Form- 64 and it shall be signed by the proposer and supporter and the candidate...."
+    },
+    {
+      "chunk_id": 81,
+      "file": "chunk_81.txt",
+      "metadata": {
+        "chunk_id": 81,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Vacancy",
+        "section_number": "198",
+        "subsections": [],
+        "word_count": 491,
+        "char_count": 3114,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.198",
+      "preview": "**195** . The notice and minutes of the meeting. – (1) Notice shall be served before seven days of holding the meeting of participation committee, however in case of holding emergency meetings, a noti..."
+    },
+    {
+      "chunk_id": 82,
+      "file": "chunk_82.txt",
+      "metadata": {
+        "chunk_id": 82,
+        "chapter": "TRADE UNIONS AND INDUSTRIAL RELATIONS",
+        "chapter_number": "XIII",
+        "section": "Implementation of decisions and recommendations of the Participation Committee",
+        "section_number": "201",
+        "subsections": [],
+        "word_count": 296,
+        "char_count": 2065,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIII | Sec.201",
+      "preview": "(4) In case of nomination of representative by the trade unions, the nomination shall be given from the members of such section, division or area.   (5) Only the workers employed in such section or di..."
+    },
+    {
+      "chunk_id": 83,
+      "file": "chunk_83.txt",
+      "metadata": {
+        "chunk_id": 83,
+        "chapter": "SETTLEMENT OF DISPUTES, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Refrain of some activities",
+        "section_number": "202",
+        "subsections": [],
+        "word_count": 374,
+        "char_count": 2226,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XIV | Sec.202",
+      "preview": "## **CHAPTER XIV**   ## **SETTLEMENT OF DISPUTES, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.**   **203. Execution of memorandum of settlement** . – For the purpose of fulfilling..."
+    },
+    {
+      "chunk_id": 84,
+      "file": "chunk_84.txt",
+      "metadata": {
+        "chunk_id": 84,
+        "chapter": "SETTLEMENT OF DISPUTES, LABOUR COURT, LABOUR APPELLATE TRIBUNAL, LEGAL PROCEEDINGS, ETC.",
+        "chapter_number": "XIV",
+        "section": "Refrain of some activities",
+        "section_number": "202",
+        "subsections": [],
+        "word_count": 476,
+        "char_count": 2841,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIV | Sec.202",
+      "preview": "## **206. Nomination of members of the Labour Court** . –   - (1) For the purpose of appointing members of the Labor Court in accordance with Section 214(7) the Government shall call for nominations o..."
+    },
+    {
+      "chunk_id": 85,
+      "file": "chunk_85.txt",
+      "metadata": {
+        "chunk_id": 85,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF COMPANIES",
+        "chapter_number": "XV",
+        "section": "Refrain of some activities",
+        "section_number": "202",
+        "subsections": [],
+        "word_count": 144,
+        "char_count": 952,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XV | Sec.202",
+      "preview": "## **CHAPTER XV**   ## **PARTICIPATION OF WORKERS IN THE PROFIT OF COMPANIES**   ## **212. Constitution of the central fund for hundred percent export-oriented industrial sector comprising of buyers a..."
+    },
+    {
+      "chunk_id": 86,
+      "file": "chunk_86.txt",
+      "metadata": {
+        "chunk_id": 86,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF COMPANIES",
+        "chapter_number": "XV",
+        "section": "Refrain of some activities",
+        "section_number": "202",
+        "subsections": [],
+        "word_count": 556,
+        "char_count": 3407,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.202",
+      "preview": "## **213. Management of the fund and office thereof** . –   (1) For the management of the fund the head office of the board shall be in Dhaka.   (2) The board, if requires, may establish a branch offi..."
+    },
+    {
+      "chunk_id": 87,
+      "file": "chunk_87.txt",
+      "metadata": {
+        "chunk_id": 87,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF COMPANIES",
+        "chapter_number": "XV",
+        "section": "Refrain of some activities",
+        "section_number": "202",
+        "subsections": [
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "a"
+        ],
+        "word_count": 557,
+        "char_count": 3400,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.202 | 8 subsections",
+      "preview": "(4) 50 (fifty) percent of the total fund received to the fund shall be deposited to the Workers’ Welfare Account and 50 (fifty) percent to the Emergency Account.   (5) The money deposited in the fund..."
+    },
+    {
+      "chunk_id": 88,
+      "file": "chunk_88.txt",
+      "metadata": {
+        "chunk_id": 88,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF COMPANIES",
+        "chapter_number": "XV",
+        "section": "Refrain of some activities",
+        "section_number": "202",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "word_count": 571,
+        "char_count": 3371,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.202 | 6 subsections",
+      "preview": "**216. Investment of money of the fund** . –The management board may invest the money of these two funds in any profitable, risk-free sector approved by the Government.   **217. Procedure of collectio..."
+    },
+    {
+      "chunk_id": 89,
+      "file": "chunk_89.txt",
+      "metadata": {
+        "chunk_id": 89,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF COMPANIES",
+        "chapter_number": "XV",
+        "section": "Refrain of some activities",
+        "section_number": "202",
+        "subsections": [],
+        "word_count": 521,
+        "char_count": 3113,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.202",
+      "preview": "**221. Removal of members** . – The Board may, subject to the approval of the Government, remove any nominated member mentioned in clause (c), (d) and (e) of Rule 218 through a written order, if -   (..."
+    },
+    {
+      "chunk_id": 90,
+      "file": "chunk_90.txt",
+      "metadata": {
+        "chunk_id": 90,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF COMPANIES",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 576,
+        "char_count": 3376,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "(3) The Chairman shall preside over the all meetings of the board and if the Chairman does remain absent in a meeting then the Secretary, Ministry of Labour and Employment who is the Vice-Chairman, sh..."
+    },
+    {
+      "chunk_id": 91,
+      "file": "chunk_91.txt",
+      "metadata": {
+        "chunk_id": 91,
+        "chapter": "PARTICIPATION OF WORKERS IN THE PROFIT OF COMPANIES",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 568,
+        "char_count": 3442,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "(3) The company shall, on its own expense, make arrangement for office space and office employees as per the requirement of the Chairman of the board to provide support to the activities of the board...."
+    },
+    {
+      "chunk_id": 92,
+      "file": "chunk_92.txt",
+      "metadata": {
+        "chunk_id": 92,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 422,
+        "char_count": 2477,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "**231. Limitation of power of the trustee** . – No trustee shall be able to vote at the time of taking any decision in regard to the question of his own rights or benefits under his own interest or sc..."
+    },
+    {
+      "chunk_id": 93,
+      "file": "chunk_93.txt",
+      "metadata": {
+        "chunk_id": 93,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 544,
+        "char_count": 3344,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "## **PROVIDENT FUND**   **237. Formation of provident fund and enactment of Rules.** – (1) The constitution and management of provident fund in any private establishment shall be governed by the Chapt..."
+    },
+    {
+      "chunk_id": 94,
+      "file": "chunk_94.txt",
+      "metadata": {
+        "chunk_id": 94,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 567,
+        "char_count": 3469,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227 | 4 subsections",
+      "preview": "(4) If any question arises regarding acquisition of membership, continuation of membership or the date of acquisition of membership of any worker in the provident fund, the board of trustees shall del..."
+    },
+    {
+      "chunk_id": 95,
+      "file": "chunk_95.txt",
+      "metadata": {
+        "chunk_id": 95,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 592,
+        "char_count": 3420,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227 | 3 subsections",
+      "preview": "- (b) He has been nominated as member to the board for two consecutive terms;   - (c) He has been convicted with 01 (one) year imprisonment by a competent court for any offence related to moral turpit..."
+    },
+    {
+      "chunk_id": 96,
+      "file": "chunk_96.txt",
+      "metadata": {
+        "chunk_id": 96,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 551,
+        "char_count": 3222,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "**248. Minutes of the meeting** . – The minutes of every meeting shall be sent to every trustee present and to the Government within the next 07 (seven) days from the day of the meeting which shall be..."
+    },
+    {
+      "chunk_id": 97,
+      "file": "chunk_97.txt",
+      "metadata": {
+        "chunk_id": 97,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 558,
+        "char_count": 3342,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "**253. Accounts and statement of the employer** . – (1) Every employer shall maintain an account of the subscriptions paid by his part and workers in the manner as prescribed by the board from time to..."
+    },
+    {
+      "chunk_id": 98,
+      "file": "chunk_98.txt",
+      "metadata": {
+        "chunk_id": 98,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 594,
+        "char_count": 3442,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "**258. Administration cost** . – The employer shall bear all administrative expenditures of the fund including salary and allowances of employees, audit account and legal expenditure, stationery expen..."
+    },
+    {
+      "chunk_id": 99,
+      "file": "chunk_99.txt",
+      "metadata": {
+        "chunk_id": 99,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 576,
+        "char_count": 3250,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "However, provided that in case of death or closure of the establishment, the member of the fund shall be entitled to receive both portions deposited in the provident fund irrespective of the duration..."
+    },
+    {
+      "chunk_id": 100,
+      "file": "chunk_100.txt",
+      "metadata": {
+        "chunk_id": 100,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [
+          "e",
+          "f"
+        ],
+        "word_count": 392,
+        "char_count": 2271,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227 | 2 subsections",
+      "preview": "## (f) To bear the education costs of the subscriber’s children.   (2) No advance, in any case, shall be more than 80% (eighty per cent) of the total balance of tax-free subscription and benefit depos..."
+    },
+    {
+      "chunk_id": 101,
+      "file": "chunk_101.txt",
+      "metadata": {
+        "chunk_id": 101,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 561,
+        "char_count": 3405,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227 | 3 subsections",
+      "preview": "## **269** . **Applicability of the Provident Fund. –** In this Chapter-   - (a) Provisions of Rules 237 to 268 shall be applicable for private establishments;   - (b) Provisions of Rules 270 to 302 s..."
+    },
+    {
+      "chunk_id": 102,
+      "file": "chunk_102.txt",
+      "metadata": {
+        "chunk_id": 102,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 583,
+        "char_count": 3450,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "(3) Notwithstanding anything contained in Sub-Rule (2), upon receipt of written requisition notice from at least 05 (five) members of the board of trustees, the Controller shall, in consultation with..."
+    },
+    {
+      "chunk_id": 103,
+      "file": "chunk_103.txt",
+      "metadata": {
+        "chunk_id": 103,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [],
+        "word_count": 581,
+        "char_count": 3463,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227",
+      "preview": "(2) The Controller may, for the purpose of administration of the fund, without prior approval of the board, issue any immediate expenditure, supply and purchase of necessary appliances, subject to the..."
+    },
+    {
+      "chunk_id": 104,
+      "file": "chunk_104.txt",
+      "metadata": {
+        "chunk_id": 104,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Management of ‘Workers’ Participation Fund’ and ‘Workers’ Welfare Fund’",
+        "section_number": "227",
+        "subsections": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "word_count": 578,
+        "char_count": 3467,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.227 | 4 subsections",
+      "preview": "**280. Return** . – The employer shall, within fifteen days, from the end of every month, send to the board a list of members from workers of the provident fund whose employment has been ended in the..."
+    },
+    {
+      "chunk_id": 105,
+      "file": "chunk_105.txt",
+      "metadata": {
+        "chunk_id": 105,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 573,
+        "char_count": 3414,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "**285. Administration cost** . – (1) All administration costs of the fund, including fees and allowances of the trustees of the board, salaries and allowances of the employees, audit of accounts and l..."
+    },
+    {
+      "chunk_id": 106,
+      "file": "chunk_106.txt",
+      "metadata": {
+        "chunk_id": 106,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 563,
+        "char_count": 3329,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "**289. Nomination of nominee** . – (1) Every member shall provide a nomination with a photograph of the nominee in Form- 41 for the purpose of receiving money deposited in his name in the fund in case..."
+    },
+    {
+      "chunk_id": 107,
+      "file": "chunk_107.txt",
+      "metadata": {
+        "chunk_id": 107,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 593,
+        "char_count": 3348,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "(3) Within three months of withdrawing money from the fund of the policy, the title thereof shall be assigned in the name of the board as a security of the money withdrawn and that shall be handed ove..."
+    },
+    {
+      "chunk_id": 108,
+      "file": "chunk_108.txt",
+      "metadata": {
+        "chunk_id": 108,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 614,
+        "char_count": 3494,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "(2) If the member dies before leaving the service, the board shall re-assign the title of the policy to the nominee of the member (if any) or to a person who can be able to legally receive the same an..."
+    },
+    {
+      "chunk_id": 109,
+      "file": "chunk_109.txt",
+      "metadata": {
+        "chunk_id": 109,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 612,
+        "char_count": 3460,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "**295. Payment of deposited money of the deceased member** . – If any member dies before the money becomes payable or after it becomes payable but prior to payment –   (a) The money deposited in the n..."
+    },
+    {
+      "chunk_id": 110,
+      "file": "chunk_110.txt",
+      "metadata": {
+        "chunk_id": 110,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 191,
+        "char_count": 1103,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "(3) The Controller shall, after conducting necessary verifications finds there any error, again deliver a statement to the members within following 10 (ten) days.   **299. Annual report on the working..."
+    },
+    {
+      "chunk_id": 111,
+      "file": "chunk_111.txt",
+      "metadata": {
+        "chunk_id": 111,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 578,
+        "char_count": 3442,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "## **302. Penalty for violation, etc** . – (1) If any person-   (a) Does not send a nomination, for inclusion as a qualified member of a worker to the office of the Controller;   (b) Deducts or tries..."
+    },
+    {
+      "chunk_id": 112,
+      "file": "chunk_112.txt",
+      "metadata": {
+        "chunk_id": 112,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 579,
+        "char_count": 3351,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "**305. Distribution of account number** . –The board of trustees shall allocate an account number to all the concerned members in accordance with Form- 68 in a manner as may be prescribed by the board..."
+    },
+    {
+      "chunk_id": 113,
+      "file": "chunk_113.txt",
+      "metadata": {
+        "chunk_id": 113,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 605,
+        "char_count": 3485,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "(2) The employer shall, before paying the wages to the workers concerned, deduct the subscription for the fund and add his own subscription of equal amount and deposit it in the fund through bank draf..."
+    },
+    {
+      "chunk_id": 114,
+      "file": "chunk_114.txt",
+      "metadata": {
+        "chunk_id": 114,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 583,
+        "char_count": 3465,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "(a) The subscription paid by him;   (b) Subscription provided by the employer in favor of the worker; and   (c) Interest or profit earned through the investment;   (2) Within 03 (three) months of comp..."
+    },
+    {
+      "chunk_id": 115,
+      "file": "chunk_115.txt",
+      "metadata": {
+        "chunk_id": 115,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 599,
+        "char_count": 3428,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "Provided further that, the interest on payment claim or partly period shall be paid at the rate of previous year’s interest and shall be deposited on monthly basis for the partly periods.   **321. Nom..."
+    },
+    {
+      "chunk_id": 116,
+      "file": "chunk_116.txt",
+      "metadata": {
+        "chunk_id": 116,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 441,
+        "char_count": 2588,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "**324** . **Annual description of member’s account** . – (1) As soon as possible after completion of every year, the secretary shall deliver one description to every member mentioning the opening bala..."
+    },
+    {
+      "chunk_id": 117,
+      "file": "chunk_117.txt",
+      "metadata": {
+        "chunk_id": 117,
+        "chapter": "of the Act, any eligible beneficiary of these two funds shall mean any person described in Section 233(1)(i).",
+        "chapter_number": "XV",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 177,
+        "char_count": 1017,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XV | Sec.288",
+      "preview": "## **327. Punishment for violation, etc** . – (1) If any person –   (a) Fails, without adequate reason, to pay any subscription payable in accordance with provision under this Chapter;   (b) Deducts o..."
+    },
+    {
+      "chunk_id": 118,
+      "file": "chunk_118.txt",
+      "metadata": {
+        "chunk_id": 118,
+        "chapter": "APPRENTICESHIP",
+        "chapter_number": "XVII",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 558,
+        "char_count": 3443,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XVII | Sec.288",
+      "preview": "## **CHAPTER XVII APPRENTICESHIP**   **328. Competent authority** . – The Inspector General of the Department of Inspection for Factories and Establishment shall be considered as the competent authori..."
+    },
+    {
+      "chunk_id": 119,
+      "file": "chunk_119.txt",
+      "metadata": {
+        "chunk_id": 119,
+        "chapter": "are applicable, declare any special occupations as apprentice able occupation within 30 (thirty) days from the publication of the notification, shall submit to the competent authority a list of occupations where apprentices may be appointed, the number of persons engaged in various classes of such occupation and a lust mentioning the number of persons engaged as apprentice in accordance with Section 277 of the Act.",
+        "chapter_number": "XVIII",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 525,
+        "char_count": 3466,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XVIII | Sec.288",
+      "preview": "(4) The quorum of the meeting shall be constituted with the attendance of total 7 (seven) members including the Chairman and among the rest members other than the Chairman there shall be at least one..."
+    },
+    {
+      "chunk_id": 120,
+      "file": "chunk_120.txt",
+      "metadata": {
+        "chunk_id": 120,
+        "chapter": "are applicable, declare any special occupations as apprentice able occupation within 30 (thirty) days from the publication of the notification, shall submit to the competent authority a list of occupations where apprentices may be appointed, the number of persons engaged in various classes of such occupation and a lust mentioning the number of persons engaged as apprentice in accordance with Section 277 of the Act.",
+        "chapter_number": "XVIII",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "c"
+        ],
+        "word_count": 508,
+        "char_count": 3326,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVIII | Sec.288 | 6 subsections",
+      "preview": "(a) Practical and theoretical subject matter and curriculum for various occupations under apprenticeship programme;   (b) Duration and starting time of apprentice of various occupations under apprenti..."
+    },
+    {
+      "chunk_id": 121,
+      "file": "chunk_121.txt",
+      "metadata": {
+        "chunk_id": 121,
+        "chapter": "are applicable, declare any special occupations as apprentice able occupation within 30 (thirty) days from the publication of the notification, shall submit to the competent authority a list of occupations where apprentices may be appointed, the number of persons engaged in various classes of such occupation and a lust mentioning the number of persons engaged as apprentice in accordance with Section 277 of the Act.",
+        "chapter_number": "XVIII",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 529,
+        "char_count": 3351,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVIII | Sec.288 | 3 subsections",
+      "preview": "(3) If the age of the apprentice is below 18 (eighteen) years, his father or mother or legal guardians shall be sign the contract as well.   (4) There shall be 03 (three) copies of the contract paper,..."
+    },
+    {
+      "chunk_id": 122,
+      "file": "chunk_122.txt",
+      "metadata": {
+        "chunk_id": 122,
+        "chapter": "are applicable, declare any special occupations as apprentice able occupation within 30 (thirty) days from the publication of the notification, shall submit to the competent authority a list of occupations where apprentices may be appointed, the number of persons engaged in various classes of such occupation and a lust mentioning the number of persons engaged as apprentice in accordance with Section 277 of the Act.",
+        "chapter_number": "XVIII",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 538,
+        "char_count": 3428,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVIII | Sec.288 | 3 subsections",
+      "preview": "- (a) First year of apprenticeship: 50 (fifty) percent of the total wages of any skill worker appointed in the same grade of the concerned occupation.   - (b) Second-year of apprenticeship: 60(sixty)..."
+    },
+    {
+      "chunk_id": 123,
+      "file": "chunk_123.txt",
+      "metadata": {
+        "chunk_id": 123,
+        "chapter": "are applicable, declare any special occupations as apprentice able occupation within 30 (thirty) days from the publication of the notification, shall submit to the competent authority a list of occupations where apprentices may be appointed, the number of persons engaged in various classes of such occupation and a lust mentioning the number of persons engaged as apprentice in accordance with Section 277 of the Act.",
+        "chapter_number": "XVIII",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 419,
+        "char_count": 2649,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVIII | Sec.288",
+      "preview": "**344. Relevant theoretical training** . – (1) The employer shall make arrangement, either individually or jointly with 02 (two) or more employers, for theoretical training of the apprentices in accor..."
+    },
+    {
+      "chunk_id": 124,
+      "file": "chunk_124.txt",
+      "metadata": {
+        "chunk_id": 124,
+        "chapter": "ADMINISTRATION, INSPECTION, ETC",
+        "chapter_number": "XVIII",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 530,
+        "char_count": 3332,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XVIII | Sec.288",
+      "preview": "## **CHAPTER XVIII ADMINISTRATION, INSPECTION, ETC**   **350. Powers and functions of Director of Labour** .- (1) Under Section 317 the Director of Labour or any officer authorized thereby, in additio..."
+    },
+    {
+      "chunk_id": 125,
+      "file": "chunk_125.txt",
+      "metadata": {
+        "chunk_id": 125,
+        "chapter": "ADMINISTRATION, INSPECTION, ETC",
+        "chapter_number": "XVIII",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 530,
+        "char_count": 3379,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XVIII | Sec.288",
+      "preview": "(g) To organize training courses and workshops with an aim to increase the knowledge and skills of the concerned parties regarding the Act and relevant Rules, national and international documents or C..."
+    },
+    {
+      "chunk_id": 126,
+      "file": "chunk_126.txt",
+      "metadata": {
+        "chunk_id": 126,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [
+          "b",
+          "i",
+          "d"
+        ],
+        "word_count": 486,
+        "char_count": 3106,
+        "content_type": "chapter_content"
+      },
+      "summary": "Ch.XIX | Sec.288 | 3 subsections",
+      "preview": "## **CHAPTER XIX MISCELLANEOUS**   ## **352. Giving notice to the Inspector General before starting work** . –   (1) The employer shall submit two copies of notice to the Inspector General or concerne..."
+    },
+    {
+      "chunk_id": 127,
+      "file": "chunk_127.txt",
+      "metadata": {
+        "chunk_id": 127,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 170,
+        "char_count": 1297,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.288",
+      "preview": "## **354. Application for registration and issuance of license for factory, industrial establishment, commercial establishment, commercial bank, insurance company, shop and contractor establishments**..."
+    },
+    {
+      "chunk_id": 128,
+      "file": "chunk_128.txt",
+      "metadata": {
+        "chunk_id": 128,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Profit",
+        "section_number": "288",
+        "subsections": [],
+        "word_count": 505,
+        "char_count": 3041,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.288",
+      "preview": "## **355. License, registration fee and issuance of license** . –   (1) The Inspector General shall, upon receipt of fees in accordance with the rate mentioned in the schedule 7, grant a license in Fo..."
+    },
+    {
+      "chunk_id": 129,
+      "file": "chunk_129.txt",
+      "metadata": {
+        "chunk_id": 129,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 367,
+        "char_count": 2243,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **357. Losing of license. –**   (1) If the license is lost or accidentally damaged, the application shall file to the Inspector General in Form77 in according to these Rules.   (2) For the applicat..."
+    },
+    {
+      "chunk_id": 130,
+      "file": "chunk_130.txt",
+      "metadata": {
+        "chunk_id": 130,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 499,
+        "char_count": 3055,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **360. Payment of fees. –**   With all applications made under these Rules the main copy of Treasury Bill (Chalan) of the fees paid in account No. “1-3143-0000-1854” must be attached.   ## **361. A..."
+    },
+    {
+      "chunk_id": 131,
+      "file": "chunk_131.txt",
+      "metadata": {
+        "chunk_id": 131,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 254,
+        "char_count": 1596,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.359 | 3 subsections",
+      "preview": "## **362. Issuance of notices and submission of description.** –   (1) According to Section 333 (a) every order shall be issued in the following manner, namely:-   - (a) Serving written notice by hand..."
+    },
+    {
+      "chunk_id": 132,
+      "file": "chunk_132.txt",
+      "metadata": {
+        "chunk_id": 132,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [
+          "a",
+          "b"
+        ],
+        "word_count": 565,
+        "char_count": 3450,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.359 | 2 subsections",
+      "preview": "## **365. Court fees in general matters** . –   (1) No court fees or any other fee shall be required to be paid for any kind of application, proceedings or appeal in accordance with Section 346 of the..."
+    },
+    {
+      "chunk_id": 133,
+      "file": "chunk_133.txt",
+      "metadata": {
+        "chunk_id": 133,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 393,
+        "char_count": 3078,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **Chart**   |Dry Bulb|Wet bulb|Dry Bulb|Wet Bulb|Dry Bulb|Wet Bulb| |---|---|---|---|---|---| |1|2|3|4|5|6| |15.56|14.44|25.00|23.89|34.44|30.00| |16.11|15.00|25.56|24.44|35.00|30.56| |16.67|15.56|..."
+    },
+    {
+      "chunk_id": 134,
+      "file": "chunk_134.txt",
+      "metadata": {
+        "chunk_id": 134,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 592,
+        "char_count": 3333,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **(6) Description of hygrometer** :   (a) Every hygrometer shall be formed with two round thermometers incorporated with wet bulb and dry bulb of similar size and made in a similar process;   (b) I..."
+    },
+    {
+      "chunk_id": 135,
+      "file": "chunk_135.txt",
+      "metadata": {
+        "chunk_id": 135,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 456,
+        "char_count": 2707,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **(2) Washrooms** :   (a) There shall be arrangements for one wash room for minimum 100 male workers.   (b) The arrangement for toilets or washrooms shall be mentioned clearly in the layout plan of..."
+    },
+    {
+      "chunk_id": 136,
+      "file": "chunk_136.txt",
+      "metadata": {
+        "chunk_id": 136,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 500,
+        "char_count": 3004,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **Schedule- III [Referred to Section 88 and Rule 75]**   ## **Safety of Workers in Ships and River & Sea Port**   ## **(A) Safety of workers in ships and river and sea ports**   ## **(1) Applicabil..."
+    },
+    {
+      "chunk_id": 137,
+      "file": "chunk_137.txt",
+      "metadata": {
+        "chunk_id": 137,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 524,
+        "char_count": 3277,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **(4) Precautionary measures against dangerous poisonous smoke and other harmful substances** :   (a) No person shall be allowed to enter into a place where there is a dangerous substance until a s..."
+    },
+    {
+      "chunk_id": 138,
+      "file": "chunk_138.txt",
+      "metadata": {
+        "chunk_id": 138,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 491,
+        "char_count": 2937,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## (9) **Special type of loose gear** :   (a) The following categories of gears shall be deemed as loose gears, namely: -   (i) Chains made with soft iron which can be able to be melted;   (ii) Plate..."
+    },
+    {
+      "chunk_id": 139,
+      "file": "chunk_139.txt",
+      "metadata": {
+        "chunk_id": 139,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [
+          "a",
+          "i"
+        ],
+        "word_count": 576,
+        "char_count": 3437,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359 | 2 subsections",
+      "preview": "## (11) **Ropes** :   - (a) No rope can be used for lifting and carrying, unless-      - (1) It is of excellent quality and without defect; and   (2) In case of wires, if it has not been examined by a..."
+    },
+    {
+      "chunk_id": 140,
+      "file": "chunk_140.txt",
+      "metadata": {
+        "chunk_id": 140,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [
+          "f",
+          "i"
+        ],
+        "word_count": 505,
+        "char_count": 2891,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359 | 2 subsections",
+      "preview": "## **(15) Machinery etc. cannot be used until necessary inclusion in the register** :   No chain, rope, gear that need to be registered in accordance with Form-31 (A) or need to be certified in simila..."
+    },
+    {
+      "chunk_id": 141,
+      "file": "chunk_141.txt",
+      "metadata": {
+        "chunk_id": 141,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 346,
+        "char_count": 2063,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **(20) Responsibilities** :   The responsibility to comply with the provisions of Clause (21) and (22) shall lie with the owner, master, and officer in charge or agent of the ship.   **(21) Access..."
+    },
+    {
+      "chunk_id": 142,
+      "file": "chunk_142.txt",
+      "metadata": {
+        "chunk_id": 142,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 521,
+        "char_count": 3009,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **(24) Responsibility of the employer, berth operator, stevedore for equipment** -   No employer, berth operator, stevedore shall permit any worker to use any machinery or gear in contradiction wit..."
+    },
+    {
+      "chunk_id": 143,
+      "file": "chunk_143.txt",
+      "metadata": {
+        "chunk_id": 143,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Online functions by using the Internet",
+        "section_number": "359",
+        "subsections": [],
+        "word_count": 514,
+        "char_count": 3314,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.359",
+      "preview": "## **(C) Special Provisions Regarding Workers Health and Safety:**   (1) If it is proved that any worker has been appointed to do such work which is threatening or harmful for the health or safety of..."
+    },
+    {
+      "chunk_id": 144,
+      "file": "chunk_144.txt",
+      "metadata": {
+        "chunk_id": 144,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Management of risks and safety in the establishment",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 443,
+        "char_count": 3103,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.1",
+      "preview": "## **(2) The Functions and Responsibilities of the Safety Committee:**   (a) The Committee shall produce a guideline or manual including descriptions of its own responsibilities for a factory or indus..."
+    },
+    {
+      "chunk_id": 145,
+      "file": "chunk_145.txt",
+      "metadata": {
+        "chunk_id": 145,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Reckless operation, occupational diseases, and sickness due to effect of poison",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 490,
+        "char_count": 3199,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **6. Reckless operation, occupational diseases, and sickness due to effect of poison:**   - a) Determination of risky occupations in the establishment as listed under the Rule68;   - b) Prepare lis..."
+    },
+    {
+      "chunk_id": 146,
+      "file": "chunk_146.txt",
+      "metadata": {
+        "chunk_id": 146,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Reckless operation, occupational diseases, and sickness due to effect of poison",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 520,
+        "char_count": 3411,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **(6) Organizing drill** :   The Safety Committee shall organize regular trainings and drills on earthquake, fire and other prevention of disaster and accident in accordance with Sub-Rule (10) and..."
+    },
+    {
+      "chunk_id": 147,
+      "file": "chunk_147.txt",
+      "metadata": {
+        "chunk_id": 147,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Reckless operation, occupational diseases, and sickness due to effect of poison",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 416,
+        "char_count": 2573,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **(12) Decision Making Procedures by the Safety Committee and their implementations:**   (a) In case of taking a decision on safety matters by the Safety Committee it has to be taken unanimously or..."
+    },
+    {
+      "chunk_id": 148,
+      "file": "chunk_148.txt",
+      "metadata": {
+        "chunk_id": 148,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 483,
+        "char_count": 3029,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.5",
+      "preview": "## **(3) Recreation facilities** . –   (a) Every employer, in consultation with workers’ representatives, shall make arrangements for recreation center at a place convenient for the workers in every t..."
+    },
+    {
+      "chunk_id": 149,
+      "file": "chunk_149.txt",
+      "metadata": {
+        "chunk_id": 149,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 83,
+        "char_count": 537,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.5",
+      "preview": "## **6. Medical facilities** .-   (1) Arrangement of Indoor and outdoor medical facilities:   (a) In every tea garden, there shall be indoor and outdoor medical facilities for the workers and their fa..."
+    },
+    {
+      "chunk_id": 150,
+      "file": "chunk_150.txt",
+      "metadata": {
+        "chunk_id": 150,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 497,
+        "char_count": 3100,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.5",
+      "preview": "## **(2) Garden hospital** :   (a) In the tea garden where less than 400 workers are employed, subject to the approval of the Inspector General, there shall be a dispensary under the supervision of a..."
+    },
+    {
+      "chunk_id": 151,
+      "file": "chunk_151.txt",
+      "metadata": {
+        "chunk_id": 151,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [
+          "a"
+        ],
+        "word_count": 400,
+        "char_count": 2534,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.5 | 1 subsections",
+      "preview": "## **(4) Group hospital of Tea garden** :   - (a) Employers may jointly establish a group hospital:   (b) The plan and design for the group hospital shall be approved by the Inspector General;   (c) T..."
+    },
+    {
+      "chunk_id": 152,
+      "file": "chunk_152.txt",
+      "metadata": {
+        "chunk_id": 152,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 537,
+        "char_count": 3226,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.5",
+      "preview": "## **(6) Annual Return** :   The annual return related to the operation of health center shall be sent in accordance with Form- 81 (i).   ## **7. Housing facilities in tea garden** :   (1) Housing arr..."
+    },
+    {
+      "chunk_id": 153,
+      "file": "chunk_153.txt",
+      "metadata": {
+        "chunk_id": 153,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 552,
+        "char_count": 3356,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.5",
+      "preview": "## **(3) Maintenance of the residence of tea- garden workers** :   The employer of tea garden shall, at his own expense:   (a) In order to keep the houses suitable and safe, make arrangements for nece..."
+    },
+    {
+      "chunk_id": 154,
+      "file": "chunk_154.txt",
+      "metadata": {
+        "chunk_id": 154,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 496,
+        "char_count": 3123,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.5",
+      "preview": "## **(9) Traditional Customs and Facilities:**   The traditional customs and facilities of tea-garden shall be remaining continue.   **(10) Eradication of inconvenience** : If any inconvenience arises..."
+    },
+    {
+      "chunk_id": 155,
+      "file": "chunk_155.txt",
+      "metadata": {
+        "chunk_id": 155,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 557,
+        "char_count": 3314,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.5",
+      "preview": "## **(5) Appearance and testimony of the opposite party:**   (a) During the first hearing or before that, the opposite party may submit a written statement responding to the application and such writt..."
+    },
+    {
+      "chunk_id": 156,
+      "file": "chunk_156.txt",
+      "metadata": {
+        "chunk_id": 156,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Crèches",
+        "section_number": "5",
+        "subsections": [],
+        "word_count": 561,
+        "char_count": 3266,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.5",
+      "preview": "## **(13) Right to entrance for the purpose of local investigation** :   If any investigation regarding any accident is under the consideration of any Court, the Court or any officer authorized thereb..."
+    },
+    {
+      "chunk_id": 157,
+      "file": "chunk_157.txt",
+      "metadata": {
+        "chunk_id": 157,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "For Factory",
+        "section_number": "1",
+        "subsections": [],
+        "word_count": 392,
+        "char_count": 3250,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.1",
+      "preview": "## **(17) The manner of signing in the form** :   Any form, except the receipt of compensation, which is required to be signed by the Court in accordance with this Rules, may be signed by any subordin..."
+    },
+    {
+      "chunk_id": 158,
+      "file": "chunk_158.txt",
+      "metadata": {
+        "chunk_id": 158,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "For Commercial Establishments (Except from Club, Restaurant, Bank, Insurance)",
+        "section_number": "3",
+        "subsections": [],
+        "word_count": 151,
+        "char_count": 2022,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.3",
+      "preview": "## **3. For Commercial Establishments (Except from Club, Restaurant, Bank, Insurance):**   |**Class**|**Highest number of workers or**<br>**employees employed in any day of**<br>**the year **|**Licens..."
+    },
+    {
+      "chunk_id": 159,
+      "file": "chunk_159.txt",
+      "metadata": {
+        "chunk_id": 159,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 278,
+        "char_count": 2966,
+        "content_type": "section_content"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **6. Classification, License, Renewal Fee and Bond as Security of Contracting Agency:**   |**Sl. No.**|**Number of**<br>**Workers**|**Classification**|**License Fee**|**Renewal Fee**|**Bond as**<br..."
+    },
+    {
+      "chunk_id": 160,
+      "file": "chunk_160.txt",
+      "metadata": {
+        "chunk_id": 160,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 349,
+        "char_count": 3394,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 2**   ## **[Section 3 and Rule 3(4)]**   Number of appointed workers   Name of the factory/establishment: …………………………………………………………..   Address of the factory/establishment: ………………………………………………..."
+    },
+    {
+      "chunk_id": 161,
+      "file": "chunk_161.txt",
+      "metadata": {
+        "chunk_id": 161,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 318,
+        "char_count": 3415,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form-5**   ## **[Section 3A and Rule 8(4)]**   ## **The Register of workers provided by the contracting agency**   Name of the Contractor’s: ………………………………………………………………   Address of the Contractor’s..."
+    },
+    {
+      "chunk_id": 162,
+      "file": "chunk_162.txt",
+      "metadata": {
+        "chunk_id": 162,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 292,
+        "char_count": 3494,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## 7. Date of Birth/Age:   8. National ID card no (if any):   9. Educational qualification:   10. Training or Special skill (if any):   11. Height                   Centimeter   12. Blood group (if an..."
+    },
+    {
+      "chunk_id": 163,
+      "file": "chunk_163.txt",
+      "metadata": {
+        "chunk_id": 163,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 266,
+        "char_count": 3357,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 9**   ## **[Section 10, 115, 116 and 117 and Rule 24 and 108(1)]**   ## **Register of Leave and Leave-Book**   Name of the factory/establishment: ……………………………………………………………...   Address of the..."
+    },
+    {
+      "chunk_id": 164,
+      "file": "chunk_164.txt",
+      "metadata": {
+        "chunk_id": 164,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 274,
+        "char_count": 2455,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 11**   ## **[Section 22 and 28(1)]**   ## **Certificate for Disability**   ## “On Registered Doctor’s Pad”   Name of the factory/establishment: ………………………………………………………….. Address of the facto..."
+    },
+    {
+      "chunk_id": 165,
+      "file": "chunk_165.txt",
+      "metadata": {
+        "chunk_id": 165,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 327,
+        "char_count": 3005,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 14**   ## **[Section 33(3) and Rule 33, 205(1) and 351(1) (a)]**   ## **Filing Complaint to the Labour Court**   Labour Court: …………………………… ………………………….. ……………………………   1) Name, address, and f..."
+    },
+    {
+      "chunk_id": 166,
+      "file": "chunk_166.txt",
+      "metadata": {
+        "chunk_id": 166,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 314,
+        "char_count": 2696,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 15 (A)**   ## **[Section 34, 36, 37, and 277, Rule 34 (1) and 336 (4)]**   Register of Adolescent Workers   Name of the factory/ establishment: …………………………………………………………..   Address of the fac..."
+    },
+    {
+      "chunk_id": 167,
+      "file": "chunk_167.txt",
+      "metadata": {
+        "chunk_id": 167,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 295,
+        "char_count": 2895,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 18 (A)**   ## **[Section 47(2) (4) and Rule 39(1)]**   ## **Post-Delivery Notice**   To,   Employer/Manager   ………………………………………….   (Name and address of establishment)   I, (name)………………………………..."
+    },
+    {
+      "chunk_id": 168,
+      "file": "chunk_168.txt",
+      "metadata": {
+        "chunk_id": 168,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 265,
+        "char_count": 3144,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form 20**   ## **[Section 51, 59 and 92, Rule 44 and 87(8) (e) and Clause 4(b) of Schedule -2**   ## **Register of Whitewash and Painting**   Name of the factory/establishment: ………………………………………………..."
+    },
+    {
+      "chunk_id": 169,
+      "file": "chunk_169.txt",
+      "metadata": {
+        "chunk_id": 169,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 346,
+        "char_count": 3462,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 22 (A)**   ## **[Section 62(8) and Rule 55(14)]**   ## **Record Book of Fire Extinguishing Drill**   Name of factory/establishment: ……………………………………………………………………   Address of factory/establish..."
+    },
+    {
+      "chunk_id": 170,
+      "file": "chunk_170.txt",
+      "metadata": {
+        "chunk_id": 170,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 243,
+        "char_count": 2399,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Third Part**   |Identification number<br>and marks of machine,<br>chain, lifting cords,<br>crane or rope|Certificate<br>number of test<br>and<br>verification|Date of welding or<br>applying heat a..."
+    },
+    {
+      "chunk_id": 171,
+      "file": "chunk_171.txt",
+      "metadata": {
+        "chunk_id": 171,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 208,
+        "char_count": 2486,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 26**   ## **[Section 79 and Rule 68 (4)]**   ## **Certificate of Health and fitness of those Workers Who Are Employed to Dangerous Operation**   ## “One Registered Doctor’s Pad”   |**Certif..."
+    },
+    {
+      "chunk_id": 172,
+      "file": "chunk_172.txt",
+      "metadata": {
+        "chunk_id": 172,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "b",
+          "c",
+          "a"
+        ],
+        "word_count": 417,
+        "char_count": 3003,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 3 subsections",
+      "preview": "## **Form- 27**   ## **[Section 80 and Rule 69(2) and 70]**   ## Notice of Accident   (Separate notice for each injured/deceased person)   - 1) (a) Name and address of factory/establishment: ………………………..."
+    },
+    {
+      "chunk_id": 173,
+      "file": "chunk_173.txt",
+      "metadata": {
+        "chunk_id": 173,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "b",
+          "c",
+          "a",
+          "f",
+          "i"
+        ],
+        "word_count": 256,
+        "char_count": 1790,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 5 subsections",
+      "preview": "## **Form- 27 (A)**   ## **[Section 80 and Rule 69 (3)]**   Final Report on Accidents and Occupational Diseases   (It is sent after joining at work after recovering from temporary physical disability)..."
+    },
+    {
+      "chunk_id": 174,
+      "file": "chunk_174.txt",
+      "metadata": {
+        "chunk_id": 174,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "b",
+          "c"
+        ],
+        "word_count": 388,
+        "char_count": 3335,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 2 subsections",
+      "preview": "## **Mutilation: Elbow of right-arm or**   ## **Elbow of left-arm or**   Above the elbow………………   Above the elbow………   Below the elbow of right-arm…   Below the elbow of left-arm   Leg- on knee or abov..."
+    },
+    {
+      "chunk_id": 175,
+      "file": "chunk_175.txt",
+      "metadata": {
+        "chunk_id": 175,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "b",
+          "c"
+        ],
+        "word_count": 229,
+        "char_count": 2592,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 2 subsections",
+      "preview": "## **Form- 28**   ## **[Section 80 and Rule 73(1)]**   Register of Accidents and Dangerous Incidents   Name of the factory/establishment:………………………………………………………….   Address of the factory/establishment:..."
+    },
+    {
+      "chunk_id": 176,
+      "file": "chunk_176.txt",
+      "metadata": {
+        "chunk_id": 176,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 356,
+        "char_count": 2280,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 30**   ## **[Section 68, 69, 71, and 88, Rule 60(1)(a), 60(1)(e), 60 (1) (m), 62, 65(2) and Sub-article (7)(a) of Schedule-3]**   Announcement for a Competent Person/establishment to Examin..."
+    },
+    {
+      "chunk_id": 177,
+      "file": "chunk_177.txt",
+      "metadata": {
+        "chunk_id": 177,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 516,
+        "char_count": 3343,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 31**   ## **[Section 88, Rule 75 and Clause 8(a), 10(a), and 11(a) (2) and 12(d) of Article (A) of schedule-3]**   Process of examination and verification before start using lifting machine..."
+    },
+    {
+      "chunk_id": 178,
+      "file": "chunk_178.txt",
+      "metadata": {
+        "chunk_id": 178,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 364,
+        "char_count": 2985,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **First part**   If all derrick boom, crane and above mentioned gears are taken under annual scrutiny and quinquennial/ 05 (five) year scrutiny then it is alright to write “All crane, derrick boom..."
+    },
+    {
+      "chunk_id": 179,
+      "file": "chunk_179.txt",
+      "metadata": {
+        "chunk_id": 179,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 264,
+        "char_count": 1972,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Annual scrutiny of Winch, hoist related gear:**   ## **Second part**   Exhibit the machineries and gears in column 1 which have been annually scrutinized. If all winches (with attached gears) hav..."
+    },
+    {
+      "chunk_id": 180,
+      "file": "chunk_180.txt",
+      "metadata": {
+        "chunk_id": 180,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 345,
+        "char_count": 2308,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 31 (B)**   ## **[Section 88, Rule 75 and Clause 13(a)(1)(i) and 13(b) of Article (A) of Schedule-3]**   Certificate of verifications and examination of winch, derricks and attached gear bef..."
+    },
+    {
+      "chunk_id": 181,
+      "file": "chunk_181.txt",
+      "metadata": {
+        "chunk_id": 181,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "a"
+        ],
+        "word_count": 329,
+        "char_count": 2342,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 1 subsections",
+      "preview": "## **Form- 31 (C)**   ## **[Section 88, Rule 75 and Clause 13(a) (1) (ii) of Article (A) of Schedule-3]**   Certificate of examination of crane and its attached gear before using those in work   |Veri..."
+    },
+    {
+      "chunk_id": 182,
+      "file": "chunk_182.txt",
+      "metadata": {
+        "chunk_id": 182,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 246,
+        "char_count": 1839,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 31 (D)**   ## **[Section 88, Rule 75 and Clause 13(a) (2) of Article (A) of Schedule-3]**   Certificate of scrutiny of grab chain, ring, hook, cleat, revolving clip and all pully blocks bef..."
+    },
+    {
+      "chunk_id": 183,
+      "file": "chunk_183.txt",
+      "metadata": {
+        "chunk_id": 183,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "b"
+        ],
+        "word_count": 431,
+        "char_count": 3107,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 1 subsections",
+      "preview": "## **Form- 31 (E)**   ## **[Section 88, Rule 75 and Clause 13(a) (3) of Article (A) of Schedule-3]**   Certificate of examination of rope of wire before using those in work   Verification certificate..."
+    },
+    {
+      "chunk_id": 184,
+      "file": "chunk_184.txt",
+      "metadata": {
+        "chunk_id": 184,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 384,
+        "char_count": 3432,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## (c) Meaning of “competent person”:   (i) In case of such machineries which are not established on the ship, any person employed by the port authority with the permission of Inspector General;   (ii..."
+    },
+    {
+      "chunk_id": 185,
+      "file": "chunk_185.txt",
+      "metadata": {
+        "chunk_id": 185,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 310,
+        "char_count": 2755,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 35**   ## **[Section 109 and Rule 103 (1)]**   Consent Letter for Female to Work in nightshift   Name of the factory/ establishment: ……………………………………………………………….   Address of the Factory/estab..."
+    },
+    {
+      "chunk_id": 186,
+      "file": "chunk_186.txt",
+      "metadata": {
+        "chunk_id": 186,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 276,
+        "char_count": 2683,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 37**   ## **[Section 111 (8) and Rule 105(1)]**   (On establishment’s Pad)   Notice of the working hours of adult Workers   Name of the factory/establishment: ……………………………………………………………….   Ad..."
+    },
+    {
+      "chunk_id": 187,
+      "file": "chunk_187.txt",
+      "metadata": {
+        "chunk_id": 187,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 166,
+        "char_count": 3212,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 38**   ## **[Section 121 and Rule 111 (1)and 111 (3)]**   Register of Wages and Wage-slip   |Name of the factory/establishment: …………………………………………………………<br>Address of the factory/establishmen..."
+    },
+    {
+      "chunk_id": 188,
+      "file": "chunk_188.txt",
+      "metadata": {
+        "chunk_id": 188,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 373,
+        "char_count": 3327,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 40**   ## **[Section 129 and Rule 117 (3)]**   Register of Advance and Requital   Name of the factory/establishment: ……………………………………………………………….   Address of the factory/establishment: ………………..."
+    },
+    {
+      "chunk_id": 189,
+      "file": "chunk_189.txt",
+      "metadata": {
+        "chunk_id": 189,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 312,
+        "char_count": 2460,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 43**   ## **[Section 131 (1) (b) and 137 and Rule 119 (2)]**   Receipt of Deposited Money in the Court   Name of the depositor: ………………………………………………………… Name of the recipient: ………………………………………..."
+    },
+    {
+      "chunk_id": 190,
+      "file": "chunk_190.txt",
+      "metadata": {
+        "chunk_id": 190,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 448,
+        "char_count": 3426,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 44 (A)**   ## **[Section 132 and Rule 120 and205 (2)]**   Application Form of Claiming the Payment of Wages   (For Joint Application)   Application No………………………./20…….   ………………………………and (men..."
+    },
+    {
+      "chunk_id": 191,
+      "file": "chunk_191.txt",
+      "metadata": {
+        "chunk_id": 191,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 340,
+        "char_count": 3049,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 45**   ## **[Section 155 (1) and Rule 137 (1)]**   Submission of the compensation money and description to the Labour Court in case of accidental death   Name of the factory/establishment w..."
+    },
+    {
+      "chunk_id": 192,
+      "file": "chunk_192.txt",
+      "metadata": {
+        "chunk_id": 192,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 388,
+        "char_count": 3187,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 47**   ## **[Section 155 (1) and Rule 137 (1) and 139(3)]**   Receipt of money deposited as Compensation   Book No…………………….Receipt No………………………..Register No……………………. Name of the establishmen..."
+    },
+    {
+      "chunk_id": 193,
+      "file": "chunk_193.txt",
+      "metadata": {
+        "chunk_id": 193,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "b"
+        ],
+        "word_count": 367,
+        "char_count": 2827,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 1 subsections",
+      "preview": "## **Form- 48 (B)**   ## **[Section 166 and 168 and Rule 139 (1), 205(3) and 351(1)]**   Submission of report by inspector to the court when compensation is not given   To The Labour Court,   Dear Sir..."
+    },
+    {
+      "chunk_id": 194,
+      "file": "chunk_194.txt",
+      "metadata": {
+        "chunk_id": 194,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 254,
+        "char_count": 1747,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 50**   ## **[Section 170 (1) and Rule 147]**   Memorandum of Agreement   It is hereby presented that, 20……………year ………………….date, resident of   ……………………..……………………………….got injured in an accide..."
+    },
+    {
+      "chunk_id": 195,
+      "file": "chunk_195.txt",
+      "metadata": {
+        "chunk_id": 195,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 276,
+        "char_count": 2022,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 50 (A)**   ## **[Section 170 (1) and Rule 147]**   Memorandum of Agreement   ## **Memorandum of Agreement**   It is hereby presented that, 20……………years………………….date……….., resident of …………………..."
+    },
+    {
+      "chunk_id": 196,
+      "file": "chunk_196.txt",
+      "metadata": {
+        "chunk_id": 196,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 489,
+        "char_count": 3394,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## Witness   NB :The form can be changed due to special cases, e.g. injury caused by occupational disease, and legal disability, etc.   ## **Form- 50 (B)**   ## **[Section 170 (1) and Rule 147]**   Me..."
+    },
+    {
+      "chunk_id": 197,
+      "file": "chunk_197.txt",
+      "metadata": {
+        "chunk_id": 197,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 368,
+        "char_count": 3438,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 51 (A)**   ## **[Section 170 and Rule 148 (3) and (6)]**   Notice of rejection for the registration of the memorandum of agreement   It is hereby informed that a mutual settlement was done..."
+    },
+    {
+      "chunk_id": 198,
+      "file": "chunk_198.txt",
+      "metadata": {
+        "chunk_id": 198,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 214,
+        "char_count": 2549,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 3 subsections",
+      "preview": "## **Form- 54**   ## **[Section 166 and Rule 164 (1)]**   Register of Compensation Related Suit   |Sl.<br>No.|<br>Date of<br>application<br>or hearing|<br> <br>Number<br>of other<br>related<br>suits (..."
+    },
+    {
+      "chunk_id": 199,
+      "file": "chunk_199.txt",
+      "metadata": {
+        "chunk_id": 199,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 415,
+        "char_count": 3213,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 55 (A)**   ## **[Section 179 (1) (c) and Rule 167(1)]**   Application Form for Worker or Employee or Employer of an Establishment/Group of Establishments for Being a Member of the Trade Uni..."
+    },
+    {
+      "chunk_id": 200,
+      "file": "chunk_200.txt",
+      "metadata": {
+        "chunk_id": 200,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 283,
+        "char_count": 2138,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 55 (D)**   ## **[Rule 167 (3)]**   Certificate as the Union Member   Name and address of the union:……………………………………………   Reg. No: ……………………………………………………………………   Name ……………………..   Membership No…..."
+    },
+    {
+      "chunk_id": 201,
+      "file": "chunk_201.txt",
+      "metadata": {
+        "chunk_id": 201,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 275,
+        "char_count": 1917,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 56 (B)**   ## **[Section 177 Rule 168 (1)]**   Application for Registration of Trade Union Federation   Date: …………………….   To   Director of Labour/Authorized Official   Government of the Peo..."
+    },
+    {
+      "chunk_id": 202,
+      "file": "chunk_202.txt",
+      "metadata": {
+        "chunk_id": 202,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 453,
+        "char_count": 3432,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 56 (C)**   ## **[Section 177 and Rule 168 (1)]**   Application for Registration of Trade Union confederation   Date: …………………….   To   Director of Labour/Authorized Official   Government of..."
+    },
+    {
+      "chunk_id": 203,
+      "file": "chunk_203.txt",
+      "metadata": {
+        "chunk_id": 203,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 321,
+        "char_count": 3486,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 56 (E)**   **[Section 176 (e), 178 and 179 (2A) and Rule 168 (4)]** Check List for Investigation/Inspection   - 1) Brief information on organization: 2) List of all worker and staff: 3) Nam..."
+    },
+    {
+      "chunk_id": 204,
+      "file": "chunk_204.txt",
+      "metadata": {
+        "chunk_id": 204,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 264,
+        "char_count": 3119,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 57 (B)**   ## **[Section 178 and Rule 168 (6)]**   Description of the affiliated Trade Unions of Federation   |Sl. No.|Name and address of<br>the affiliated trade<br>union|Date of<br>affili..."
+    },
+    {
+      "chunk_id": 205,
+      "file": "chunk_205.txt",
+      "metadata": {
+        "chunk_id": 205,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 219,
+        "char_count": 3066,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 58 (C)**   ## **[Section 181 (a) and Rule 170 (3)]**   Register Maintained by the Confederation   Name and address of the confederation: ………………………………………………………   |Name<br>and<br>descri<br>pt..."
+    },
+    {
+      "chunk_id": 206,
+      "file": "chunk_206.txt",
+      "metadata": {
+        "chunk_id": 206,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 108,
+        "char_count": 1294,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 59 (C)**   ## **[Section 182 and Rule 171]**   Ledger of Confederation’s Register   |Sl.<br>No.|Registration<br>No. and date|Name and<br>address of<br>the<br>confederation|Name and<br>addre..."
+    },
+    {
+      "chunk_id": 207,
+      "file": "chunk_207.txt",
+      "metadata": {
+        "chunk_id": 207,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 255,
+        "char_count": 2912,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 61 (A)**   ## **[Section 201 and Rule 176(1)]**   General Description Submitted by Trade Union (Annual Return)   (Essential annual return for the year-end December 31, 20……under Section 201..."
+    },
+    {
+      "chunk_id": 208,
+      "file": "chunk_208.txt",
+      "metadata": {
+        "chunk_id": 208,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 219,
+        "char_count": 2232,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 61 (B)**   ## **[Section 201 and Rule 176(1)]**   General Description Submitted by Federation (Annual Return)   [(Essential annual return for year-end December 31, 20……under Section 201 and..."
+    },
+    {
+      "chunk_id": 209,
+      "file": "chunk_209.txt",
+      "metadata": {
+        "chunk_id": 209,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 204,
+        "char_count": 2127,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 61 (C)**   ## **[Section 201 and Rule 176(1)]**   General Description Submitted by Confederation (Annual Return)   [(Essential annual return for year-end December 31, 20……under Section 201(..."
+    },
+    {
+      "chunk_id": 210,
+      "file": "chunk_210.txt",
+      "metadata": {
+        "chunk_id": 210,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 468,
+        "char_count": 3443,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **[Section 201 and Rule 176(1)]**   Description of accounts of fund (First Part)   |Income|Amount|Expense|Amount| |---|---|---|---| |.. … .. opening balance at the<br>beginning of the year…………….<br..."
+    },
+    {
+      "chunk_id": 211,
+      "file": "chunk_211.txt",
+      "metadata": {
+        "chunk_id": 211,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 79,
+        "char_count": 744,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "……………………………… .…………………….......................... Auditor’s Signature and name with seal General Secretary/treasurer’s signature and name with seal   Statement of the Changes that have been brought to..."
+    },
+    {
+      "chunk_id": 212,
+      "file": "chunk_212.txt",
+      "metadata": {
+        "chunk_id": 212,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 388,
+        "char_count": 2993,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Announcement by Auditor (Forth Part)**   ## **(On auditor’s office pad)**   As per request of the letter no. ……………… written by the trade union/federation/confederation’s secretary in (date)………………..."
+    },
+    {
+      "chunk_id": 213,
+      "file": "chunk_213.txt",
+      "metadata": {
+        "chunk_id": 213,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 310,
+        "char_count": 3165,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 63**   ## **[Section 205 (6) and Rule 184(1)]**   Form for Nomination of Representative of Workers in Participation Committee by the Trade Union   Name of the factory/establishment: …………………..."
+    },
+    {
+      "chunk_id": 214,
+      "file": "chunk_214.txt",
+      "metadata": {
+        "chunk_id": 214,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 288,
+        "char_count": 3011,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **[Section 219 and Rule 205 (4)]**   Application for Appeal   Appeal No…………………../20   …………………………….Appellant Versus   ………………………….Respondent   Subject/Context:   Appeal Bangladesh Labour Act 2006 aga..."
+    },
+    {
+      "chunk_id": 215,
+      "file": "chunk_215.txt",
+      "metadata": {
+        "chunk_id": 215,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 175,
+        "char_count": 1177,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 69**   ## **[Rule 254(3) and 284(3) and 317(3)]**   Brief Description of the property of provident fund for the year ……………….   |Introduction to the class of property|In<br>accordance<br>wit..."
+    },
+    {
+      "chunk_id": 216,
+      "file": "chunk_216.txt",
+      "metadata": {
+        "chunk_id": 216,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 373,
+        "char_count": 3469,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 70**   ## **[Rule 337(1)]**   ## Agreements of Apprentice   |This agreement is being made on 20….. …..date…………..Mr…………………………… (name and address| |---| |of<br>the<br>employer<br>and<br>the<b..."
+    },
+    {
+      "chunk_id": 217,
+      "file": "chunk_217.txt",
+      "metadata": {
+        "chunk_id": 217,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 244,
+        "char_count": 3187,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **A- Monthly Record of Attendance**   |Month|Agenda/<br>speech|how many<br>discussion/<br>training you<br>attended|have|Total hours of<br>practical training|In total, how<br>many hours’  you<br>hav..."
+    },
+    {
+      "chunk_id": 218,
+      "file": "chunk_218.txt",
+      "metadata": {
+        "chunk_id": 218,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 348,
+        "char_count": 3422,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **[Section 325 and Rule 352 (1)]**   Notice before Starting Manufacture/Work in Factory/Establishment   Name of the factory/establishment: (English):………..………………………………………... (Bengali): …………………………………..."
+    },
+    {
+      "chunk_id": 219,
+      "file": "chunk_219.txt",
+      "metadata": {
+        "chunk_id": 219,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 10,
+        "char_count": 107,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "Date: ………………………………………….   Signature of the employer/ chief executive/managing director Date:………………………………………..."
+    },
+    {
+      "chunk_id": 220,
+      "file": "chunk_220.txt",
+      "metadata": {
+        "chunk_id": 220,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 263,
+        "char_count": 2161,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 76**   ## **[Section 326 and Rule 353 (2)]**   Application of approval for the lay out plan of the factory or lay-out plan for expansion /renovation   1) Name of the employer /managing dire..."
+    },
+    {
+      "chunk_id": 221,
+      "file": "chunk_221.txt",
+      "metadata": {
+        "chunk_id": 221,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 405,
+        "char_count": 3497,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **[Section 3A and 326 and Rule 7(1), 354, 355(3), 356(2) and 357(1)]**   Application for registration and issuance or renewal/amendment/duplicate copy of license for factory, industrial establishme..."
+    },
+    {
+      "chunk_id": 222,
+      "file": "chunk_222.txt",
+      "metadata": {
+        "chunk_id": 222,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 131,
+        "char_count": 1063,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "branch)…………………………………………………………………………………………..   12. In case of registered factory/establishment, number and date of the original   license…………………………………………………………………………………………..   Signature of the employer..."
+    },
+    {
+      "chunk_id": 223,
+      "file": "chunk_223.txt",
+      "metadata": {
+        "chunk_id": 223,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 322,
+        "char_count": 2997,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 78**   ## **[Section 3A and 326 and Rule 7(7) and 355 (1)]**   License for the factory/ industrial establishment/ commercial establishment/ commercial bank and insurance company/ shop/ cont..."
+    },
+    {
+      "chunk_id": 224,
+      "file": "chunk_224.txt",
+      "metadata": {
+        "chunk_id": 224,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 207,
+        "char_count": 1597,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Form- 80**   ## **[Section 333 (b) and Rule 362 (2) (a)]**   ## **Half yearly return**   End of half year till 30th June and the end of 31st December of the year 20……… Name of the factory/establi..."
+    },
+    {
+      "chunk_id": 225,
+      "file": "chunk_225.txt",
+      "metadata": {
+        "chunk_id": 225,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 451,
+        "char_count": 3400,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Part- A**   License number………………...   The end of 31st December of the year 20……. Name of the factory/establishment: ……………………………………………………………... Address of the factory/establishment: ……………………………………..."
+    },
+    {
+      "chunk_id": 226,
+      "file": "chunk_226.txt",
+      "metadata": {
+        "chunk_id": 226,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 116,
+        "char_count": 907,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "**Part- B**   Information on annual leave with wages   1. The number of workers who has completed continuous work for 12 months in a year:   Male: ……………………………………   Female: ………………………………….   Children: …..."
+    },
+    {
+      "chunk_id": 227,
+      "file": "chunk_227.txt",
+      "metadata": {
+        "chunk_id": 227,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 309,
+        "char_count": 2949,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Canteen related information**   (1) Who have been provided with:   (i) Cooked food and snacks: ……………………… (ii)  Cooked food: ……………………………. (iii) Tea: ………………………………… (iv) Snacks and tea: ……………………....."
+    },
+    {
+      "chunk_id": 228,
+      "file": "chunk_228.txt",
+      "metadata": {
+        "chunk_id": 228,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 184,
+        "char_count": 2314,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Part G**   ## **Information of providing maternity benefits**   (1) Number of applications containing claims for maternity welfare benefits entitled under Section 47 of the Act: ……………………………………………..."
+    },
+    {
+      "chunk_id": 229,
+      "file": "chunk_229.txt",
+      "metadata": {
+        "chunk_id": 229,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [],
+        "word_count": 190,
+        "char_count": 2413,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6",
+      "preview": "## **Description regarding the provision of medical facilities**   - (1) Name of the factory/establishment/plantation: …………………………………………….   - (2) Total number of population: …………………………………………………………………..."
+    },
+    {
+      "chunk_id": 230,
+      "file": "chunk_230.txt",
+      "metadata": {
+        "chunk_id": 230,
+        "chapter": "MISCELLANEOUS",
+        "chapter_number": "XIX",
+        "section": "Classification, License, Renewal Fee and Bond as Security of Contracting Agency",
+        "section_number": "6",
+        "subsections": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word_count": 135,
+        "char_count": 1547,
+        "content_type": "continuation"
+      },
+      "summary": "Ch.XIX | Sec.6 | 3 subsections",
+      "preview": "## **Part K**   ## **Annual report of property of provident fund**   Name of the factory/establishment: …………………………………………………………..   Address of the factory/establishment: ………………………………………………………..   Regis..."
+    }
+  ]
+}
