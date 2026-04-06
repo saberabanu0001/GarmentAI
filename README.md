@@ -25,9 +25,11 @@ pip install -r requirements.txt
 python embedding/build_index.py              # reads chunked-data/*_chunks.txt
 python embedding/query_engine.py "your question" --top-k 5   # bridge: query → vectors → top chunks
 # or: python embedding/search_cli.py "your question" --top-k 5
+python embedding/search_web.py                    # http://127.0.0.1:8765
+python embedding/search_web.py --port 8766        # if 8765 is already in use
 ```
 
-**Query engine:** `embedding/query_engine.py` loads the index, embeds the user string with `query:`, scores against `embeddings.npy`, returns top‑k hits. Use `--json` for machine-readable output. Import `QueryEngine` in a FastAPI app later.
+**Query engine:** `embedding/query_engine.py` loads the index, embeds the user string with `query:`, scores against `embeddings.npy`, returns top‑k hits. Use `--json` for machine-readable output. **`embedding/search_web.py`** is a tiny browser UI for manual testing (127.0.0.1 only).
 
 Outputs: `embedding/index/embeddings.npy`, `chunks.jsonl`, `meta.json`. Models cache under `embedding/.hf_cache/`.
 

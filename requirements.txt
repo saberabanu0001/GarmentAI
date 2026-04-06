@@ -3,3 +3,4 @@ pymupdf4llm>=0.0.17
 numpy>=1.26.0
 torch>=2.0.0
 transformers>=4.36.0
+flask>=3.0.0
