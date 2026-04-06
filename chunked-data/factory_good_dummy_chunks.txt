@@ -1,0 +1,14 @@
+DOCUMENT_METADATA
+source_name: Good Factory Internal
+document_name: Floor Safety Quick Card
+
+--- CHUNK START ---
+chunk_id: 0
+document_name: Floor Safety Quick Card
+source_name: Good Factory Internal
+page_start: n/a
+page_end: n/a
+section: Daily line start checklist
+text:
+Workers must wear closed shoes and keep aisles clear. Report broken needles to the line supervisor immediately. This SOP applies only to Good Factory floor lines.
+--- CHUNK END ---

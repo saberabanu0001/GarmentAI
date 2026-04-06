@@ -1,0 +1,76 @@
+# First matching pattern wins (fnmatch on basename). Roles must match embedding/roles.py.
+# language: en | bn (stored per chunk for routing / filters).
+
+rules:
+  - pattern: "Bangladesh_Labour_Act*_chunks.txt"
+    collection: global_laws
+    doc_scope: global_law
+    doc_category: labour
+    language: en
+    factory_id: ""
+    allowed_roles: [worker, supervisor, compliance_officer, hr_staff]
+
+  - pattern: "Bangladesh_Labour_Rules*_chunks.txt"
+    collection: global_laws
+    doc_scope: global_law
+    doc_category: labour
+    language: en
+    factory_id: ""
+    allowed_roles: [worker, supervisor, compliance_officer, hr_staff]
+
+  - pattern: "Fire_Safety*_chunks.txt"
+    collection: global_laws
+    doc_scope: global_law
+    doc_category: fire
+    language: en
+    factory_id: ""
+    allowed_roles: [worker, supervisor, compliance_officer, hr_staff]
+
+  - pattern: "CBLM*_chunks.txt"
+    collection: compliance_standards
+    doc_scope: compliance
+    doc_category: audit
+    language: en
+    factory_id: ""
+    allowed_roles: [worker, supervisor, compliance_officer, hr_staff]
+
+  - pattern: "Compliance_Practices*_chunks.txt"
+    collection: compliance_standards
+    doc_scope: compliance
+    doc_category: audit
+    language: en
+    factory_id: ""
+    allowed_roles: [worker, supervisor, compliance_officer, hr_staff]
+
+  - pattern: "JUKI*_chunks.txt"
+    collection: compliance_standards
+    doc_scope: compliance
+    doc_category: machine_sop
+    language: en
+    factory_id: ""
+    allowed_roles: [worker, supervisor, compliance_officer]
+
+  - pattern: "Term_Project*_chunks.txt"
+    collection: compliance_standards
+    doc_scope: compliance
+    doc_category: meta
+    language: en
+    factory_id: ""
+    allowed_roles: [supervisor, compliance_officer, hr_staff]
+
+  # Dummy tenant corpora (Month 2): no upload pipeline required.
+  - pattern: "factory_good_dummy*_chunks.txt"
+    collection: factory_good_docs
+    doc_scope: tenant
+    doc_category: machine_sop
+    language: en
+    factory_id: good
+    allowed_roles: [worker, supervisor, compliance_officer, hr_staff]
+
+  - pattern: "factory_risky_dummy*_chunks.txt"
+    collection: factory_risky_docs
+    doc_scope: tenant
+    doc_category: hr
+    language: en
+    factory_id: risky
+    allowed_roles: [hr_staff]

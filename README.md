@@ -11,7 +11,7 @@ Experiment/
 ├── md data/                ← Markdown sources (after PDF conversion)
 ├── raw-data/               ← Original PDFs and other binaries
 ├── requirements.txt        ← pip deps (e.g. langchain-text-splitters)
-├── embedding/              ← build_index, query_engine (bridge), search_cli; index under embedding/index/
+├── embedding/              ← build_index / build_chroma, numpy + Chroma query CLIs, search_web; see below
 ├── knowledge_base/         ← Final merged knowledge base (Week 5+)
 └── README.md
 ```
@@ -34,6 +34,22 @@ python embedding/search_web.py --port 8766        # if 8765 is already in use
 Outputs: `embedding/index/embeddings.npy`, `chunks.jsonl`, `meta.json`. Models cache under `embedding/.hf_cache/`.
 
 Build options: `--model intfloat/multilingual-e5-base`, `--batch-size`, `--chunks-dir`, `--output-dir`.
+
+### ChromaDB (multi-collection + RBAC)
+
+Collections and metadata are driven by [`embedding/collection_manifest.yaml`](embedding/collection_manifest.yaml) (filename patterns → `global_laws`, `compliance_standards`, `factory_{slug}_docs`). Canonical role strings live in [`embedding/roles.py`](embedding/roles.py). Each chunk gets a stable `chunk_uid` and fields such as `doc_scope`, `language` (`en` / `bn`), and `allowed_roles` (comma-separated in Chroma).
+
+```bash
+python embedding/build_chroma.py                    # writes embedding/chroma_data/ (ignored by git)
+python embedding/chroma_query_engine.py "fire exit" --role worker --factory good --top-k 5
+python embedding/chroma_query_engine.py "salary deduction" --role hr_staff --factory risky --json
+```
+
+Merge policy: sort by **similarity** (cosine via Chroma space), then tie-break **tenant → compliance → global law**. Post-filter drops chunks the `role` is not allowed to see (e.g. HR-only dummy corpus under `factory_risky_docs`).
+
+**Tests:** `pytest tests/test_embedding_rbac.py` (fast). After building Chroma: `RUN_E2E=1 pytest tests/test_chroma_e2e.py -m e2e` (RBAC + Bangla smoke).
+
+Dummy tenant seed files for Month 2: [`chunked-data/factory_good_dummy_chunks.txt`](chunked-data/factory_good_dummy_chunks.txt), [`chunked-data/factory_risky_dummy_chunks.txt`](chunked-data/factory_risky_dummy_chunks.txt).
 
 ## Chunking from Markdown (current)
 
