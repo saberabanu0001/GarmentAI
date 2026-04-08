@@ -26,3 +26,6 @@ embedding/.hf_cache/
 # Local vector DB + model cache (runtime)
 data/chroma_data/
 data/.hf_cache/
+
+# HR dashboard edits (factory-specific; copy from data/hr_dashboard.example.json)
+data/hr_dashboard.json

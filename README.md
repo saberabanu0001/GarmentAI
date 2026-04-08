@@ -18,7 +18,9 @@ Experiment/   (or rename clone to garment-ai/)
 │   ├── raw/                # Original PDFs (optional; team may use raw-data/)
 │   ├── chunked/            # *_chunks.txt + manifests (ingest input)
 │   ├── dummy/              # Placeholder for synthetic worker profiles
-│   └── chroma_data/        # Local Chroma DB (gitignored; built at runtime)
+│   ├── chroma_data/        # Local Chroma DB (gitignored; built at runtime)
+│   ├── hr_dashboard.example.json   # Template for HR dashboard JSON
+│   └── hr_dashboard.json   # Created by HR UI (PUT); gitignored — factory-specific
 ├── scripts/
 │   ├── ingest_laws.py      # Build / refresh Chroma from data/chunked
 │   └── seed_dummy_data.py  # Stub for future dummy seeding

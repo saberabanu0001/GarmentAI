@@ -1,0 +1,38 @@
+{
+  "overview": {
+    "workforceTotal": 500,
+    "workforceTrendLabel": "+4% vs last month",
+    "activeViolations": 12,
+    "pendingAudits": 3,
+    "pendingAuditsHint": "Next scheduled: Floor 3, Line 4."
+  },
+  "violationsNote": "Requires immediate HR intervention — from rules engine / audit queue (replace with live counts from your systems).",
+  "auditLog": [
+    {
+      "id": "1",
+      "timestampLabel": "11:42 AM",
+      "category": "OVERTIME",
+      "categoryVariant": "overtime",
+      "summary": "ID #204: Overtime violation flagged by rules engine (sample).",
+      "confidencePct": 98
+    },
+    {
+      "id": "2",
+      "timestampLabel": "Yesterday",
+      "category": "PPE",
+      "categoryVariant": "ppe",
+      "summary": "Floor A: PPE checklist item pending verification (sample).",
+      "confidencePct": 84
+    }
+  ],
+  "regulatoryUpdate": {
+    "title": "Regulatory update",
+    "body": "New ILO / buyer standards — edit this text in the HR dashboard editor.",
+    "ctaLabel": "Read brief",
+    "briefQuestion": "Summarize the latest ILO and buyer compliance expectations relevant to garment factory HR, based on our indexed documents."
+  },
+  "assistant": {
+    "welcome": "Hello, HR Manager. Ask policy questions below — answers use your indexed library via the same RAG pipeline as the worker portal.",
+    "suggestedPrompt": "Summarize new overtime regulations…"
+  }
+}

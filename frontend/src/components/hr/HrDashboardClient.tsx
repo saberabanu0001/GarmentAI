@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Plus } from "lucide-react";
 import { getHrDashboard } from "@/lib/api/hr";
 import { postRag } from "@/lib/api/rag";
+import { HrDashboardEditor } from "@/components/hr/HrDashboardEditor";
 import type { HrCategoryVariant, HrDashboardResponse } from "@/lib/types/hr";
 
 const badgeStyles: Record<HrCategoryVariant, string> = {
@@ -111,14 +112,11 @@ export function HrDashboardClient() {
         <div>
           <h1 className="text-2xl font-bold text-zinc-900">Compliance Overview</h1>
           <p className="mt-1 text-sm text-zinc-600">
-            HR intelligence — data from{" "}
-            <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs">
-              GET /api/hr/dashboard
-            </code>
-            ; assistant uses{" "}
-            <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs">
-              POST /api/chat
-            </code>{" "}
+            HR intelligence — load/save via API (
+            <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs">GET/PUT /api/hr/dashboard</code>
+            , file <code className="text-xs">data/hr_dashboard.json</code>
+            ); assistant uses{" "}
+            <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs">POST /api/chat</code>{" "}
             (role <code className="text-xs">{HR_RAG_ROLE}</code>).
           </p>
         </div>
@@ -130,6 +128,11 @@ export function HrDashboardClient() {
           New audit scan
         </Link>
       </div>
+
+      <HrDashboardEditor
+        initial={data}
+        onSaved={(next) => setData(next)}
+      />
 
       <div className="grid gap-4 md:grid-cols-3">
         <div className="rounded-xl bg-white p-5 shadow-md">
@@ -173,8 +176,7 @@ export function HrDashboardClient() {
           <div className="border-b border-zinc-100 px-5 py-4">
             <h2 className="font-semibold text-zinc-900">AI automated audit log</h2>
             <p className="text-xs text-zinc-500">
-              Rows from the API — replace <code className="text-[11px]">hr_data.HR_DASHBOARD</code>{" "}
-              with your database or message bus.
+              Rows come from your saved dashboard (expand “Edit factory dashboard data” above).
             </p>
           </div>
           <div className="overflow-x-auto">

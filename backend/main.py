@@ -14,6 +14,7 @@ from fastapi.responses import JSONResponse
 from backend.api.audit import router as audit_router
 from backend.api.chat import router as chat_router
 from backend.api.documents import router as documents_router
+from backend.api.voice import router as voice_router
 
 app = FastAPI(title="GarmentAI API", version="1.0.0")
 
@@ -36,6 +37,7 @@ app.add_middleware(
 app.include_router(chat_router)
 app.include_router(audit_router)
 app.include_router(documents_router)
+app.include_router(voice_router)
 
 
 @app.get("/")
@@ -47,8 +49,10 @@ def index() -> dict[str, str | list[str]]:
             "POST /api/chat",
             "POST /api/rag",
             "GET /api/hr/dashboard",
+            "PUT /api/hr/dashboard",
             "GET /api/audit/dashboard",
             "POST /api/upload",
+            "POST /api/voice/transcribe",
         ],
         "ui": "Run Next.js from frontend/ and open http://localhost:3000",
     }

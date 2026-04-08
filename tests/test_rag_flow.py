@@ -30,6 +30,61 @@ def test_hr_dashboard(client: TestClient) -> None:
     assert body["overview"]["workforceTotal"] == 500
 
 
+def test_hr_dashboard_put_persists(tmp_path, monkeypatch) -> None:
+    import json
+
+    import backend.services.hr_data as hr_mod
+
+    store = tmp_path / "hr_dashboard.json"
+    monkeypatch.setattr(
+        hr_mod,
+        "_store_path",
+        lambda: store,
+    )
+    from fastapi.testclient import TestClient
+
+    from backend.main import app
+
+    c = TestClient(app)
+    payload = {
+        "overview": {
+            "workforceTotal": 842,
+            "workforceTrendLabel": "+2% vs last month",
+            "activeViolations": 3,
+            "pendingAudits": 1,
+            "pendingAuditsHint": "Line 2 next Tuesday.",
+        },
+        "violationsNote": "Custom note from factory.",
+        "auditLog": [
+            {
+                "id": "a1",
+                "timestampLabel": "Now",
+                "category": "WAGE",
+                "categoryVariant": "wage",
+                "summary": "Payroll anomaly line 4.",
+                "confidencePct": 91,
+            }
+        ],
+        "regulatoryUpdate": {
+            "title": "Buyer update",
+            "body": "New audit checklist.",
+            "ctaLabel": "Open",
+            "briefQuestion": "Summarize buyer checklist changes.",
+        },
+        "assistant": {
+            "welcome": "Hi HR.",
+            "suggestedPrompt": "Ask about leave policy…",
+        },
+    }
+    put = c.put("/api/hr/dashboard", json=payload)
+    assert put.status_code == 200, put.text
+    assert store.is_file()
+    saved = json.loads(store.read_text(encoding="utf-8"))
+    assert saved["overview"]["workforceTotal"] == 842
+    get = c.get("/api/hr/dashboard")
+    assert get.json()["overview"]["workforceTotal"] == 842
+
+
 def _patch_rag_no_chroma() -> tuple[MagicMock, MagicMock]:
     mock_inst = MagicMock()
     mock_inst.search.return_value = []

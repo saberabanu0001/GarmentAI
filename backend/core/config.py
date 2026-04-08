@@ -20,14 +20,17 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    # LLM (optional keys — used when backend is groq / gemini)
-    llm_backend: str = "ollama"
+    # LLM (Groq-only for this deployment)
+    llm_backend: str = "groq"
     groq_api_key: str | None = None
     groq_model: str | None = None
     ollama_host: str | None = None
     ollama_model: str | None = None
     gemini_api_key: str | None = None
     gemini_model: str | None = None
+    whisper_api_key: str | None = None
+    whisper_model: str = "whisper-large-v3"
+    whisper_base_url: str | None = None
 
     repo_root: Path | None = None
 
@@ -50,6 +53,11 @@ class Settings(BaseSettings):
     @property
     def hf_cache_dir(self) -> Path:
         return self.root / "data" / ".hf_cache"
+
+    @property
+    def hr_dashboard_path(self) -> Path:
+        """JSON file edited via HR UI (PUT /api/hr/dashboard)."""
+        return self.root / "data" / "hr_dashboard.json"
 
 
 @lru_cache

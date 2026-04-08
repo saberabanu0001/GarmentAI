@@ -16,7 +16,7 @@ export type NavItem = {
 /** Single source for sidebar — adjust routes here only. */
 export const sidebarNav: NavItem[] = [
   { href: "/hr", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/worker", label: "AI Chat (RAG)", icon: MessageSquareText },
+  { href: "/worker", label: "AI Chat", icon: MessageSquareText },
   { href: "/library", label: "Document Library", icon: ScrollText },
   { href: "/audit", label: "Factory Audit", icon: ClipboardCheck },
   { href: "/settings", label: "Settings", icon: Settings },

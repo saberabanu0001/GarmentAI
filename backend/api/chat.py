@@ -19,7 +19,8 @@ class RagRequest(BaseModel):
     role: str = "worker"
     factory_id: str = ""
     top_k: int = Field(default=5, ge=1, le=20)
-    backend: Literal["ollama", "groq", "gemini"] | None = None
+    backend: Literal["groq"] | None = None
+    response_language: Literal["auto", "en", "bn"] = "auto"
 
 
 class RagResponse(BaseModel):
@@ -50,6 +51,7 @@ def _do_rag(body: RagRequest) -> RagResponse:
             top_k=body.top_k,
             backend=backend_choice,
             audience_worker_simple=(role is Role.WORKER),
+            forced_language=body.response_language,
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail={"error": str(e)}) from e

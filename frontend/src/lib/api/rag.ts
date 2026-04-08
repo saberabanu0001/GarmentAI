@@ -6,7 +6,8 @@ export type RagRequest = {
   role: string;
   factory_id?: string;
   top_k?: number;
-  backend?: "ollama" | "groq" | "gemini";
+  backend?: "groq";
+  response_language?: "auto" | "en" | "bn";
 };
 
 export async function postRag(body: RagRequest): Promise<RagResponse> {
