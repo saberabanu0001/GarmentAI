@@ -1,9 +1,16 @@
+# Garment-AI backend (FastAPI + RAG + Chroma)
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic-settings>=2.6.0
+
 langchain-text-splitters>=0.2.0
 pymupdf4llm>=0.0.17
 numpy>=1.26.0
 torch>=2.0.0
 transformers>=4.36.0
-flask>=3.0.0
 chromadb>=0.5.0
 pyyaml>=6.0.0
 pytest>=8.0.0
+openai>=1.0.0
+httpx>=0.27.0
+google-generativeai>=0.8.0

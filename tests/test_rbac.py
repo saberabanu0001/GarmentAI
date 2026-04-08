@@ -4,12 +4,13 @@ from __future__ import annotations
 
 import pytest
 
-from embedding.roles import (
+from backend.core.security import (
     Role,
     normalize_role_str,
     role_may_access,
     validate_role_list,
 )
+from backend.services.merge_policy import merge_tier
 
 
 def test_normalize_role_accepts_canonical() -> None:
@@ -38,16 +39,11 @@ def test_role_may_access_hr_only_blocks_worker() -> None:
 
 
 def test_merge_tier_order() -> None:
-    from embedding.merge_policy import merge_tier
-
     assert merge_tier("tenant") < merge_tier("compliance")
     assert merge_tier("compliance") < merge_tier("global_law")
 
 
 def test_candidate_sort_tie_break() -> None:
-    """At equal similarity, tenant should sort before global_law."""
-    from embedding.merge_policy import merge_tier
-
     a = {"similarity": 0.8, "doc_scope": "global_law"}
     b = {"similarity": 0.8, "doc_scope": "tenant"}
     items = [a, b]

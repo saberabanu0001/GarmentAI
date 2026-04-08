@@ -1,20 +1,37 @@
-# Knowledge Base – Data Preprocessing
+# Garment-AI (Garment Factory Knowledge System)
 
-Project: AI-Based Knowledge Management System for Garment Factories
+AI-based knowledge management: multilingual **E5** retrieval in **Chroma**, **RBAC**, **RAG** (FastAPI + optional Ollama / Groq / Gemini), and a **Next.js** UI.
 
-## Folder Structure
+## Repository layout
 
 ```
-Experiment/
-├── chunked-data/           ← Generated *_chunks.txt and *_manifest.json (submit the .txt)
-├── chunked-data-code/      ← data-named scripts + markdown_langchain_chunker.py (engine)
-├── md data/                ← Markdown sources (after PDF conversion)
-├── raw-data/               ← Original PDFs and other binaries
-├── requirements.txt        ← pip deps (e.g. langchain-text-splitters)
-├── embedding/              ← build_index / build_chroma, numpy + Chroma query CLIs, search_web; see below
-├── knowledge_base/         ← Final merged knowledge base (Week 5+)
+Experiment/   (or rename clone to garment-ai/)
+├── .env                  # Secrets — never commit (see .env.example)
+├── backend/              # FastAPI app
+│   ├── main.py
+│   ├── core/             # config.py, security.py (Role + RBAC helpers)
+│   ├── api/              # chat.py, audit.py, documents.py
+│   ├── services/         # chroma_engine, embedder, llm_wrapper, rag, chroma_ingest, hr_data
+│   └── collection_manifest.yaml
+├── frontend/             # Next.js + TypeScript
+├── data/
+│   ├── raw/                # Original PDFs (optional; team may use raw-data/)
+│   ├── chunked/            # *_chunks.txt + manifests (ingest input)
+│   ├── dummy/              # Placeholder for synthetic worker profiles
+│   └── chroma_data/        # Local Chroma DB (gitignored; built at runtime)
+├── scripts/
+│   ├── ingest_laws.py      # Build / refresh Chroma from data/chunked
+│   └── seed_dummy_data.py  # Stub for future dummy seeding
+├── embedding/              # Thin shims → backend.* (legacy CLI paths)
+├── tests/                  # pytest: test_rbac.py, test_rag_flow.py, test_chroma_e2e.py
+├── chunked-data-code/      # Chunk drivers + markdown_langchain_chunker.py
+├── md data/                # Markdown sources
+├── raw-data/               # Original PDFs (existing team folder)
+├── requirements.txt
 └── README.md
 ```
+
+**Flow:** **`frontend/`** calls **`backend/`** over HTTP. Chunk scripts write to **`data/chunked`**; **`python scripts/ingest_laws.py`** embeds into **`data/chroma_data/`**. **`embedding/`** re-exports **`backend`** so older commands like **`python embedding/rag_cli.py`** still work.
 
 ## Embeddings (multilingual E5)
 
@@ -22,7 +39,7 @@ Uses **`intfloat/multilingual-e5-small`** (384-dim): `passage:` for chunks, `que
 
 ```bash
 pip install -r requirements.txt
-python embedding/build_index.py              # reads chunked-data/*_chunks.txt
+python embedding/build_index.py              # reads data/chunked/*_chunks.txt
 python embedding/query_engine.py "your question" --top-k 5   # bridge: query → vectors → top chunks
 # or: python embedding/search_cli.py "your question" --top-k 5
 python embedding/search_web.py                    # http://127.0.0.1:8765
@@ -31,25 +48,83 @@ python embedding/search_web.py --port 8766        # if 8765 is already in use
 
 **Query engine:** `embedding/query_engine.py` loads the index, embeds the user string with `query:`, scores against `embeddings.npy`, returns top‑k hits. Use `--json` for machine-readable output. **`embedding/search_web.py`** is a tiny browser UI for manual testing (127.0.0.1 only).
 
-Outputs: `embedding/index/embeddings.npy`, `chunks.jsonl`, `meta.json`. Models cache under `embedding/.hf_cache/`.
+Outputs: `embedding/index/embeddings.npy`, `chunks.jsonl`, `meta.json`. Hugging Face cache defaults under `data/.hf_cache/` (via backend embedder).
 
 Build options: `--model intfloat/multilingual-e5-base`, `--batch-size`, `--chunks-dir`, `--output-dir`.
 
 ### ChromaDB (multi-collection + RBAC)
 
-Collections and metadata are driven by [`embedding/collection_manifest.yaml`](embedding/collection_manifest.yaml) (filename patterns → `global_laws`, `compliance_standards`, `factory_{slug}_docs`). Canonical role strings live in [`embedding/roles.py`](embedding/roles.py). Each chunk gets a stable `chunk_uid` and fields such as `doc_scope`, `language` (`en` / `bn`), and `allowed_roles` (comma-separated in Chroma).
+Collections and metadata are driven by [`backend/collection_manifest.yaml`](backend/collection_manifest.yaml). Canonical role strings live in [`backend/core/security.py`](backend/core/security.py) (also re-exported as [`embedding/roles.py`](embedding/roles.py)). Each chunk gets a stable `chunk_uid` and fields such as `doc_scope`, `language` (`en` / `bn`), and `allowed_roles` (comma-separated in Chroma).
 
 ```bash
-python embedding/build_chroma.py                    # writes embedding/chroma_data/ (ignored by git)
+python scripts/ingest_laws.py                       # writes data/chroma_data/ (gitignored)
+python embedding/build_chroma.py                    # same as ingest_laws (compat)
 python embedding/chroma_query_engine.py "fire exit" --role worker --factory good --top-k 5
 python embedding/chroma_query_engine.py "salary deduction" --role hr_staff --factory risky --json
 ```
 
 Merge policy: sort by **similarity** (cosine via Chroma space), then tie-break **tenant → compliance → global law**. Post-filter drops chunks the `role` is not allowed to see (e.g. HR-only dummy corpus under `factory_risky_docs`).
 
-**Tests:** `pytest tests/test_embedding_rbac.py` (fast). After building Chroma: `RUN_E2E=1 pytest tests/test_chroma_e2e.py -m e2e` (RBAC + Bangla smoke).
+**Tests:** `pytest tests/test_rbac.py` (fast). After building Chroma: `RUN_E2E=1 pytest tests/test_chroma_e2e.py -m e2e` (RBAC + Bangla smoke). API smoke: `pytest tests/test_rag_flow.py`.
 
-Dummy tenant seed files for Month 2: [`chunked-data/factory_good_dummy_chunks.txt`](chunked-data/factory_good_dummy_chunks.txt), [`chunked-data/factory_risky_dummy_chunks.txt`](chunked-data/factory_risky_dummy_chunks.txt).
+Dummy tenant seed files: [`data/chunked/factory_good_dummy_chunks.txt`](data/chunked/factory_good_dummy_chunks.txt), [`data/chunked/factory_risky_dummy_chunks.txt`](data/chunked/factory_risky_dummy_chunks.txt).
+
+### LLM: Ollama (daily dev) vs Groq (final demo)
+
+- **Ollama** — free, local, good for team coding. Install models once; keep `ollama serve` running (often automatic on macOS).
+- **Groq** — fast hosted inference for demos; model **`llama-3.3-70b-versatile`**. Get an API key at [Groq Cloud](https://console.groq.com/). Never commit keys; use `.env` (see [`.env.example`](.env.example)).
+
+**1. Ollama setup (each machine / once per model)**
+
+```bash
+ollama pull llama3.2
+# Stronger multilingual answers (optional, larger download):
+# ollama pull qwen2.5:7b
+curl -s http://127.0.0.1:11434/api/tags   # confirm daemon sees models
+pip install -r requirements.txt
+export LLM_BACKEND=ollama
+export OLLAMA_MODEL=llama3.2
+python scripts/ingest_laws.py   # if not already built
+python embedding/rag_cli.py "What is weekly holiday for workers?" --role worker
+```
+
+**2. Groq setup (demo day)**
+
+```bash
+export GROQ_API_KEY="gsk_..."
+export LLM_BACKEND=groq
+export GROQ_MODEL=llama-3.3-70b-versatile
+python embedding/rag_cli.py "Summarise compensatory weekly holiday." --role worker --backend groq
+```
+
+RAG stack: **`backend/services/rag.py`** (retrieve from Chroma → prompt) and **`backend/services/llm_wrapper.py`** (Ollama / Groq / Gemini). Legacy imports: **`embedding/rag_answer.py`**, **`embedding/llm_client.py`**.
+
+### GarmentAI UI (Next.js + TypeScript)
+
+**Worker** (RAG → `POST /api/chat`), **HR** dashboard (`GET /api/hr/dashboard`), **Auditor** shells. Optional hooks under `frontend/src/hooks/`.
+
+**1. API (FastAPI, CORS open for local dev)**
+
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn backend.main:app --reload --host 127.0.0.1 --port 5050
+# POST /api/chat  JSON: { "question", "role", "factory_id?", "top_k?", "backend?" }
+# POST /api/rag   — same body (legacy alias)
+```
+
+Shortcut: `python embedding/garment_api.py` (uvicorn on port 5050).
+
+**2. Front end**
+
+```bash
+cd frontend
+cp .env.example .env.local   # optional; NEXT_PUBLIC_API_URL=http://127.0.0.1:5050
+npm install
+npm run dev                   # http://localhost:3000
+```
+
+Production: tighten CORS in `backend/main.py` and restrict origins.
 
 ## Chunking from Markdown (current)
 
@@ -165,7 +240,7 @@ The shared pipeline now:
 ## What to Submit
 
 Each member sends:
-1. The combined `.txt` file from `chunked-data/` (e.g. `*_chunks.txt`), or from `processed/` if using a legacy pipeline
+1. The combined `.txt` file from `data/chunked/` (e.g. `*_chunks.txt`), or from `processed/` if using a legacy pipeline
 2. Source name
 3. Number of chunks (shown at end of script output)
 

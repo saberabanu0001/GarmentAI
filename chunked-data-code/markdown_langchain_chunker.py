@@ -269,7 +269,7 @@ def main() -> int:
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=REPO_ROOT / "chunked-data",
+        default=REPO_ROOT / "data" / "chunked",
         help="Directory for manifest, combined txt, and optional raw chunks",
     )
     parser.add_argument(

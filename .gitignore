@@ -22,4 +22,7 @@ Thumbs.db
 embedding/index/*
 !embedding/index/.gitkeep
 embedding/.hf_cache/
-embedding/chroma_data/
+
+# Local vector DB + model cache (runtime)
+data/chroma_data/
+data/.hf_cache/

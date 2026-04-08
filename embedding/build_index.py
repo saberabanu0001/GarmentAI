@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build embedding index from chunked-data/*_chunks.txt using multilingual E5.
+Build embedding index from data/chunked/*_chunks.txt using multilingual E5.
 
 Default model: intfloat/multilingual-e5-small (384-dim; good for Bangla + English).
 
@@ -28,7 +28,7 @@ from pathlib import Path
 import numpy as np
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_CHUNKS_DIR = REPO_ROOT / "chunked-data"
+DEFAULT_CHUNKS_DIR = REPO_ROOT / "data" / "chunked"
 DEFAULT_OUT_DIR = REPO_ROOT / "embedding" / "index"
 DEFAULT_MODEL = "intfloat/multilingual-e5-small"
 

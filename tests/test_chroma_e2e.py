@@ -1,7 +1,7 @@
 """
 Optional E2E: Chroma + E5 + RBAC. Run locally after:
   pip install -r requirements.txt
-  python embedding/build_chroma.py
+  python scripts/ingest_laws.py
 
   pytest tests/test_chroma_e2e.py -m e2e
 or:
@@ -16,7 +16,7 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-CHROMA_DIR = REPO_ROOT / "embedding" / "chroma_data"
+CHROMA_DIR = REPO_ROOT / "data" / "chroma_data"
 
 
 def pytest_configure(config: pytest.Config) -> None:
@@ -33,14 +33,13 @@ def _e2e_enabled() -> bool:
 @pytest.mark.e2e
 @pytest.mark.skipif(not _e2e_enabled(), reason="set RUN_E2E=1 to run")
 def test_worker_never_sees_risky_hr_chunk() -> None:
-    from embedding.chroma_query_engine import ChromaQueryEngine
-    from embedding.roles import Role
+    from backend.core.security import Role
+    from backend.services.chroma_engine import ChromaQueryEngine
 
     if not (CHROMA_DIR / "meta.json").is_file():
-        pytest.skip(f"Build Chroma first: python embedding/build_chroma.py ({CHROMA_DIR})")
+        pytest.skip(f"Build Chroma first: python scripts/ingest_laws.py ({CHROMA_DIR})")
 
     engine = ChromaQueryEngine(CHROMA_DIR)
-    # Query crafted to match dummy HR chunk keywords.
     hits = engine.search(
         "salary deduction show cause payroll hold disciplinary",
         role=Role.WORKER,
@@ -56,8 +55,8 @@ def test_worker_never_sees_risky_hr_chunk() -> None:
 @pytest.mark.e2e
 @pytest.mark.skipif(not _e2e_enabled(), reason="set RUN_E2E=1 to run")
 def test_hr_sees_risky_hr_chunk() -> None:
-    from embedding.chroma_query_engine import ChromaQueryEngine
-    from embedding.roles import Role
+    from backend.core.security import Role
+    from backend.services.chroma_engine import ChromaQueryEngine
 
     if not (CHROMA_DIR / "meta.json").is_file():
         pytest.skip(f"Build Chroma first ({CHROMA_DIR})")
@@ -87,8 +86,8 @@ def test_hr_sees_risky_hr_chunk() -> None:
     ],
 )
 def test_bangla_queries_return_hits(query: str) -> None:
-    from embedding.chroma_query_engine import ChromaQueryEngine
-    from embedding.roles import Role
+    from backend.core.security import Role
+    from backend.services.chroma_engine import ChromaQueryEngine
 
     if not (CHROMA_DIR / "meta.json").is_file():
         pytest.skip(f"Build Chroma first ({CHROMA_DIR})")

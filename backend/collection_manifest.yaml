@@ -1,4 +1,4 @@
-# First matching pattern wins (fnmatch on basename). Roles must match embedding/roles.py.
+# First matching pattern wins (fnmatch on basename). Roles must match backend.core.security.Role.
 # language: en | bn (stored per chunk for routing / filters).
 
 rules:
@@ -58,7 +58,6 @@ rules:
     factory_id: ""
     allowed_roles: [supervisor, compliance_officer, hr_staff]
 
-  # Dummy tenant corpora (Month 2): no upload pipeline required.
   - pattern: "factory_good_dummy*_chunks.txt"
     collection: factory_good_docs
     doc_scope: tenant

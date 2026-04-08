@@ -1,0 +1,21 @@
+import { apiBaseUrl, apiTimeoutMs } from "@/lib/config";
+import type { HrDashboardResponse } from "@/lib/types/hr";
+
+export async function getHrDashboard(): Promise<HrDashboardResponse> {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), apiTimeoutMs);
+  try {
+    const res = await fetch(`${apiBaseUrl}/api/hr/dashboard`, {
+      cache: "no-store",
+      signal: ctrl.signal,
+    });
+    const json: unknown = await res.json();
+    if (!res.ok) {
+      const err = json as { error?: string };
+      throw new Error(err.error || `HR dashboard failed (${res.status})`);
+    }
+    return json as HrDashboardResponse;
+  } finally {
+    clearTimeout(t);
+  }
+}
