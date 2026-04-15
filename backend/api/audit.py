@@ -2,8 +2,11 @@
 
 from __future__ import annotations
 
-from fastapi import APIRouter, HTTPException
+from typing import Annotated
 
+from fastapi import APIRouter, Depends, HTTPException
+
+from backend.core.auth_http import require_hr_staff
 from backend.schemas.hr_dashboard import HrDashboardIn
 from backend.services.hr_data import get_hr_dashboard, save_hr_dashboard
 
@@ -16,8 +19,11 @@ def hr_dashboard() -> dict:
 
 
 @router.put("/api/hr/dashboard")
-def hr_dashboard_put(body: HrDashboardIn) -> dict:
-    """Replace entire dashboard; persisted to data/hr_dashboard.json."""
+def hr_dashboard_put(
+    body: HrDashboardIn,
+    _auth: Annotated[dict, Depends(require_hr_staff)],
+) -> dict:
+    """Replace entire dashboard; persisted to data/hr_dashboard.json. Requires HR JWT."""
     try:
         return save_hr_dashboard(body)
     except OSError as e:

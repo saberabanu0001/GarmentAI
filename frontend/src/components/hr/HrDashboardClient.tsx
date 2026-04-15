@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { Plus } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
 import { getHrDashboard } from "@/lib/api/hr";
 import { postRag } from "@/lib/api/rag";
 import { HrDashboardEditor } from "@/components/hr/HrDashboardEditor";
@@ -18,6 +19,7 @@ const badgeStyles: Record<HrCategoryVariant, string> = {
 const HR_RAG_ROLE = "hr_staff";
 
 export function HrDashboardClient() {
+  const { token } = useAuth();
   const [data, setData] = useState<HrDashboardResponse | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
@@ -112,26 +114,37 @@ export function HrDashboardClient() {
         <div>
           <h1 className="text-2xl font-bold text-zinc-900">Compliance Overview</h1>
           <p className="mt-1 text-sm text-zinc-600">
-            HR intelligence — load/save via API (
-            <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs">GET/PUT /api/hr/dashboard</code>
-            , file <code className="text-xs">data/hr_dashboard.json</code>
-            ); assistant uses{" "}
+            HR intelligence —{" "}
+            <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs">GET /api/hr/dashboard</code>{" "}
+            is public for demos;{" "}
+            <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs">PUT</code> requires a
+            signed-in HR account (JWT). Data file:{" "}
+            <code className="text-xs">data/hr_dashboard.json</code>. Assistant uses{" "}
             <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs">POST /api/chat</code>{" "}
             (role <code className="text-xs">{HR_RAG_ROLE}</code>).
           </p>
         </div>
-        <Link
-          href="/audit"
-          className="inline-flex h-10 items-center justify-center gap-2 rounded-xl bg-[#004D40] px-4 text-sm font-semibold text-white shadow hover:bg-[#00695c]"
-        >
-          <Plus className="size-4" />
-          New audit scan
-        </Link>
+        <div className="flex flex-wrap gap-2">
+          <Link
+            href="/library"
+            className="inline-flex h-10 items-center justify-center gap-2 rounded-xl border border-zinc-200 bg-white px-4 text-sm font-semibold text-zinc-800 shadow-sm hover:bg-zinc-50"
+          >
+            Document library
+          </Link>
+          <Link
+            href="/audit"
+            className="inline-flex h-10 items-center justify-center gap-2 rounded-xl bg-[#004D40] px-4 text-sm font-semibold text-white shadow hover:bg-[#00695c]"
+          >
+            <Plus className="size-4" />
+            Factory audit
+          </Link>
+        </div>
       </div>
 
       <HrDashboardEditor
         initial={data}
         onSaved={(next) => setData(next)}
+        accessToken={token}
       />
 
       <div className="grid gap-4 md:grid-cols-3">

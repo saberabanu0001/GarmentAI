@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Bell, Search, UserCircle2 } from "lucide-react";
-import { roleTabs } from "@/data/navigation";
+import { useRouter } from "next/navigation";
+import { Bell, LogOut, Search, UserCircle2 } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
+import { roleTabLabel } from "@/data/navigation";
 
 export function TopBar() {
-  const pathname = usePathname();
+  const router = useRouter();
+  const { user, logout } = useAuth();
 
   return (
     <header className="flex h-14 items-center gap-4 border-b border-zinc-200 bg-white/95 px-4 backdrop-blur">
@@ -20,30 +22,21 @@ export function TopBar() {
           aria-readonly
         />
       </div>
-      <nav
-        className="flex flex-1 items-center justify-center gap-6 text-sm font-medium"
-        aria-label="Role switcher"
+      <div
+        className="flex flex-1 items-center justify-center gap-4 text-sm font-medium text-zinc-700"
+        aria-label="Your role"
       >
-        {roleTabs.map((tab) => {
-          const active = pathname === tab.href;
-          return (
-            <Link
-              key={tab.key}
-              href={tab.href}
-              className={`relative pb-1 transition-colors ${
-                active
-                  ? "text-[#004D40]"
-                  : "text-zinc-500 hover:text-zinc-800"
-              }`}
-            >
-              {tab.label}
-              {active ? (
-                <span className="absolute inset-x-0 -bottom-0.5 h-0.5 rounded-full bg-[#004D40]" />
-              ) : null}
-            </Link>
-          );
-        })}
-      </nav>
+        {user ? (
+          <>
+            <span className="rounded-full bg-[#004D40]/10 px-3 py-1 text-[#004D40]">
+              {roleTabLabel(user.role)}
+            </span>
+            <span className="hidden text-xs text-zinc-500 sm:inline">{user.email}</span>
+          </>
+        ) : (
+          <span className="text-zinc-500">Not signed in</span>
+        )}
+      </div>
       <div className="flex items-center gap-2">
         <button
           type="button"
@@ -52,13 +45,27 @@ export function TopBar() {
         >
           <Bell className="size-5" />
         </button>
-        <button
-          type="button"
-          className="rounded-full p-2 text-zinc-500 hover:bg-zinc-100 hover:text-zinc-800"
-          aria-label="Profile (placeholder)"
-        >
-          <UserCircle2 className="size-6" />
-        </button>
+        {user ? (
+          <button
+            type="button"
+            onClick={() => {
+              logout();
+              router.replace("/login");
+            }}
+            className="inline-flex items-center gap-1 rounded-full p-2 text-zinc-500 hover:bg-zinc-100 hover:text-zinc-800"
+            aria-label="Log out"
+          >
+            <LogOut className="size-5" />
+          </button>
+        ) : (
+          <Link
+            href="/login"
+            className="rounded-full p-2 text-zinc-500 hover:bg-zinc-100 hover:text-zinc-800"
+            aria-label="Sign in"
+          >
+            <UserCircle2 className="size-6" />
+          </Link>
+        )}
       </div>
     </header>
   );

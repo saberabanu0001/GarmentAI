@@ -19,6 +19,7 @@ const CATEGORY_VARIANTS: HrCategoryVariant[] = [
 type Props = {
   initial: HrDashboardResponse;
   onSaved: (next: HrDashboardResponse) => void;
+  accessToken: string | null;
 };
 
 function emptyRow(): HrAuditLogRow {
@@ -32,7 +33,7 @@ function emptyRow(): HrAuditLogRow {
   };
 }
 
-export function HrDashboardEditor({ initial, onSaved }: Props) {
+export function HrDashboardEditor({ initial, onSaved, accessToken }: Props) {
   const [open, setOpen] = useState(false);
   const [draft, setDraft] = useState<HrDashboardResponse>(initial);
   const [saving, setSaving] = useState(false);
@@ -54,9 +55,13 @@ export function HrDashboardEditor({ initial, onSaved }: Props) {
 
   const save = useCallback(async () => {
     setError(null);
+    if (!accessToken) {
+      setError("Sign in as HR to save dashboard changes (Bearer token required).");
+      return;
+    }
     setSaving(true);
     try {
-      const next = await putHrDashboard(draft);
+      const next = await putHrDashboard(draft, accessToken);
       onSaved(next);
       setOpen(false);
     } catch (e) {
@@ -64,7 +69,7 @@ export function HrDashboardEditor({ initial, onSaved }: Props) {
     } finally {
       setSaving(false);
     }
-  }, [draft, onSaved]);
+  }, [draft, onSaved, accessToken]);
 
   const inputCls =
     "mt-1 w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 outline-none ring-[#004D40] focus:ring-2";

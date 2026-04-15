@@ -23,10 +23,16 @@ from backend.core.security import Role, role_may_access
 from backend.services.merge_policy import merge_tier
 
 DEFAULT_MODEL = "intfloat/multilingual-e5-small"
+# When HR/compliance query, nudge ranking so hr_uploads competes with generic law text
+# (e.g. "salary" matches Labour Act strongly; worker PDFs still need to surface).
+_HR_UPLOADS_COLLECTION = "hr_uploads"
+_HR_ROLE_UPLOAD_BIAS = 0.045
+# Extra hr-only query so payroll / profile facts in other chunks of the same PDF still surface.
+_HR_UPLOADS_RECALL_N = 36
 
 
 def collection_names_for_factory(factory_id: str) -> list[str]:
-    names = ["global_laws", "compliance_standards"]
+    names = ["global_laws", "compliance_standards", "hr_uploads"]
     fid = (factory_id or "").strip()
     if fid:
         names.append(f"factory_{fid}_docs")
@@ -102,6 +108,15 @@ class ChromaQueryEngine:
 
         self._embedder = E5Embedder(self.model_id)
 
+    @staticmethod
+    def _rank_similarity(candidate: dict[str, Any], role: Role) -> float:
+        sim = float(candidate["similarity"])
+        if role not in (Role.HR_STAFF, Role.COMPLIANCE_OFFICER):
+            return sim
+        if candidate.get("collection") != _HR_UPLOADS_COLLECTION:
+            return sim
+        return sim + _HR_ROLE_UPLOAD_BIAS
+
     def search(
         self,
         query: str,
@@ -127,9 +142,12 @@ class ChromaQueryEngine:
                 col = self._client.get_collection(cname)
             except Exception:
                 continue
+            n_results = k_each
+            if role in (Role.HR_STAFF, Role.COMPLIANCE_OFFICER) and cname == _HR_UPLOADS_COLLECTION:
+                n_results = max(k_each, _HR_UPLOADS_RECALL_N)
             raw = col.query(
                 query_embeddings=[q_list],
-                n_results=k_each,
+                n_results=n_results,
                 include=["metadatas", "distances", "documents"],
             )
             ids = raw.get("ids", [[]])[0]
@@ -157,11 +175,33 @@ class ChromaQueryEngine:
                 )
 
         candidates.sort(
-            key=lambda x: (-x["similarity"], merge_tier(x["doc_scope"])),
+            key=lambda x: (-self._rank_similarity(x, role), merge_tier(x["doc_scope"])),
         )
 
+        selected: list[dict[str, Any]] = list(candidates[:top_k])
+        if role in (Role.HR_STAFF, Role.COMPLIANCE_OFFICER) and top_k >= 6:
+            hr_only = [c for c in candidates if c["collection"] == _HR_UPLOADS_COLLECTION]
+            hr_only.sort(key=lambda x: -self._rank_similarity(x, role))
+            hr_quota = min(8, top_k, len(hr_only))
+            take_hr = hr_only[:hr_quota]
+            hr_uids = frozenset(
+                str(c["meta"].get("chunk_uid", "")).strip()
+                for c in take_hr
+                if isinstance(c.get("meta"), dict)
+            )
+            merged: list[dict[str, Any]] = list(take_hr)
+            for c in candidates:
+                if len(merged) >= top_k:
+                    break
+                m = c.get("meta")
+                uid = str(m.get("chunk_uid", "")).strip() if isinstance(m, dict) else ""
+                if uid and uid in hr_uids:
+                    continue
+                merged.append(c)
+            selected = merged
+
         hits: list[ChromaHit] = []
-        for rank, cdt in enumerate(candidates[:top_k], start=1):
+        for rank, cdt in enumerate(selected, start=1):
             m = cdt["meta"]
             hits.append(
                 ChromaHit(

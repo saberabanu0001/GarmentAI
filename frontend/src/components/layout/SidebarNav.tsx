@@ -2,12 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { sidebarNav } from "@/data/navigation";
+import { useAuth } from "@/contexts/AuthContext";
+import { sidebarNavForRole, type NavItem } from "@/data/navigation";
 
 const brandGreen = "text-[#004D40]";
 
 export function SidebarNav() {
   const pathname = usePathname();
+  const { user } = useAuth();
+  const sidebarNav = user ? sidebarNavForRole(user.role) : [];
 
   return (
     <aside className="flex w-56 flex-col border-r border-zinc-200 bg-zinc-50/90 backdrop-blur">
@@ -20,7 +23,7 @@ export function SidebarNav() {
         </div>
       </div>
       <nav className="flex flex-1 flex-col gap-1 p-3">
-        {sidebarNav.map((item) => {
+        {sidebarNav.map((item: NavItem) => {
           const active =
             pathname === item.href || pathname?.startsWith(`${item.href}/`);
           const Icon = item.icon;

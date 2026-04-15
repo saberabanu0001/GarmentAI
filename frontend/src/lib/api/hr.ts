@@ -22,13 +22,17 @@ export async function getHrDashboard(): Promise<HrDashboardResponse> {
 
 export async function putHrDashboard(
   body: HrDashboardResponse,
+  accessToken: string,
 ): Promise<HrDashboardResponse> {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), apiTimeoutMs);
   try {
     const res = await fetch(`${apiBaseUrl}/api/hr/dashboard`, {
       method: "PUT",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${accessToken}`,
+      },
       body: JSON.stringify(body),
       signal: ctrl.signal,
     });

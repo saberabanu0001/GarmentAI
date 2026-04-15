@@ -9,9 +9,9 @@ Experiment/   (or rename clone to garment-ai/)
 ├── .env                  # Secrets — never commit (see .env.example)
 ├── backend/              # FastAPI app
 │   ├── main.py
-│   ├── core/             # config.py, security.py (Role + RBAC helpers)
-│   ├── api/              # chat.py, audit.py, documents.py
-│   ├── services/         # chroma_engine, embedder, llm_wrapper, rag, chroma_ingest, hr_data
+│   ├── core/             # config.py, security.py, auth_http.py
+│   ├── api/              # chat.py, auth.py, audit.py, documents.py, voice.py
+│   ├── services/         # chroma_engine, embedder, llm_wrapper, rag, auth_store, auth_tokens, …
 │   └── collection_manifest.yaml
 ├── frontend/             # Next.js + TypeScript
 ├── data/
@@ -127,6 +127,16 @@ npm run dev                   # http://localhost:3000
 ```
 
 Production: tighten CORS in `backend/main.py` and restrict origins.
+
+### Role-based access (registration + login)
+
+1. Open **`http://localhost:3000/login`**. New users: **`/register`** — pick **Worker**, **HR Manager**, or **Compliance / Supervisor** (`compliance_officer` in the API), set email/password, and **upload a verification document** (PDF or image).
+2. Accounts start as **`pending`** until approved. For demos, set **`AUTH_AUTO_APPROVE_REGISTRATIONS=true`** in `.env`. For manual approval, set **`AUTH_ADMIN_KEY`** and call **`POST /api/auth/approve`** with header **`X-Admin-Key`** and JSON body `{"email":"...","status":"approved"}`.
+3. After approval, sign in. The **sidebar and routes are role-specific** (workers cannot open `/hr` or `/auditor`; HR cannot open `/worker`, etc.). Chats: **`/worker`**, **`/hr/chat`**, **`/auditor/chat`** — each uses the matching RAG role for retrieval.
+4. **JWT**: set a strong **`JWT_SECRET`** in `.env` for any shared or production environment.
+5. Optional API lockdown: **`ENFORCE_AUTH_CHAT=true`** makes **`/api/chat`** and **`/api/voice/transcribe`** require **`Authorization: Bearer <token>`** (no anonymous RAG). Default is `false` so existing tests and local scripts keep working.
+
+User data uses **MySQL** when `DATABASE_URL` is configured (recommended), with JSON fallback at **`data/auth_users.json`** for local/demo compatibility. Verification uploads are stored under **`data/auth_uploads/`** (gitignored) unless moved to object storage.
 
 ## Chunking from Markdown (current)
 

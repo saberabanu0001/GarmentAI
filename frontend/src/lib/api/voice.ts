@@ -1,3 +1,4 @@
+import { getStoredToken } from "@/lib/auth/storage";
 import { apiBaseUrl, apiTimeoutMs } from "@/lib/config";
 
 export async function postVoiceTranscribe(
@@ -11,8 +12,10 @@ export async function postVoiceTranscribe(
     form.append("file", audioBlob, "worker-voice.webm");
     form.append("language", language);
 
+    const token = getStoredToken();
     const res = await fetch(`${apiBaseUrl}/api/voice/transcribe`, {
       method: "POST",
+      headers: token ? { Authorization: `Bearer ${token}` } : undefined,
       body: form,
       signal: ctrl.signal,
     });

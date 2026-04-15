@@ -29,3 +29,9 @@ data/.hf_cache/
 
 # HR dashboard edits (factory-specific; copy from data/hr_dashboard.example.json)
 data/hr_dashboard.json
+data/auth_users.json
+data/auth_uploads/
+data/garmentai.db
+data/rag_usage_daily.json
+data/hr_uploads/
+data/hr_documents_index.json
