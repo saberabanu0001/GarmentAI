@@ -1,156 +1,166 @@
-# Garment-AI (Garment Factory Knowledge System)
+# GarmentAI
 
-AI-based knowledge management: multilingual **E5** retrieval in **Chroma**, **RBAC**, **RAG** (FastAPI + optional Ollama / Groq / Gemini), and a **Next.js** UI.
+**Industrial precision for garment-factory knowledge.**  
+Role-aware **RAG** (retrieval-augmented generation) over labour law, compliance manuals, and your factory’s own HR documents—with **JWT auth**, **ChromaDB** vector search, and a **Next.js** dashboard built for **Workers**, **HR Managers**, and **Compliance / Auditors**.
 
-## Repository layout
+<p align="center">
+  <img src="docs/images/hr-dashboard.png" alt="GarmentAI HR Manager dashboard — workforce KPIs, AI audit log, compliance assistant, and regulatory updates" width="920" />
+</p>
 
-```
-Experiment/   (or rename clone to garment-ai/)
-├── .env                  # Secrets — never commit (see .env.example)
-├── backend/              # FastAPI app
-│   ├── main.py
-│   ├── core/             # config.py, security.py, auth_http.py
-│   ├── api/              # chat.py, auth.py, audit.py, documents.py, voice.py
-│   ├── services/         # chroma_engine, embedder, llm_wrapper, rag, auth_store, auth_tokens, …
-│   └── collection_manifest.yaml
-├── frontend/             # Next.js + TypeScript
-├── data/
-│   ├── raw/                # Original PDFs (optional; team may use raw-data/)
-│   ├── chunked/            # *_chunks.txt + manifests (ingest input)
-│   ├── dummy/              # Placeholder for synthetic worker profiles
-│   ├── chroma_data/        # Local Chroma DB (gitignored; built at runtime)
-│   ├── hr_dashboard.example.json   # Template for HR dashboard JSON
-│   └── hr_dashboard.json   # Created by HR UI (PUT); gitignored — factory-specific
-├── scripts/
-│   ├── ingest_laws.py      # Build / refresh Chroma from data/chunked
-│   └── seed_dummy_data.py  # Stub for future dummy seeding
-├── embedding/              # Thin shims → backend.* (legacy CLI paths)
-├── tests/                  # pytest: test_rbac.py, test_rag_flow.py, test_chroma_e2e.py
-├── chunked-data-code/      # Chunk drivers + markdown_langchain_chunker.py
-├── md data/                # Markdown sources
-├── raw-data/               # Original PDFs (existing team folder)
-├── requirements.txt
-└── README.md
-```
+<p align="center">
+  <sub>HR dashboard: KPIs, AI-assisted audit log, policy chat (RAG), document library, and factory audit entry points.</sub>
+</p>
 
-**Flow:** **`frontend/`** calls **`backend/`** over HTTP. Chunk scripts write to **`data/chunked`**; **`python scripts/ingest_laws.py`** embeds into **`data/chroma_data/`**. **`embedding/`** re-exports **`backend`** so older commands like **`python embedding/rag_cli.py`** still work.
+---
 
-## Embeddings (multilingual E5)
+## Why this project exists
 
-Uses **`intfloat/multilingual-e5-small`** (384-dim): `passage:` for chunks, `query:` at search time (works for Bangla or English queries).
+Garment factories operate under dense **labour rules**, **buyer compliance**, and **internal HR** policies. Staff need answers **fast**, in **Bangla or English**, without hunting PDFs—while **sensitive** worker or factory data must stay **role-gated**. GarmentAI is a **prototype knowledge system** that combines:
 
-```bash
-pip install -r requirements.txt
-python embedding/build_index.py              # reads data/chunked/*_chunks.txt
-python embedding/query_engine.py "your question" --top-k 5   # bridge: query → vectors → top chunks
-# or: python embedding/search_cli.py "your question" --top-k 5
-python embedding/search_web.py                    # http://127.0.0.1:8765
-python embedding/search_web.py --port 8766        # if 8765 is already in use
-```
+| Capability | What visitors should know |
+|------------|---------------------------|
+| **Policy-aware Q&A** | Questions are answered using **retrieved evidence** from indexed documents, then phrased by an LLM (default: **Groq**). |
+| **Role-based access** | **Worker**, **HR staff**, and **Compliance** roles see different navigation and retrieval scopes (**RBAC** in API + vector metadata). |
+| **HR document library** | HR can **upload PDFs** (profiles, payroll, recruitment, etc.); the pipeline **extracts → chunks → embeds (E5) → stores in Chroma** for chat retrieval. |
+| **Operational dashboards** | HR sees **workforce / violation / audit** style KPIs and logs (demo data from API; swappable for a real DB later). |
+| **Factory audit support** | Dedicated **Factory Audit** flow to prepare evidence-backed answers during inspections. |
 
-**Query engine:** `embedding/query_engine.py` loads the index, embeds the user string with `query:`, scores against `embeddings.npy`, returns top‑k hits. Use `--json` for machine-readable output. **`embedding/search_web.py`** is a tiny browser UI for manual testing (127.0.0.1 only).
+For a **deeper technical walkthrough** of the chat path (browser → FastAPI → Chroma → Groq), see [`docs/hr-chat-architecture.md`](docs/hr-chat-architecture.md).  
+For **Week 7 design evaluation (AHP)** coursework, see [`docs/Week7-Design-Evaluation-AHP-Report.md`](docs/Week7-Design-Evaluation-AHP-Report.md).
 
-Outputs: `embedding/index/embeddings.npy`, `chunks.jsonl`, `meta.json`. Hugging Face cache defaults under `data/.hf_cache/` (via backend embedder).
+---
 
-Build options: `--model intfloat/multilingual-e5-base`, `--batch-size`, `--chunks-dir`, `--output-dir`.
+## Tech stack (at a glance)
 
-### ChromaDB (multi-collection + RBAC)
+| Layer | Technology |
+|--------|------------|
+| **Frontend** | Next.js (App Router), TypeScript, Tailwind |
+| **Backend** | FastAPI (Python 3) |
+| **Vector DB** | Chroma (persistent, local `data/chroma_data/`) |
+| **Embeddings** | `intfloat/multilingual-e5-small` (query/chunk prefixes for RAG) |
+| **LLM (generation)** | Groq API (OpenAI-compatible), configurable via `.env` |
+| **Auth** | Register / login / JWT; optional MySQL or JSON store for demos |
 
-Collections and metadata are driven by [`backend/collection_manifest.yaml`](backend/collection_manifest.yaml). Canonical role strings live in [`backend/core/security.py`](backend/core/security.py) (also re-exported as [`embedding/roles.py`](embedding/roles.py)). Each chunk gets a stable `chunk_uid` and fields such as `doc_scope`, `language` (`en` / `bn`), and `allowed_roles` (comma-separated in Chroma).
+---
+
+## Quick start (run locally)
+
+**Prerequisites:** Node.js 20+, Python 3.11+, a [Groq](https://console.groq.com/) API key for full chat behaviour.
+
+**1. Clone and configure**
 
 ```bash
-python scripts/ingest_laws.py                       # writes data/chroma_data/ (gitignored)
-python embedding/build_chroma.py                    # same as ingest_laws (compat)
-python embedding/chroma_query_engine.py "fire exit" --role worker --factory good --top-k 5
-python embedding/chroma_query_engine.py "salary deduction" --role hr_staff --factory risky --json
+git clone https://github.com/saberabanu0001/GarmentAI.git
+cd GarmentAI
+cp .env.example .env
+# Edit .env: set GROQ_API_KEY=... and optionally JWT_SECRET, AUTH_AUTO_APPROVE_REGISTRATIONS=true for quick demos
 ```
 
-Merge policy: sort by **similarity** (cosine via Chroma space), then tie-break **tenant → compliance → global law**. Post-filter drops chunks the `role` is not allowed to see (e.g. HR-only dummy corpus under `factory_risky_docs`).
-
-**Tests:** `pytest tests/test_rbac.py` (fast). After building Chroma: `RUN_E2E=1 pytest tests/test_chroma_e2e.py -m e2e` (RBAC + Bangla smoke). API smoke: `pytest tests/test_rag_flow.py`.
-
-Dummy tenant seed files: [`data/chunked/factory_good_dummy_chunks.txt`](data/chunked/factory_good_dummy_chunks.txt), [`data/chunked/factory_risky_dummy_chunks.txt`](data/chunked/factory_risky_dummy_chunks.txt).
-
-### LLM: Ollama (daily dev) vs Groq (final demo)
-
-- **Ollama** — free, local, good for team coding. Install models once; keep `ollama serve` running (often automatic on macOS).
-- **Groq** — fast hosted inference for demos; model **`llama-3.3-70b-versatile`**. Get an API key at [Groq Cloud](https://console.groq.com/). Never commit keys; use `.env` (see [`.env.example`](.env.example)).
-
-**1. Ollama setup (each machine / once per model)**
-
-```bash
-ollama pull llama3.2
-# Stronger multilingual answers (optional, larger download):
-# ollama pull qwen2.5:7b
-curl -s http://127.0.0.1:11434/api/tags   # confirm daemon sees models
-pip install -r requirements.txt
-export LLM_BACKEND=ollama
-export OLLAMA_MODEL=llama3.2
-python scripts/ingest_laws.py   # if not already built
-python embedding/rag_cli.py "What is weekly holiday for workers?" --role worker
-```
-
-**2. Groq setup (demo day)**
-
-```bash
-export GROQ_API_KEY="gsk_..."
-export LLM_BACKEND=groq
-export GROQ_MODEL=llama-3.3-70b-versatile
-python embedding/rag_cli.py "Summarise compensatory weekly holiday." --role worker --backend groq
-```
-
-RAG stack: **`backend/services/rag.py`** (retrieve from Chroma → prompt) and **`backend/services/llm_wrapper.py`** (Ollama / Groq / Gemini). Legacy imports: **`embedding/rag_answer.py`**, **`embedding/llm_client.py`**.
-
-### GarmentAI UI (Next.js + TypeScript)
-
-**Worker** (RAG → `POST /api/chat`), **HR** dashboard (`GET /api/hr/dashboard`), **Auditor** shells. Optional hooks under `frontend/src/hooks/`.
-
-**1. API (FastAPI, CORS open for local dev)**
-
-```bash
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn backend.main:app --reload --host 127.0.0.1 --port 5050
-# POST /api/chat  JSON: { "question", "role", "factory_id?", "top_k?", "backend?" }
-# POST /api/rag   — same body (legacy alias)
-```
-
-Shortcut: `python embedding/garment_api.py` (uvicorn on port 5050).
-
-**2. Front end**
-
-```bash
-cd frontend
-cp .env.example .env.local   # optional; NEXT_PUBLIC_API_URL=http://127.0.0.1:5050
-npm install
-npm run dev                   # http://localhost:3000
-```
-
-Production: tighten CORS in `backend/main.py` and restrict origins.
-
-### Role-based access (registration + login)
-
-1. Open **`http://localhost:3000/login`**. New users: **`/register`** — pick **Worker**, **HR Manager**, or **Compliance / Supervisor** (`compliance_officer` in the API), set email/password, and **upload a verification document** (PDF or image).
-2. Accounts start as **`pending`** until approved. For demos, set **`AUTH_AUTO_APPROVE_REGISTRATIONS=true`** in `.env`. For manual approval, set **`AUTH_ADMIN_KEY`** and call **`POST /api/auth/approve`** with header **`X-Admin-Key`** and JSON body `{"email":"...","status":"approved"}`.
-3. After approval, sign in. The **sidebar and routes are role-specific** (workers cannot open `/hr` or `/auditor`; HR cannot open `/worker`, etc.). Chats: **`/worker`**, **`/hr/chat`**, **`/auditor/chat`** — each uses the matching RAG role for retrieval.
-4. **JWT**: set a strong **`JWT_SECRET`** in `.env` for any shared or production environment.
-5. Optional API lockdown: **`ENFORCE_AUTH_CHAT=true`** makes **`/api/chat`** and **`/api/voice/transcribe`** require **`Authorization: Bearer <token>`** (no anonymous RAG). Default is `false` so existing tests and local scripts keep working.
-
-User data uses **MySQL** when `DATABASE_URL` is configured (recommended), with JSON fallback at **`data/auth_users.json`** for local/demo compatibility. Verification uploads are stored under **`data/auth_uploads/`** (gitignored) unless moved to object storage.
-
-## Chunking from Markdown (current)
-
-Install and run from the **repository root**:
+**2. Backend** (from repo root)
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+uvicorn backend.main:app --reload --host 127.0.0.1 --port 5050
 ```
 
-### By data file name (recommended)
+API: **http://127.0.0.1:5050** — OpenAPI docs are typically at `/docs`.
 
-| Markdown source | Chunk script |
+**3. Frontend**
+
+```bash
+cd frontend
+npm install
+cp .env.example .env.local
+# Ensure NEXT_PUBLIC_API_URL=http://127.0.0.1:5050
+npm run dev
+```
+
+App: **http://localhost:3000** — sign in or register at `/login` and `/register`.
+
+**4. Knowledge base (first time)**
+
+Indexed corpora are built with ingest scripts (see *Data pipeline* below). For a minimal path after clone:
+
+```bash
+# From repo root, venv activated
+python scripts/ingest_laws.py
+```
+
+Chroma data is written under `data/chroma_data/` (gitignored).
+
+---
+
+## Product surface (what each role sees)
+
+| Role | Primary experience |
+|------|---------------------|
+| **Worker** | Simplified portal and **AI chat** grounded in documents the worker role may access. |
+| **HR Manager** | **Dashboard** (KPIs, audit-style log), **AI Chat (HR)**, **Document Library** (upload / move / re-index / delete), **Factory Audit**, **Settings**. |
+| **Compliance / Auditor** | Compliance-oriented chat and audit views aligned to oversight workflows. |
+
+The UI screenshot above reflects the **HR Manager** dashboard: headline metrics, **AI Automated Audit Log** (timestamped incidents with confidence-style indicators), **Compliance AI Assistant** (RAG chat), and **Regulatory Update** cards.
+
+---
+
+## API highlights (for integrators)
+
+| Endpoint | Purpose |
+|----------|---------|
+| `POST /api/chat` | RAG question answering (`question`, `role`, optional `factory_id`, `top_k`). |
+| `GET /api/hr/dashboard` | Dashboard JSON for HR UI (editable demo payload). |
+| `PUT /api/hr/dashboard` | Persist HR dashboard edits (JWT; HR role). |
+| `POST /api/hr/documents` | Multipart upload of HR PDFs / text; background ingest to Chroma. |
+| `GET /api/hr/documents` | List uploaded HR documents and ingestion status. |
+| Auth routes | Registration, login, JWT issuance, optional admin approval (`/api/auth/...`). |
+
+Exact request bodies are in **OpenAPI** (`/docs`) when the backend is running.
+
+---
+
+## Security notes (read before deploying)
+
+- **Never commit `.env`** — only [`.env.example`](.env.example) belongs in git.  
+- Set a strong **`JWT_SECRET`** for any shared or production environment.  
+- For local demos, **`AUTH_AUTO_APPROVE_REGISTRATIONS=true`** skips manual approval of new accounts.  
+- Optional: **`ENFORCE_AUTH_CHAT=true`** requires `Authorization: Bearer` on chat/voice routes.  
+- User / upload artefacts default to ignored paths under `data/` (see [`.gitignore`](.gitignore)).
+
+---
+
+## Repository layout (short)
+
+```
+GarmentAI/
+├── backend/           # FastAPI — chat, HR, auth, voice, RAG services
+├── frontend/          # Next.js UI
+├── data/              # Chunked text inputs; runtime Chroma + HR JSON (mostly gitignored)
+├── scripts/           # ingest_laws.py, AHP helper, etc.
+├── docs/              # Architecture notes, coursework reports, screenshots
+├── embedding/         # Legacy CLI shims re-exporting backend
+├── tests/             # pytest (RBAC, RAG smoke, optional Chroma e2e)
+├── requirements.txt
+└── README.md
+```
+
+Full pipeline description for contributors: **chunk scripts** → `data/chunked/*_chunks.txt` → **`python scripts/ingest_laws.py`** → Chroma collections defined in `backend/collection_manifest.yaml`.
+
+---
+
+## Data pipeline (contributors & course teams)
+
+### Chroma ingest (canonical)
+
+```bash
+python scripts/ingest_laws.py
+```
+
+Role metadata and collection names are driven by [`backend/collection_manifest.yaml`](backend/collection_manifest.yaml) and [`backend/core/security.py`](backend/core/security.py).
+
+### Chunking from Markdown
+
+| Markdown source | Chunk driver |
 |-----------------|--------------|
 | `md data/1 labour law 2006 data.md` | `python chunked-data-code/labour_law_2006_data_chunk.py` |
 | `md data/1.1 labour law 2015.md` | `python chunked-data-code/labour_law_2015_data_chunk.py` |
@@ -160,104 +170,58 @@ pip install -r requirements.txt
 | `md data/5 JUKI machine manual data.md` | `python chunked-data-code/juki_machine_manual_data_chunk.py` |
 | `md data/6 term project description data.md` | `python chunked-data-code/term_project_description_data_chunk.py` |
 
-Optional extra flags (appended): `--chunk-size`, `--chunk-overlap`, `--min-chunk-chars`, `--write-raw-chunks`, `--output-dir`. Defaults strip PDF-style noise (running title + page numbers); use `--keep-running-title` or `--keep-page-numbers` when needed.
+### PDF → Markdown drivers
 
-### PDF → Markdown (pymupdf4llm), by data name
+See the same `chunked-data-code/` folder for `*_pdf_to_markdown.py` scripts paired with the sources above.
 
-| Output markdown | Script (defaults match paths below) |
-|-----------------|-------------------------------------|
-| `md data/1 labour law 2006 data.md` | `python chunked-data-code/labour_law_2006_data_pdf_to_markdown.py` |
-| `md data/1.1 labour law 2015.md` | `python chunked-data-code/labour_law_2015_data_pdf_to_markdown.py` |
-| `md data/2 fire safety data.md` | `python chunked-data-code/fire_safety_data_pdf_to_markdown.py` |
-| `md data/3 compliance garment dhaka data.md` | `python chunked-data-code/compliance_garment_dhaka_data_pdf_to_markdown.py` |
-| `md data/4 CBLM social compliance data.md` | `python chunked-data-code/cblm_social_compliance_data_pdf_to_markdown.py` |
-| `md data/5 JUKI machine manual data.md` | `python chunked-data-code/juki_machine_manual_data_pdf_to_markdown.py` |
-| `md data/6 term project description data.md` | `python chunked-data-code/term_project_description_data_pdf_to_markdown.py` |
+### LLM backends (CLI / experiments)
 
-Each accepts `--input` and `--output` to override the default PDF and `.md` paths.
-
-`Instructions for Data Pre-processing.docx` is not handled here (Word); convert to `.md` yourself if you need it in the pipeline.
-
-### Generic chunker (any other `.md`)
+- **Groq (recommended for demos):** set `GROQ_API_KEY`, `LLM_BACKEND=groq`, `GROQ_MODEL=llama-3.3-70b-versatile` in `.env`.  
+- **Ollama (local):** install [Ollama](https://ollama.com), pull a model, set `LLM_BACKEND=ollama` and `OLLAMA_MODEL=...`.
 
 ```bash
-python chunked-data-code/markdown_langchain_chunker.py \
-  --input "md data/your_file.md" \
-  --source-name "Your source label" \
-  --document-name "Human-readable document title"
+python embedding/rag_cli.py "What is weekly holiday for workers?" --role worker --backend groq
 ```
-
-## Standard Output Contract
-
-All generated files now use one shared format:
-
-```text
-DOCUMENT_METADATA
-source_name: ...
-document_name: ...
-...
-
---- CHUNK START ---
-chunk_id: ...
-document_name: ...
-source_name: ...
-page_start: ...
-page_end: ...
-section: ...
-text:
-...
---- CHUNK END ---
-```
-
-Each chunk carries its own metadata so the downstream RAG pipeline can parse every file the same way.
-
-## Legacy: PDF preprocessing (not in this repo layout)
-
-If you still use a PDF-based script, run it from the folder that contains `scripts/`:
-
-
-```bash
-python scripts/preprocess.py \
-  --input raw/YOUR_FILE.pdf \
-  --source "Your Source Name" \
-  --skip_first 3 \
-  --skip_last 1 \
-  --skip_ranges 26-42 \
-  --chunk_size 1000
-```
-
-### Arguments
-
-| Argument | Description | Default |
-|---|---|---|
-| `--input` | Path to PDF file | required |
-| `--source` | Name for this data source | required |
-| `--skip_first N` | Skip first N pages (cover, TOC) | 0 |
-| `--skip_last N` | Skip last N pages (colophon) | 0 |
-| `--skip_ranges A-B` | Skip page ranges (e.g. appendix forms) | none |
-| `--chunk_size` | Target characters per chunk | 1000 |
-| `--overlap` | Overlap chars between chunks | 100 |
-| `--output_name` | Optional output filename override | auto |
 
 ---
 
-## Notes
+## Tests
 
-The shared pipeline now:
-
-1. Removes repeated headers/footers and common extraction noise such as timestamps and site banners.
-2. Preserves overlap while aligning new chunks to cleaner boundaries so they do not start mid-word when possible.
-3. Records `document_name`, `chunk_id`, `page_start`, `page_end`, and a best-effort `section` for every chunk.
-
-## What to Submit
-
-Each member sends:
-1. The combined `.txt` file from `data/chunked/` (e.g. `*_chunks.txt`), or from `processed/` if using a legacy pipeline
-2. Source name
-3. Number of chunks (shown at end of script output)
-
-## Workflow
-
+```bash
+pytest tests/test_rbac.py
+pytest tests/test_rag_flow.py
+# After Chroma is built:
+RUN_E2E=1 pytest tests/test_chroma_e2e.py -m e2e
 ```
-Document → Text Extraction → Cleaning → Chunking → processed/*.txt → Knowledge Base
+
+---
+
+## Optional: AHP numeric reproduction (coursework)
+
+```bash
+python3 scripts/week7_ahp_reproduction.py
 ```
+
+Prints criterion / alternative priorities for the Week 7 report matrices.
+
+---
+
+## Standard chunk file contract
+
+**Course / team hand-ins:** submit `data/chunked/*_chunks.txt` from the chunk drivers below; record **source name** and **chunk count** from the script output. Run `python scripts/ingest_laws.py` so Chroma includes your corpus before testing chat.
+
+Generated chunk files under `data/chunked/` follow a shared layout: `DOCUMENT_METADATA` header, then repeated `--- CHUNK START ---` … `--- CHUNK END ---` blocks with `chunk_id`, `document_name`, `source_name`, `page_start` / `page_end`, `section`, and `text:` body—so ingest and RAG treat every source uniformly.
+
+---
+
+## Credits & scope
+
+University **Garment Factory Knowledge System** project: AI-assisted compliance and HR knowledge delivery. This README is written for **external visitors** (recruiters, reviewers, collaborators); implementation details evolve in `docs/` and in code.
+
+**License / usage:** Add a `LICENSE` file if you open-source formally; until then, assume **all rights reserved** unless your institution specifies otherwise.
+
+---
+
+<p align="center">
+  <b>GarmentAI</b> — policy-grounded answers, role-aware retrieval, factory-ready UX.
+</p>
